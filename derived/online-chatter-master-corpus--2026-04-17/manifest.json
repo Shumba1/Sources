@@ -1,0 +1,37 @@
+{
+  "id": "online-chatter-master-corpus--2026-04-17",
+  "kind": "cross_source_synthesis_pack",
+  "status": "active_feeder",
+  "phase": "phase_0_source_conditioning",
+  "created_at": "2026-04-17",
+  "description": "Cross-source synthesis pack consolidating online chatter mapping into downstream feeder corpora for MarriageOS canonical content formation.",
+  "files": [
+    {
+      "path": "marriageos-webapp-master-corpus-v3.md",
+      "role": "webapp_master_corpus"
+    },
+    {
+      "path": "marriageos-attention-master-corpus-v3.md",
+      "role": "attention_master_corpus"
+    },
+    {
+      "path": "upstream-source-map.md",
+      "role": "provenance_map"
+    }
+  ],
+  "allowed_uses": [
+    "repair dossier inputs",
+    "knowledge dossier inputs",
+    "product dossier inputs",
+    "perspectives guide reinforcement",
+    "attention and social ideation",
+    "cross-source reinforcement checking"
+  ],
+  "forbidden_uses": [
+    "treating this pack as final editorial doctrine",
+    "publishing raw high-friction lines without transformation",
+    "overriding Tier 1 governance",
+    "using this pack as app-ready copy without dossier and verification"
+  ],
+  "successor": "future canonical content layer under content/**"
+}

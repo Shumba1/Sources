@@ -1,0 +1,66 @@
+extracts:
+  - extract_id: what-predicts-divorce-the-relationship-between-marital--e81fdb-ex01
+    source_id: src-what-predicts-divorce-the-relationship-between-marital--e81fdb
+    theme: escalation
+    role: pattern
+    claim: "Early micro-signals of escalation are easier to interrupt than entrenched cycles."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - repair/pressure-loop
+      - repair/pressure-loop
+    confidence: medium
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment)"
+    risk_flags:
+      - weak_evidence
+  - extract_id: what-predicts-divorce-the-relationship-between-marital--e81fdb-ex02
+    source_id: src-what-predicts-divorce-the-relationship-between-marital--e81fdb
+    theme: escalation
+    role: mechanism
+    claim: "Escalation often follows a repeating sequence: trigger, misread, defensive response, withdrawal."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - repair/pressure-loop
+      - repair/pressure-loop
+    confidence: medium
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment)"
+    risk_flags:
+      - weak_evidence
+  - extract_id: what-predicts-divorce-the-relationship-between-marital--e81fdb-ex03
+    source_id: src-what-predicts-divorce-the-relationship-between-marital--e81fdb
+    theme: escalation
+    role: script
+    claim: "A short de-escalation script reduces ambiguity and creates a practical first step toward repair."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - repair/pressure-loop
+      - repair/pressure-loop
+    confidence: low
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment)"
+    risk_flags:
+      - weak_evidence
+  - extract_id: what-predicts-divorce-the-relationship-between-marital--e81fdb-ex04
+    source_id: src-what-predicts-divorce-the-relationship-between-marital--e81fdb
+    theme: escalation
+    role: warning
+    claim: "High-certainty narratives about a partner's intent tend to harden conflict and reduce goodwill."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - repair/pressure-loop
+      - repair/pressure-loop
+    confidence: low
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment)"
+    risk_flags:
+      - unsupported_certainty_risk
+  - extract_id: what-predicts-divorce-the-relationship-between-marital--e81fdb-ex05
+    source_id: src-what-predicts-divorce-the-relationship-between-marital--e81fdb
+    theme: escalation
+    role: intervention
+    claim: "Repair progress improves when couples pair insight with one same-day behavioural action."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - repair/pressure-loop
+      - repair/pressure-loop
+    confidence: low
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment)"
+    risk_flags:
+      - weak_evidence

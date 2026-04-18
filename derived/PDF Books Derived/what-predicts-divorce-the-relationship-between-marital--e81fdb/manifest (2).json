@@ -1,0 +1,38 @@
+{
+  "source_key": "what-predicts-divorce--e81fdb",
+  "source_title": "What Predicts Divorce?",
+  "raw_pdf_path": "What Predicts Divorce_ _ The Relationship Between Marital.pdf",
+  "generated_at": "2026-04-15T23:47:45.364919+00:00",
+  "canonical_fallback_used": true,
+  "outputs_created": [
+    "sources/raw/what-predicts-divorce--e81fdb/source.md",
+    "sources/derived/what-predicts-divorce--e81fdb/source-normaliser-bundle.md",
+    "sources/derived/what-predicts-divorce--e81fdb/extracts-rich.yaml",
+    "sources/derived/what-predicts-divorce--e81fdb/extracts.schema-compatible.yaml",
+    "sources/derived/what-predicts-divorce--e81fdb/dossiers/we-keep-fighting.md",
+    "sources/derived/what-predicts-divorce--e81fdb/dossiers/quiet-drift.md",
+    "sources/derived/what-predicts-divorce--e81fdb/dossiers/conflict-styles-and-stability.md",
+    "sources/derived/what-predicts-divorce--e81fdb/final-content-candidates/repair/we-keep-fighting.from-what-predicts-divorce--e81fdb.md",
+    "sources/derived/what-predicts-divorce--e81fdb/final-content-candidates/repair/quiet-drift.from-what-predicts-divorce--e81fdb.md",
+    "sources/derived/what-predicts-divorce--e81fdb/final-content-candidates/knowledge/conflict-styles-and-stability.from-what-predicts-divorce--e81fdb.md",
+    "sources/derived/what-predicts-divorce--e81fdb/verification/we-keep-fighting.md",
+    "sources/derived/what-predicts-divorce--e81fdb/verification/quiet-drift.md",
+    "sources/derived/what-predicts-divorce--e81fdb/verification/conflict-styles-and-stability.md"
+  ],
+  "dossiers_created": [
+    "we-keep-fighting",
+    "quiet-drift",
+    "conflict-styles-and-stability"
+  ],
+  "final_candidates_created": [
+    "we-keep-fighting",
+    "quiet-drift",
+    "conflict-styles-and-stability"
+  ],
+  "verification_status_by_target": {
+    "we-keep-fighting": "pass-with-revisions",
+    "quiet-drift": "pass-with-revisions",
+    "conflict-styles-and-stability": "pass-with-revisions"
+  },
+  "overall_status": "complete"
+}

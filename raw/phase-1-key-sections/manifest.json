@@ -1,0 +1,41 @@
+{
+  "id": "phase-1-key-sections",
+  "kind": "raw_section_packet",
+  "status": "active_feeder",
+  "phase": "phase_1_canonical_formation_inputs",
+  "created_at": "2026-04-18",
+  "description": "Remaining raw and semi-structured inputs intended to feed canonical content formation for Repair, Knowledge, Products, and Perspectives.",
+  "files": [
+    "biology.md",
+    "desire.md",
+    "her-guide.md",
+    "his-guide.md",
+    "resentment.md",
+    "system-decay-and-system-repair.md",
+    "great-threads.pdf",
+    "lonely-next-to-you.pdf",
+    "repair-guide-scripts.pdf",
+    "smartphones-and-relationships.pdf"
+  ],
+  "allowed_uses": [
+    "source normalisation",
+    "dossier building",
+    "cross-checking derived coverage gaps",
+    "canonical content formation for repair",
+    "canonical content formation for knowledge",
+    "canonical content formation for products",
+    "canonical content formation for perspectives"
+  ],
+  "forbidden_uses": [
+    "direct publishing",
+    "direct app copy use without synthesis",
+    "treating any single file here as canonical truth",
+    "overriding Tier 1 governance"
+  ],
+  "preferred_workflow": [
+    "source normalisation",
+    "dossier building",
+    "canonical promotion",
+    "verification"
+  ]
+}

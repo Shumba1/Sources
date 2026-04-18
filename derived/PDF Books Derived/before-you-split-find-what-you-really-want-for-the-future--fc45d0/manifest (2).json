@@ -1,0 +1,39 @@
+{
+  "source_key": "before-you-split--fc45d0",
+  "source_title": "Before You Split",
+  "raw_pdf_path": "sources/raw/before-you-split--fc45d0/Before You Split _ Find What You Really Want for the Future.pdf",
+  "generated_at": "2026-04-15T20:36:20.864218Z",
+  "canonical_fallback_used": true,
+  "outputs_created": [
+    "sources/raw/before-you-split--fc45d0/source.md",
+    "sources/derived/before-you-split--fc45d0/source-normaliser-bundle.md",
+    "sources/derived/before-you-split--fc45d0/extracts-rich.yaml",
+    "sources/derived/before-you-split--fc45d0/extracts.schema-compatible.yaml",
+    "sources/derived/before-you-split--fc45d0/dossiers/im-done.md",
+    "sources/derived/before-you-split--fc45d0/dossiers/we-keep-fighting.md",
+    "sources/derived/before-you-split--fc45d0/dossiers/our-conflict-is-hitting-the-kids.md",
+    "sources/derived/before-you-split--fc45d0/final-content-candidates/repair/im-done.from-before-you-split--fc45d0.md",
+    "sources/derived/before-you-split--fc45d0/final-content-candidates/repair/we-keep-fighting.from-before-you-split--fc45d0.md",
+    "sources/derived/before-you-split--fc45d0/final-content-candidates/repair/our-conflict-is-hitting-the-kids.from-before-you-split--fc45d0.md",
+    "sources/derived/before-you-split--fc45d0/verification/im-done.md",
+    "sources/derived/before-you-split--fc45d0/verification/we-keep-fighting.md",
+    "sources/derived/before-you-split--fc45d0/verification/our-conflict-is-hitting-the-kids.md",
+    "sources/derived/before-you-split--fc45d0/manifest.json"
+  ],
+  "dossiers_created": [
+    "im-done",
+    "we-keep-fighting",
+    "our-conflict-is-hitting-the-kids"
+  ],
+  "final_candidates_created": [
+    "im-done",
+    "we-keep-fighting",
+    "our-conflict-is-hitting-the-kids"
+  ],
+  "verification_status_by_target": {
+    "im-done": "pass-with-revisions",
+    "we-keep-fighting": "pass",
+    "our-conflict-is-hitting-the-kids": "pass"
+  },
+  "overall_status": "complete"
+}

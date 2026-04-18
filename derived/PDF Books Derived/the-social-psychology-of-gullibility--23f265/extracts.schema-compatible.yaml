@@ -1,0 +1,71 @@
+extracts:
+  - extract_id: the-social-psychology-of-gullibility--23f265-ex01
+    source_id: src-the-social-psychology-of-gullibility--23f265
+    theme: marriage-as-system
+    role: pattern
+    claim: "Early micro-signals of marriage-as-system are easier to interrupt than entrenched cycles."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - knowledge/gullibility-patterns-in-conflict
+      - repair/pressure-loop
+    confidence: medium
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment); Chapter 2 only processed per addendum."
+    risk_flags:
+      - weak_evidence
+    source_ids: []
+  - extract_id: the-social-psychology-of-gullibility--23f265-ex02
+    source_id: src-the-social-psychology-of-gullibility--23f265
+    theme: marriage-as-system
+    role: mechanism
+    claim: "Escalation often follows a repeating sequence: trigger, misread, defensive response, withdrawal."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - knowledge/gullibility-patterns-in-conflict
+      - repair/pressure-loop
+    confidence: medium
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment); Chapter 2 only processed per addendum."
+    risk_flags:
+      - weak_evidence
+    source_ids: []
+  - extract_id: the-social-psychology-of-gullibility--23f265-ex03
+    source_id: src-the-social-psychology-of-gullibility--23f265
+    theme: marriage-as-system
+    role: script
+    claim: "A short de-escalation script reduces ambiguity and creates a practical first step toward repair."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - knowledge/gullibility-patterns-in-conflict
+      - repair/pressure-loop
+    confidence: low
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment); Chapter 2 only processed per addendum."
+    risk_flags:
+      - weak_evidence
+    source_ids: []
+  - extract_id: the-social-psychology-of-gullibility--23f265-ex04
+    source_id: src-the-social-psychology-of-gullibility--23f265
+    theme: marriage-as-system
+    role: warning
+    claim: "High-certainty narratives about a partner's intent tend to harden conflict and reduce goodwill."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - knowledge/gullibility-patterns-in-conflict
+      - repair/pressure-loop
+    confidence: low
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment); Chapter 2 only processed per addendum."
+    risk_flags:
+      - unsupported_certainty_risk
+    source_ids: []
+  - extract_id: the-social-psychology-of-gullibility--23f265-ex05
+    source_id: src-the-social-psychology-of-gullibility--23f265
+    theme: marriage-as-system
+    role: intervention
+    claim: "Repair progress improves when couples pair insight with one same-day behavioural action."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - knowledge/gullibility-patterns-in-conflict
+      - repair/pressure-loop
+    confidence: low
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment); Chapter 2 only processed per addendum."
+    risk_flags:
+      - weak_evidence
+    source_ids: []

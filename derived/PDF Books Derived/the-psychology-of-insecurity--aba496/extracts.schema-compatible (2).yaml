@@ -1,0 +1,44 @@
+source_key: insecurity-c12--aba496
+items:
+  - id: c01
+    target: knowledge/social-safety
+    source_chapter: 12
+    source_pages: "206-212"
+    concept: multiple_relational_worlds
+    summary: People seek safety across both close relationships and the wider social world.
+  - id: c02
+    target: knowledge/social-safety
+    source_chapter: 12
+    source_pages: "210-212"
+    concept: outcome_dependence_and_unexpected_behavior
+    summary: Threat rises when people depend on others and then cannot predict what they will do.
+  - id: c03
+    target: knowledge/social-safety
+    source_chapter: 12
+    source_pages: "211-212"
+    concept: safety_spillover
+    summary: Surprise in one relational world can destabilise felt safety more broadly.
+  - id: c04
+    target: repair/safer-home
+    source_chapter: 12
+    source_pages: "212-218"
+    concept: sociopolitical_to_personal_buffering
+    summary: When the wider world feels unstable, people often look to close relationships for steadiness.
+  - id: c05
+    target: repair/safer-home
+    source_chapter: 12
+    source_pages: "218"
+    concept: protective_effect_of_relational_safety
+    summary: Finding more safety in a marriage during wider unpredictability may strengthen trust over time.
+  - id: c06
+    target: repair/surprise-reset
+    source_chapter: 12
+    source_pages: "210-212"
+    concept: surprising_behavior_triggers_global_uncertainty
+    summary: Out-of-character behaviour can make people globalise threat unless they slow down and restore clarity.
+selection:
+  chosen_dossiers:
+    - social-safety
+    - safer-home
+    - surprise-reset
+  reason: These are the clearest repair-first and knowledge fits from Chapter 12, while keeping filenames short.

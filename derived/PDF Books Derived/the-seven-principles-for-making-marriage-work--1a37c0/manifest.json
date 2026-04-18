@@ -1,0 +1,34 @@
+{
+  "source_key": "the-seven-principles-for-making-marriage-work--1a37c0",
+  "source_title": "The Seven Principles for Making Marriage Work",
+  "raw_pdf_path": "sources/raw/pdfs/The Seven Principles for Making Marriage Work.pdf",
+  "generated_at": "2026-04-15T19:18:57.775244+00:00",
+  "canonical_fallback_used": {
+    "theme_ts_missing": true,
+    "page_data_ts_missing": true,
+    "fallback_authority": [
+      "docs/MASTER_SPEC.md",
+      "docs/DRIFT_REGISTER.md"
+    ]
+  },
+  "outputs_created": [
+    "sources/raw/the-seven-principles-for-making-marriage-work--1a37c0/source.md",
+    "sources/derived/the-seven-principles-for-making-marriage-work--1a37c0/source-normaliser-bundle.md",
+    "sources/derived/the-seven-principles-for-making-marriage-work--1a37c0/extracts-rich.yaml",
+    "sources/derived/the-seven-principles-for-making-marriage-work--1a37c0/extracts.schema-compatible.yaml",
+    "sources/derived/the-seven-principles-for-making-marriage-work--1a37c0/dossiers/resentment-building.md",
+    "sources/derived/the-seven-principles-for-making-marriage-work--1a37c0/final-content-candidates/repair/resentment-building.from-the-seven-principles-for-making-marriage-work--1a37c0.md",
+    "sources/derived/the-seven-principles-for-making-marriage-work--1a37c0/verification/resentment-building.md",
+    "sources/derived/the-seven-principles-for-making-marriage-work--1a37c0/manifest.json"
+  ],
+  "dossiers_created": [
+    "resentment-building"
+  ],
+  "final_candidates_created": [
+    "repair/resentment-building"
+  ],
+  "verification_status_by_target": {
+    "resentment-building": "pass-with-revisions"
+  },
+  "overall_status": "complete"
+}

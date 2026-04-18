@@ -1,0 +1,259 @@
+- extract_id: EXT-MGW-001
+  source_id: SRC-MGW-001
+  theme: trust
+  role: core-claim
+  claim: Trustworthiness is framed as reliability, accountability, emotional safety,
+    and showing up consistently.
+  why_it_matters: This is the source's main transferable premise and a usable MarriageOS
+    bridge into trust, repair, and responsiveness.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - guides/his-perspective
+  confidence: medium-high
+  notes: Keep the mechanism. Remove the implication that women all want the same thing
+    in the same way.
+- extract_id: EXT-MGW-002
+  source_id: SRC-MGW-001
+  theme: connection-versus-protest
+  role: pattern
+  claim: A common cycle is described where one partner feels emotionally abandoned
+    while the other experiences too much conflict and sexual distance.
+  why_it_matters: Useful as a recognisable symptom pattern, especially in heterosexual
+    protest-withdraw dynamics.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - guides/his-perspective
+  confidence: medium
+  notes: Translate as one common pattern, not male/female law.
+- extract_id: EXT-MGW-003
+  source_id: SRC-MGW-001
+  theme: attunement
+  role: mechanism
+  claim: 'Attunement is broken into five moves: Attend, Turn Toward, Understand, Nondefensively
+    Listen, Empathize.'
+  why_it_matters: Gives a practical behavioural sequence that can be repurposed without
+    the source's rhetoric.
+  usable_for:
+  - repair/we-keep-fighting
+  - guides/his-perspective
+  confidence: high
+  notes: MarriageOS can keep the sequence while dropping the branded acronym if it
+    feels forced.
+- extract_id: EXT-MGW-004
+  source_id: SRC-MGW-001
+  theme: emotional-dismissal
+  role: warning
+  claim: Trying to fix, minimise, mock, distract from, or ignore a partner's feelings
+    intensifies distance instead of resolving it.
+  why_it_matters: Strong explanation for why good intentions still land badly.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - guides/his-perspective
+  confidence: high
+  notes: One of the strongest reusable insights in the book.
+- extract_id: EXT-MGW-005
+  source_id: SRC-MGW-001
+  theme: safety
+  role: boundary
+  claim: Physical intimidation, raised volume, and dominance-based posturing destroy
+    trust and safety.
+  why_it_matters: Useful escalation boundary and safety doctrine.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  confidence: high
+  notes: Keep intact.
+- extract_id: EXT-MGW-006
+  source_id: SRC-MGW-001
+  theme: state-and-cycle
+  role: context
+  claim: Biological state, cycle, and life phase can change mood, bandwidth, and desire.
+  why_it_matters: Useful if translated carefully into phase-aware relationship guidance.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - knowledge/children-and-family-stability
+  confidence: medium
+  notes: Do not import the heavy determinism or simplistic male/female binaries.
+- extract_id: EXT-MGW-007
+  source_id: SRC-MGW-001
+  theme: fear-and-comfort
+  role: mechanism
+  claim: A sense of protection, comfort, and safety can materially soften fear responses
+    and make closeness easier.
+  why_it_matters: Supports emotional and bodily safety as intimacy prerequisites.
+  usable_for:
+  - repair/pressure-loop
+  - guides/his-perspective
+  confidence: medium
+  notes: Translate without paternalism or rescue framing.
+- extract_id: EXT-MGW-008
+  source_id: SRC-MGW-001
+  theme: nonsexual-touch
+  role: mechanism
+  claim: Holding hands, soothing contact, and post-sex holding are framed as relationship-building
+    and calming, not optional extras.
+  why_it_matters: Supports pressure-loop and touch-safety work.
+  usable_for:
+  - repair/pressure-loop
+  confidence: medium-high
+  notes: Strong when translated into agenda-free touch.
+- extract_id: EXT-MGW-009
+  source_id: SRC-MGW-001
+  theme: desire-prerequisites
+  role: pattern
+  claim: Sexual desire often drops when conflict, stress, tiredness, or disconnection
+    rise.
+  why_it_matters: Useful to interrupt pressure logic and performance blame.
+  usable_for:
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  confidence: high
+  notes: Rephrase as 'often' rather than universal sex difference.
+- extract_id: EXT-MGW-010
+  source_id: SRC-MGW-001
+  theme: sexual-safety
+  role: warning
+  claim: Sex gets worse when it is treated as a mechanical routine or a response owed
+    despite disconnection.
+  why_it_matters: Useful negative pattern for pressure-loop translation.
+  usable_for:
+  - repair/pressure-loop
+  confidence: medium-high
+  notes: Avoid importing explicit sexual technique. Keep the safety-and-connection
+    premise.
+- extract_id: EXT-MGW-011
+  source_id: SRC-MGW-001
+  theme: conflict-contamination
+  role: pattern
+  claim: When someone feels unheard, unsupported, or chronically mad, erotic energy
+    collapses.
+  why_it_matters: Bridges emotional climate and intimacy decline.
+  usable_for:
+  - repair/pressure-loop
+  - repair/we-keep-fighting
+  confidence: high
+  notes: Strong cross-module use.
+- extract_id: EXT-MGW-012
+  source_id: SRC-MGW-001
+  theme: flooding
+  role: mechanism
+  claim: A common male-side pattern is rapid physiological flooding during conflict,
+    which kills listening, humour, and empathy.
+  why_it_matters: Provides a clean explanation for defensive shutdown.
+  usable_for:
+  - repair/we-keep-fighting
+  - guides/his-perspective
+  confidence: high
+  notes: Use as a pattern, not as a universal claim about all men.
+- extract_id: EXT-MGW-013
+  source_id: SRC-MGW-001
+  theme: four-horsemen
+  role: warning
+  claim: Criticism, defensiveness, contempt, and stonewalling are escalation markers
+    that rapidly damage the bond.
+  why_it_matters: Classic and directly portable.
+  usable_for:
+  - repair/we-keep-fighting
+  confidence: high
+  notes: Strong and already aligned with MarriageOS conflict doctrine.
+- extract_id: EXT-MGW-014
+  source_id: SRC-MGW-001
+  theme: self-soothing
+  role: intervention
+  claim: Breathing, counting, and taking a real break help downregulate flooding before
+    re-engaging.
+  why_it_matters: Immediate practical move for conflict repair.
+  usable_for:
+  - repair/we-keep-fighting
+  - guides/his-perspective
+  confidence: high
+  notes: Very usable.
+- extract_id: EXT-MGW-015
+  source_id: SRC-MGW-001
+  theme: under-the-protest
+  role: script
+  claim: 'Three questions surface the need beneath protest: What do you need? What
+    are you concerned about? What are you feeling?'
+  why_it_matters: Excellent intervention language.
+  usable_for:
+  - repair/we-keep-fighting
+  - guides/his-perspective
+  confidence: high
+  notes: One of the source's best direct scripts.
+- extract_id: EXT-MGW-016
+  source_id: SRC-MGW-001
+  theme: outside-support
+  role: mechanism
+  claim: Outside friendship and social support matter; trying to isolate a partner
+    worsens both safety and health.
+  why_it_matters: Useful for anti-isolation and anti-control guidance.
+  usable_for:
+  - knowledge/children-and-family-stability
+  - guides/read-both
+  confidence: medium-high
+  notes: Keep the anti-isolation point. Soften categorical claims about women versus
+    men.
+- extract_id: EXT-MGW-017
+  source_id: SRC-MGW-001
+  theme: father-involvement
+  role: mechanism
+  claim: Father involvement and playful caregiving strongly support child development
+    and the relationship itself.
+  why_it_matters: Very strong family-stability contribution.
+  usable_for:
+  - knowledge/children-and-family-stability
+  confidence: medium-high
+  notes: Keep with evidence caution, but highly usable.
+- extract_id: EXT-MGW-018
+  source_id: SRC-MGW-001
+  theme: after-baby-shift
+  role: pattern
+  claim: After a baby arrives, some men feel displaced, but the repair move is not
+    competition; it is deeper partnership and bonding with the baby too.
+  why_it_matters: Strongly relevant to post-baby drift and resentment prevention.
+  usable_for:
+  - knowledge/children-and-family-stability
+  - repair/mental-load
+  confidence: high
+  notes: One of the best V1-aligned passages in the source.
+- extract_id: EXT-MGW-019
+  source_id: SRC-MGW-001
+  theme: shared-load
+  role: intervention
+  claim: Shared childcare and shared family workload preserve romance, reduce resentment,
+    and protect partnership.
+  why_it_matters: Strong bridge to mental-load work.
+  usable_for:
+  - knowledge/children-and-family-stability
+  - repair/mental-load
+  confidence: high
+  notes: Keep.
+- extract_id: EXT-MGW-020
+  source_id: SRC-MGW-001
+  theme: trust-erosion
+  role: warning
+  claim: Betrayal grows through loneliness, conflict avoidance, missed bids, and gradual
+    turning away, not only through affairs.
+  why_it_matters: Highly useful for both repair and maintenance.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/quiet-drift
+  - guides/his-perspective
+  confidence: high
+  notes: Strong and transferable.
+- extract_id: EXT-MGW-021
+  source_id: SRC-MGW-001
+  theme: maintenance
+  role: maintenance-bundle
+  claim: Keep kissing, dating, learning your partner, expressing appreciation, and
+    honoring her dreams.
+  why_it_matters: High-value maintenance bundle, though partly duplicated in other
+    sources.
+  usable_for:
+  - repair/quiet-drift
+  - guides/read-both
+  confidence: medium-high
+  notes: Good, but not the source's most unique material.

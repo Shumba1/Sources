@@ -1,0 +1,72 @@
+extracts:
+  - extract_id: the-psychology-of-sociability-understanding-human--96834b-ex01
+    source_id: src-the-psychology-of-sociability-understanding-human--96834b
+    theme: family-stability
+    role: pattern
+    claim: "Early micro-signals of family-stability are easier to interrupt than entrenched cycles."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - knowledge/social-bond-maintenance
+      - repair/pressure-loop
+    confidence: medium
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment); Part 4 only processed per addendum."
+    risk_flags:
+      - broad_gender_generalisations_check
+    source_ids: []
+  - extract_id: the-psychology-of-sociability-understanding-human--96834b-ex02
+    source_id: src-the-psychology-of-sociability-understanding-human--96834b
+    theme: family-stability
+    role: mechanism
+    claim: "Escalation often follows a repeating sequence: trigger, misread, defensive response, withdrawal."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - knowledge/social-bond-maintenance
+      - repair/pressure-loop
+    confidence: medium
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment); Part 4 only processed per addendum."
+    risk_flags:
+      - broad_gender_generalisations_check
+    source_ids: []
+  - extract_id: the-psychology-of-sociability-understanding-human--96834b-ex03
+    source_id: src-the-psychology-of-sociability-understanding-human--96834b
+    theme: family-stability
+    role: script
+    claim: "A short de-escalation script reduces ambiguity and creates a practical first step toward repair."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - knowledge/social-bond-maintenance
+      - repair/pressure-loop
+    confidence: low
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment); Part 4 only processed per addendum."
+    risk_flags:
+      - broad_gender_generalisations_check
+    source_ids: []
+  - extract_id: the-psychology-of-sociability-understanding-human--96834b-ex04
+    source_id: src-the-psychology-of-sociability-understanding-human--96834b
+    theme: family-stability
+    role: warning
+    claim: "High-certainty narratives about a partner's intent tend to harden conflict and reduce goodwill."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - knowledge/social-bond-maintenance
+      - repair/pressure-loop
+    confidence: low
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment); Part 4 only processed per addendum."
+    risk_flags:
+      - unsupported_certainty_risk
+      - broad_gender_generalisations_check
+    source_ids: []
+  - extract_id: the-psychology-of-sociability-understanding-human--96834b-ex05
+    source_id: src-the-psychology-of-sociability-understanding-human--96834b
+    theme: family-stability
+    role: intervention
+    claim: "Repair progress improves when couples pair insight with one same-day behavioural action."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - knowledge/social-bond-maintenance
+      - repair/pressure-loop
+    confidence: low
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment); Part 4 only processed per addendum."
+    risk_flags:
+      - broad_gender_generalisations_check
+    source_ids: []

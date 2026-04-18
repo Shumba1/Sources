@@ -1,0 +1,34 @@
+{
+  "source_key": "the-social-psychology-of-gullibility--23f265",
+  "source_title": "The Social Psychology of Gullibility",
+  "raw_pdf_path": "sources/raw/pdfs/The Social Psychology of Gullibility.pdf",
+  "generated_at": "2026-04-15T19:18:58.049159+00:00",
+  "canonical_fallback_used": {
+    "theme_ts_missing": true,
+    "page_data_ts_missing": true,
+    "fallback_authority": [
+      "docs/MASTER_SPEC.md",
+      "docs/DRIFT_REGISTER.md"
+    ]
+  },
+  "outputs_created": [
+    "sources/raw/the-social-psychology-of-gullibility--23f265/source.md",
+    "sources/derived/the-social-psychology-of-gullibility--23f265/source-normaliser-bundle.md",
+    "sources/derived/the-social-psychology-of-gullibility--23f265/extracts-rich.yaml",
+    "sources/derived/the-social-psychology-of-gullibility--23f265/extracts.schema-compatible.yaml",
+    "sources/derived/the-social-psychology-of-gullibility--23f265/dossiers/gullibility-patterns-in-conflict.md",
+    "sources/derived/the-social-psychology-of-gullibility--23f265/final-content-candidates/knowledge/gullibility-patterns-in-conflict.from-the-social-psychology-of-gullibility--23f265.md",
+    "sources/derived/the-social-psychology-of-gullibility--23f265/verification/gullibility-patterns-in-conflict.md",
+    "sources/derived/the-social-psychology-of-gullibility--23f265/manifest.json"
+  ],
+  "dossiers_created": [
+    "gullibility-patterns-in-conflict"
+  ],
+  "final_candidates_created": [
+    "knowledge/gullibility-patterns-in-conflict"
+  ],
+  "verification_status_by_target": {
+    "gullibility-patterns-in-conflict": "pass-with-revisions"
+  },
+  "overall_status": "complete"
+}

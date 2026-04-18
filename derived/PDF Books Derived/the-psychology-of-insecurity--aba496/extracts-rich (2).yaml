@@ -1,0 +1,85 @@
+source_key: insecurity-c12--aba496
+scope:
+  chapters:
+    - 12
+extracts:
+  - id: e01
+    chapter: 12
+    pages: "206-207"
+    theme: social-connection-duality
+    type: concept
+    claim: Social ties can protect and stabilise people, but those same ties also create vulnerability when others disappoint, exploit, or behave carelessly.
+    marriageos_value: Strong basis for adult relationship language that holds both comfort and vulnerability together.
+    notes: Useful for calm, non-idealised framing.
+  - id: e02
+    chapter: 12
+    pages: "207"
+    theme: belonging-and-safety
+    type: concept
+    claim: People are fundamentally motivated to belong in social bonds that feel safe rather than harmful.
+    marriageos_value: Supports repair-first framing around felt safety.
+    notes: Do not turn into dependency language.
+  - id: e03
+    chapter: 12
+    pages: "208-209"
+    theme: multiple-relational-worlds
+    type: concept
+    claim: People live in both personal relational worlds and wider collective relational worlds, and outcomes in both depend on other people.
+    marriageos_value: Useful for explaining why public stress enters private relationships.
+    notes: Core bridge from theory to MarriageOS relevance.
+  - id: e04
+    chapter: 12
+    pages: "210-211"
+    theme: outcome-dependence
+    type: mechanism
+    claim: Threat rises when people are highly dependent on others in a situation and therefore more vulnerable to what those others do.
+    marriageos_value: Helps explain why some moments feel much bigger than they "should".
+    notes: Good for practical triage language.
+  - id: e05
+    chapter: 12
+    pages: "211"
+    theme: unexpected-behaviour
+    type: mechanism
+    claim: Unexpected behaviour can make people question whether they understand the other person or the reality they are dealing with.
+    marriageos_value: Strong basis for a repair piece about surprise before story-making.
+    notes: Especially useful for conflict after out-of-character behaviour.
+  - id: e06
+    chapter: 12
+    pages: "211-212"
+    theme: generalized-threat
+    type: mechanism
+    claim: Unexpected behaviour in one relationship domain can threaten felt safety more broadly because relational worlds are cognitively interconnected.
+    marriageos_value: Explains stress spillover across marriage, family, and wider life.
+    notes: Strong knowledge fit.
+  - id: e07
+    chapter: 12
+    pages: "211-212"
+    theme: defensive-search-for-safety
+    type: mechanism
+    claim: When one relational world feels riskier, people often look for steadiness in another relational world.
+    marriageos_value: Strong basis for guidance on deliberately strengthening dependable connection.
+    notes: Must avoid sounding like denial of problems.
+  - id: e08
+    chapter: 12
+    pages: "212"
+    theme: dual-threat-defense
+    type: summary
+    claim: Threat can move in two directions: partner uncertainty can increase reliance on the wider world, and wider-world uncertainty can increase reliance on close relationships.
+    marriageos_value: Gives a clean explanatory model for user education.
+    notes: Central chapter contribution.
+  - id: e09
+    chapter: 12
+    pages: "213-217"
+    theme: real-world-evidence
+    type: finding
+    claim: Diary and longitudinal studies found that when people felt vulnerable and one world behaved unpredictably, they often reported greater trust in the alternate relational world.
+    marriageos_value: Supports using this as a practical but modest relationship insight rather than pure theory.
+    notes: Findings are contextual and should not be universalised.
+  - id: e10
+    chapter: 12
+    pages: "218"
+    theme: protective-marriage-buffer
+    type: finding
+    claim: For less secure newlyweds, being more able to find safety in the marriage during wider-world unpredictability was linked to strengthening trust and security over time.
+    marriageos_value: Strongest basis for a repair candidate on making home feel steadier under external stress.
+    notes: Keep language modest; this is an early-evidence claim.

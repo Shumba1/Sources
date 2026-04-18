@@ -1,0 +1,245 @@
+- extract_id: EXT-SP-001
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 19-24
+  - pp. 33-40
+  theme: marital-friendship
+  role: knowledge
+  claim: The strongest marriages are built on deep friendship, not on the absence of disagreement.
+  why_it_matters: This is the source's backbone and directly supports MarriageOS repair-first logic that bond infrastructure matters before technique.
+  usable_for:
+  - repair/quiet-drift
+  - repair/we-keep-fighting
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: Keep mechanism, not lab-authority tone.
+- extract_id: EXT-SP-002
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 62-74
+  theme: love-maps
+  role: repair
+  claim: Couples need updated 'love maps' of each other's inner world; drift accelerates when partners stop knowing what matters, hurts, or changes for the other person.
+  why_it_matters: Direct anti-drift material with strong practical fit.
+  usable_for:
+  - repair/quiet-drift
+  - guides/read-both
+  - products/question-pack
+  confidence: high
+  evidence_type: direct
+  notes: Strong feeder for curiosity-based reset moves.
+- extract_id: EXT-SP-003
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 75-96
+  theme: fondness-and-admiration
+  role: repair
+  claim: Fondness and admiration are not passive feelings; they are active anti-contempt practices that keep a partner's good qualities visible.
+  why_it_matters: High-value anti-resentment and anti-contempt mechanism.
+  usable_for:
+  - repair/quiet-drift
+  - repair/we-keep-fighting
+  - repair/resentment-building
+  confidence: high
+  evidence_type: direct
+  notes: Translate into adult, unsentimental language.
+- extract_id: EXT-SP-004
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 97-117
+  theme: turning-toward
+  role: repair
+  claim: Small bids for attention, affection, humor, and support are where trust is built or lost; turning toward in tiny moments matters disproportionately.
+  why_it_matters: Excellent fit for quiet drift and low-intensity reconnection work.
+  usable_for:
+  - repair/quiet-drift
+  - knowledge/how-drift-starts
+  - products/micro-connection-checklist
+  confidence: high
+  evidence_type: direct
+  notes: Keep directional logic; avoid scorekeeping.
+- extract_id: EXT-SP-005
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 42-44
+  - pp. 173-174
+  theme: harsh-startup
+  role: repair
+  claim: How a hard conversation starts strongly shapes how it ends; criticism and contempt at entry greatly increase the odds of failure.
+  why_it_matters: Core fight-entry mechanism for recurring escalations.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/resentment-building
+  - products/hard-conversation-scripts-pack
+  confidence: high
+  evidence_type: direct
+  notes: Use directionally; do not overstate predictive precision.
+- extract_id: EXT-SP-006
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 43-55
+  theme: four-horsemen
+  role: knowledge
+  claim: Criticism, contempt, defensiveness, and stonewalling form a destructive conflict loop that corrodes trust and closeness over time.
+  why_it_matters: Provides a clean diagnostic pattern language without needing therapy jargon.
+  usable_for:
+  - repair/we-keep-fighting
+  - knowledge/system-decay-system-repair
+  - repair/resentment-building
+  confidence: high
+  evidence_type: direct
+  notes: Very strong mechanism layer.
+- extract_id: EXT-SP-007
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 49-53
+  theme: flooding-and-stonewalling
+  role: repair
+  claim: Stonewalling often reflects flooding and overwhelm, not indifference; once overwhelmed, productive conversation becomes very hard.
+  why_it_matters: Important for reframing shutdown without excusing it.
+  usable_for:
+  - repair/we-keep-fighting
+  - guides/his-perspective
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Good bridge from blame to regulation.
+- extract_id: EXT-SP-008
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 38-40
+  - pp. 54-56
+  theme: repair-attempts
+  role: repair
+  claim: Repair attempts are small actions or phrases that interrupt escalation; their success depends heavily on the underlying friendship climate.
+  why_it_matters: Strong fit for practical in-the-moment de-escalation guidance.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/quiet-drift
+  - products/hard-conversation-scripts-pack
+  confidence: high
+  evidence_type: direct
+  notes: Preserve the friendship-before-technique insight.
+- extract_id: EXT-SP-009
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 56-59
+  - pp. 80-81
+  theme: negative-story
+  role: knowledge
+  claim: When negativity hardens, couples begin rewriting both present and past through a negative story about the partner and the relationship.
+  why_it_matters: Useful explanatory material for resentment and hopelessness.
+  usable_for:
+  - repair/resentment-building
+  - knowledge/how-drift-starts
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: High-value anti-hopelessness frame.
+- extract_id: EXT-SP-010
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 136-137
+  - pp. 173-174
+  theme: accept-influence
+  role: repair
+  claim: Accepting influence means searching a partner's request for something you can agree to and moving toward compromise rather than total resistance.
+  why_it_matters: Strong conflict-repair posture for stubborn stalemates.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/gridlock
+  confidence: medium-high
+  evidence_type: direct
+  notes: Some gendered framing in source should be stripped.
+- extract_id: EXT-SP-011
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 173-175
+  theme: softened-startup
+  role: repair
+  claim: A softened start-up works better when people own some share of the problem, name their feeling about a specific situation, and make a positive request.
+  why_it_matters: Directly usable script structure for difficult conversations.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/resentment-building
+  - products/hard-conversation-scripts-pack
+  confidence: high
+  evidence_type: direct
+  notes: Excellent script-level extract.
+- extract_id: EXT-SP-012
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 244-245
+  theme: gridlock
+  role: repair
+  claim: Gridlock forms when a recurring issue becomes polarized, compromise feels like self-betrayal, and the same fight loops without progress.
+  why_it_matters: Clean symptom language for couples who feel permanently stuck.
+  usable_for:
+  - repair/gridlock
+  - repair/we-keep-fighting
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: Good V1 repair target.
+- extract_id: EXT-SP-013
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 244-246
+  theme: dreams-within-conflict
+  role: repair
+  claim: Many stuck conflicts are attached to deeper dreams, values, fears, and identity themes that need to be understood rather than defeated.
+  why_it_matters: Excellent bridge from endless argument to meaning-level curiosity.
+  usable_for:
+  - repair/gridlock
+  - knowledge/shared-meaning
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Use carefully; not every conflict hides a beautiful dream.
+- extract_id: EXT-SP-014
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 268-269
+  theme: shared-meaning
+  role: knowledge
+  claim: Shared meaning grows through rituals of connection, shared values, and an ongoing sense that the relationship stands for something larger than logistics.
+  why_it_matters: Strong anti-roommate and anti-emptiness logic.
+  usable_for:
+  - repair/gridlock
+  - knowledge/shared-meaning
+  - repair/quiet-drift
+  confidence: high
+  evidence_type: direct
+  notes: Useful as a later-stage stabiliser after basic safety.
+- extract_id: EXT-SP-015
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 60-61
+  - pp. 97-99
+  theme: friendship-fuels-romance
+  role: knowledge
+  claim: Friendship, bids, and everyday responsiveness do more to protect romance and sexual vitality than grand gestures or occasional getaways.
+  why_it_matters: Strong feeder for drift and desire-under-distance logic.
+  usable_for:
+  - repair/quiet-drift
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  confidence: medium-high
+  evidence_type: direct
+  notes: Useful but should stay grounded and non-hacky.
+- extract_id: EXT-SP-016
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 106-111
+  theme: stress-reducing-conversation
+  role: repair
+  claim: A short daily stress-reducing conversation about life outside the marriage helps couples feel allied rather than alone with the day's pressures.
+  why_it_matters: High practical value for couples whose bond is thinning under ordinary life load.
+  usable_for:
+  - repair/quiet-drift
+  - repair/mental-load
+  - products/daily-check-in-pack
+  confidence: high
+  evidence_type: direct
+  notes: Good ritual-level repair move.

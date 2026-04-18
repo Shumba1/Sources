@@ -1,0 +1,50 @@
+source_key: psychology-of-sociability-p4--96834b
+items:
+  - id: c01
+    target: knowledge/attachment-patterns
+    source_chapter: 12
+    source_pages: "219-226"
+    concept: secure_base_and_safe_haven
+    summary: Secure attachment combines comfort in distress with freedom to explore.
+  - id: c02
+    target: knowledge/attachment-patterns
+    source_chapter: 12
+    source_pages: "221-223"
+    concept: anxiety_and_avoidance
+    summary: Anxiety and avoidance describe common adult attachment stress patterns.
+  - id: c03
+    target: knowledge/attachment-patterns
+    source_chapter: 12
+    source_pages: "222-225"
+    concept: protest_vs_shutdown
+    summary: Anxious patterns tend to pursue and escalate; avoidant patterns tend to suppress and detach.
+  - id: c04
+    target: repair/responsiveness-repair
+    source_chapter: 13
+    source_pages: "240-241"
+    concept: perceived_partner_responsiveness
+    summary: Responsiveness means feeling understood, valued, and supported.
+  - id: c05
+    target: repair/responsiveness-repair
+    source_chapter: 13
+    source_pages: "241-251"
+    concept: reduced_defensiveness_and_more_openness
+    summary: Responsiveness lowers defensiveness, increases openness, and supports emotional disclosure.
+  - id: c06
+    target: repair/mood-aware-repair
+    source_chapter: 14
+    source_pages: "259-269"
+    concept: mood_shifts_processing
+    summary: Mild mood states change what people notice, trust, and how they negotiate.
+  - id: c07
+    target: repair/mood-aware-repair
+    source_chapter: 14
+    source_pages: "267-269"
+    concept: fairness_trust_and_skepticism
+    summary: Mood can shift fairness, trust, and susceptibility to overconfident interpretation.
+selection:
+  chosen_dossiers:
+    - attachment-patterns
+    - responsiveness-repair
+    - mood-aware-repair
+  reason: These are the strongest repair-first and knowledge fits in Part 4.

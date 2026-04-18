@@ -1,0 +1,364 @@
+- extract_id: EXT-SL-001
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 7-14
+  theme: secure-attachment
+  role: knowledge
+  claim: A healthy relationship is best understood as a securely attached relationship felt in the nervous system as safety, closeness, and responsiveness.
+  why_it_matters: Reorients MarriageOS away from vague ideals and toward felt relational security.
+  usable_for:
+    - repair/quiet-drift
+    - repair/we-keep-fighting
+    - knowledge/how-secure-love-feels
+  confidence: high
+  evidence_type: direct
+  notes: Keep felt-sense framing; reduce therapy density.
+
+- extract_id: EXT-SL-002
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 9-10
+    - pp. 34-36
+  theme: attachment-needs
+  role: script
+  claim: Attachment needs can be named with direct language such as “to feel close to you, I need…” followed by validation, appreciation, respect, responsiveness, and trust.
+  why_it_matters: Turns vague distress into concrete repair language.
+  usable_for:
+    - repair/we-keep-fighting
+    - repair/quiet-drift
+    - products/hard-conversation-scripts-pack
+  confidence: high
+  evidence_type: direct
+  notes: High-value script feeder.
+
+- extract_id: EXT-SL-003
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 16-25
+  theme: problem-beneath-problem
+  role: repair
+  claim: The issue being argued about is usually not the deepest problem; the deeper problem is blocked communication and insecure attachment.
+  why_it_matters: Core reframe for repeated fights and surface-topic gridlock.
+  usable_for:
+    - repair/we-keep-fighting
+    - repair/quiet-drift
+  confidence: high
+  evidence_type: direct
+  notes: Preserve but avoid saying every issue is only attachment.
+
+- extract_id: EXT-SL-004
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 17-22
+  theme: protective-stances
+  role: repair
+  claim: Couples use protest, defensiveness, shutdown, and withdrawal as protective stances against painful unmet needs, but those protections block the very connection they are trying to recover.
+  why_it_matters: Excellent mechanism layer for conflict and distance modules.
+  usable_for:
+    - repair/we-keep-fighting
+    - repair/quiet-drift
+    - repair/pressure-loop
+  confidence: high
+  evidence_type: direct
+  notes: Strong direct port to MarriageOS.
+
+- extract_id: EXT-SL-005
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 21-23
+  theme: attachment-rupture
+  role: knowledge
+  claim: Attachment ruptures are moments of felt misunderstanding, invalidation, disrespect, or unsupportedness that accumulate into insecurity when left unrepaired.
+  why_it_matters: Explains why “small” misses can have outsized relational effects.
+  usable_for:
+    - repair/quiet-drift
+    - repair/we-keep-fighting
+    - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: Important anti-minimisation concept.
+
+- extract_id: EXT-SL-006
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 27-45
+  theme: attachment-styles
+  role: knowledge
+  claim: Anxious, avoidant, disorganized, and secure patterns are adaptations that shape how adults reach for closeness, protect against pain, and react under stress.
+  why_it_matters: Helps users interpret recurring patterns without reducing them to personality flaws.
+  usable_for:
+    - knowledge/attachment-styles
+    - guides/read-both
+    - repair/we-keep-fighting
+  confidence: high
+  evidence_type: direct
+  notes: Use carefully to avoid identity cages.
+
+- extract_id: EXT-SL-007
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 34-42
+  theme: four-cs
+  role: knowledge
+  claim: Relationship distress usually clusters around four domains—comfort, connection, cooperation, and conflict.
+  why_it_matters: Strong organising model for triage and module routing.
+  usable_for:
+    - guides/read-both
+    - knowledge/system-triage
+    - repair/mental-load
+  confidence: high
+  evidence_type: direct
+  notes: Good classifier for future product logic.
+
+- extract_id: EXT-SL-008
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 49-60
+  theme: anxious-pattern
+  role: repair
+  claim: Anxious partners often protest, press, criticise, or seek repeated reassurance because they fear abandonment and struggle to trust closeness will last.
+  why_it_matters: Useful for naming the protest side of pursue / withdraw dynamics.
+  usable_for:
+    - repair/we-keep-fighting
+    - repair/pressure-loop
+    - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Avoid gendering.
+
+- extract_id: EXT-SL-009
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 56-63
+  theme: avoidant-pattern
+  role: repair
+  claim: Avoidant partners often defend, minimise, detach, over-rationalise, or shut down because closeness and criticism both trigger fears of failure, engulfment, or shame.
+  why_it_matters: Useful for naming the withdraw / defend side of common cycles.
+  usable_for:
+    - repair/we-keep-fighting
+    - repair/pressure-loop
+    - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Avoid simplistic “emotionally unavailable man” framing.
+
+- extract_id: EXT-SL-010
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 62-67
+  theme: disorganized-pattern
+  role: caution
+  claim: Disorganized attachment can intensify volatility, distrust, dissociation, or contradictory closeness / distance behaviour and is often linked to trauma.
+  why_it_matters: Important caution logic for severe dysregulation cases.
+  usable_for:
+    - repair/we-keep-fighting
+    - knowledge/attachment-styles
+    - escalation/seek-support
+  confidence: medium-high
+  evidence_type: direct
+  notes: Do not casually label users or imply certainty.
+
+- extract_id: EXT-SL-011
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 78-94
+  theme: negative-cycle
+  role: repair
+  claim: A negative communication cycle forms when each partner’s trigger and protective response reliably trigger the other, producing repeated unresolved loops.
+  why_it_matters: This is the central MarriageOS-compatible mechanism in the source.
+  usable_for:
+    - repair/we-keep-fighting
+    - repair/quiet-drift
+    - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Keep explicit enemy reframe.
+
+- extract_id: EXT-SL-012
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 82-87
+  theme: trigger-anatomy
+  role: knowledge
+  claim: Triggers are not singular events but fast chains of bodily sensation, meaning-making, vulnerable emotion, protective feeling, and reactive behaviour.
+  why_it_matters: Helps users slow down and name what is happening before reaction takes over.
+  usable_for:
+    - repair/we-keep-fighting
+    - guides/read-both
+    - products/trigger-mapper
+  confidence: high
+  evidence_type: direct
+  notes: Very strong for worksheets and coaching prompts.
+
+- extract_id: EXT-SL-013
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 92-95
+  theme: enemy-reframe
+  role: repair
+  claim: The partner is not the enemy; the negative cycle is the enemy.
+  why_it_matters: High-value corrective posture for distressed couples.
+  usable_for:
+    - repair/we-keep-fighting
+    - repair/quiet-drift
+    - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Preserve nearly verbatim in spirit.
+
+- extract_id: EXT-SL-014
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 95-104
+  theme: interruption
+  role: repair
+  claim: Even once a negative cycle is in motion, one partner can interrupt it by noticing the trigger, pausing, and doing something less destructive.
+  why_it_matters: Directly actionable sequence logic for repair modules.
+  usable_for:
+    - repair/we-keep-fighting
+    - products/interruption-card
+  confidence: high
+  evidence_type: direct
+  notes: Great for “do this first” sections.
+
+- extract_id: EXT-SL-015
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 101-104
+  theme: vulnerability
+  role: repair
+  claim: Vulnerability is not just sharing feelings; it is risking a new response instead of taking the familiar protective path.
+  why_it_matters: Useful for reframing behavioural change as courageous rather than sentimental.
+  usable_for:
+    - repair/we-keep-fighting
+    - repair/pressure-loop
+    - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Translate into plainer language.
+
+- extract_id: EXT-SL-016
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 122-149
+    - pp. 164-181
+  theme: attachment-friendly-environment
+  role: repair
+  claim: Repair works best inside an attachment-friendly environment defined by validation, reduced shame, regulation, empathy, and respectful language.
+  why_it_matters: High-value operational logic for every downstream repair object.
+  usable_for:
+    - repair/we-keep-fighting
+    - repair/pressure-loop
+    - repair/quiet-drift
+  confidence: high
+  evidence_type: direct
+  notes: Summarise; do not port all framework jargon.
+
+- extract_id: EXT-SL-017
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 164-185
+  theme: rupture-repair
+  role: repair
+  claim: Successful repair is a process of acknowledging the rupture, sharing vulnerability, validating each other, and re-establishing safety before problem-solving.
+  why_it_matters: Excellent direct material for repair modules and scripts.
+  usable_for:
+    - repair/we-keep-fighting
+    - repair/quiet-drift
+    - products/repair-conversation-pack
+  confidence: high
+  evidence_type: direct
+  notes: Strongest downstream use is structured conversation design.
+
+- extract_id: EXT-SL-018
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 186-199
+  theme: workable-intruders
+  role: caution
+  claim: Trauma, depression, and addiction complicate repair and may require parallel treatment; relationships improve when these intruders are addressed rather than denied.
+  why_it_matters: Important branch and escalation boundary material.
+  usable_for:
+    - escalation/seek-support
+    - repair/we-keep-fighting
+    - repair/pressure-loop
+  confidence: high
+  evidence_type: direct
+  notes: Important not to overpromise relationship tools alone.
+
+- extract_id: EXT-SL-019
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 199-210
+  theme: sexual-connection
+  role: repair
+  claim: Sexual connection is strongly shaped by the attachment climate; conversations about sex rarely improve while the couple is still inside a negative cycle.
+  why_it_matters: Makes sex a bond issue rather than an isolated performance issue.
+  usable_for:
+    - repair/pressure-loop
+    - knowledge/desire-and-familiarity
+  confidence: high
+  evidence_type: direct
+  notes: Very compatible with MarriageOS anti-pressure doctrine.
+
+- extract_id: EXT-SL-020
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 201-210
+  theme: sexual-pursue-withdraw
+  role: repair
+  claim: In anxious-avoidant pairings, sexual pursue / withdraw often mirrors the broader relationship cycle, with rejection pain, shame, and avoidance feeding each other.
+  why_it_matters: Strong direct feeder for pressure-loop.
+  usable_for:
+    - repair/pressure-loop
+    - knowledge/desire-and-familiarity
+  confidence: high
+  evidence_type: direct
+  notes: Strongest sex-specific mechanism in the book.
+
+- extract_id: EXT-SL-021
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 209-210
+  theme: sexual-withdrawal
+  role: repair
+  claim: Sexual withdrawal often has a valid explanation—overwhelm, resentment, rejection history, trauma, self-care collapse, parenting depletion, or medical issues—and should be explored rather than moralised.
+  why_it_matters: Keeps MarriageOS from treating low desire as stubbornness or rejection alone.
+  usable_for:
+    - repair/pressure-loop
+    - knowledge/desire-and-familiarity
+  confidence: high
+  evidence_type: direct
+  notes: Excellent empathy-restoring material.
+
+- extract_id: EXT-SL-022
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 210-211
+  theme: sexual-trauma
+  role: caution
+  claim: Sexual problems may be trauma-related, including trauma that was not overtly sexual; coercion or shame around sex requires special care and sometimes outside help.
+  why_it_matters: Essential boundary logic for desire and intimacy content.
+  usable_for:
+    - repair/pressure-loop
+    - escalation/seek-support
+  confidence: high
+  evidence_type: direct
+  notes: Keep trauma-aware and non-assumptive.
+
+- extract_id: EXT-SL-023
+  source_id: SRC-SL-001
+  page_refs:
+    - pp. 7
+    - pp. 186-199
+  theme: abuse-boundary
+  role: triage
+  claim: The book explicitly excludes abusive relationships from its repair framework and recommends outside safety guidance for coercive or controlling dynamics.
+  why_it_matters: Hard boundary for MarriageOS product doctrine.
+  usable_for:
+    - repair/we-keep-fighting
+    - repair/pressure-loop
+    - repair/quiet-drift
+  confidence: high
+  evidence_type: direct
+  notes: Must remain explicit.

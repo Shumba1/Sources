@@ -1,0 +1,135 @@
+source_key: psychology-of-sociability-p4--96834b
+scope:
+  chapters:
+    - 12
+    - 13
+    - 14
+extracts:
+  - id: e01
+    chapter: 12
+    pages: "219-221"
+    theme: attachment-security
+    type: concept
+    claim: Attachment figures function as both a safe haven in distress and a secure base for exploration.
+    marriageos_value: Helps frame healthy closeness as both comfort and freedom, not just reassurance.
+    notes: Strong basis for non-pathologising repair language.
+  - id: e02
+    chapter: 12
+    pages: "221-222"
+    theme: attachment-dimensions
+    type: concept
+    claim: Adult attachment differences are commonly described along two dimensions: avoidance and anxiety.
+    marriageos_value: Supports a clean, readable knowledge piece on stress patterns in intimacy.
+    notes: Translate into patterns, not diagnoses.
+  - id: e03
+    chapter: 12
+    pages: "222-223"
+    theme: hyperactivating
+    type: mechanism
+    claim: High attachment anxiety is linked to hyperactivating strategies such as clinging, controlling, and insistent proximity-seeking.
+    marriageos_value: Useful for identifying escalation patterns during repair attempts.
+    notes: Must be softened to avoid blame.
+  - id: e04
+    chapter: 12
+    pages: "222-223"
+    theme: deactivating
+    type: mechanism
+    claim: High attachment avoidance is linked to deactivating strategies such as emotional distance, suppression, and handling distress alone.
+    marriageos_value: Useful for describing shutdown patterns compassionately.
+    notes: Good basis for pursue-withdraw cycle language.
+  - id: e05
+    chapter: 12
+    pages: "223-225"
+    theme: insecure-relational-costs
+    type: pattern
+    claim: Attachment insecurities are associated with more negative interpretations, less constructive conflict behaviour, more exit or neglect responses, and lower felt gratitude or empathy.
+    marriageos_value: Supports repair content focused on pattern recognition rather than moral judgement.
+    notes: Present as risk tendencies, not fixed destiny.
+  - id: e06
+    chapter: 12
+    pages: "224-226"
+    theme: goals-under-stress
+    type: mechanism
+    claim: Avoidant people organise around self-reliance and distance; anxious people organise around closeness, reassurance, and fear of abandonment.
+    marriageos_value: Strong basis for a “what each person is protecting” section.
+    notes: Especially useful in de-shaming conflict.
+  - id: e07
+    chapter: 12
+    pages: "225-226"
+    theme: ambivalence
+    type: mechanism
+    claim: Anxious attachment can involve relational ambivalence, creating confusion and indecision about closeness.
+    marriageos_value: Explains why someone can ask for connection and fear it at the same time.
+    notes: Good knowledge module material.
+  - id: e08
+    chapter: 13
+    pages: "240-241"
+    theme: partner-responsiveness-definition
+    type: concept
+    claim: Perceived partner responsiveness means believing that a partner understands, values, and is willing to care for and support you.
+    marriageos_value: This is the clearest repair anchor in the entire source set.
+    notes: Core source sentence for final repair candidate.
+  - id: e09
+    chapter: 13
+    pages: "241"
+    theme: downstream-benefits
+    type: summary
+    claim: Responsiveness is linked to gratitude, caregiving, attraction, constructive conflict resolution, forgiveness, support, sleep quality, pain management, and coping under stress.
+    marriageos_value: Strong support for prioritising responsiveness in repair content.
+    notes: Do not list as guaranteed outcomes.
+  - id: e10
+    chapter: 13
+    pages: "241-245"
+    theme: defensiveness
+    type: mechanism
+    claim: When people feel understood, appreciated, and supported, they become less defensive and less driven by self-protective self-enhancement.
+    marriageos_value: Explains why repair conversations go better when validation comes first.
+    notes: Very strong source-to-guidance bridge.
+  - id: e11
+    chapter: 13
+    pages: "246-249"
+    theme: open-mindedness
+    type: mechanism
+    claim: Responsiveness predicts greater open-mindedness, greater tolerance of mixed evidence, and lower felt threat around complexity.
+    marriageos_value: Supports guidance about creating enough safety for nuance.
+    notes: Useful for polarised couples.
+  - id: e12
+    chapter: 13
+    pages: "250-251"
+    theme: emotional-openness
+    type: mechanism
+    claim: People are more willing to express emotion, including stress and vulnerability, when they expect a responsive partner.
+    marriageos_value: Strong support for emotional disclosure guidance.
+    notes: Good fit for scripts and conversation prompts.
+  - id: e13
+    chapter: 14
+    pages: "259-263"
+    theme: mood-as-regulator
+    type: concept
+    claim: Mild mood states can function as regulatory inputs that shift how people process information and behave socially.
+    marriageos_value: Useful for conversation-timing guidance.
+    notes: Emphasise “mild” and “state”, not personality.
+  - id: e14
+    chapter: 14
+    pages: "263-267"
+    theme: processing-style
+    type: mechanism
+    claim: Negative mood tends to recruit more attentive, concrete, accommodative processing; positive mood tends to recruit more top-down, assimilative processing.
+    marriageos_value: Supports advice to slow down certainty and check details when conflict is emotionally loaded.
+    notes: Must not be oversold.
+  - id: e15
+    chapter: 14
+    pages: "267-269"
+    theme: fairness
+    type: finding
+    claim: In strategic allocation tasks, sad participants behaved more fairly and were more likely to reject unfair offers than happy participants.
+    marriageos_value: Supports the idea that emotional state can shape fairness and self-interest in negotiation.
+    notes: Laboratory finding only; translate modestly.
+  - id: e16
+    chapter: 14
+    pages: "269"
+    theme: trust-and-gullibility
+    type: finding
+    claim: Negative mood reduced trust and improved deception detection; positive mood increased trust and in some cases gullibility.
+    marriageos_value: Supports mood-aware guidance around difficult conversations and premature reassurance.
+    notes: Avoid making distrust sound virtuous.

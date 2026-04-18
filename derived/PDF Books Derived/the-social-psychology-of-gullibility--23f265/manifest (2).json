@@ -1,0 +1,93 @@
+{
+  "source_key": "the-mask-of-love-and-sexual-gullibility--e534e1",
+  "source_id": "SRC-E534E1",
+  "title": "The Mask of Love and Sexual Gullibility",
+  "parent_work": "The Social Psychology of Gullibility",
+  "input_file": "The Social Psychology of Gullibility.pdf",
+  "scope": {
+    "chapter_only": true,
+    "chapter_number": 2,
+    "print_pages": "21-41",
+    "pdf_pages": "38-58"
+  },
+  "overall_recommendation": "selective-use",
+  "pipeline_status": "complete",
+  "canonical_posture": [
+    "repair-first",
+    "calm",
+    "practical",
+    "structured",
+    "emotionally adult",
+    "non-moralising",
+    "non-coercive"
+  ],
+  "dossiers_created": [
+    {
+      "target": "repair/desire-drift-reset",
+      "dossier_id": "DOS-E534E1-R01",
+      "content_type": "repair-module"
+    },
+    {
+      "target": "knowledge/desire-and-familiarity",
+      "dossier_id": "DOS-E534E1-K01",
+      "content_type": "knowledge-article"
+    }
+  ],
+  "quarantined_source_risks": [
+    "heterosexual monogamous evolutionary worldview treated as universal",
+    "transactional / quasi-market framing of sex and commitment",
+    "grievance-prone language such as bait-and-switch or duping"
+  ],
+  "files": [
+    {
+      "path": "sources/derived/the-mask-of-love-and-sexual-gullibility--e534e1/dossiers/desire-and-familiarity.md",
+      "sha256": "c4bc68966f6aa80086b702c4362ea305be87f60e2865582040517f403237992c",
+      "bytes": 4828
+    },
+    {
+      "path": "sources/derived/the-mask-of-love-and-sexual-gullibility--e534e1/dossiers/desire-drift-reset.md",
+      "sha256": "d11aca5f8488abfe27cfb88530acf6b2686d29544ee538a9d2e5832491f48435",
+      "bytes": 4561
+    },
+    {
+      "path": "sources/derived/the-mask-of-love-and-sexual-gullibility--e534e1/extracts-rich.yaml",
+      "sha256": "64bd1a075172a0b55953e5f81325b8ed89ed38cf662591e8377ce4b94f5084a9",
+      "bytes": 10033
+    },
+    {
+      "path": "sources/derived/the-mask-of-love-and-sexual-gullibility--e534e1/extracts.schema-compatible.yaml",
+      "sha256": "6d50cd66e283a747cd6766dd16b7a4f795ec78c3cbddd433131009daf2ac977b",
+      "bytes": 5518
+    },
+    {
+      "path": "sources/derived/the-mask-of-love-and-sexual-gullibility--e534e1/final-content-candidates/knowledge-article/desire-and-familiarity.from-the-mask-of-love-and-sexual-gullibility--e534e1.md",
+      "sha256": "57bcc116587b728a0e3e32ce1c51615bd549a171ad10a7555a770c96d4003b8b",
+      "bytes": 3268
+    },
+    {
+      "path": "sources/derived/the-mask-of-love-and-sexual-gullibility--e534e1/final-content-candidates/repair-module/desire-drift-reset.from-the-mask-of-love-and-sexual-gullibility--e534e1.md",
+      "sha256": "360a049898dc23c74ecd3aab772f72ebc7359f7ac6ae75ba7cb3cf5b60e24a6f",
+      "bytes": 4507
+    },
+    {
+      "path": "sources/derived/the-mask-of-love-and-sexual-gullibility--e534e1/source-normaliser-bundle.md",
+      "sha256": "3806beb74244222d0647d2f672290afaf2ec77e5555abbf1f8212660c0ce058a",
+      "bytes": 14438
+    },
+    {
+      "path": "sources/derived/the-mask-of-love-and-sexual-gullibility--e534e1/verification/desire-and-familiarity.md",
+      "sha256": "7df3974cace35a420acf001b0c818273cacb7a1ad84f5fc5d948fe8dd9479e48",
+      "bytes": 752
+    },
+    {
+      "path": "sources/derived/the-mask-of-love-and-sexual-gullibility--e534e1/verification/desire-drift-reset.md",
+      "sha256": "0daf6d45c1e306126a836f2c8d96da2cd17a3e78a5e1a1d1e40b60270f4492f8",
+      "bytes": 818
+    },
+    {
+      "path": "sources/raw/the-mask-of-love-and-sexual-gullibility--e534e1/source.md",
+      "sha256": "76655fd90efad8205c006c126690a1709bd20b24d2026ee95b53c6052b53599c",
+      "bytes": 2581
+    }
+  ]
+}

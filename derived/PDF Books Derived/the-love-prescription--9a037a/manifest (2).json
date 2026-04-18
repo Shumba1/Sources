@@ -1,0 +1,38 @@
+{
+  "source_key": "love-prescription--9a037a",
+  "source_title": "The Love Prescription",
+  "raw_pdf_path": "sources/raw/The Love Prescription.pdf",
+  "generated_at": "2026-04-15T21:32:58Z",
+  "canonical_fallback_used": true,
+  "outputs_created": [
+    "sources/raw/love-prescription--9a037a/source.md",
+    "sources/derived/love-prescription--9a037a/source-normaliser-bundle.md",
+    "sources/derived/love-prescription--9a037a/extracts-rich.yaml",
+    "sources/derived/love-prescription--9a037a/extracts.schema-compatible.yaml",
+    "sources/derived/love-prescription--9a037a/dossiers/quiet-drift.md",
+    "sources/derived/love-prescription--9a037a/dossiers/resentment-building.md",
+    "sources/derived/love-prescription--9a037a/dossiers/desire-and-familiarity.md",
+    "sources/derived/love-prescription--9a037a/final-content-candidates/repair/quiet-drift.from-love-prescription--9a037a.md",
+    "sources/derived/love-prescription--9a037a/final-content-candidates/repair/resentment-building.from-love-prescription--9a037a.md",
+    "sources/derived/love-prescription--9a037a/final-content-candidates/knowledge/desire-and-familiarity.from-love-prescription--9a037a.md",
+    "sources/derived/love-prescription--9a037a/verification/quiet-drift.md",
+    "sources/derived/love-prescription--9a037a/verification/resentment-building.md",
+    "sources/derived/love-prescription--9a037a/verification/desire-and-familiarity.md"
+  ],
+  "dossiers_created": [
+    "quiet-drift",
+    "resentment-building",
+    "desire-and-familiarity"
+  ],
+  "final_candidates_created": [
+    "repair/quiet-drift",
+    "repair/resentment-building",
+    "knowledge/desire-and-familiarity"
+  ],
+  "verification_status_by_target": {
+    "quiet-drift": "pass",
+    "resentment-building": "pass",
+    "desire-and-familiarity": "pass"
+  },
+  "overall_status": "complete"
+}

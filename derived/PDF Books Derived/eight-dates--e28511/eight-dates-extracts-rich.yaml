@@ -1,0 +1,439 @@
+- extract_id: EXT-ED-001
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 8-9
+  - pp. 38-45
+  - pp. 55-60
+  theme: reciprocity
+  role: repair
+  claim: Trust is built less by grand declarations than by repeated small actions
+    that prove the relationship is a real priority.
+  why_it_matters: This converts well into quiet-drift and bond-maintenance logic because
+    MarriageOS needs fast, practical moves, not abstract reassurance.
+  usable_for:
+  - repair/quiet-drift
+  - knowledge/how-drift-starts
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: Good source logic for anti-drift maintenance. Avoid importing as wedding-vow
+    rhetoric.
+- extract_id: EXT-ED-002
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 38-39
+  theme: affair-risk
+  role: knowledge
+  claim: When a partner opens emotional windows to an outsider while building secrecy
+    toward the primary partner, trust erosion and affair risk rise.
+  why_it_matters: This maps cleanly to external validation risk and affair-dynamics
+    education without needing scandal framing.
+  usable_for:
+  - knowledge/affair-dynamics
+  - repair/outside-attention-feels-dangerous
+  - repair/comparison-drift
+  confidence: high
+  evidence_type: direct
+  notes: Translate into calm boundary language, not suspicion theatre.
+- extract_id: EXT-ED-003
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 39-42
+  theme: external-pull
+  role: knowledge
+  claim: Negative comparison of a partner against real or imagined alternatives is
+    an early cascade step toward betrayal.
+  why_it_matters: This supports MarriageOS doctrine that temptation must be modelled
+    as a maintenance and comparison problem before it becomes an affair problem.
+  usable_for:
+  - knowledge/affair-dynamics
+  - knowledge/desire-and-familiarity
+  - repair/im-comparing-my-spouse-to-strangers
+  confidence: high
+  evidence_type: direct
+  notes: Strong fit with external comparison loops.
+- extract_id: EXT-ED-004
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 44-45
+  theme: repair-scripts
+  role: product
+  claim: 'A trust breach is best repaired through a structured conversation: feelings,
+    each perspective, old triggers, ownership, apology, and a prevention plan.'
+  why_it_matters: This is highly reusable as a scripts pack, worksheet, or guided
+    repair flow.
+  usable_for:
+  - products/hard-conversation-scripts-pack
+  - repair/we-need-a-trust-repair-talk
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: Too long for first-line repair UI; better as guided support asset.
+- extract_id: EXT-ED-005
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 64-65
+  - pp. 74-78
+  theme: escalation
+  role: repair
+  claim: The healthiest goal of conflict is mutual understanding, not victory or forced
+    sameness.
+  why_it_matters: This aligns with MarriageOS anti-moralising, non-adversarial repair
+    posture and can shape conflict module framing.
+  usable_for:
+  - repair/we-keep-snapping
+  - repair/one-fight-became-three
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Excellent bridge logic.
+- extract_id: EXT-ED-006
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 65-67
+  - pp. 74-78
+  theme: differentiation
+  role: knowledge
+  claim: Many recurring couple conflicts are perpetual rather than solvable, so the
+    real work is managing difference without contempt or gridlock.
+  why_it_matters: Useful for Read Both / difference-acceptance material and for reducing
+    the false expectation that every mismatch can be solved cleanly.
+  usable_for:
+  - knowledge/system-decay-system-repair
+  - guides/read-both
+  - repair/we-keep-having-the-same-fight
+  confidence: high
+  evidence_type: direct
+  notes: Helps prevent overpromising.
+- extract_id: EXT-ED-007
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 67-69
+  theme: repair-scripts
+  role: repair
+  claim: After a regrettable incident, couples repair better when they unpack feelings,
+    alternate realities, old triggers, responsibility, and next-time changes.
+  why_it_matters: This is directly convertible into post-fight debrief scaffolding.
+  usable_for:
+  - repair/one-fight-became-three
+  - products/hard-conversation-scripts-pack
+  - repair/post-fight-reset
+  confidence: high
+  evidence_type: direct
+  notes: Needs compression before UI use.
+- extract_id: EXT-ED-008
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 62-64
+  - pp. 76-78
+  theme: how-drift-starts
+  role: repair
+  claim: Avoiding conflict does not preserve peace; it often breeds distance, resentment,
+    and distorted meaning over time.
+  why_it_matters: Direct fit for drift and resentment modules because MarriageOS needs
+    to name the cost of fake peace.
+  usable_for:
+  - repair/we-are-going-quiet
+  - repair/resentment-building
+  - knowledge/how-drift-starts
+  confidence: high
+  evidence_type: direct
+  notes: Good anti-avoidance logic.
+- extract_id: EXT-ED-009
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 31-33
+  theme: repair-scripts
+  role: product
+  claim: Listening is more stabilising when the listener witnesses and reflects back
+    feelings instead of judging, fixing, or debating them.
+  why_it_matters: This is clean script-pack material and good support logic for conflict
+    modules.
+  usable_for:
+  - products/hard-conversation-scripts-pack
+  - repair/we-keep-snapping
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Best used as scripts, not as a lecture.
+- extract_id: EXT-ED-010
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 86-87
+  - pp. 91-95
+  theme: desire-maintenance
+  role: knowledge
+  claim: Couples who can talk about sex outside the bedroom, in specific positive
+    terms, tend to maintain better sexual connection.
+  why_it_matters: This supports pressure-loop and desire-maintenance logic without
+    forcing clinical language into the app.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  - products/hard-conversation-scripts-pack
+  confidence: high
+  evidence_type: direct
+  notes: Translate into calm, non-performative prompts.
+- extract_id: EXT-ED-011
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 88-89
+  theme: pressure-loop
+  role: repair
+  claim: A sexual no handled without punishment, sulking, or coldness protects the
+    bond and prevents rejection from becoming relational injury.
+  why_it_matters: This is central MarriageOS repair logic and maps directly to desire
+    mismatch modules.
+  usable_for:
+  - repair/pressure-loop
+  - guides/his-perspective
+  - guides/her-perspective
+  confidence: high
+  evidence_type: direct
+  notes: Very strong fit.
+- extract_id: EXT-ED-012
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 84-85
+  - pp. 89-90
+  theme: desire-maintenance
+  role: repair
+  claim: Desire is supported by out-of-bedroom rituals such as affection, kissing,
+    flirting, cuddling, and regular romantic reconnection.
+  why_it_matters: This is a usable anti-drift / anti-roommate mechanism for V1 repair
+    and knowledge layers.
+  usable_for:
+  - repair/quiet-drift
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  confidence: high
+  evidence_type: direct
+  notes: Do not turn into obligation scorekeeping.
+- extract_id: EXT-ED-013
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 82-83
+  - pp. 88-89
+  theme: life-phase-pressure
+  role: repair
+  claim: Sexual connection is heavily affected by exhaustion, nursing, body change,
+    stress, and other life-phase realities; demand amplifies strain.
+  why_it_matters: Direct feeder for touched-out, postpartum, and overload repair surfaces.
+  usable_for:
+  - repair/touched-out
+  - repair/life-pressure
+  - guides/her-perspective
+  confidence: high
+  evidence_type: direct
+  notes: Excellent life-phase pressure material.
+- extract_id: EXT-ED-014
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 97-99
+  - pp. 106-112
+  theme: mental-load
+  role: knowledge
+  claim: Money fights are usually about what money symbolises—security, freedom, love,
+    power, adulthood, fear—not just about numbers.
+  why_it_matters: This gives MarriageOS a more adult way to interpret financial tension
+    and avoid shallow spender-vs-saver framing.
+  usable_for:
+  - knowledge/money-meaning
+  - repair/financial-stress
+  - repair/mental-load
+  confidence: high
+  evidence_type: direct
+  notes: Strong knowledge article anchor.
+- extract_id: EXT-ED-015
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 99-100
+  - pp. 113-116
+  theme: mental-load
+  role: knowledge
+  claim: Labelling one partner a spender and the other a saver usually hides the deeper
+    histories and values driving the conflict.
+  why_it_matters: Useful for reducing caricature and helping users interpret their
+    partner more accurately.
+  usable_for:
+  - knowledge/money-meaning
+  - guides/read-both
+  - repair/financial-stress
+  confidence: high
+  evidence_type: direct
+  notes: Good anti-stereotype content.
+- extract_id: EXT-ED-016
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 102-104
+  - pp. 113-116
+  theme: manager-mode
+  role: repair
+  claim: Unequal unpaid labour and household responsibility are major conflict drivers
+    because they directly affect respect, energy, and partnership feel.
+  why_it_matters: This maps tightly to manager-mode / mental-load repair and is materially
+    useful in V1.
+  usable_for:
+  - repair/mental-load
+  - repair/manager-mode
+  - knowledge/money-meaning
+  confidence: high
+  evidence_type: direct
+  notes: Very strong fit with MarriageOS overload surfaces.
+- extract_id: EXT-ED-017
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 99-106
+  - pp. 113-116
+  theme: life-phase-pressure
+  role: repair
+  claim: Work can function like a third party in the relationship when time, focus,
+    and identity are pulled so far toward work that the bond goes underfed.
+  why_it_matters: This is a clear mechanism for overload-related loneliness and disconnection.
+  usable_for:
+  - repair/mental-load
+  - repair/life-pressure
+  - knowledge/how-drift-starts
+  confidence: high
+  evidence_type: direct
+  notes: Excellent overload interpretation.
+- extract_id: EXT-ED-018
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 120-125
+  - pp. 126-128
+  theme: children-and-family-stability
+  role: knowledge
+  claim: Children increase strain on the couple bond unless the couple deliberately
+    protects intimacy, connection, and the primary relationship.
+  why_it_matters: Direct support for family-conscious doctrine without romanticising
+    martyrdom.
+  usable_for:
+  - knowledge/children-and-family-stability
+  - repair/touched-out
+  - repair/mental-load
+  confidence: high
+  evidence_type: direct
+  notes: Good family-stability backbone.
+- extract_id: EXT-ED-019
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 123-125
+  theme: children-and-family-stability
+  role: knowledge
+  claim: Post-baby couple outcomes improve when the non-birthing partner stays actively
+    involved and the couple preserves low-conflict connection.
+  why_it_matters: Useful for postpartum knowledge and overload repair, though it should
+    be treated as directional rather than deterministic.
+  usable_for:
+  - knowledge/children-and-family-stability
+  - repair/touched-out
+  - guides/read-both
+  confidence: medium
+  evidence_type: direct
+  notes: Use with caution; do not overstate universal applicability.
+- extract_id: EXT-ED-020
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 130-148
+  theme: novelty-deficit
+  role: repair
+  claim: Play, novelty, laughter, and adventure are not luxuries in long-term relationships;
+    they are core anti-drift inputs.
+  why_it_matters: This fits directly with quiet-drift and desire-maintenance modules.
+  usable_for:
+  - repair/quiet-drift
+  - knowledge/desire-and-familiarity
+  - products/novelty-planner
+  confidence: high
+  evidence_type: direct
+  notes: One of the best source-to-product translations.
+- extract_id: EXT-ED-021
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 145-148
+  theme: novelty-deficit
+  role: knowledge
+  claim: Couples do not need identical definitions of fun; the key is respecting each
+    other’s play style while still introducing some shared newness.
+  why_it_matters: Useful for anti-polarisation interpretation and for keeping novelty
+    practical rather than one-size-fits-all.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - guides/read-both
+  - repair/quiet-drift
+  confidence: high
+  evidence_type: direct
+  notes: Good bridge content.
+- extract_id: EXT-ED-022
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 158-161
+  theme: family-atmosphere
+  role: knowledge
+  claim: Shared rituals, meaning, and a sense that the relationship matters beyond
+    logistics help couples stay connected through change.
+  why_it_matters: Supports family-atmosphere and resilience content without making
+    the product preachy.
+  usable_for:
+  - knowledge/children-and-family-stability
+  - knowledge/system-decay-system-repair
+  - repair/stay-and-rebuild
+  confidence: medium-high
+  evidence_type: direct
+  notes: Translate sacredness into meaning / ritual language.
+- extract_id: EXT-ED-023
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 169-174
+  theme: differentiation
+  role: guide
+  claim: Hidden dreams often sit underneath gridlocked conflict, so curiosity about
+    what a position means is more useful than arguing over surface content.
+  why_it_matters: This is ideal bridge material for Read Both or for deeper knowledge
+    support beneath repeated conflict.
+  usable_for:
+  - guides/read-both
+  - knowledge/system-decay-system-repair
+  - repair/we-keep-having-the-same-fight
+  confidence: high
+  evidence_type: direct
+  notes: Good anti-gridlock logic.
+- extract_id: EXT-ED-024
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 15-18
+  - pp. 178-180
+  theme: appreciation
+  role: repair
+  claim: Relationships strengthen when positive interpretation, fondness, appreciation,
+    and everyday turning-toward outweigh the negative.
+  why_it_matters: This is direct bond-engine material and supports anti-resentment,
+    anti-drift, and desire-maintenance pathways.
+  usable_for:
+  - repair/quiet-drift
+  - repair/resentment-building
+  - knowledge/how-drift-starts
+  confidence: medium-high
+  evidence_type: direct
+  notes: Use as direction, not strict ratio scorekeeping.
+- extract_id: EXT-ED-025
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 7-9
+  - pp. 23-33
+  - pp. 181-183
+  theme: repair-scripts
+  role: product
+  claim: Open-ended curiosity and question-led conversation can deepen understanding,
+    but in MarriageOS this belongs in tools and guided supports rather than core crisis
+    UX.
+  why_it_matters: Useful to retain, but only after translation into short prompts
+    and guided packs.
+  usable_for:
+  - products/hard-conversation-scripts-pack
+  - products/weekly-guided-check-in
+  - guides/read-both
+  confidence: high
+  evidence_type: derived
+  notes: Editorial translation from source to product fit.

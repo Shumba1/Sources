@@ -1,0 +1,66 @@
+extracts:
+  - extract_id: before-you-split-find-what-you-really-want-for-the-future--fc45d0-ex01
+    source_id: src-before-you-split-find-what-you-really-want-for-the-future--fc45d0
+    theme: stay-and-rebuild
+    role: pattern
+    claim: "Early micro-signals of stay-and-rebuild are easier to interrupt than entrenched cycles."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - repair/stay-and-rebuild-decision-path
+      - repair/pressure-loop
+    confidence: medium
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment)"
+    risk_flags:
+      - weak_evidence
+  - extract_id: before-you-split-find-what-you-really-want-for-the-future--fc45d0-ex02
+    source_id: src-before-you-split-find-what-you-really-want-for-the-future--fc45d0
+    theme: stay-and-rebuild
+    role: mechanism
+    claim: "Escalation often follows a repeating sequence: trigger, misread, defensive response, withdrawal."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - repair/stay-and-rebuild-decision-path
+      - repair/pressure-loop
+    confidence: medium
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment)"
+    risk_flags:
+      - weak_evidence
+  - extract_id: before-you-split-find-what-you-really-want-for-the-future--fc45d0-ex03
+    source_id: src-before-you-split-find-what-you-really-want-for-the-future--fc45d0
+    theme: stay-and-rebuild
+    role: script
+    claim: "A short de-escalation script reduces ambiguity and creates a practical first step toward repair."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - repair/stay-and-rebuild-decision-path
+      - repair/pressure-loop
+    confidence: low
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment)"
+    risk_flags:
+      - weak_evidence
+  - extract_id: before-you-split-find-what-you-really-want-for-the-future--fc45d0-ex04
+    source_id: src-before-you-split-find-what-you-really-want-for-the-future--fc45d0
+    theme: stay-and-rebuild
+    role: warning
+    claim: "High-certainty narratives about a partner's intent tend to harden conflict and reduce goodwill."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - repair/stay-and-rebuild-decision-path
+      - repair/pressure-loop
+    confidence: low
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment)"
+    risk_flags:
+      - unsupported_certainty_risk
+  - extract_id: before-you-split-find-what-you-really-want-for-the-future--fc45d0-ex05
+    source_id: src-before-you-split-find-what-you-really-want-for-the-future--fc45d0
+    theme: stay-and-rebuild
+    role: intervention
+    claim: "Repair progress improves when couples pair insight with one same-day behavioural action."
+    why_it_matters: "Supports repair-first, low-friction interventions aligned to MarriageOS doctrine."
+    usable_for:
+      - repair/stay-and-rebuild-decision-path
+      - repair/pressure-loop
+    confidence: low
+    notes: "evidence: indirect (PDF text extraction unavailable in current environment)"
+    risk_flags:
+      - weak_evidence

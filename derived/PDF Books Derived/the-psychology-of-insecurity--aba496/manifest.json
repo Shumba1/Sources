@@ -1,0 +1,34 @@
+{
+  "source_key": "the-psychology-of-insecurity--aba496",
+  "source_title": "The-Psychology-of-Insecurity",
+  "raw_pdf_path": "sources/raw/pdfs/The-Psychology-of-Insecurity.pdf",
+  "generated_at": "2026-04-15T19:18:58.085761+00:00",
+  "canonical_fallback_used": {
+    "theme_ts_missing": true,
+    "page_data_ts_missing": true,
+    "fallback_authority": [
+      "docs/MASTER_SPEC.md",
+      "docs/DRIFT_REGISTER.md"
+    ]
+  },
+  "outputs_created": [
+    "sources/raw/the-psychology-of-insecurity--aba496/source.md",
+    "sources/derived/the-psychology-of-insecurity--aba496/source-normaliser-bundle.md",
+    "sources/derived/the-psychology-of-insecurity--aba496/extracts-rich.yaml",
+    "sources/derived/the-psychology-of-insecurity--aba496/extracts.schema-compatible.yaml",
+    "sources/derived/the-psychology-of-insecurity--aba496/dossiers/insecurity-pressure-loop.md",
+    "sources/derived/the-psychology-of-insecurity--aba496/final-content-candidates/repair/insecurity-pressure-loop.from-the-psychology-of-insecurity--aba496.md",
+    "sources/derived/the-psychology-of-insecurity--aba496/verification/insecurity-pressure-loop.md",
+    "sources/derived/the-psychology-of-insecurity--aba496/manifest.json"
+  ],
+  "dossiers_created": [
+    "insecurity-pressure-loop"
+  ],
+  "final_candidates_created": [
+    "repair/insecurity-pressure-loop"
+  ],
+  "verification_status_by_target": {
+    "insecurity-pressure-loop": "pass-with-revisions"
+  },
+  "overall_status": "complete"
+}

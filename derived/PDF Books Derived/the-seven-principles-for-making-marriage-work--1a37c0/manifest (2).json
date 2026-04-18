@@ -1,0 +1,38 @@
+{
+  "source_key": "seven-principles--1a37c0",
+  "source_title": "The Seven Principles for Making Marriage Work",
+  "raw_pdf_path": "sources/raw/The Seven Principles for Making Marriage Work.pdf",
+  "generated_at": "2026-04-15T22:42:06Z",
+  "canonical_fallback_used": true,
+  "outputs_created": [
+    "sources/raw/seven-principles--1a37c0/source.md",
+    "sources/derived/seven-principles--1a37c0/source-normaliser-bundle.md",
+    "sources/derived/seven-principles--1a37c0/extracts-rich.yaml",
+    "sources/derived/seven-principles--1a37c0/extracts.schema-compatible.yaml",
+    "sources/derived/seven-principles--1a37c0/dossiers/quiet-drift.md",
+    "sources/derived/seven-principles--1a37c0/dossiers/we-keep-fighting.md",
+    "sources/derived/seven-principles--1a37c0/dossiers/gridlock.md",
+    "sources/derived/seven-principles--1a37c0/final-content-candidates/repair/quiet-drift.from-seven-principles--1a37c0.md",
+    "sources/derived/seven-principles--1a37c0/final-content-candidates/repair/we-keep-fighting.from-seven-principles--1a37c0.md",
+    "sources/derived/seven-principles--1a37c0/final-content-candidates/repair/gridlock.from-seven-principles--1a37c0.md",
+    "sources/derived/seven-principles--1a37c0/verification/quiet-drift.md",
+    "sources/derived/seven-principles--1a37c0/verification/we-keep-fighting.md",
+    "sources/derived/seven-principles--1a37c0/verification/gridlock.md"
+  ],
+  "dossiers_created": [
+    "quiet-drift",
+    "we-keep-fighting",
+    "gridlock"
+  ],
+  "final_candidates_created": [
+    "repair/quiet-drift",
+    "repair/we-keep-fighting",
+    "repair/gridlock"
+  ],
+  "verification_status_by_target": {
+    "quiet-drift": "pass",
+    "we-keep-fighting": "pass",
+    "gridlock": "pass"
+  },
+  "overall_status": "complete"
+}

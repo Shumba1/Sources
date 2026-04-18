@@ -1,0 +1,260 @@
+- extract_id: EXT-PM-001
+  source_ids:
+  - SRC-PM-001
+  theme: marriage-growth
+  role: knowledge
+  claim: No one arrives fully ready for marriage; marriage itself exposes the growth tasks partners still need to undertake.
+  why_it_matters: 'Useful as a MarriageOS reframing device: struggle does not automatically mean mismatch or doom. Some strain is developmental rather than disqualifying.'
+  audience: both
+  usable_for:
+  - repair/we-keep-fighting
+  - knowledge/desire-and-familiarity
+  - guides/read-both
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 24-27; evidence_type=direct; Good anti-fatalism material. Must not be used to minimise harm or excuse chronic mistreatment.
+- extract_id: EXT-PM-002
+  source_ids:
+  - SRC-PM-001
+  theme: differentiation
+  role: knowledge
+  claim: Differentiation is the ability to stay connected while maintaining a solid sense of self, balancing individuality and togetherness rather than collapsing into either distance or fusion.
+  why_it_matters: This is the backbone concept of the source and explains why closeness, conflict, desire, and panic behave the way they do in committed relationships.
+  audience: both
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 54-77; evidence_type=direct; Core concept. Must be translated into simpler language for user-facing output.
+- extract_id: EXT-PM-003
+  source_ids:
+  - SRC-PM-001
+  theme: emotional-fusion
+  role: repair
+  claim: Emotional fusion can feel like closeness but actually undermines intimacy because partners become overly dependent on validation, consensus, and reflected self-worth.
+  why_it_matters: Helps explain why couples can feel intensely entangled yet emotionally unseen, and why pressure, control, and defensiveness show up in both conflict and sex.
+  audience: both
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 57-76, pp. 113-115; evidence_type=direct; Strong mechanism. Avoid jargon overload in final copy.
+- extract_id: EXT-PM-004
+  source_ids:
+  - SRC-PM-001
+  theme: intimacy
+  role: knowledge
+  claim: Other-validated intimacy feels soothing, but self-validated intimacy is what lets a person stay open, honest, and connected even when a partner does not immediately reassure or agree.
+  why_it_matters: Important for MarriageOS because many couples are waiting for the other person’s perfect response before they can speak honestly or stay regulated.
+  audience: both
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - guides/read-both
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 113-115; evidence_type=direct; Excellent for explaining why adult intimacy requires self-support, not just mutual soothing.
+- extract_id: EXT-PM-005
+  source_ids:
+  - SRC-PM-001
+  theme: eroticism
+  role: knowledge
+  claim: The beauty in sex is not inherent in sex itself; people bring beauty, maturity, and meaning to it.
+  why_it_matters: This lets MarriageOS shift away from technique worship and toward the character, safety, and selfhood that make intimacy vivid.
+  audience: both
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 78-80; evidence_type=direct; Strong philosophical anchor. Translate out of sermon tone.
+- extract_id: EXT-PM-006
+  source_ids:
+  - SRC-PM-001
+  theme: sexual-potential
+  role: knowledge
+  claim: Genital prime and sexual prime are not the same; mature erotic connection can deepen with age as intimacy, self-acceptance, and emotional union grow.
+  why_it_matters: Counters the lazy assumption that good sex belongs mainly to youth or novelty and supports MarriageOS’s long-horizon view of desire.
+  audience: both
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 79-94; evidence_type=direct; Very useful anti-decline frame. Avoid overpromising that age alone improves sex.
+- extract_id: EXT-PM-007
+  source_ids:
+  - SRC-PM-001
+  theme: arousal-model
+  role: knowledge
+  claim: As couples age, eroticism, desire, and emotional connection increasingly matter because pure drive and automatic reflex become less reliable foundations for satisfying sex.
+  why_it_matters: Helps explain why mechanically repeating what once worked often fails later, and why deeper connection becomes structurally important rather than optional.
+  audience: both
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 92-95; evidence_type=direct; Excellent bridge between theory and lived frustration.
+- extract_id: EXT-PM-008
+  source_ids:
+  - SRC-PM-001
+  theme: low-desire
+  role: repair
+  claim: Low desire in marriage can take the form of 'not wanting to want' because wanting a partner feels too exposing, too consequential, or too dangerous to the self.
+  why_it_matters: This is one of the source’s most distinctive contributions and is a high-value explanation for many pressure-loop dynamics.
+  audience: both
+  usable_for:
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 161-162; evidence_type=direct; Very strong fit. Important to present as one mechanism, not the only explanation.
+- extract_id: EXT-PM-009
+  source_ids:
+  - SRC-PM-001
+  theme: desire-risk
+  role: repair
+  claim: Fear of disapproval can kill novelty, while fear of losing a deeply important partner can make it easier to flatten desire than to tolerate wanting.
+  why_it_matters: Gives MarriageOS a sharper explanation for why committed partners often become safer, flatter, and more cautious rather than more erotic.
+  audience: both
+  usable_for:
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 160-163; evidence_type=direct; Use carefully with rejection-sensitive users; the point is to lower shame, not intensify it.
+- extract_id: EXT-PM-010
+  source_ids:
+  - SRC-PM-001
+  theme: self-soothing
+  role: repair
+  claim: Self-soothing means calming yourself enough to see clearly and remain present, rather than demanding that your partner regulate your anxiety for you.
+  why_it_matters: This is high-value repair material because dysregulated couples keep trying to solve conflict, sex, and closeness without first becoming steadier.
+  audience: both
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - guides/read-both
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 173-175, pp. 460; evidence_type=direct; Excellent for MarriageOS because it is practical and non-mystical once translated.
+- extract_id: EXT-PM-011
+  source_ids:
+  - SRC-PM-001
+  theme: connection-tool
+  role: repair
+  claim: Hugging till relaxed can function as a low-tech tool for reducing baseline tension, noticing how hard it is to be held, and making calmer contact before escalation or intercourse.
+  why_it_matters: This is one of the source’s most usable embodied tools for MarriageOS, especially for couples who are too activated or performative to make real contact.
+  audience: both
+  usable_for:
+  - repair/pressure-loop
+  - repair/we-keep-fighting
+  - products/intimacy-reset-toolkit
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 173-175, pp. 460; evidence_type=direct; Useful as an optional practice. Do not prescribe in unsafe or coercive contexts.
+- extract_id: EXT-PM-012
+  source_ids:
+  - SRC-PM-001
+  theme: connection-over-technique
+  role: knowledge
+  claim: Technique alone rarely creates the feeling couples are hungry for; connection has to precede and travel through the behavior rather than being hoped for after the fact.
+  why_it_matters: This directly counters common fix-it sex advice and helps MarriageOS avoid turning intimacy into a performance checklist.
+  audience: both
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 234-237; evidence_type=direct; One of the best anti-technique, pro-contact claims in the source.
+- extract_id: EXT-PM-013
+  source_ids:
+  - SRC-PM-001
+  theme: following-connection
+  role: repair
+  claim: Couples can use an existing feeling-link or tactile cue to notice when they are truly 'on' or 'off' with each other and follow that connection rather than defaulting to routine or bypass.
+  why_it_matters: Highly usable in MarriageOS as a practical bridge between emotional theory and in-the-moment reconnection.
+  audience: both
+  usable_for:
+  - repair/pressure-loop
+  - repair/quiet-drift
+  - products/intimacy-reset-toolkit
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 236-237; evidence_type=direct; Very strong process tool. Adapt without therapist jargon.
+- extract_id: EXT-PM-014
+  source_ids:
+  - SRC-PM-001
+  theme: being-seen
+  role: knowledge
+  claim: Practices that increase being seen during intimacy can deepen contact, but they require self-acceptance and cannot be reduced to a performance milestone.
+  why_it_matters: Useful as a high-bar example of how openness, eroticism, and selfhood interact, while warning against turning advanced practices into pressure.
+  audience: both
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  confidence: medium-high
+  contradicts: []
+  notes: page_refs=pp. 244-245, pp. 460; evidence_type=direct; Translate 'eyes-open orgasm' into broader language around being seen; keep the technique optional and advanced.
+- extract_id: EXT-PM-015
+  source_ids:
+  - SRC-PM-001
+  theme: two-choice-dilemmas
+  role: repair
+  claim: Gridlock often persists because people want two choices for themselves while denying their partner’s choice; dodging the real dilemma prolongs pain and erodes integrity.
+  why_it_matters: This is one of the source’s strongest conflict mechanisms and can help MarriageOS explain why some fights never resolve.
+  audience: both
+  usable_for:
+  - repair/we-keep-fighting
+  - guides/read-both
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 313-314, pp. 460-462; evidence_type=direct; Strong fit for recurring gridlock modules.
+- extract_id: EXT-PM-016
+  source_ids:
+  - SRC-PM-001
+  theme: normal-marital-sadism
+  role: repair
+  claim: Partners often do casually cruel, passive-aggressive, or punishing things while insisting they are not; calling that pattern normal does not make it acceptable.
+  why_it_matters: This helps MarriageOS name the everyday cruelty couples minimise, especially in contempt-heavy or gridlocked relationships.
+  audience: both
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/post-fight-reset
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 461; evidence_type=direct; Potent language. Translate carefully so it diagnoses the pattern without gratuitous harshness.
+- extract_id: EXT-PM-017
+  source_ids:
+  - SRC-PM-001
+  theme: mutuality
+  role: repair
+  claim: When either the high-desire or low-desire partner self-soothes more effectively, control struggles soften and the relationship becomes more patient, flexible, and mutual.
+  why_it_matters: Strong bridge between desire mismatch and general relationship regulation; useful for pressure loops that are really anxiety loops.
+  audience: both
+  usable_for:
+  - repair/pressure-loop
+  - guides/read-both
+  confidence: medium-high
+  contradicts: []
+  notes: 'page_refs=pp. 347-348, pp. 461; evidence_type=direct; Good nuance: both partners have regulation work, not just the distancer.'
+- extract_id: EXT-PM-018
+  source_ids:
+  - SRC-PM-001
+  theme: growth-cycle
+  role: knowledge
+  claim: Healthy relationships move through comfort and growth cycles; too much comfort can make the bond rigid, stale, and confining.
+  why_it_matters: Useful for explaining why stability alone does not keep intimacy alive and why novelty, stretch, and honest tension matter.
+  audience: both
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/we-keep-fighting
+  - repair/quiet-drift
+  confidence: high
+  contradicts: []
+  notes: page_refs=pp. 461-462; evidence_type=direct; Good anti-stagnation concept that translates well.

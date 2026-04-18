@@ -1,0 +1,158 @@
+- extract_id: EXT-E534E1-01
+  source_ids:
+  - SRC-E534E1
+  theme: desire-and-familiarity
+  role: knowledge
+  claim: Early romantic intensity can distort partner assessment and inflate commitment
+    confidence.
+  why_it_matters: Explains why later shocks often come from patterns that were easy
+    to miss during the early bond.
+  audience: both
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/desire-drift-reset
+  confidence: high
+  notes: Book pp. 23-24.
+- extract_id: EXT-E534E1-02
+  source_ids:
+  - SRC-E534E1
+  theme: how-drift-starts
+  role: knowledge
+  claim: Traits that feel magnetic early can later become friction points once the
+    idealising phase fades.
+  why_it_matters: Helps users separate later strain from simple villain framing.
+  audience: both
+  usable_for:
+  - knowledge/desire-and-familiarity
+  confidence: high
+  notes: Book pp. 23-24.
+- extract_id: EXT-E534E1-03
+  source_ids:
+  - SRC-E534E1
+  theme: bridge-content
+  role: knowledge
+  claim: Strong bonds are partly maintained by partner-protective interpretations;
+    distressed bonds lose that buffer.
+  why_it_matters: Supports practical teaching on how interpretation changes under
+    strain.
+  audience: both
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/desire-drift-reset
+  confidence: medium
+  notes: Book pp. 24-26.
+- extract_id: EXT-E534E1-04
+  source_ids:
+  - SRC-E534E1
+  theme: desire-maintenance
+  role: knowledge
+  claim: Early love can temporarily increase warmth, positivity, and commitment signals,
+    making each partner look more relationally capable than their long-run baseline.
+  why_it_matters: Supports the MarriageOS principle that maintenance cannot rely on
+    early momentum.
+  audience: both
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/desire-drift-reset
+  confidence: medium
+  notes: Book pp. 24-26.
+- extract_id: EXT-E534E1-05
+  source_ids:
+  - SRC-E534E1
+  theme: system-decay-system-repair
+  role: repair
+  claim: Long relationships eventually require reality-based recalibration from the
+    idealised early version of the partner to the actual person and the actual pattern.
+  why_it_matters: Gives the repair target a clean expectation-reset backbone.
+  audience: both
+  usable_for:
+  - repair/desire-drift-reset
+  - knowledge/desire-and-familiarity
+  confidence: high
+  notes: Derived translation from book pp. 25-26 and 35-36.
+- extract_id: EXT-E534E1-06
+  source_ids:
+  - SRC-E534E1
+  theme: desire-and-familiarity
+  role: knowledge
+  claim: Early sexual frequency and intensity are a poor long-term forecast; couples
+    often assume continuity that the settled bond does not automatically deliver.
+  why_it_matters: Explains a common source of disappointment and scorekeeping.
+  audience: both
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/desire-drift-reset
+  confidence: medium
+  notes: Book pp. 30-32. Translate without gender blame.
+- extract_id: EXT-E534E1-07
+  source_ids:
+  - SRC-E534E1
+  theme: one-sided-initiation
+  role: repair
+  claim: One partner can experience lower desire while still feeling committed; the
+    other can experience that same change as withdrawal, rejection, or a broken deal.
+  why_it_matters: Creates a bridge frame that avoids factionalising the problem.
+  audience: both
+  usable_for:
+  - repair/desire-drift-reset
+  - knowledge/desire-and-familiarity
+  confidence: high
+  notes: Derived from book pp. 32-35.
+- extract_id: EXT-E534E1-08
+  source_ids:
+  - SRC-E534E1
+  theme: bridge-content
+  role: repair
+  claim: Couples can drift into resentment when they never explicitly align what commitment,
+    fidelity, affection, attention, and sex each person thinks the bond includes.
+  why_it_matters: Supports a practical module built around expectation audit and re-contracting.
+  audience: both
+  usable_for:
+  - repair/desire-drift-reset
+  confidence: high
+  notes: Derived from book pp. 33-35.
+- extract_id: EXT-E534E1-09
+  source_ids:
+  - SRC-E534E1
+  theme: how-drift-starts
+  role: knowledge
+  claim: High attachment can make people slow to update their view even after the
+    relational pattern has already changed.
+  why_it_matters: Explains why expectation reset is emotionally difficult even when
+    the evidence is obvious.
+  audience: both
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/desire-drift-reset
+  confidence: medium
+  notes: Book pp. 28 and 32.
+- extract_id: EXT-E534E1-10
+  source_ids:
+  - SRC-E534E1
+  theme: repair-scripts
+  role: repair
+  claim: When the couple feels trapped in a changed-deal experience, the adult move
+    is explicit re-contracting rather than silent scorekeeping, pressure, or accusation.
+  why_it_matters: Keeps the repair target practical and symptom-led.
+  audience: both
+  usable_for:
+  - repair/desire-drift-reset
+  confidence: medium
+  notes: MarriageOS translation of the source’s bilateral mismatch logic.
+- extract_id: EXT-E534E1-11
+  source_ids:
+  - SRC-E534E1
+  theme: repair-scripts
+  role: repair
+  claim: Desire drift should not be framed as deliberate fraud by default; the safer
+    working assumption is often unrecognised mismatch unless there is evidence of
+    conscious deceit.
+  why_it_matters: Protects the product from grievance language while still allowing
+    hurt to be named.
+  audience: both
+  usable_for:
+  - repair/desire-drift-reset
+  - knowledge/desire-and-familiarity
+  confidence: medium
+  notes: Supported by the chapter’s insistence that the misrepresentation is often
+    not deliberate.

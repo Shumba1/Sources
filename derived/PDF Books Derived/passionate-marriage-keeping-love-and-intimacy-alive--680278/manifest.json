@@ -1,0 +1,34 @@
+{
+  "source_key": "passionate-marriage-keeping-love-and-intimacy-alive--680278",
+  "source_title": "Passionate Marriage  Keeping Love and Intimacy Alive",
+  "raw_pdf_path": "sources/raw/pdfs/Passionate Marriage_ Keeping Love and Intimacy Alive.pdf",
+  "generated_at": "2026-04-15T19:18:57.626667+00:00",
+  "canonical_fallback_used": {
+    "theme_ts_missing": true,
+    "page_data_ts_missing": true,
+    "fallback_authority": [
+      "docs/MASTER_SPEC.md",
+      "docs/DRIFT_REGISTER.md"
+    ]
+  },
+  "outputs_created": [
+    "sources/raw/passionate-marriage-keeping-love-and-intimacy-alive--680278/source.md",
+    "sources/derived/passionate-marriage-keeping-love-and-intimacy-alive--680278/source-normaliser-bundle.md",
+    "sources/derived/passionate-marriage-keeping-love-and-intimacy-alive--680278/extracts-rich.yaml",
+    "sources/derived/passionate-marriage-keeping-love-and-intimacy-alive--680278/extracts.schema-compatible.yaml",
+    "sources/derived/passionate-marriage-keeping-love-and-intimacy-alive--680278/dossiers/differentiation-and-desire.md",
+    "sources/derived/passionate-marriage-keeping-love-and-intimacy-alive--680278/final-content-candidates/knowledge/differentiation-and-desire.from-passionate-marriage-keeping-love-and-intimacy-alive--680278.md",
+    "sources/derived/passionate-marriage-keeping-love-and-intimacy-alive--680278/verification/differentiation-and-desire.md",
+    "sources/derived/passionate-marriage-keeping-love-and-intimacy-alive--680278/manifest.json"
+  ],
+  "dossiers_created": [
+    "differentiation-and-desire"
+  ],
+  "final_candidates_created": [
+    "knowledge/differentiation-and-desire"
+  ],
+  "verification_status_by_target": {
+    "differentiation-and-desire": "pass-with-revisions"
+  },
+  "overall_status": "complete"
+}
