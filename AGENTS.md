@@ -59,6 +59,7 @@ When files disagree, use this order immediately:
    - `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`
    - `docs/marriage_os_implementation_phases.md`
    - `docs/marriage_os_repo_enforcement_checklist.md`
+   - `REPO_TREE_PLACEMENT_PLAN.md`
 6. Everything else = reference only
 
 If a planning document conflicts with the canonical layer above, the canonical layer wins.
@@ -91,15 +92,16 @@ If you are new to the repo, read in this order before proposing changes:
 3. `docs/DRIFT_REGISTER.md`
 4. `docs/ADR-001-production-architecture-marriage-os.md`
 5. `docs/ADR-002-repo-cleanup-follow-up.md`
-6. `docs/Voice and Tone Bible.md`
-7. `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
-8. `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`
-9. `docs/DELIVERY_ARCHITECTURE.md`
-10. `src/config/routes.ts`
-11. `src/config/theme.ts`
-12. `src/config/page-data.ts`
-13. `src/schemas/ui.ts`
-14. `src/schemas/domain.ts`
+6. `REPO_TREE_PLACEMENT_PLAN.md`
+7. `docs/Voice and Tone Bible.md`
+8. `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
+9. `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`
+10. `docs/DELIVERY_ARCHITECTURE.md`
+11. `src/config/routes.ts`
+12. `src/config/theme.ts`
+13. `src/config/page-data.ts`
+14. `src/schemas/ui.ts`
+15. `src/schemas/domain.ts`
 
 Do not build from memory. Do not build from stale prose if executable config already exists.
 

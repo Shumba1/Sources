@@ -1,5 +1,8 @@
 # Implementation Plan for Peer Review
 
+> **Boundary note:** This file is the companion workstream and deliverables plan. It is **not** the canonical phase-gate authority. Use `docs/marriage_os_implementation_phases.md` for build sequencing and content eligibility, and use `docs/DRIFT_REGISTER.md` where drift items have already been accepted.
+
+
 ## 1. Objective
 
 Build V1 of the Marriage OS as a **solo-first, mobile-first web app with an app-like shell**, designed to:

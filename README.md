@@ -73,10 +73,12 @@ If a planning or narrative file conflicts with the canonical layer above, the ca
 - `src/lib/section-resolvers.ts`
 
 ### Content and product layer
-- `content/repair/*`
-- `content/guides/*`
-- `content/knowledge/*`
-- `content/products/*`
+- canonical editorial destination families:
+  - `content/repair/*`
+  - `content/guides/*`
+  - `content/knowledge/*`
+  - `content/products/*`
+- physical `content/` directories are intentionally deferred until the relevant content phases are opened and ratified
 - `src/components/domain/knowledge/article-section.tsx`
 
 ### Planning and promotion-control
@@ -85,6 +87,7 @@ If a planning or narrative file conflicts with the canonical layer above, the ca
 - `docs/marriage_os_implementation_phases.md`
 - `docs/Implementation Plan.md`
 - `docs/SYSTEM_DECAY_REPAIR_MODEL.md`
+- `REPO_TREE_PLACEMENT_PLAN.md`
 
 ## Builder start order
 

@@ -306,8 +306,7 @@ Typical outputs:
 - dashboard card
 - guided check-in
 - crisis kit
-- AI rewrite flow (Phase 8 of `Implementation Plan` / Phase 9 of
-  `Implementation Phases` — see §16.5 phase mapping note)
+- AI rewrite flow (Phase 9 of `Implementation Phases` — see §16.5 phase mapping note)
 - reset step
 - progress marker
 
@@ -680,8 +679,7 @@ If an object requires AI generation at runtime (message rewriter, conflict
 coach, check-in summary), it must carry:
 
 - `ai_required: true`
-- `phase_eligibility: Phase-8` (per `Implementation Plan`) or `Phase-9`
-  (per `Implementation Phases`) — see §16.5 sequencing note
+- `phase_eligibility: Phase-9` (per `Implementation Phases`) — see §16.5 sequencing note
 - `fallback_behaviour` (what the product displays if the AI call fails)
 
 **No object with `ai_required: true` may be drafted or wired to a product
@@ -737,7 +735,7 @@ Good MOS objects:
 
 ## 9.4 Premium / high-ticket
 
-**Status: Open — see DRIFT_REGISTER.md D-023 (to be added)**
+**Status: Open — see `docs/DRIFT_REGISTER.md` D-023**
 
 This tier is not yet ratified for V1 planning. Do not assign
 `commercial_role: premium` to any V1 content object.
@@ -1048,9 +1046,9 @@ When a metric crosses its kill threshold:
 or governed implementation assumptions must be added to `DRIFT_REGISTER.md`
 as Open entries.**
 
-The five items below are **to be added** as D-021 through D-025 in the
-next `DRIFT_REGISTER.md` update. They are not yet resolved. They must not
-be treated as resolved here.
+The five items below already exist as Open entries D-021 through D-025 in
+`docs/DRIFT_REGISTER.md`. They remain unresolved and must not be treated as
+resolved here.
 
 While these are open, apply the following conservative defaults in the
 working matrix:
@@ -1096,11 +1094,12 @@ It may not settle doctrine disputes.
 
 ## 16.5 Phase-gating constraint — with sequencing note
 
-**Important:** The two implementation documents use different phase numbering.
-This is a real sequencing tension that must be resolved in `DRIFT_REGISTER.md`
-(see D-026 below). For the purposes of this document, the
-`Implementation Phases` document phase numbers are used for content production
-gating, as it more precisely describes the local-first build sequence.
+**Important:** D-026 has already been accepted in `docs/DRIFT_REGISTER.md`.
+`docs/marriage_os_implementation_phases.md` is the canonical phase-gate
+authority for build sequencing and content eligibility. `docs/Implementation Plan.md`
+remains the companion workstream and deliverables plan. This document must use
+the canonical implementation phases for content production gating and must not
+treat the numbering question as open.
 
 | Content type | Earliest eligible phase | `Implementation Phases` ref |
 |---|---|---|
@@ -1113,15 +1112,16 @@ gating, as it more precisely describes the local-first build sequence.
 
 **`Implementation Plan` phase number note:** The `Implementation Plan` uses a
 different phase numbering where Phase 2 = Schema and data contracts and
-Phase 3 = State engine. Content operators should use the
-`Implementation Phases` doc as their phase-gate reference. The sequencing
-conflict between the two documents is logged as D-026 below and must be
-resolved before the build moves past the state engine loop.
+Phase 3 = State engine. Content operators must use
+`docs/marriage_os_implementation_phases.md` as the phase-gate reference.
+This was resolved by D-026 in `docs/DRIFT_REGISTER.md`, which was accepted.
+The numbering difference remains visible for workstream planning only and does
+not reopen the sequencing question.
 
-**D-026** — Resolve numbering conflict between `marriage_os_implementation_phases.md`
-(Phase 2 = local state system) and `Implementation Plan.md` (Phase 2 = schemas,
-Phase 3 = state engine). Determine which document is the phase-gate authority
-for build sequencing. *Status: Open — to be added to `DRIFT_REGISTER.md`.*
+**D-026** — Accepted in `docs/DRIFT_REGISTER.md`. Use
+`docs/marriage_os_implementation_phases.md` for build sequencing and content
+eligibility. Use `docs/Implementation Plan.md` for companion workstream scope
+only.
 
 ## 16.6 Attention layer constraint
 Attention objects must not be processed through the 6-stage operator pipeline.
@@ -1132,9 +1132,9 @@ Reserved for content destined for the PWA shell only.
 # 17. Implementation sequence (phase-locked)
 
 ## Step 1
-Add D-021 through D-026 to `DRIFT_REGISTER.md`.
-Resolve D-026 (phase numbering conflict) before build advances past the state
-engine loop.
+Verify D-021 through D-026 remain consistent with the active canonical set.
+D-026 is already accepted in `docs/DRIFT_REGISTER.md`; do not treat the phase
+numbering question as open.
 
 ## Step 2
 Ratify the state taxonomy (§5) and safety classification enum (§5.3).

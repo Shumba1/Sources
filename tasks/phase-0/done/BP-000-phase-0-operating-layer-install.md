@@ -134,9 +134,9 @@ Leave blank until implementation handoff.
 
 ---
 
-## Immediate next queued packet
-After this packet is accepted, queue:
+## Immediate next packet
+After this packet is accepted, open:
 
-`BP-001 — Phase 0 baseline cleanup audit`
+`BP-001 — Phase 0 baseline repo audit`
 
 That next packet should audit and clean the actual product repo against the accepted Phase 0 scope.

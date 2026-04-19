@@ -52,6 +52,7 @@ If a newer-looking narrative document conflicts with the files above, it **does 
 - `docs/marriage_os_operator_checklist.md`
 - `docs/marriage_os_repo_enforcement_checklist.md`
 - `.github/pull_request_template.md`
+- `REPO_TREE_PLACEMENT_PLAN.md` *(repo-operating placement overlay; active for operating-layer placement only)*
 
 ### Executable config
 - `src/config/routes.ts`
@@ -77,10 +78,12 @@ If a newer-looking narrative document conflicts with the files above, it **does 
 - `src/design/fonts.ts`
 
 ### Editorial source of truth
-- `content/repair/*`
-- `content/guides/*`
-- `content/knowledge/*`
-- `content/products/*`
+- canonical editorial destination families:
+  - `content/repair/*`
+  - `content/guides/*`
+  - `content/knowledge/*`
+  - `content/products/*`
+- physical `content/` directories are intentionally deferred until the relevant content phases are opened and ratified
 
 ---
 
