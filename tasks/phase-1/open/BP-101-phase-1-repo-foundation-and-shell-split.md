@@ -1,36 +1,51 @@
-# BP-101 — Phase 1 Repo Foundation and Shell Split
+# BP-101 — Phase 1 repo foundation and shell split (revised against accepted live baseline)
 
-## Packet ID
-BP-101
-
-## Phase
-Phase 1
-
-## Status
-Open
-
-## Objective
-Establish the first safe Phase 1 implementation slice by creating the repo foundation for the app shell and splitting the shell into bounded, reusable layout pieces, without introducing backend coupling, auth, billing, AI features, or product-content generation.
-
-This packet is the first real build packet after Phase 0 closure. It should prove that the repo can execute a disciplined implementation packet while preserving canonical authority, delivery control, and the open → review → done lifecycle.
+## Packet metadata
+- **Packet ID:** BP-101
+- **Phase:** Phase 1
+- **Status:** Open
+- **Type:** Implementation / shell split / delivery-sensitive packet
+- **Primary role:** Builder
+- **Secondary roles:** Reviewer, Content / Structure Operator, Human Governor
+- **Task state on completion by builder:** `tasks/phase-1/review/`
 
 ---
 
-## Why this packet exists
-Phase 0 established governance truth. Phase 1 must now begin with a deliberately narrow implementation slice that:
+## Objective
 
-- creates or stabilises the app shell foundation
-- respects the canonical implementation order
-- avoids speculative infrastructure
-- avoids feature creep
-- gives later packets a clean shell to build on
+Implement the **first real shell-structure packet** on top of the now-accepted Phase 1 baseline stack.
 
-This packet is **not** a feature packet. It is a **foundation and shell split** packet.
+This packet must **not** reinstall the stack and must **not** redo BP-100 work.  
+It must take the live repo as it now exists — pnpm baseline, root app files, config layer, and preserved architecture-intent files — and split the app into a **clean, reviewable shell structure** that supports later page-data and route work.
+
+The goal is to prove a disciplined Phase 1 implementation slice by:
+
+- keeping `src/app/layout.tsx` thin
+- separating **marketing shell** from **app shell**
+- creating a small set of **top-level route scaffolds only**
+- centralising shell chrome / viewport / safe-area behaviour
+- avoiding feature work, content work, auth, billing, backend, and AI creep
+
+---
+
+## Why this packet exists now
+
+BP-100 has already been accepted in review as a coherent baseline install:
+
+- pnpm-based manifest and lockfile are present
+- Next.js / React / TypeScript / Tailwind baseline is present
+- `src/app/layout.tsx`, `src/app/page.tsx`, `src/app/globals.css` exist
+- `public/` baseline exists
+- pre-existing architecture-intent files under `src/config/**`, `src/lib/**`, `src/schemas/**`, and `src/components/**` were preserved
+- BP-103 recommended **accept BP-100 and open BP-101**
+
+That means BP-101 must now assume the baseline exists and must **not** waste effort rebuilding it. fileciteturn17file0
 
 ---
 
 ## Required reading order
-Read in this order before making changes:
+
+Read in this order before changing anything:
 
 1. `AGENTS.md`
 2. `docs/MASTER_SPEC.md`
@@ -38,158 +53,315 @@ Read in this order before making changes:
 4. `docs/DRIFT_REGISTER.md`
 5. `docs/DELIVERY_ARCHITECTURE.md`
 6. `REPO_TREE_PLACEMENT_PLAN.md`
-7. Relevant route/config/schema files already present in the repo
-8. Relevant app-shell/layout/navigation files already present in the repo
+7. `tasks/phase-1/open/BP-100-phase-1-baseline-app-stack-install.md`
+8. `reviews/phase-1/open/BP-102-phase-1-tech-stack-verification-report.md`
+9. `reviews/phase-1/open/BP-103-phase-1-focused-review-for-BP-100.md`
+10. `src/config/routes.ts`
+11. `src/config/page-data.ts`
+12. `src/config/theme.ts`
+13. current live `src/app/layout.tsx`, `src/app/page.tsx`, `src/app/globals.css`
 
-If any of these conflict, stop and report the contradiction. Do not improvise.
+If authority conflicts appear, stop and report them. Do not improvise.
 
 ---
 
 ## Task classification
-**Type:** implementation / shell / layout / delivery-sensitive
 
-Because this packet touches route/surface/layout behaviour, `docs/DELIVERY_ARCHITECTURE.md` is mandatory, even though no content objects are being generated.
+- **Type:** implementation / shell / route scaffold / delivery-sensitive
+- **Object type:** app shell structure
+- **Destination family:** application shell, not editorial content
+- **Target surface:** mobile-first PWA shell and top-level route entry surfaces
+- **Renderer / component path:** `src/app/**`, `src/components/**`, minimal supporting `src/config/**`
+- **Moment of use:** first open, first navigation, shell orientation
+- **Phase-eligible now:** yes
+- **Delivery Architecture reference:** shell-first surface fit, moment-of-use fit, and phase-eligibility controls
+
+This packet touches route/surface/layout behaviour, so `docs/DELIVERY_ARCHITECTURE.md` is mandatory.
+
+---
+
+## Live-state assumptions you must respect
+
+The live repo already has, at minimum:
+
+- `package.json`
+- `pnpm-lock.yaml`
+- `tsconfig.json`
+- `next.config.ts`
+- `next-env.d.ts`
+- `postcss.config.mjs`
+- `eslint.config.mjs`
+- `.env.example`
+- `src/app/layout.tsx`
+- `src/app/page.tsx`
+- `src/app/globals.css`
+- `src/app/robots.ts`
+- `src/app/sitemap.ts`
+- `public/icon.svg`
+- `public/manifest.webmanifest`
+
+Do **not** treat this packet as stack installation. Those files are baseline truth now. fileciteturn17file0
 
 ---
 
 ## Scope
-### In scope
-- establish or normalise a bounded app-shell structure
-- split shell concerns into clear layout responsibilities
-- create or stabilise route scaffolds for the earliest Phase 1 surfaces
-- implement nav chrome/frame structure needed for the shell
-- implement safe mobile viewport behaviour (`100dvh` / safe-area-aware shell behaviour where appropriate)
-- keep the shell ready for later page-data and content-binding work
-- fix only shell-adjacent wiring required to make the split coherent
 
-### Out of scope
+### In scope
+
+#### 1. Thin root layout
+Refactor `src/app/layout.tsx` so it becomes a true root wrapper, not a catch-all shell.
+
+The root layout should own only:
+- document skeleton
+- font/class plumbing
+- global metadata baseline if appropriate
+- global CSS import
+- minimal app-wide wrappers that genuinely belong at root
+
+Do **not** keep route-specific shell logic stuffed into root layout.
+
+#### 2. Marketing shell vs app shell split
+Introduce a clear separation between:
+
+- **marketing shell**
+- **member/app shell**
+
+Preferred mechanism: **App Router route groups** or an equivalently clear pattern that keeps shell concerns readable and reviewable.
+
+The result should make it obvious:
+- which routes are public-marketing surfaces
+- which routes are app/member shell surfaces
+- where top bar / bottom nav / side nav / right rail decisions belong
+
+#### 3. Top-level route scaffolds only
+Create or stabilise only the **minimum top-level scaffold routes** needed to prove the shell split works.
+
+### Required top-level routes to cover now
+Use `src/config/routes.ts` as the authority for naming and path truth.
+
+At minimum, BP-101 should cover these **top-level** surfaces:
+
+**Marketing**
+- `/`
+- `/how-it-works`
+- `/start`
+
+**App shell**
+- `/today`
+- `/repair`
+- `/guides`
+- `/knowledge`
+- `/progress`
+
+These may be lightweight placeholder pages, but they must be real routed surfaces under the correct shell.
+
+Do **not** implement dynamic detail routes in this packet:
+- `/repair/[slug]`
+- `/guides/[slug]`
+- `/knowledge/[slug]`
+- `/store/[category]`
+- `/store/[category]/[slug]`
+
+Do **not** implement store/pricing/safety/login/signup/library/account/settings in this packet unless a tiny routing or shell dependency makes one unavoidable and explicitly justified.
+
+#### 4. Shared shell chrome primitives
+Create or stabilise the shared shell pieces needed for structure, such as:
+
+- top bar
+- bottom nav
+- app shell frame
+- marketing shell frame
+- container / content rail primitives
+
+These should live in bounded components, not buried inside page files.
+
+#### 5. Safe-area / viewport handling
+Move viewport and safe-area behaviour into the shared shell layer so it is:
+
+- deliberate
+- reusable
+- not page-by-page duct tape
+
+This includes `100dvh` / safe-area-aware handling where appropriate.
+
+#### 6. Minimal wiring only
+Touch config or registry files only where necessary to make the shell split coherent.
+
+---
+
+## Out of scope
+
+- reinstalling pnpm / Next / TypeScript / Tailwind baseline
 - auth
 - backend services
 - Supabase
 - Stripe
-- billing/entitlements
+- billing / entitlements
 - AI features or agent runtime inside the app
-- content generation
-- editorial population
-- full page implementations
-- deep visual polish beyond what is needed for structural correctness
+- dynamic detail pages
+- product content population
+- editorial scaffolding
+- store implementation
+- pricing implementation
+- safety/legal page implementation
+- account/settings implementation
+- feature logic inside Today / Repair / Guides / Knowledge / Progress
+- deep visual polish beyond what is needed for shell clarity
 - speculative abstractions for future unknown systems
 
 ---
 
-## Delivery-sensitive declarations
-- **Object type:** app shell / layout / route scaffold
-- **Destination family:** application shell (not a content object)
-- **Target surface:** mobile-first PWA shell
-- **Renderer / component path:** existing app layout shell and route scaffolding components in `src/**`
-- **Moment of use:** first open / navigation / shell orientation
-- **Phase eligibility:** eligible for Phase 1
-- **DA reference:** sections governing moment-of-use, surface fit, route/surface discipline, and phase eligibility for shell-first delivery
+## Preferred implementation shape
+
+The exact file names may vary if the live repo structure strongly suggests an equivalent pattern, but the intended shape is:
+
+- root app layout remains thin
+- marketing routes sit under a marketing shell boundary
+- app/member routes sit under an app shell boundary
+- shared shell chrome lives in bounded components under `src/components/**`
+- route files stay small and declarative
+- shell decisions are readable from structure, not hidden in giant components
+
+A likely good pattern is:
+
+- `src/app/layout.tsx` → thin root
+- `src/app/(marketing)/**` → marketing shell + marketing top-level routes
+- `src/app/(app)/**` → app shell + member top-level routes
+- `src/components/shell/**` → shell primitives
+
+Do **not** force this exact shape if the live repo already offers a cleaner equivalent, but do not invent a vague alternative with the same ambiguity.
 
 ---
 
 ## Allowed files
-The Builder may touch only the minimum set required for the shell split. Typical allowed areas are:
 
-- root app layout files
-- shell/layout components under `src/**`
-- route scaffold files for the earliest permitted Phase 1 surfaces
-- app styling/token files only where necessary to support shell structure and safe-area behaviour
-- config or registry files strictly required to wire the shell split coherently
+Builder may touch only the minimum file set required for the shell split.
 
-The Builder must name exact target files before implementation begins.
+Likely allowed areas:
+
+- `src/app/**`
+- `src/components/**` for shell primitives only
+- `src/config/routes.ts`
+- `src/config/page-data.ts` only if tiny alignment is required
+- `src/config/theme.ts` only if tiny shell-token alignment is required
+- `src/app/globals.css`
+- minimal supporting files strictly required to make the shell compile cleanly
+
+If additional files are needed, name and justify them before editing.
 
 ---
 
 ## Forbidden files
-Do not touch unless the Human Governor explicitly reissues scope:
 
-- payment/billing files
+Do not touch unless the Human Governor explicitly widens scope:
+
+- payment / billing files
 - auth files
 - database wiring
 - AI utility or orchestration files
-- content corpus under `sources/**`
-- Phase 0 governance files except where a direct reference fix is strictly required by this packet
+- `sources/**`
+- Phase 0 governance files
+- content-generation files
+- dynamic detail-route content renderers
 - unrelated feature pages
-- broad visual redesign files outside the shell path
+- store/pricing/safety/account/settings implementations
+- broad visual redesign files outside shell needs
 
 ---
 
 ## Acceptance criteria
-The packet passes only if all of the following are true:
 
-1. the shell is split into bounded, understandable structural pieces rather than one swollen catch-all layer
-2. route scaffolds exist or are stabilised for the earliest allowed shell surfaces
-3. shell navigation/chrome works at the structural level
-4. mobile viewport behaviour is safe and intentional, including `100dvh` / safe-area handling where needed
-5. no backend, auth, billing, or AI wiring is introduced
-6. no content-generation or content-population work is smuggled into the packet
-7. the patch remains phase-correct and canon-compliant
-8. the changed-file list is tight and justified
-9. review can understand exactly what changed and why
+BP-101 passes only if all of the following are true:
+
+1. `src/app/layout.tsx` is thinner and clearly root-scoped
+2. marketing shell and app shell are separated cleanly
+3. the required top-level scaffold routes exist under the correct shell
+4. shell chrome lives in bounded shared primitives rather than duplicated page code
+5. safe-area / viewport handling is centralised and intentional
+6. no dynamic detail-route implementation was pulled in
+7. no backend/auth/billing/AI creep was introduced
+8. no content-population or editorial work was smuggled into the packet
+9. the patch is small enough to review as a structural shell packet
+10. `pnpm lint` passes
+11. `pnpm build` passes
+12. the repo is materially better prepared for later page-data and content-binding work
 
 ---
 
 ## Validation requirements
-Run all applicable checks already supported by the repo, for example:
 
-- typecheck
-- lint
-- test suite if present and relevant
-- local build
+Run and record:
+
+- `pnpm lint`
+- `pnpm build`
 
 Also provide:
 
 - changed-file list
-- short rationale per changed file
+- one-line reason per changed file
+- note on shell split choice
 - note on safe-area / viewport handling
-- note confirming no backend/auth/billing/AI creep
+- note confirming no forbidden-scope creep
 
-If expected validation commands do not exist, state that explicitly rather than inventing them.
+If validation fails, record the exact failure and do not bluff.
 
 ---
 
 ## Builder instructions
-1. inspect current shell/layout/route structure before editing
-2. define the exact target-file list
-3. keep the patch minimal and structural
-4. avoid introducing future-facing abstractions that are not yet justified
-5. preserve existing canonical naming where possible
-6. do not silently rewrite delivery logic
-7. stop if shell work exposes unresolved canon/config contradictions
+
+1. Inspect the current live shell/layout structure before editing.
+2. Name the exact target-file list before implementation.
+3. Keep the patch structural, not decorative.
+4. Reuse the accepted baseline where possible.
+5. Preserve `src/app/robots.ts` and `src/app/sitemap.ts` unless a routing/layout change makes a tiny import fix necessary.
+6. Do not silently rewrite delivery logic or route truth.
+7. Stop if shell work exposes unresolved canon/config contradictions.
 
 ---
 
 ## Reviewer focus
-The Reviewer must check:
+
+Reviewer must check:
 
 - phase correctness
+- whether BP-101 assumed the accepted live baseline correctly
 - shell split clarity
-- route scaffold coherence
-- viewport/safe-area correctness
+- top-level route scaffold correctness against `src/config/routes.ts`
+- safe-area / viewport correctness
+- absence of dynamic-detail creep
 - absence of backend/auth/billing/AI creep
-- no silent doctrine change
-- whether the packet solved a structural problem instead of just moving code around cosmetically
+- whether shell changes improve structure rather than merely shuffle code around
 
-If delivery-sensitive implications exist, the Content / Structure Operator must also confirm surface-fit and shell moment-of-use fit.
+The Content / Structure Operator must also confirm:
+- shell surfaces match the intended moment-of-use
+- no content-object drift was introduced
+- marketing vs app shell separation matches delivery intent
 
 ---
 
-## Expected outputs
+## Required outputs
+
 ### Primary output
-A bounded patch implementing the shell split and route foundation.
+A bounded structural patch implementing the shell split and the required top-level scaffold routes.
 
-### Handoff package
-The Builder must provide:
+### Builder handoff note
+Create:
 
+`reviews/phase-1/open/BP-101-phase-1-repo-foundation-and-shell-split-builder-note.md`
+
+This note must include:
+- files created
+- files modified
 - changed-file list
 - validation results
-- concise implementation note
-- explicit statement that packet is ready for `tasks/phase-1/review/`
+- shell split rationale
+- safe-area / viewport note
+- explicit confirmation that no forbidden systems were introduced
 
 ---
 
 ## Initial task state
+
 Place this file at:
 
 `tasks/phase-1/open/BP-101-phase-1-repo-foundation-and-shell-split.md`
@@ -205,22 +377,27 @@ Only accepted work ends in:
 ---
 
 ## Stop conditions
+
 Stop and report immediately if:
 
 - shell work requires backend coupling
-- phase rules conflict across governing docs
-- route assumptions depend on unratified content structures
-- required files are missing and cannot be introduced without widening scope
-- the packet starts drifting into full page build or product feature work
+- route truth in `src/config/routes.ts` cannot be honoured without widening scope
+- delivery rules conflict across governing docs
+- safe shell separation cannot be achieved without dragging in dynamic detail routes
+- the packet starts drifting into full page build or product feature implementation
+- the patch becomes a disguised visual redesign instead of a shell split
 
 ---
 
 ## Success definition
-Success is not “the app looks impressive.”
+
+Success is **not** “the homepage looks cooler.”
 
 Success is:
-- the shell foundation is cleaner
-- the next implementation packet has a stable base
-- no forbidden systems were pulled in
-- the patch is small enough to review properly
-- Phase 1 begins without chaos
+
+- the root is thinner
+- shell responsibilities are easier to reason about
+- marketing vs app shell separation is visible in repo structure
+- the required top-level scaffold routes exist
+- validation passes
+- the next packet can build on a stable shell instead of a swollen baseline page
