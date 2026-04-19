@@ -176,7 +176,7 @@ Do **not** combine that with the installation packet.
 - `AGENTS.md` stays at repo root.
 - `skills/` and `templates/` stay at repo root.
 - Packets start in `tasks/.../open/`.
-- Completed builds move to `tasks/.../review/`.
+- Builder-complete packets move to `tasks/.../review/`; only accepted tasks end in `tasks/.../done/`.
 - Failed reviews move to `tasks/.../rework/` or `tasks/.../blocked/`.
 - Accepted tasks end in `tasks/.../done/`.
 - Reviews live in `reviews/`.
