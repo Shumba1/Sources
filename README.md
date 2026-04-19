@@ -56,6 +56,7 @@ If a planning or narrative file conflicts with the canonical layer above, the ca
 - `docs/ADR-002-repo-cleanup-follow-up.md`
 - `docs/Voice and Tone Bible.md`
 - `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
+- `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`
 - `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`
 
 ### Executable config
@@ -137,7 +138,7 @@ Commerce must feel like an extension of Repair, not a detached store.
 
 ## Delivery and content rules
 
-Content creation and shipped visual assembly are controlled by `docs/DELIVERY_ARCHITECTURE.md`, `docs/Voice and Tone Bible.md`, `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`, `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`, and the operator checklist.
+Content creation, shipped visual assembly, and search-facing route/schema behaviour are controlled by `docs/DELIVERY_ARCHITECTURE.md`, `docs/Voice and Tone Bible.md`, `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`, `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`, `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`, and the operator/review checklists.
 
 Non-negotiables:
 - generate by **moment of use** first, not topic first
@@ -175,6 +176,7 @@ PRs should be checked against:
 - `docs/MASTER_SPEC.md`
 - `docs/DRIFT_REGISTER.md`
 - `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` where visuals, icons, or media are touched
+- `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md` where search visibility, metadata, sitemap, robots, canonical URLs, or schema markup are touched
 - `docs/DELIVERY_ARCHITECTURE.md` where delivery/promotion rules are relevant
 
 Use:

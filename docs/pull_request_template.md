@@ -36,6 +36,7 @@
 - [ ] If relevant, I checked `src/config/routes.ts`, `src/config/theme.ts`, and `src/config/page-data.ts`
 - [ ] If writing is touched, I checked `docs/Voice and Tone Bible.md`
 - [ ] If visuals, icons, or media are touched, I checked `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
+- [ ] If search visibility, metadata, canonical URLs, robots, sitemap, or schema are touched, I checked `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`
 - [ ] If source-reservoir choices matter, I checked `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`
 - [ ] If relevant, I checked `src/schemas/*` and render/runtime contracts
 - [ ] If relevant, I checked `docs/DELIVERY_ARCHITECTURE.md` and the operator checklist only within their allowed planning/promotion scope
@@ -100,6 +101,7 @@ Use this section whenever the PR changes UI text, prompts, scripts, articles, em
 Use this section whenever the PR changes icons, direction arrows, empty states, screenshots, mockups, product previews, diagrams, motion, or photography/media choices.
 
 - [ ] The PR follows `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
+- [ ] The PR follows `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md` where search visibility or schema are touched
 - [ ] It uses **Lucide** as the primary shipped icon system unless a documented exception exists
 - [ ] It does **not** mix icon families in shipped UI without ratified justification
 - [ ] Directional affordances follow approved semantics
@@ -128,6 +130,16 @@ Use this section when the PR touches delivery planning, fixture content, content
 - [ ] This PR does **not** create floating content with no route, no component, or no phase
 
 ---
+
+# Technical SEO and page-schema checks
+
+- [ ] Public/indexable routes remain aligned to `src/config/routes.ts` and `src/config/seo.ts`
+- [ ] Member/private routes remain excluded from sitemap output
+- [ ] Canonical URLs are singular, absolute, and aligned with sitemap output
+- [ ] This PR does **not** use `robots.txt` as a substitute for page-level `noindex` on crawlable exclusions
+- [ ] Any structured data added is JSON-LD, truthful to visible content, and limited to approved page types
+- [ ] This PR does **not** add public-search schema to private/member routes
+- [ ] This PR does **not** rely on FAQPage or HowTo rich-result logic as a project growth assumption
 
 # Product posture checks
 
@@ -177,6 +189,7 @@ Use this section when the PR touches delivery planning, fixture content, content
 - [ ] This PR ignores Safety Class / escalation requirements where relevant
 - [ ] This PR introduces writing that violates the Voice & Tone Bible
 - [ ] This PR introduces unratified icon/media drift or violates `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
+- [ ] This PR introduces technical-SEO/schema drift or violates `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`
 - [ ] This PR introduces a major stack decision without a new ADR
 
 > If any box above is checked, send this PR back.
@@ -188,6 +201,7 @@ Use this section when the PR touches delivery planning, fixture content, content
 - [ ] I checked this PR against `docs/README_ACTIVE_SET.md`
 - [ ] I checked this PR against `docs/Voice and Tone Bible.md` where writing was touched
 - [ ] I checked this PR against `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` where visuals/media were touched
+- [ ] I checked this PR against `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md` where search visibility, metadata, sitemap, robots, canonical, or schema were touched
 - [ ] I checked this PR against ADR-001
 - [ ] I checked this PR against ADR-002
 - [ ] I checked this PR against `docs/MASTER_SPEC.md`

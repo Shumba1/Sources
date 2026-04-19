@@ -24,6 +24,7 @@ When sources disagree, use this order:
 5. Active writing-control and planning layers within their allowed scope:
    - `docs/Voice and Tone Bible.md`
    - `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
+   - `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`
    - `docs/DELIVERY_ARCHITECTURE.md`
    - `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`
 6. Older PWA / architecture prose and everything else
@@ -45,6 +46,7 @@ If a newer-looking narrative document conflicts with the files above, it **does 
 ### Writing, visual, and delivery control
 - `docs/Voice and Tone Bible.md` *(system-wide writing standard; active and binding for all shipped writing)*
 - `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` *(system-wide graphics, iconography, media, and motion control file; active and binding for shipped visuals)*
+- `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md` *(system-wide technical SEO, indexability, metadata, sitemap, robots, and page-schema control file; active and binding within its allowed scope)*
 - `docs/DELIVERY_ARCHITECTURE.md` *(planning layer; non-canonical, but active and binding for drafting/promotion control)*
 - `docs/SOURCE_RESERVOIR_OBJECT_MAP.md` *(source-to-object translation layer; active drafting control file)*
 - `docs/marriage_os_operator_checklist.md`
@@ -55,12 +57,17 @@ If a newer-looking narrative document conflicts with the files above, it **does 
 - `src/config/routes.ts`
 - `src/config/theme.ts`
 - `src/config/page-data.ts`
+- `src/config/seo.ts`
 - `src/config/component-registry.ts`
 - `src/config/runtime-component-registry.tsx`
 
 ### Schemas and contracts
 - `src/schemas/ui.ts`
 - `src/schemas/domain.ts`
+
+### Search and metadata implementation
+- `src/app/robots.ts`
+- `src/app/sitemap.ts`
 
 ### Renderer / resolver plumbing
 - `src/lib/render-page-sections.tsx`
@@ -85,6 +92,7 @@ The following files **exist** and remain part of the active implementation layer
 - `src/config/routes.ts`
 - `src/config/theme.ts`
 - `src/config/page-data.ts`
+- `src/config/seo.ts`
 - `src/config/component-registry.ts`
 - `src/components/domain/knowledge/article-section.tsx`
 
@@ -100,9 +108,10 @@ The following files **exist** and remain part of the active implementation layer
 - `docs/SYSTEM_DECAY_REPAIR_MODEL.md`
 - `docs/Voice and Tone Bible.md`
 - `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
+- `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`
 - `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`
 
-This means the project no longer depends on memory to know whether the missing design / route / schema / knowledge-detail architecture / writing-arbitration layers exist.
+This means the project no longer depends on memory to know whether the missing design / route / schema / knowledge-detail architecture / writing-arbitration / technical-SEO layers exist.
 
 ---
 
@@ -138,6 +147,7 @@ If you are implementing or reviewing:
 5. `docs/ADR-002-repo-cleanup-follow-up.md`
 6. `docs/Voice and Tone Bible.md`
 7. `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
+8. `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`
 8. `src/config/routes.ts`
 9. `src/config/theme.ts`
 10. `src/config/page-data.ts`

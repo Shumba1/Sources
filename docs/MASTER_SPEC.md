@@ -141,7 +141,7 @@ When documents disagree, use this order:
 1. Accepted addenda and ratified drift fixes  
 2. Executable config (`src/config/routes.ts`, `src/config/page-data.ts`, `src/config/theme.ts`, `src/schemas/*`)  
 3. This file (`docs/MASTER_SPEC.md`)  
-4. Binding support-control docs within their allowed scope (`docs/Voice and Tone Bible.md`, `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`)  
+4. Binding support-control docs within their allowed scope (`docs/Voice and Tone Bible.md`, `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`, `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`)  
 5. Revised premium UX narrative docs  
 6. Older PWA and architecture prose  
 7. Everything else = reference only, not implementation authority
@@ -157,13 +157,17 @@ The builder models are allowed to treat only the following as implementation tru
 - `docs/DRIFT_REGISTER.md`
 - `docs/Voice and Tone Bible.md` *(binding writing-arbitration file within its allowed scope)*
 - `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` *(binding graphics/media/iconography control file within its allowed scope)*
+- `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md` *(binding technical SEO, indexability, sitemap, robots, canonical, and page-schema control file within its allowed scope)*
 
 ### 7.2 Executable config
 - `src/config/routes.ts`
 - `src/config/theme.ts`
 - `src/config/page-data.ts`
+- `src/config/seo.ts`
 - `src/schemas/domain.ts`
 - `src/schemas/ui.ts`
+- `src/app/robots.ts`
+- `src/app/sitemap.ts`
 
 ### 7.3 Editorial source of truth
 - `content/repair/*`
@@ -229,6 +233,8 @@ Canonical safety cards are:
 
 ### 8.8 Graphics and media system
 Visual asset, iconography, directional-affordance, imagery, motion, and media-boundary decisions are governed by `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` within its allowed scope.
+
+Technical SEO, indexability, metadata, canonical URL, robots, sitemap, and page-schema decisions are governed by `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md` within its allowed scope.
 
 ---
 

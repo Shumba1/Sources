@@ -26,6 +26,7 @@ If any answer is “No”, the PR is not ready.
 ## 0.75. Graphics and media enforcement
 
 - [ ] If this PR touches icons, arrows/chevrons, diagrams, screenshots, mockups, product previews, illustrations, motion, or photography, was it checked against `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`?
+- [ ] If this PR touches search visibility, metadata, canonical URLs, robots, sitemap output, or structured data, was it checked against `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`?
 - [ ] Does this PR use **Lucide** as the primary shipped icon system unless a documented exception exists?
 - [ ] Does this PR avoid mixing icon families in shipped UI without ratified justification?
 - [ ] Do directional affordances follow the approved semantics (`chevron-right` drill-in, `chevron-left` in-app back, `chevron-down/up` disclosure, `arrow-up-right` outbound, etc.)?
@@ -117,6 +118,16 @@ Use this section only when the PR touches drafting logic, content generation, fi
 
 ---
 
+## 6. Technical SEO and page-schema enforcement
+
+- [ ] If this PR touches route visibility, are public/indexable routes still aligned to `src/config/routes.ts` and `src/config/seo.ts`?
+- [ ] Does this PR keep member/app routes private and out of sitemap output?
+- [ ] If this PR adds or changes metadata, are canonical URLs absolute, singular, and aligned with sitemap output?
+- [ ] Does this PR avoid using `robots.txt` as a substitute for `noindex` on crawlable pages?
+- [ ] If this PR adds structured data, is it JSON-LD, truthful to visible content, and limited to approved page types?
+- [ ] Does this PR avoid adding public-search schema to private/member surfaces?
+- [ ] Does this PR avoid relying on FAQPage or HowTo rich-result logic as a growth tactic?
+
 ## 6. Product posture enforcement
 
 - [ ] Does the PR preserve **Repair as the centre of V1**?
@@ -152,6 +163,7 @@ If any box above is checked, the PR should be sent back.
 - [ ] I checked this PR against `docs/README_ACTIVE_SET.md`
 - [ ] I checked this PR against `docs/Voice and Tone Bible.md` where writing was touched
 - [ ] I checked this PR against `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` where visuals/media were touched
+- [ ] I checked this PR against `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md` where search visibility, metadata, robots, sitemap, canonical, or schema were touched
 - [ ] I checked this PR against ADR-001 and ADR-002
 - [ ] I checked this PR against `docs/MASTER_SPEC.md` and `docs/DRIFT_REGISTER.md`
 - [ ] I did not rely on dead scaffold artefacts

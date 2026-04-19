@@ -46,6 +46,19 @@ It exists to stop people asking, “Was this omitted?” without a traceable ans
 
 ---
 
+
+## 3A. Technical SEO and page schema sources
+
+| Source material | Current home | Status | Notes |
+|---|---|---|---|
+| Technical SEO, indexability, canonical URL, sitemap, robots, and page-schema system | `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md` | Added / active | Binding technical SEO and schema control file |
+| Route-level indexability truth | `src/config/routes.ts` | Rehoused | Public vs member route boundary |
+| Central metadata/indexability/schema policy | `src/config/seo.ts` | Added | Canonical SEO policy map |
+| Robots output | `src/app/robots.ts` | Added | Next.js App Router metadata file |
+| Sitemap output | `src/app/sitemap.ts` | Added | Next.js App Router metadata file |
+
+---
+
 ## 4. Route / component / contract sources
 
 | Source material | Current home | Status | Notes |
@@ -90,3 +103,5 @@ If someone asks:
 > “Does this file already exist, and where does its logic now live?”
 
 Use this manifest first.
+
+If the question is specifically about search visibility, metadata, sitemap output, or page schema, check `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md` and `src/config/seo.ts` next.
