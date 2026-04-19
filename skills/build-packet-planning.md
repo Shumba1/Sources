@@ -110,10 +110,19 @@ Choose one:
 - content-sensitive
 - high-risk
 
-### 11. Risks / side effects
+### 11. Task placement
+Every new packet starts in:
+- `tasks/phase-<n>/open/`
+
+The Planner must also define the expected review path:
+- Builder handoff sends the task to `tasks/phase-<n>/review/`
+- failed review sends it to `rework/` or `blocked/`
+- accepted review sends it to `done/`
+
+### 12. Risks / side effects
 Name likely regressions or canon conflicts.
 
-### 12. Stop conditions
+### 13. Stop conditions
 What should make the Builder stop instead of guessing.
 
 ---
@@ -189,3 +198,8 @@ The packet is ready only when a Builder could execute it without inventing:
 - new content families
 - new phase sequencing
 - new delivery logic that was never specified
+
+The packet is not operationally complete unless:
+- its starting state is `open`
+- its intended next state after build is `review`
+- its review outcomes are understood as `done`, `rework`, or `blocked`

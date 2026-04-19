@@ -15,6 +15,12 @@
 - [ ] Rework required
 - [ ] Blocked
 
+## Task disposition
+- [ ] Move packet from `tasks/phase-<n>/review/` to `tasks/phase-<n>/done/`
+- [ ] Move packet from `tasks/phase-<n>/review/` to `tasks/phase-<n>/rework/`
+- [ ] Move packet from `tasks/phase-<n>/review/` to `tasks/phase-<n>/blocked/`
+- [ ] Create or update review report in `reviews/phase-<n>/done/`
+
 ## Scope check
 - [ ] Stayed inside packet
 - [ ] No undeclared files changed

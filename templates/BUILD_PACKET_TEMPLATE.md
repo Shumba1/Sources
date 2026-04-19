@@ -3,6 +3,9 @@
 ## Packet ID
 `BP-###`
 
+## Initial task state
+`tasks/phase-<n>/open/`
+
 ## Objective
 <one-sentence goal>
 
@@ -71,5 +74,22 @@
 - <condition>
 - <condition>
 
-## Builder handoff notes
+## Builder handoff package
 <leave blank until implementation handoff>
+
+When the Builder finishes, this section must include:
+
+- Changed files:
+- Change summary:
+- Validation results:
+- Known risks / side effects:
+- Review notes:
+- Recommended next state: `review` / `blocked`
+
+## Post-review disposition
+<leave blank until review is complete>
+
+- Review verdict:
+- Final task state: `done` / `rework` / `blocked`
+- Review report path:
+- Governor decision note:

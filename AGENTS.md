@@ -267,6 +267,41 @@ No personality lore.
 No making up architecture because a model is confident.
 
 ---
+### Rule 6 — Task state is explicit
+
+`open` is not a terminal state.
+
+Use this lifecycle for packet execution:
+
+- `open` = approved to start or actively being built
+- `review` = Builder has finished and attached the required handoff package
+- `rework` = review failed but the task can be corrected
+- `blocked` = the task cannot proceed without dependency resolution or governor direction
+- `done` = Human Governor accepted the task into durable repo state
+
+A task may leave `open` only when the Builder has supplied all of the following:
+
+- changed-file list
+- concise change summary
+- validation results
+- risks / side effects
+- review notes
+- recommended next state
+
+If those do not exist, the task is not ready for `review`.
+
+### Rule 7 — “Builder finished” is not “done”
+
+A task is only done when:
+
+- review passed
+- delivery checks passed where relevant
+- the Human Governor accepted it
+- the repo write-back is complete
+- the tracker was updated
+- the next action was logged if needed
+
+---
 
 ## Review lanes
 
@@ -301,16 +336,38 @@ Applies to:
 - guide / knowledge / repair / product content work
 - any patch whose user-facing delivery depends on `docs/DELIVERY_ARCHITECTURE.md`
 
-### High-risk lane
-Use the content-sensitive lane plus explicit governor decision notes when the change touches:
-- auth
-- monetisation
-- entitlements
-- safety boundaries
-- canonical routing
-- core state engine
-- progress logic
-- AI utility boundaries
+### Task folder state model
+
+Use this folder/state model in the repo:
+
+```text
+tasks/
+  phase-<n>/
+    open/
+    review/
+    rework/
+    blocked/
+    done/
+```
+
+And the matching review lanes:
+
+```text
+reviews/
+  phase-<n>/
+    open/
+    done/
+```
+
+### State transition rules
+
+- `open` → `review` when Builder handoff is complete
+- `review` → `done` when the Human Governor accepts the task
+- `review` → `rework` when fixes are required
+- `review` → `blocked` when a dependency or canonical conflict stops progress
+- `rework` → `open` only after the packet or task file is updated for a fresh build pass
+
+Do not move a task from `open` straight to `done`.
 
 ---
 

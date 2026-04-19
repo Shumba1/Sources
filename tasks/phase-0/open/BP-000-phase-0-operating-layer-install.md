@@ -51,7 +51,9 @@ This packet is intentionally smaller than the full Phase 0 cleanup. It creates t
 - `templates/REVIEW_REPORT_TEMPLATE.md`
 - `templates/CONTENT_RENDER_CHECK_TEMPLATE.md`
 - `tasks/phase-0/open/BP-000-phase-0-operating-layer-install.md`
-- `tasks/phase-0/queued/.gitkeep`
+- `tasks/phase-0/review/.gitkeep`
+- `tasks/phase-0/rework/.gitkeep`
+- `tasks/phase-0/blocked/.gitkeep`
 - `tasks/phase-0/done/.gitkeep`
 - `reviews/phase-0/open/.gitkeep`
 - `reviews/phase-0/done/.gitkeep`
@@ -74,22 +76,24 @@ The repo must contain:
 1. a root-level `AGENTS.md`
 2. a root-level `skills/` directory with the four agreed procedures
 3. a root-level `templates/` directory with the three agreed templates
-4. a root-level `tasks/phase-0/` queue with this packet stored in `open/`
-5. a root-level `reviews/phase-0/` lane prepared for review reports
-6. operating instructions that explicitly require `docs/DELIVERY_ARCHITECTURE.md` for delivery-sensitive work
-7. no product-code or canonical-doc changes
+4. a root-level `tasks/phase-0/` lifecycle with `open/`, `review/`, `rework/`, `blocked/`, and `done/`
+5. this packet stored in `tasks/phase-0/open/`
+6. a root-level `reviews/phase-0/` lane prepared for review reports
+7. operating instructions that explicitly require `docs/DELIVERY_ARCHITECTURE.md` for delivery-sensitive work
+8. no product-code or canonical-doc changes
 
 ## Acceptance criteria
 - [ ] `AGENTS.md` exists at repo root
 - [ ] `skills/` exists at repo root and contains exactly the four approved skill files
 - [ ] `templates/` exists at repo root and contains exactly the three approved template files
 - [ ] `tasks/phase-0/open/BP-000-phase-0-operating-layer-install.md` exists
+- [ ] `tasks/phase-0/review/`, `rework/`, `blocked/`, and `done/` exist with `.gitkeep`
 - [ ] task and review folders contain `.gitkeep` files where needed
 - [ ] `AGENTS.md`, planner, builder, reviewer, and content / structure files explicitly wire in `docs/DELIVERY_ARCHITECTURE.md` where relevant
 - [ ] build and review templates capture object, destination, surface, renderer, moment-of-use, and delivery-architecture reference fields for delivery-sensitive work
 - [ ] no files in `src/`, `docs/`, `content/`, or `sources/` were changed
 - [ ] the operating layer can be understood without leaving the repo
-- [ ] the repo now supports bounded packet → build → review → approval execution
+- [ ] the repo now supports bounded packet → build → review → done / rework / blocked execution
 
 ## Validation steps
 - [ ] Run `git diff --name-only` and confirm only allowed files changed
@@ -98,6 +102,7 @@ The repo must contain:
 - [ ] Open `AGENTS.md` and confirm `docs/DELIVERY_ARCHITECTURE.md` is mandatory for delivery-sensitive work
 - [ ] Open the templates and confirm delivery-sensitive fields exist
 - [ ] Open the packet file and confirm it matches the installed tree
+- [ ] Confirm the lifecycle folders make `open` non-terminal
 - [ ] Confirm no product routes, schemas, or docs were touched
 
 ## Review lane

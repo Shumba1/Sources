@@ -95,6 +95,13 @@ One of:
 - blocked
 - needs packet revision
 
+### Required next state
+State exactly one:
+- move packet from `tasks/phase-<n>/open/` to `tasks/phase-<n>/review/`
+- move packet from `tasks/phase-<n>/open/` to `tasks/phase-<n>/blocked/`
+
+A Builder must not mark a task as done.
+
 ---
 
 ## Builder stop conditions
@@ -126,3 +133,5 @@ Do not improvise through uncertainty.
 - [ ] I preserved the declared delivery shape for delivery-sensitive work
 
 If any box is unchecked, the patch is not ready.
+
+When the handoff package is complete, the task leaves `open`. Until then, it stays in `open`.

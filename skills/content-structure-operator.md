@@ -140,6 +140,13 @@ Short, explicit notes only.
 ### Required fixes
 Only when needed.
 
+### Required task disposition
+State exactly one:
+- keep moving in `review`
+- send to `rework`
+- send to `blocked`
+- ready for Governor acceptance into `done`
+
 ---
 
 ## Automatic rejection cases

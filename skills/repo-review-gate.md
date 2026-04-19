@@ -119,6 +119,14 @@ Only if the patch fails.
 ### Escalation
 State whether Content / Structure or Human Governor escalation is required.
 
+### Required task disposition
+State exactly one:
+- move packet to `tasks/phase-<n>/done/`
+- move packet to `tasks/phase-<n>/rework/`
+- move packet to `tasks/phase-<n>/blocked/`
+
+A review pass does not become durable repo state until the Human Governor accepts it.
+
 ---
 
 ## Automatic rework triggers
