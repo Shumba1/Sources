@@ -35,6 +35,7 @@
 - [ ] If relevant, I checked ADR-001 and ADR-002
 - [ ] If relevant, I checked `src/config/routes.ts`, `src/config/theme.ts`, and `src/config/page-data.ts`
 - [ ] If writing is touched, I checked `docs/Voice and Tone Bible.md`
+- [ ] If visuals, icons, or media are touched, I checked `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
 - [ ] If source-reservoir choices matter, I checked `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`
 - [ ] If relevant, I checked `src/schemas/*` and render/runtime contracts
 - [ ] If relevant, I checked `docs/DELIVERY_ARCHITECTURE.md` and the operator checklist only within their allowed planning/promotion scope
@@ -94,6 +95,19 @@ Use this section whenever the PR changes UI text, prompts, scripts, articles, em
 - [ ] The writing would still help at midnight
 
 ---
+# Graphics and media checks
+
+Use this section whenever the PR changes icons, direction arrows, empty states, screenshots, mockups, product previews, diagrams, motion, or photography/media choices.
+
+- [ ] The PR follows `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
+- [ ] It uses **Lucide** as the primary shipped icon system unless a documented exception exists
+- [ ] It does **not** mix icon families in shipped UI without ratified justification
+- [ ] Directional affordances follow approved semantics
+- [ ] Member-shell visuals remain sparse, tool-first, and nearly photography-free
+- [ ] Marketing visuals remain restrained and product-truthful
+- [ ] Asset formats/loading follow the approved rules (SVG for icons/diagrams, WebP/AVIF for screenshots/mockups/product previews, no icon fonts)
+
+---
 # Delivery and content-gating checks
 
 Use this section when the PR touches delivery planning, fixture content, content promotion, generated content, or content/render coupling.
@@ -132,6 +146,7 @@ Use this section when the PR touches delivery planning, fixture content, content
 - Config / route / page-data reference:
 - Schema / render-contract reference:
 - Delivery / content-gating reference:
+- Graphics / media reference:
 - Test evidence:
 - Screenshots / recording:
 - Other:
@@ -161,6 +176,7 @@ Use this section when the PR touches delivery planning, fixture content, content
 - [ ] This PR drafts or wires content outside its allowed phase
 - [ ] This PR ignores Safety Class / escalation requirements where relevant
 - [ ] This PR introduces writing that violates the Voice & Tone Bible
+- [ ] This PR introduces unratified icon/media drift or violates `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
 - [ ] This PR introduces a major stack decision without a new ADR
 
 > If any box above is checked, send this PR back.
@@ -171,6 +187,7 @@ Use this section when the PR touches delivery planning, fixture content, content
 
 - [ ] I checked this PR against `docs/README_ACTIVE_SET.md`
 - [ ] I checked this PR against `docs/Voice and Tone Bible.md` where writing was touched
+- [ ] I checked this PR against `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` where visuals/media were touched
 - [ ] I checked this PR against ADR-001
 - [ ] I checked this PR against ADR-002
 - [ ] I checked this PR against `docs/MASTER_SPEC.md`
@@ -191,6 +208,7 @@ Use this section when the PR touches delivery planning, fixture content, content
 - [ ] I checked dead-architecture cleanup rules
 - [ ] I checked canonical naming / CTA rules
 - [ ] I checked voice / tone compliance where writing was touched
+- [ ] I checked graphics/media/iconography compliance where visuals were touched
 - [ ] I checked the knowledge-detail path if relevant
 - [ ] I checked route/config/page-data alignment if relevant
 - [ ] I checked schema/contract alignment if relevant

@@ -4,6 +4,14 @@
 
 This document defines the execution phases for Marriage OS implementation.
 
+This file is the **canonical execution-phase and content-gating authority** for Marriage OS.
+
+If any other planning or implementation document uses different phase numbering or describes supporting work in a different order, this file wins for:
+- build sequencing
+- phase-pass gates
+- content eligibility
+- readiness to move to the next implementation tranche
+
 It reflects the settled project rules:
 
 - build the **PWA experience first**
@@ -155,11 +163,6 @@ Build the real product centre before backend.
 - sticky action bar
 - linked local products/guides
 
-### Content readiness gate
-Repair module content used as local fixtures in this phase must be marked `Ratified` in `DELIVERY_ARCHITECTURE.md` working matrix before builders use it as fixture content.
-
-This does not require content authoring and UI implementation to happen simultaneously. It prevents builders from inventing, improvising, or pulling unapproved repair content into the product centre.
-
 ### Output
 - repair modules render cleanly
 - users can move from state result into repair actions
@@ -170,7 +173,6 @@ Move forward only if:
 - Repair is obviously the centre of the experience
 - repair modules work from local content/fixtures
 - the flow from state → repair is coherent and fast
-- repair fixture content comes only from `Ratified` rows in `DELIVERY_ARCHITECTURE.md` working matrix
 
 ---
 

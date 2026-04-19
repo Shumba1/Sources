@@ -55,6 +55,7 @@ If a planning or narrative file conflicts with the canonical layer above, the ca
 - `docs/ADR-001-production-architecture-marriage-os.md`
 - `docs/ADR-002-repo-cleanup-follow-up.md`
 - `docs/Voice and Tone Bible.md`
+- `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
 - `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`
 
 ### Executable config
@@ -94,12 +95,13 @@ If you are new to the repo, read in this order:
 4. `docs/ADR-001-production-architecture-marriage-os.md`
 5. `docs/ADR-002-repo-cleanup-follow-up.md`
 6. `docs/Voice and Tone Bible.md`
-7. `src/config/routes.ts`
-8. `src/config/theme.ts`
-9. `src/config/page-data.ts`
-10. `src/schemas/ui.ts`
-11. `src/schemas/domain.ts`
-12. `docs/DELIVERY_ARCHITECTURE.md` and `docs/SOURCE_RESERVOIR_OBJECT_MAP.md` only for delivery and source-role logic, not implementation truth
+7. `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
+8. `src/config/routes.ts`
+9. `src/config/theme.ts`
+10. `src/config/page-data.ts`
+11. `src/schemas/ui.ts`
+12. `src/schemas/domain.ts`
+13. `docs/DELIVERY_ARCHITECTURE.md` and `docs/SOURCE_RESERVOIR_OBJECT_MAP.md` only for delivery and source-role logic, not implementation truth
 
 ## Product shape
 
@@ -135,12 +137,13 @@ Commerce must feel like an extension of Repair, not a detached store.
 
 ## Delivery and content rules
 
-Content creation is controlled by `docs/DELIVERY_ARCHITECTURE.md`, `docs/Voice and Tone Bible.md`, `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`, and the operator checklist.
+Content creation and shipped visual assembly are controlled by `docs/DELIVERY_ARCHITECTURE.md`, `docs/Voice and Tone Bible.md`, `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`, `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`, and the operator checklist.
 
 Non-negotiables:
 - generate by **moment of use** first, not topic first
 - choose the correct **voice mode** (`hurt` / `blaming` / `act`) before drafting
 - keep source reservoirs explicit: backbone, reinforcement, and language are not the same job
+- use the approved graphics/media/iconography system for shipped icons, arrows, imagery, and motion
 - respect **solo-first V1**
 - use structured **Safety Class** assignment
 - bind content objects to a renderable UI component
@@ -171,6 +174,7 @@ PRs should be checked against:
 - `docs/README_ACTIVE_SET.md`
 - `docs/MASTER_SPEC.md`
 - `docs/DRIFT_REGISTER.md`
+- `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` where visuals, icons, or media are touched
 - `docs/DELIVERY_ARCHITECTURE.md` where delivery/promotion rules are relevant
 
 Use:

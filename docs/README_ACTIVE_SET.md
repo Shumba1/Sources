@@ -23,6 +23,7 @@ When sources disagree, use this order:
 4. Accepted ADRs
 5. Active writing-control and planning layers within their allowed scope:
    - `docs/Voice and Tone Bible.md`
+   - `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
    - `docs/DELIVERY_ARCHITECTURE.md`
    - `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`
 6. Older PWA / architecture prose and everything else
@@ -41,8 +42,9 @@ If a newer-looking narrative document conflicts with the files above, it **does 
 - `docs/README_ACTIVE_SET.md`
 - `docs/SOURCE_MANIFEST.md`
 
-### Writing and delivery control
+### Writing, visual, and delivery control
 - `docs/Voice and Tone Bible.md` *(system-wide writing standard; active and binding for all shipped writing)*
+- `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` *(system-wide graphics, iconography, media, and motion control file; active and binding for shipped visuals)*
 - `docs/DELIVERY_ARCHITECTURE.md` *(planning layer; non-canonical, but active and binding for drafting/promotion control)*
 - `docs/SOURCE_RESERVOIR_OBJECT_MAP.md` *(source-to-object translation layer; active drafting control file)*
 - `docs/marriage_os_operator_checklist.md`
@@ -97,6 +99,7 @@ The following files **exist** and remain part of the active implementation layer
 - `docs/SOURCE_MANIFEST.md`
 - `docs/SYSTEM_DECAY_REPAIR_MODEL.md`
 - `docs/Voice and Tone Bible.md`
+- `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
 - `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`
 
 This means the project no longer depends on memory to know whether the missing design / route / schema / knowledge-detail architecture / writing-arbitration layers exist.
@@ -134,10 +137,11 @@ If you are implementing or reviewing:
 4. `docs/ADR-001-production-architecture-marriage-os.md`
 5. `docs/ADR-002-repo-cleanup-follow-up.md`
 6. `docs/Voice and Tone Bible.md`
-7. `src/config/routes.ts`
-8. `src/config/theme.ts`
-9. `src/config/page-data.ts`
-10. `docs/DELIVERY_ARCHITECTURE.md` and `docs/SOURCE_RESERVOIR_OBJECT_MAP.md` only when delivery/drafting logic is relevant
+7. `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
+8. `src/config/routes.ts`
+9. `src/config/theme.ts`
+10. `src/config/page-data.ts`
+11. `docs/DELIVERY_ARCHITECTURE.md` and `docs/SOURCE_RESERVOIR_OBJECT_MAP.md` only when delivery/drafting logic is relevant
 
 ---
 

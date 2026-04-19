@@ -1,7 +1,5 @@
 # Marriage OS Content Pipeline — Operator Checklist
 
-*Version 3 — Voice & Tone Bible integrated*
-
 ## Purpose
 
 This checklist is for the humans running the Marriage OS content pipeline.
@@ -44,14 +42,21 @@ This sits beside the pipeline playbook and translates it into execution discipli
 Before running stages 2–5, the operator must have access to:
 - `docs/MASTER_SPEC.md`
 - `docs/DRIFT_REGISTER.md`
-- `docs/Voice and Tone Bible.md`
-- `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`
 - `src/config/theme.ts`
 - `src/config/page-data.ts`
+- `marriage_os_implementation_phases.md`
 
 If these are missing, stale, or disputed:
 - **Stop**
 - resolve governance first
+
+## Phase-gating rule
+At every downstream stage, the operator must treat `marriage_os_implementation_phases.md` as the phase-gate authority.
+
+That means:
+- do not draft or generate content whose `Phase Eligibility` is later than the current implementation phase
+- do not use `Implementation Plan.md` phase numbers to outrun the local-first build order
+- if a target depends on a later component, surface, or execution pass, stop and defer it
 
 ---
 
@@ -126,7 +131,6 @@ Use:
 - [ ] If PDF is long, chapter or page clustering instruction is included
 - [ ] If source is mixed, operator has warned that it is mixed
 - [ ] No final-generation instruction is accidentally included
-- [ ] If an exact target / working-matrix row is already known, its `Phase Eligibility` is at or below the current implementation phase; otherwise stop or defer
 
 ## Expected output
 - source registration
@@ -192,11 +196,12 @@ Assemble one target-specific writing pack for one Marriage OS destination.
 - [ ] Exact target is specified (example: `repair/pressure-loop`)
 - [ ] Only relevant extract cards are supplied
 - [ ] Canonical layer summary is present
-- [ ] `source_roles` are declared explicitly when more than one source reservoir is in play
-- [ ] Primary / secondary / language reservoir roles are not confused
 - [ ] The operator has removed obvious off-target extracts
 - [ ] The operator has not mixed `repair/*` and `knowledge/*` goals in one prompt
 - [ ] Draft fragments, if included, are explicitly demoted below extracts
+- [ ] Target `Phase Eligibility` is known
+- [ ] Target `Phase Eligibility` is less than or equal to the current implementation phase defined in `marriage_os_implementation_phases.md`
+- [ ] Required component/surface for this target exists in the current implementation tranche
 
 ## Expected output
 - dossier header
@@ -206,11 +211,8 @@ Assemble one target-specific writing pack for one Marriage OS destination.
 - core content logic
 - preserve / soften / reject claims
 - tone instructions
-- voice mode declaration (`hurt` / `blaming` / `act`)
-- banned-register / forbidden-language notes
 - structural blueprint
 - linked destinations
-- safety class declaration
 - blockers
 - readiness verdict
 
@@ -219,9 +221,6 @@ Assemble one target-specific writing pack for one Marriage OS destination.
 - [ ] Included extracts are justified
 - [ ] Excluded extracts are explained
 - [ ] The dossier does not drift into final copy
-- [ ] Safety Class is declared explicitly and fits the target's escalation logic
-- [ ] Voice mode is declared explicitly and fits the user state / destination
-- [ ] The dossier does not permit side-taking, ideology bait, or therapy-speak drift
 - [ ] Core content logic matches the target class
 - [ ] Claims to soften or reject are explicitly called out
 - [ ] Structural blueprint is concrete
@@ -234,7 +233,6 @@ Assemble one target-specific writing pack for one Marriage OS destination.
 - [ ] Action-first
 - [ ] Supports the 7-part module anatomy
 - [ ] Does not collapse into a theory article
-- [ ] Safety Class is declared and usable by the verifier
 
 ### If guide dossier
 - [ ] One audience track only
@@ -307,6 +305,8 @@ Write one final Marriage OS content object from one approved dossier.
 - [ ] Required target structure is clear
 - [ ] The operator has removed any raw-source appendix from the prompt
 - [ ] The instruction says “return only the final content object”
+- [ ] Target `Phase Eligibility` is still valid for the current implementation tranche
+- [ ] The relevant implementation pass gate has been met per `marriage_os_implementation_phases.md`
 
 ## Expected output
 One final content object only.
@@ -315,16 +315,11 @@ One final content object only.
 - [ ] Output matches target class
 - [ ] Required section structure is present
 - [ ] Tone is on-brand
-- [ ] Output follows the declared voice mode
-- [ ] Output says what is happening, why it matters, and what to do next
-- [ ] Output avoids banned register from the Voice & Tone Bible
 - [ ] No meta-commentary
 - [ ] No dossier language leaks through
 - [ ] No extract ids or confidence language appear
 - [ ] No obvious unsupported expansion appears
 - [ ] Content is usable in product, not in seminar
-- [ ] Output remains solo-first and does not require synchronous partner participation in V1
-- [ ] Output sounds like a calm medic, not a therapist, preacher, influencer, or gender-war account
 
 ## Target-specific pass tests
 
@@ -334,7 +329,6 @@ One final content object only.
 - [ ] “Do This Tonight” is concrete
 - [ ] “7-Day Reset” is realistic
 - [ ] Not a disguised knowledge article
-- [ ] Does not assume together-mode execution or paired simultaneous interaction in V1
 
 ### Guide
 - [ ] One audience track only
@@ -399,7 +393,6 @@ Audit the final output against canonical layer, dossier, structure, tone, safety
 - [ ] Dossier used to generate it is attached
 - [ ] Canonical layer summary is attached
 - [ ] Target class is explicit
-- [ ] Dossier Safety Class declaration is attached
 - [ ] Verifier is instructed not to rewrite unless failure is severe
 
 ## Expected output
@@ -408,7 +401,6 @@ Audit the final output against canonical layer, dossier, structure, tone, safety
 - dossier fidelity check
 - structure check
 - tone check
-- safety class audit
 - safety check
 - drift check
 - required revisions
@@ -420,7 +412,6 @@ Audit the final output against canonical layer, dossier, structure, tone, safety
 - [ ] Revisions are specific and minimal
 - [ ] Unsupported claims are actually listed
 - [ ] Structure audit is section-by-section
-- [ ] Safety Class audit checks the assigned class against the escalation decision tree
 - [ ] Safety check is real, not performative
 - [ ] Drift check is real, not generic
 - [ ] Verifier did not silently rewrite the piece
@@ -434,7 +425,6 @@ Move to ship/stage only if:
 - structure is correct
 - tone is on-brand
 - safety is clean
-- solo-first compliance is clean
 - drift is clean
 
 ### PASS WITH REVISIONS

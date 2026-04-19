@@ -22,8 +22,26 @@ Implementation must use only:
 
 * `docs/MASTER_SPEC.md`
 * `docs/DRIFT_REGISTER.md`
+* `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` for graphics, iconography, directional affordances, motion, and media constraints
 * `src/config/theme.ts`
 * `src/config/page-data.ts`
+* `marriage_os_implementation_phases.md` for phase-gating and build sequencing
+
+### Sequencing authority rule
+
+`marriage_os_implementation_phases.md` is the **canonical phase-gate authority** for build sequencing and content eligibility.
+
+This implementation plan remains the **companion workstream and deliverables plan**.
+If phase numbering differs between the two documents, use `marriage_os_implementation_phases.md` for:
+- execution order
+- phase-pass gates
+- content-operator eligibility
+
+Use this file for:
+- bounded workstream scope
+- deliverables
+- verification expectations
+- peer-review questions
 
 ### Active feeder references
 
@@ -72,7 +90,9 @@ These are not optional polish items. They are build constraints.
 * `100dvh` shell
 * no fixed-height copy cards
 * 320px and 200% zoom support
-* precise CTA copy, not vague `Continue` buttons 
+* precise CTA copy, not vague `Continue` buttons
+* Lucide as the primary icon system unless a later drift decision documents an exception
+* sparse, tool-first member-shell media and restrained marketing media per `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` 
 
 ### Architecture stance
 
@@ -147,6 +167,7 @@ Stand up the project skeleton and app shell.
 * theme tokens
 * navigation
 * component registry
+* central icon wrapper and semantic icon map
 * base layout
 * safety/legal skeleton pages
 
@@ -160,6 +181,8 @@ The code-samples file already gives the correct build order: routes first, then 
 * `src/config/theme.ts`
 * `src/config/page-data.ts`
 * `src/config/component-registry.ts`
+* `src/config/icon-map.ts`
+* `src/components/ui/icon.tsx`
 * `src/app/(marketing)` and `src/app/(app)` route groups
 * `AppShell`, `MarketingShell`, `TopBar`, `BottomNav`, `SideNav`, `HeroBlock`, `Card`
 
@@ -168,7 +191,8 @@ The code-samples file already gives the correct build order: routes first, then 
 * all configured routes render
 * no route references missing components
 * nav and shell are functional on mobile and desktop
-* shell obeys `100dvh`, safe-area rules, and tap sizing rules 
+* shell obeys `100dvh`, safe-area rules, and tap sizing rules
+* iconography, directional affordances, and media behaviour follow `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` 
 
 ### Peer-review question
 
@@ -182,6 +206,22 @@ Does the shell already feel like an app, or does it still feel like a blog with 
 
 Lock the domain model before feature work spreads.
 
+### Scope note
+
+This phase is **workstream scope**, not sequencing authority.
+
+The presence of schemas, seeds, or Supabase migrations here does **not** mean builders may outrun the local-first execution order defined in `marriage_os_implementation_phases.md`.
+
+Interpret this phase as:
+- schema contracts
+- resolver contracts
+- typed seeds
+- migration definitions and local scaffolding
+
+Do **not** interpret it as permission to wire live Supabase persistence, live auth dependency, or content/operator phase eligibility ahead of the local proof-of-life loop.
+
+For build sequencing and content-gate decisions, `marriage_os_implementation_phases.md` wins.
+
 ### Scope
 
 * UI schemas
@@ -189,14 +229,6 @@ Lock the domain model before feature work spreads.
 * DB schema
 * seed data
 * resolver contracts
-
-### Numbering and phase-gate note
-
-`marriage_os_implementation_phases.md` uses a different phase numbering and should be treated as the **phase-gate authority for content operators**. This plan's numbering remains useful for engineering work allocation, but content-production gating should follow the local-first sequence in `marriage_os_implementation_phases.md` until D-026 is resolved in `DRIFT_REGISTER.md`.
-
-### Supabase clarification
-
-The Supabase migrations referenced in this phase are **schema-contract work and local development scaffolds only**. They do **not** imply live Supabase connectivity, live authentication, or a move away from the local-first rule. Real persistence and authentication remain later in the build sequence.
 
 ### Deliverables
 
@@ -219,7 +251,6 @@ The Supabase migrations referenced in this phase are **schema-contract work and 
 * seeds validate cleanly
 * all page-data references resolve against domain types
 * no ad hoc JSON shapes inside components
-* no live Supabase connection is required at this phase
 
 ### Peer-review question
 

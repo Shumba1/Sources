@@ -23,6 +23,18 @@ If any answer is “No”, the PR is not ready.
 - [ ] Does it avoid side-taking, ideology bait, therapy-speak drift, and manipulative/coercive framing?
 - [ ] Does it say what is happening, why it matters, and what to do next where relevant?
 
+## 0.75. Graphics and media enforcement
+
+- [ ] If this PR touches icons, arrows/chevrons, diagrams, screenshots, mockups, product previews, illustrations, motion, or photography, was it checked against `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`?
+- [ ] Does this PR use **Lucide** as the primary shipped icon system unless a documented exception exists?
+- [ ] Does this PR avoid mixing icon families in shipped UI without ratified justification?
+- [ ] Do directional affordances follow the approved semantics (`chevron-right` drill-in, `chevron-left` in-app back, `chevron-down/up` disclosure, `arrow-up-right` outbound, etc.)?
+- [ ] If member-shell visuals are touched, does the PR keep the member shell sparse, tool-first, and nearly photography-free?
+- [ ] If marketing visuals are touched, do they stay restrained, product-truthful, and free of stock-couple / romance-fantasy drift?
+- [ ] Do asset formats and loading choices follow the approved rules (SVG for icons/diagrams, WebP/AVIF for screenshots/mockups/product previews, no icon fonts)?
+
+---
+
 ## 1. Production stack enforcement
 
 ### Auth
@@ -139,6 +151,7 @@ If any box above is checked, the PR should be sent back.
 ### Builder confirms
 - [ ] I checked this PR against `docs/README_ACTIVE_SET.md`
 - [ ] I checked this PR against `docs/Voice and Tone Bible.md` where writing was touched
+- [ ] I checked this PR against `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` where visuals/media were touched
 - [ ] I checked this PR against ADR-001 and ADR-002
 - [ ] I checked this PR against `docs/MASTER_SPEC.md` and `docs/DRIFT_REGISTER.md`
 - [ ] I did not rely on dead scaffold artefacts
@@ -150,6 +163,7 @@ If any box above is checked, the PR should be sent back.
 - [ ] I checked dead-architecture cleanup rules
 - [ ] I checked canonical naming / CTA rules
 - [ ] I checked voice / tone compliance where writing was touched
+- [ ] I checked graphics/media/iconography compliance where visuals were touched
 - [ ] I checked the knowledge-detail path if relevant
 - [ ] I checked route/config/page-data alignment if relevant
 - [ ] I checked schema/contract alignment if relevant

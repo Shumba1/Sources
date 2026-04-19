@@ -14,6 +14,9 @@ It translates source use into controlled drafting inputs.
 ## The three live source reservoirs
 
 ### 1. Book-derived reservoir
+
+**Path:** `sources/derived/PDF Books Derived/`
+
 Use for:
 - deep repair logic
 - structured knowledge
@@ -24,6 +27,9 @@ Use for:
 This reservoir is best when the object needs durable logic, practical structure, or explainable frameworks.
 
 ### 2. Master corpus / online chatter reservoir
+
+**Path:** `sources/derived/online-chatter-master-corpus--2026-04-17/`
+
 Use for:
 - pain articulation
 - emotionally real phrasing
@@ -35,6 +41,9 @@ Use for:
 This reservoir is best for **language realism and attention**, not for carrying the product’s doctrinal backbone.
 
 ### 3. Phase 1 key themes reservoir
+
+**Path:** `sources/raw/phase-1-key-sections/`
+
 Use for:
 - unresolved core themes
 - themes that cut across multiple families
@@ -42,6 +51,19 @@ Use for:
 - anything central to the product model that books alone do not cleanly settle
 
 This reservoir is best for **strategic core material** that still needs to be translated into the right object mix.
+
+---
+
+## Live-vs-non-live source rule
+
+These three paths are the **live source reservoirs** for active drafting and synthesis work.
+
+The following source paths are **not** live reservoirs unless explicitly reactivated:
+
+- `sources/raw/feeder-docs/`
+- `sources/raw/PDF Books Mapped/`
+
+Treat those as archive, provenance, or reference-only support unless a specific task requires reopening them.
 
 ---
 
@@ -150,5 +172,13 @@ If those five things are not explicit, drafting is not ready.
 - **Phase 1 key themes = unresolved strategic core**
 - **Voice & Tone Bible = writing arbitration**
 - **Canon = constraints and final arbitration**
+
+### Repository shorthand
+
+- Book-derived reservoir → `sources/derived/PDF Books Derived/`
+- Master corpus reservoir → `sources/derived/online-chatter-master-corpus--2026-04-17/`
+- Phase 1 key themes reservoir → `sources/raw/phase-1-key-sections/`
+- Voice arbitration → `docs/Voice and Tone Bible.md`
+- Canonical constraints → `docs/`, `src/config/`, `src/schemas/`
 
 That is the live source harmony model.

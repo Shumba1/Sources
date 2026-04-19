@@ -141,9 +141,10 @@ When documents disagree, use this order:
 1. Accepted addenda and ratified drift fixes  
 2. Executable config (`src/config/routes.ts`, `src/config/page-data.ts`, `src/config/theme.ts`, `src/schemas/*`)  
 3. This file (`docs/MASTER_SPEC.md`)  
-4. Revised premium UX narrative docs  
-5. Older PWA and architecture prose  
-6. Everything else = reference only, not implementation authority
+4. Binding support-control docs within their allowed scope (`docs/Voice and Tone Bible.md`, `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`)  
+5. Revised premium UX narrative docs  
+6. Older PWA and architecture prose  
+7. Everything else = reference only, not implementation authority
 
 ---
 
@@ -151,9 +152,11 @@ When documents disagree, use this order:
 
 The builder models are allowed to treat only the following as implementation truth:
 
-### 7.1 Governance
+### 7.1 Governance and support controls
 - `docs/MASTER_SPEC.md`
 - `docs/DRIFT_REGISTER.md`
+- `docs/Voice and Tone Bible.md` *(binding writing-arbitration file within its allowed scope)*
+- `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` *(binding graphics/media/iconography control file within its allowed scope)*
 
 ### 7.2 Executable config
 - `src/config/routes.ts`
@@ -223,6 +226,9 @@ Canonical safety cards are:
 - Not for coercion
 - Not for surveillance
 - Family preservation is not martyrdom
+
+### 8.8 Graphics and media system
+Visual asset, iconography, directional-affordance, imagery, motion, and media-boundary decisions are governed by `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` within its allowed scope.
 
 ---
 
