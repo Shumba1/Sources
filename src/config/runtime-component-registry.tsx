@@ -31,9 +31,13 @@ export type RuntimeComponentKey =
   | 'ResetTimeline'
   | 'EmptyState';
 
-export type RuntimeSectionComponentRegistry = Record<RuntimeComponentKey, React.ComponentType<any>>;
+export type RuntimeComponentProps = Record<string, unknown>;
+export type RuntimeSectionComponentRegistry = Record<
+  RuntimeComponentKey,
+  React.ComponentType<RuntimeComponentProps>
+>;
 
 // Placeholder shape to be filled with actual imports in repo.
-export const runtimeComponentRegistry = {
+export const runtimeComponentRegistry: Partial<RuntimeSectionComponentRegistry> = {
   ArticleSection,
-} as Partial<RuntimeSectionComponentRegistry>;
+};

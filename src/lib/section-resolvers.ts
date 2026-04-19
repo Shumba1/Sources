@@ -63,7 +63,7 @@ async function resolveArticleSections(): Promise<Array<{ heading: string; body: 
 
 export function buildSectionResolvers() {
   return {
-    knowledgeArticles: async (_args: SectionResolverArgs) => resolveKnowledgeArticles(),
-    articleSections: async (_args: SectionResolverArgs) => resolveArticleSections(),
+    knowledgeArticles: async () => resolveKnowledgeArticles(),
+    articleSections: async () => resolveArticleSections(),
   };
 }
