@@ -1,2 +1,0 @@
-docs/pull_request_template.md
-tasks/phase-0/queued/
