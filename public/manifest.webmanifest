@@ -1,0 +1,17 @@
+{
+  "name": "Marriage OS",
+  "short_name": "Marriage OS",
+  "description": "A relationship operating system for spotting drift early and guiding the next repair step.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1724",
+  "theme_color": "#0f1724",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
