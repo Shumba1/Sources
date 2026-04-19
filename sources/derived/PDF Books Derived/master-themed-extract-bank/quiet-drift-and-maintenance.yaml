@@ -1,0 +1,358 @@
+theme: quiet-drift-and-maintenance
+description: Groups the everyday bond-maintenance logic that keeps a marriage from becoming operational, parallel, or stale.
+retained_extract_count: 16
+extracts:
+- extract_id: EXT-LP-017
+  source_id: SRC-LP-001
+  page_refs:
+  - pp. 109-116
+  theme: devitalization
+  role: knowledge
+  claim: When work, errands, and parenting consume the relationship, sex problems are often downstream of a larger loss of play, curiosity, and shared vitality.
+  why_it_matters: Excellent for reframing ‘sex problems’ without reducing everything to libido.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/quiet-drift
+  - repair/pressure-loop
+  confidence: high
+  evidence_type: direct
+  notes: Strong reframing extract.
+  provenance:
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-017
+    source_id: SRC-LP-001
+    theme: devitalization
+- extract_id: EXT-SP-015
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 60-61
+  - pp. 97-99
+  theme: friendship-fuels-romance
+  role: knowledge
+  claim: Friendship, bids, and everyday responsiveness do more to protect romance and sexual vitality than grand gestures or occasional getaways.
+  why_it_matters: Strong feeder for drift and desire-under-distance logic.
+  usable_for:
+  - repair/quiet-drift
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  confidence: medium-high
+  evidence_type: direct
+  notes: Useful but should stay grounded and non-hacky.
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-015
+    source_id: SRC-SP-001
+    theme: friendship-fuels-romance
+- extract_id: EXT-E534E1-02
+  source_id: SRC-E534E1
+  page_refs: pp. 23-24
+  theme: how-drift-starts
+  role: knowledge
+  claim: Traits that feel magnetic early can later become friction points once the idealising phase fades.
+  why_it_matters: Useful for helping couples separate “you changed” from “I am seeing the trait differently now”.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - knowledge/early-bonding-and-idealisation
+  confidence: high
+  evidence_type: direct
+  notes: Safe, high-value translation of the source’s discussion of initially attractive qualities becoming later complaints.
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: EXT-E534E1-02
+    source_id: SRC-E534E1
+    theme: how-drift-starts
+- extract_id: EXT-E534E1-09
+  source_id: SRC-E534E1
+  page_refs: pp. 28, 32
+  theme: how-drift-starts
+  role: knowledge
+  claim: High attachment can make people slow to update their view even after the relational pattern has already changed.
+  why_it_matters: This helps explain why a couple can stay stuck in stale expectations long after the evidence has shifted.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/desire-drift-reset
+  confidence: medium
+  evidence_type: direct
+  notes: Useful as a knowledge-side explanation for why expectation reset is emotionally hard.
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: EXT-E534E1-09
+    source_id: SRC-E534E1
+    theme: how-drift-starts
+- extract_id: EXT-SP-001
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 19-24
+  - pp. 33-40
+  theme: marital-friendship
+  role: knowledge
+  claim: The strongest marriages are built on deep friendship, not on the absence of disagreement.
+  why_it_matters: This is the source's backbone and directly supports MarriageOS repair-first logic that bond infrastructure matters before technique.
+  usable_for:
+  - repair/quiet-drift
+  - repair/we-keep-fighting
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: Keep mechanism, not lab-authority tone.
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-001
+    source_id: SRC-SP-001
+    theme: marital-friendship
+- extract_id: EXT-LP-005
+  source_id: SRC-LP-001
+  page_refs:
+  - pp. 26-30
+  theme: daily-check-in
+  role: repair
+  claim: A brief daily check-in that asks what support is needed today can rebuild teamwork and reduce the sense of living parallel lives.
+  why_it_matters: Directly usable in repair modules as a simple opening ritual.
+  usable_for:
+  - repair/quiet-drift
+  - repair/resentment-building
+  - products/daily-check-in-pack
+  confidence: high
+  evidence_type: direct
+  notes: Excellent script-level source material.
+  provenance:
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-005
+    source_id: SRC-LP-001
+    theme: daily-check-in
+- extract_id: EXT-LP-016
+  source_id: SRC-LP-001
+  page_refs:
+  - pp. 107-118
+  theme: date-night
+  role: repair
+  claim: Date time matters because couples often become operational partners living parallel lives; protected couple time restores aliveness and contact.
+  why_it_matters: Direct fit for quiet-drift and companionship repair.
+  usable_for:
+  - repair/quiet-drift
+  - knowledge/desire-and-familiarity
+  - products/date-night-prompts
+  confidence: high
+  evidence_type: direct
+  notes: Translate ‘date night’ into protected connection if needed.
+  provenance:
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-016
+    source_id: SRC-LP-001
+    theme: date-night
+- extract_id: EXT-WPD-005
+  source_id: SRC-WPD-001
+  page_refs: null
+  theme: distance-and-isolation
+  role: repair
+  claim: 'Flooding can begin a distance-and-isolation cascade: problems feel severe, discussion feels pointless, partners solve things alone, lives go parallel, loneliness grows.'
+  why_it_matters: Excellent doctrine support for drift and dead-marriage pathways.
+  usable_for:
+  - repair/quiet-drift
+  - knowledge/conflict-styles-and-stability
+  confidence: high
+  evidence_type: null
+  notes: One of the strongest source-to-product translations.
+  provenance:
+  - book_id: wpd-e81fdb
+    book_pack: what-predicts-divorce-the-relationship-between-marital--e81fdb
+    extract_id: EXT-WPD-005
+    source_id: SRC-WPD-001
+    theme: distance-and-isolation
+- extract_id: EXT-LP-004
+  source_id: SRC-LP-001
+  page_refs:
+  - pp. 24-28
+  theme: friendship-before-conflict
+  role: repair
+  claim: When repair is needed, improving friendship and turning-toward behaviour is often a better first move than going straight into conflict analysis.
+  why_it_matters: A strong sequence rule for MarriageOS when the couple is not in active danger or contempt.
+  usable_for:
+  - repair/quiet-drift
+  - repair/we-keep-fighting
+  - guides/read-both
+  confidence: medium-high
+  evidence_type: direct
+  notes: Qualify for severe cases.
+  provenance:
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-004
+    source_id: SRC-LP-001
+    theme: friendship-before-conflict
+- extract_id: EXT-ED-008
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 62-64
+  - pp. 76-78
+  theme: how-drift-starts
+  role: repair
+  claim: Avoiding conflict does not preserve peace; it often breeds distance, resentment, and distorted meaning over time.
+  why_it_matters: Direct fit for drift and resentment modules because MarriageOS needs to name the cost of fake peace.
+  usable_for:
+  - repair/we-are-going-quiet
+  - repair/resentment-building
+  - knowledge/how-drift-starts
+  confidence: high
+  evidence_type: direct
+  notes: Good anti-avoidance logic.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-008
+    source_id: SRC-ED-001
+    theme: how-drift-starts
+- extract_id: EXT-SP-002
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 62-74
+  - pp. 31-45
+  theme: love-maps
+  role: repair
+  claim: Couples need updated 'love maps' of each other's inner world; drift accelerates when partners stop knowing what matters, hurts, or changes for the other person.
+  why_it_matters: Direct anti-drift material with strong practical fit.
+  usable_for:
+  - repair/quiet-drift
+  - guides/read-both
+  - products/question-pack
+  confidence: high
+  evidence_type: direct
+  notes: 'Strong feeder for curiosity-based reset moves. Merged corroborating extracts: lp-9a037a::EXT-LP-006 (love-maps).'
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-002
+    source_id: SRC-SP-001
+    theme: love-maps
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-006
+    source_id: SRC-LP-001
+    theme: love-maps
+- extract_id: EXT-WPD-010
+  source_id: SRC-WPD-001
+  page_refs: null
+  theme: parallel-lives
+  role: repair
+  claim: Couples can remain together in outward form while emotionally splitting into parallel lives.
+  why_it_matters: Direct fit for quiet drift and 'dead marriage' logic.
+  usable_for:
+  - repair/quiet-drift
+  confidence: high
+  evidence_type: null
+  notes: High-value language source.
+  provenance:
+  - book_id: wpd-e81fdb
+    book_pack: what-predicts-divorce-the-relationship-between-marital--e81fdb
+    extract_id: EXT-WPD-010
+    source_id: SRC-WPD-001
+    theme: parallel-lives
+- extract_id: EXT-LP-001
+  source_id: SRC-LP-001
+  page_refs:
+  - pp. 8-9
+  - pp. 125-127
+  - pp. 38-45
+  - pp. 55-60
+  theme: small-things-often
+  role: repair
+  claim: Healthy relationships are sustained less by grand gestures than by repeated daily micro-actions that build connection over time.
+  why_it_matters: This is the source’s backbone and translates directly into MarriageOS micro-repair logic for low-to-moderate drift.
+  usable_for:
+  - repair/quiet-drift
+  - knowledge/how-drift-starts
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: 'Keep mechanism; do not import breezy one-week-fix tone. Merged corroborating extracts: ed-e28511::EXT-ED-001 (reciprocity).'
+  provenance:
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-001
+    source_id: SRC-LP-001
+    theme: small-things-often
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-001
+    source_id: SRC-ED-001
+    theme: reciprocity
+- extract_id: EXT-SP-016
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 106-111
+  theme: stress-reducing-conversation
+  role: repair
+  claim: A short daily stress-reducing conversation about life outside the marriage helps couples feel allied rather than alone with the day's pressures.
+  why_it_matters: High practical value for couples whose bond is thinning under ordinary life load.
+  usable_for:
+  - repair/quiet-drift
+  - repair/mental-load
+  - products/daily-check-in-pack
+  confidence: high
+  evidence_type: direct
+  notes: Good ritual-level repair move.
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-016
+    source_id: SRC-SP-001
+    theme: stress-reducing-conversation
+- extract_id: EXT-E534E1-05
+  source_id: SRC-E534E1
+  page_refs: pp. 25-26, 35-36
+  theme: system-decay-system-repair
+  role: repair
+  claim: Long relationships eventually require reality-based recalibration from the idealised early version of the partner to the actual person and the actual pattern.
+  why_it_matters: This is a direct bridge from theory into a repair-first expectation reset.
+  usable_for:
+  - repair/desire-drift-reset
+  - knowledge/desire-and-familiarity
+  confidence: high
+  evidence_type: derived
+  notes: Derived from the source’s argument that standards shift after commitment and that the “mask” does not hold forever.
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: EXT-E534E1-05
+    source_id: SRC-E534E1
+    theme: system-decay-system-repair
+- extract_id: EXT-SP-004
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 97-117
+  - pp. 20-23
+  - pp. 22-23
+  theme: turning-toward
+  role: repair
+  claim: Small bids for attention, affection, humor, and support are where trust is built or lost; turning toward in tiny moments matters disproportionately.
+  why_it_matters: Excellent fit for quiet drift and low-intensity reconnection work.
+  usable_for:
+  - repair/quiet-drift
+  - knowledge/how-drift-starts
+  - products/micro-connection-checklist
+  confidence: high
+  evidence_type: direct
+  notes: 'Keep directional logic; avoid scorekeeping. Merged corroborating extracts: lp-9a037a::EXT-LP-002 (bids-for-connection); lp-9a037a::EXT-LP-003 (bids-for-connection).'
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-004
+    source_id: SRC-SP-001
+    theme: turning-toward
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-002
+    source_id: SRC-LP-001
+    theme: bids-for-connection
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-003
+    source_id: SRC-LP-001
+    theme: bids-for-connection

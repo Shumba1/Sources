@@ -1,0 +1,180 @@
+theme: pressure-loop-and-sexual-cycle
+description: Tracks desire mismatch, sexual pursue-withdraw cycles, loaded touch, rejection injury, and low-pressure reconnection tools.
+retained_extract_count: 8
+extracts:
+- extract_id: EXT-SL-022
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 210-211
+  theme: sexual-trauma
+  role: caution
+  claim: Sexual problems may be trauma-related, including trauma that was not overtly sexual; coercion or shame around sex requires special care and sometimes outside help.
+  why_it_matters: Essential boundary logic for desire and intimacy content.
+  usable_for:
+  - repair/pressure-loop
+  - escalation/seek-support
+  confidence: high
+  evidence_type: direct
+  notes: Keep trauma-aware and non-assumptive.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-022
+    source_id: SRC-SL-001
+    theme: sexual-trauma
+- extract_id: EXT-PM-011
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 173-175
+  - pp. 460
+  theme: connection-tool
+  role: repair
+  claim: Hugging till relaxed can function as a low-tech tool for reducing baseline tension, noticing how hard it is to be held, and making calmer contact before escalation or intercourse.
+  why_it_matters: This is one of the source’s most usable embodied tools for MarriageOS, especially for couples who are too activated or performative to make real contact.
+  usable_for:
+  - repair/pressure-loop
+  - repair/we-keep-fighting
+  - products/intimacy-reset-toolkit
+  confidence: high
+  evidence_type: direct
+  notes: Useful as an optional practice. Do not prescribe in unsafe or coercive contexts.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-011
+    source_id: SRC-PM-001
+    theme: connection-tool
+- extract_id: EXT-PM-013
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 236-237
+  theme: following-connection
+  role: repair
+  claim: Couples can use an existing feeling-link or tactile cue to notice when they are truly 'on' or 'off' with each other and follow that connection rather than defaulting to routine or bypass.
+  why_it_matters: Highly usable in MarriageOS as a practical bridge between emotional theory and in-the-moment reconnection.
+  usable_for:
+  - repair/pressure-loop
+  - repair/quiet-drift
+  - products/intimacy-reset-toolkit
+  confidence: high
+  evidence_type: direct
+  notes: Very strong process tool. Adapt without therapist jargon.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-013
+    source_id: SRC-PM-001
+    theme: following-connection
+- extract_id: EXT-E534E1-07
+  source_id: SRC-E534E1
+  page_refs: pp. 32-35
+  theme: one-sided-initiation
+  role: repair
+  claim: One partner can experience lower desire while still feeling committed; the other can experience that same change as withdrawal, rejection, or a broken deal.
+  why_it_matters: This creates a bridge frame that keeps MarriageOS out of blame camps and inside repair logic.
+  usable_for:
+  - repair/desire-drift-reset
+  - knowledge/desire-and-familiarity
+  confidence: high
+  evidence_type: derived
+  notes: This is the cleanest product translation of the chapter’s bilateral mismatch argument.
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: EXT-E534E1-07
+    source_id: SRC-E534E1
+    theme: one-sided-initiation
+- extract_id: EXT-ED-011
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 88-89
+  theme: pressure-loop
+  role: repair
+  claim: A sexual no handled without punishment, sulking, or coldness protects the bond and prevents rejection from becoming relational injury.
+  why_it_matters: This is central MarriageOS repair logic and maps directly to desire mismatch modules.
+  usable_for:
+  - repair/pressure-loop
+  - guides/his-perspective
+  - guides/her-perspective
+  confidence: high
+  evidence_type: direct
+  notes: Very strong fit.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-011
+    source_id: SRC-ED-001
+    theme: pressure-loop
+- extract_id: EXT-SL-019
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 199-210
+  theme: sexual-connection
+  role: repair
+  claim: Sexual connection is strongly shaped by the attachment climate; conversations about sex rarely improve while the couple is still inside a negative cycle.
+  why_it_matters: Makes sex a bond issue rather than an isolated performance issue.
+  usable_for:
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  - repair/we-keep-fighting
+  confidence: high
+  evidence_type: direct
+  notes: 'Very compatible with MarriageOS anti-pressure doctrine. Merged corroborating extracts: mgw-ba4979::EXT-MGW-011 (conflict-contamination).'
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-019
+    source_id: SRC-SL-001
+    theme: sexual-connection
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-011
+    source_id: SRC-MGW-001
+    theme: conflict-contamination
+- extract_id: EXT-SL-020
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 201-210
+  theme: sexual-pursue-withdraw
+  role: repair
+  claim: In anxious-avoidant pairings, sexual pursue / withdraw often mirrors the broader relationship cycle, with rejection pain, shame, and avoidance feeding each other.
+  why_it_matters: Strong direct feeder for pressure-loop.
+  usable_for:
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  - repair/we-keep-fighting
+  - guides/his-perspective
+  confidence: high
+  evidence_type: direct
+  notes: 'Strongest sex-specific mechanism in the book. Merged corroborating extracts: mgw-ba4979::EXT-MGW-002 (connection-versus-protest).'
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-020
+    source_id: SRC-SL-001
+    theme: sexual-pursue-withdraw
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-002
+    source_id: SRC-MGW-001
+    theme: connection-versus-protest
+- extract_id: EXT-SL-021
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 209-210
+  theme: sexual-withdrawal
+  role: repair
+  claim: Sexual withdrawal often has a valid explanation—overwhelm, resentment, rejection history, trauma, self-care collapse, parenting depletion, or medical issues—and should be explored rather than moralised.
+  why_it_matters: Keeps MarriageOS from treating low desire as stubbornness or rejection alone.
+  usable_for:
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  confidence: high
+  evidence_type: direct
+  notes: Excellent empathy-restoring material.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-021
+    source_id: SRC-SL-001
+    theme: sexual-withdrawal

@@ -1,0 +1,401 @@
+theme: desire-and-familiarity
+description: Explains why desire drifts under predictability, disconnection, routine, idealisation collapse, fear, and technique-only thinking.
+retained_extract_count: 18
+extracts:
+- extract_id: EXT-PM-007
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 92-95
+  theme: arousal-model
+  role: knowledge
+  claim: As couples age, eroticism, desire, and emotional connection increasingly matter because pure drive and automatic reflex become less reliable foundations for satisfying sex.
+  why_it_matters: Helps explain why mechanically repeating what once worked often fails later, and why deeper connection becomes structurally important rather than optional.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  confidence: high
+  evidence_type: direct
+  notes: Excellent bridge between theory and lived frustration.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-007
+    source_id: SRC-PM-001
+    theme: arousal-model
+- extract_id: EXT-PM-014
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 244-245
+  - pp. 460
+  theme: being-seen
+  role: knowledge
+  claim: Practices that increase being seen during intimacy can deepen contact, but they require self-acceptance and cannot be reduced to a performance milestone.
+  why_it_matters: Useful as a high-bar example of how openness, eroticism, and selfhood interact, while warning against turning advanced practices into pressure.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  confidence: medium-high
+  evidence_type: direct
+  notes: Translate 'eyes-open orgasm' into broader language around being seen; keep the technique optional and advanced.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-014
+    source_id: SRC-PM-001
+    theme: being-seen
+- extract_id: EXT-PM-012
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 234-237
+  theme: connection-over-technique
+  role: knowledge
+  claim: Technique alone rarely creates the feeling couples are hungry for; connection has to precede and travel through the behavior rather than being hoped for after the fact.
+  why_it_matters: This directly counters common fix-it sex advice and helps MarriageOS avoid turning intimacy into a performance checklist.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  confidence: high
+  evidence_type: direct
+  notes: One of the best anti-technique, pro-contact claims in the source.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-012
+    source_id: SRC-PM-001
+    theme: connection-over-technique
+- extract_id: EXT-E534E1-01
+  source_id: SRC-E534E1
+  page_refs:
+  - p
+  - .
+  - ' '
+  - '2'
+  - '3'
+  - '-'
+  - '4'
+  - '6'
+  theme: desire-and-familiarity
+  role: knowledge
+  claim: Early romantic intensity can distort partner assessment and inflate commitment confidence.
+  why_it_matters: MarriageOS can use this to explain why couples often feel shocked later by patterns that were already faintly present early on.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/desire-drift-reset
+  confidence: high
+  evidence_type: direct
+  notes: 'Derived from the chapter’s discussion of idealisation and optimistic distortion during passionate love. Merged corroborating extracts: spg-23f265::EXT-E534E1-04 (desire-maintenance).'
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: EXT-E534E1-01
+    source_id: SRC-E534E1
+    theme: desire-and-familiarity
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: EXT-E534E1-04
+    source_id: SRC-E534E1
+    theme: desire-maintenance
+- extract_id: EXT-E534E1-06
+  source_id: SRC-E534E1
+  page_refs: pp. 30-32
+  theme: desire-and-familiarity
+  role: knowledge
+  claim: Early sexual frequency and intensity are a poor long-term forecast; couples often assume continuity that the settled bond does not automatically deliver.
+  why_it_matters: This is one of the clearest MarriageOS-relevant patterns in the chapter and explains why later disappointment often feels like betrayal.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/desire-drift-reset
+  confidence: medium
+  evidence_type: direct
+  notes: Useful but must be de-gendered and kept away from grievance language.
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: EXT-E534E1-06
+    source_id: SRC-E534E1
+    theme: desire-and-familiarity
+- extract_id: EXT-BYS-021
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 151-160
+  theme: desire-maintenance
+  role: knowledge
+  claim: Physical intimacy, emotional closeness, and honest communication are intertwined; leaving sex dead for too long can widen the relational gap.
+  why_it_matters: Useful but should be translated carefully and non-coercively.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  confidence: medium
+  evidence_type: direct
+  notes: Do not turn into obligation or performance framing.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-021
+    source_id: SRC-BYS-001
+    theme: desire-maintenance
+- extract_id: EXT-ED-010
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 86-87
+  - pp. 91-95
+  theme: desire-maintenance
+  role: knowledge
+  claim: Couples who can talk about sex outside the bedroom, in specific positive terms, tend to maintain better sexual connection.
+  why_it_matters: This supports pressure-loop and desire-maintenance logic without forcing clinical language into the app.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  - products/hard-conversation-scripts-pack
+  confidence: high
+  evidence_type: direct
+  notes: Translate into calm, non-performative prompts.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-010
+    source_id: SRC-ED-001
+    theme: desire-maintenance
+- extract_id: EXT-PM-005
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 78-80
+  theme: eroticism
+  role: knowledge
+  claim: The beauty in sex is not inherent in sex itself; people bring beauty, maturity, and meaning to it.
+  why_it_matters: This lets MarriageOS shift away from technique worship and toward the character, safety, and selfhood that make intimacy vivid.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  confidence: high
+  evidence_type: direct
+  notes: Strong philosophical anchor. Translate out of sermon tone.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-005
+    source_id: SRC-PM-001
+    theme: eroticism
+- extract_id: EXT-PM-004
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 113-115
+  theme: intimacy
+  role: knowledge
+  claim: Other-validated intimacy feels soothing, but self-validated intimacy is what lets a person stay open, honest, and connected even when a partner does not immediately reassure or agree.
+  why_it_matters: Important for MarriageOS because many couples are waiting for the other person’s perfect response before they can speak honestly or stay regulated.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Excellent for explaining why adult intimacy requires self-support, not just mutual soothing.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-004
+    source_id: SRC-PM-001
+    theme: intimacy
+- extract_id: EXT-ED-021
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 145-148
+  theme: novelty-deficit
+  role: knowledge
+  claim: Couples do not need identical definitions of fun; the key is respecting each other’s play style while still introducing some shared newness.
+  why_it_matters: Useful for anti-polarisation interpretation and for keeping novelty practical rather than one-size-fits-all.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - guides/read-both
+  - repair/quiet-drift
+  confidence: high
+  evidence_type: direct
+  notes: Good bridge content.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-021
+    source_id: SRC-ED-001
+    theme: novelty-deficit
+- extract_id: EXT-PM-006
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 79-94
+  theme: sexual-potential
+  role: knowledge
+  claim: Genital prime and sexual prime are not the same; mature erotic connection can deepen with age as intimacy, self-acceptance, and emotional union grow.
+  why_it_matters: Counters the lazy assumption that good sex belongs mainly to youth or novelty and supports MarriageOS’s long-horizon view of desire.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  confidence: high
+  evidence_type: direct
+  notes: Very useful anti-decline frame. Avoid overpromising that age alone improves sex.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-006
+    source_id: SRC-PM-001
+    theme: sexual-potential
+- extract_id: EXT-LP-014
+  source_id: SRC-LP-001
+  page_refs:
+  - pp. 90-106
+  - pp. 93-100
+  theme: touch-and-safety
+  role: knowledge
+  claim: Affectionate nonsexual touch supports bonding, calms the body, and reduces the stress, isolation, and distance that can make desire and sex feel hard.
+  why_it_matters: Excellent feeder for desire-under-logistics and low-pressure reconnection, especially where touch has thinned and the relationship feels both lonely and edgy.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/pressure-loop
+  - repair/quiet-drift
+  confidence: high
+  evidence_type: direct
+  notes: 'Merged overlap from EXT-LP-015; keep consent-sensitive and translate physiological discussion into practical relational language. Merged corroborating extracts: mgw-ba4979::EXT-MGW-008 (nonsexual-touch).'
+  provenance:
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-014
+    source_id: SRC-LP-001
+    theme: touch-and-safety
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-008
+    source_id: SRC-MGW-001
+    theme: nonsexual-touch
+- extract_id: EXT-MGW-009
+  source_id: SRC-MGW-001
+  page_refs: null
+  theme: desire-prerequisites
+  role: pattern
+  claim: Sexual desire often drops when conflict, stress, tiredness, or disconnection rise.
+  why_it_matters: Useful to interrupt pressure logic and performance blame.
+  usable_for:
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  confidence: high
+  evidence_type: null
+  notes: Rephrase as 'often' rather than universal sex difference.
+  provenance:
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-009
+    source_id: SRC-MGW-001
+    theme: desire-prerequisites
+- extract_id: EXT-ED-012
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 84-85
+  - pp. 89-90
+  theme: desire-maintenance
+  role: repair
+  claim: Desire is supported by out-of-bedroom rituals such as affection, kissing, flirting, cuddling, and regular romantic reconnection.
+  why_it_matters: This is a usable anti-drift / anti-roommate mechanism for V1 repair and knowledge layers.
+  usable_for:
+  - repair/quiet-drift
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  confidence: high
+  evidence_type: direct
+  notes: Do not turn into obligation scorekeeping.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-012
+    source_id: SRC-ED-001
+    theme: desire-maintenance
+- extract_id: EXT-PM-009
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 160-163
+  theme: desire-risk
+  role: repair
+  claim: Fear of disapproval can kill novelty, while fear of losing a deeply important partner can make it easier to flatten desire than to tolerate wanting.
+  why_it_matters: Gives MarriageOS a sharper explanation for why committed partners often become safer, flatter, and more cautious rather than more erotic.
+  usable_for:
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  confidence: high
+  evidence_type: direct
+  notes: Use carefully with rejection-sensitive users; the point is to lower shame, not intensify it.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-009
+    source_id: SRC-PM-001
+    theme: desire-risk
+- extract_id: EXT-PM-008
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 161-162
+  theme: low-desire
+  role: repair
+  claim: Low desire in marriage can take the form of 'not wanting to want' because wanting a partner feels too exposing, too consequential, or too dangerous to the self.
+  why_it_matters: This is one of the source’s most distinctive contributions and is a high-value explanation for many pressure-loop dynamics.
+  usable_for:
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  confidence: high
+  evidence_type: direct
+  notes: Very strong fit. Important to present as one mechanism, not the only explanation.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-008
+    source_id: SRC-PM-001
+    theme: low-desire
+- extract_id: EXT-ED-020
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 130-148
+  - pp. 151-160
+  - pp. 113-116
+  - pp. 125-126
+  theme: novelty-deficit
+  role: repair
+  claim: Play, novelty, laughter, and adventure are not luxuries in long-term relationships; they are core anti-drift inputs.
+  why_it_matters: This fits directly with quiet-drift and desire-maintenance modules.
+  usable_for:
+  - repair/quiet-drift
+  - knowledge/desire-and-familiarity
+  - products/novelty-planner
+  - products/date-night-prompts
+  confidence: high
+  evidence_type: direct
+  notes: 'One of the best source-to-product translations. Merged corroborating extracts: bys-fc45d0::EXT-BYS-020 (novelty-deficit); lp-9a037a::EXT-LP-018 (play-and-adventure).'
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-020
+    source_id: SRC-ED-001
+    theme: novelty-deficit
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-020
+    source_id: SRC-BYS-001
+    theme: novelty-deficit
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-018
+    source_id: SRC-LP-001
+    theme: play-and-adventure
+- extract_id: EXT-MGW-010
+  source_id: SRC-MGW-001
+  page_refs: null
+  theme: sexual-safety
+  role: warning
+  claim: Sex gets worse when it is treated as a mechanical routine or a response owed despite disconnection.
+  why_it_matters: Useful negative pattern for pressure-loop translation.
+  usable_for:
+  - repair/pressure-loop
+  confidence: medium-high
+  evidence_type: null
+  notes: Avoid importing explicit sexual technique. Keep the safety-and-connection premise.
+  provenance:
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-010
+    source_id: SRC-MGW-001
+    theme: sexual-safety

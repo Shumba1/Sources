@@ -1,0 +1,314 @@
+theme: mental-load-and-family-atmosphere
+description: Groups childcare, household burden, life-phase strain, and the effect of parental conflict climate on the home system.
+retained_extract_count: 15
+extracts:
+- extract_id: EXT-MGW-019
+  source_id: SRC-MGW-001
+  page_refs: null
+  theme: shared-load
+  role: intervention
+  claim: Shared childcare and shared family workload preserve romance, reduce resentment, and protect partnership.
+  why_it_matters: Strong bridge to mental-load work.
+  usable_for:
+  - knowledge/children-and-family-stability
+  - repair/mental-load
+  confidence: high
+  evidence_type: null
+  notes: Keep.
+  provenance:
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-019
+    source_id: SRC-MGW-001
+    theme: shared-load
+- extract_id: EXT-ED-018
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 120-125
+  - pp. 126-128
+  theme: children-and-family-stability
+  role: knowledge
+  claim: Children increase strain on the couple bond unless the couple deliberately protects intimacy, connection, and the primary relationship.
+  why_it_matters: Direct support for family-conscious doctrine without romanticising martyrdom.
+  usable_for:
+  - knowledge/children-and-family-stability
+  - repair/touched-out
+  - repair/mental-load
+  confidence: high
+  evidence_type: direct
+  notes: Good family-stability backbone.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-018
+    source_id: SRC-ED-001
+    theme: children-and-family-stability
+- extract_id: EXT-ED-019
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 123-125
+  theme: children-and-family-stability
+  role: knowledge
+  claim: Post-baby couple outcomes improve when the non-birthing partner stays actively involved and the couple preserves low-conflict connection.
+  why_it_matters: Useful for postpartum knowledge and overload repair, though it should be treated as directional rather than deterministic.
+  usable_for:
+  - knowledge/children-and-family-stability
+  - repair/touched-out
+  - guides/read-both
+  confidence: medium
+  evidence_type: direct
+  notes: Use with caution; do not overstate universal applicability.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-019
+    source_id: SRC-ED-001
+    theme: children-and-family-stability
+- extract_id: EXT-ED-022
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 158-161
+  theme: family-atmosphere
+  role: knowledge
+  claim: Shared rituals, meaning, and a sense that the relationship matters beyond logistics help couples stay connected through change.
+  why_it_matters: Supports family-atmosphere and resilience content without making the product preachy.
+  usable_for:
+  - knowledge/children-and-family-stability
+  - knowledge/system-decay-system-repair
+  - repair/stay-and-rebuild
+  confidence: medium-high
+  evidence_type: direct
+  notes: Translate sacredness into meaning / ritual language.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-022
+    source_id: SRC-ED-001
+    theme: family-atmosphere
+- extract_id: EXT-ED-014
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 97-99
+  - pp. 106-112
+  theme: mental-load
+  role: knowledge
+  claim: Money fights are usually about what money symbolises—security, freedom, love, power, adulthood, fear—not just about numbers.
+  why_it_matters: This gives MarriageOS a more adult way to interpret financial tension and avoid shallow spender-vs-saver framing.
+  usable_for:
+  - knowledge/money-meaning
+  - repair/financial-stress
+  - repair/mental-load
+  confidence: high
+  evidence_type: direct
+  notes: Strong knowledge article anchor.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-014
+    source_id: SRC-ED-001
+    theme: mental-load
+- extract_id: EXT-ED-015
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 99-100
+  - pp. 113-116
+  theme: mental-load
+  role: knowledge
+  claim: Labelling one partner a spender and the other a saver usually hides the deeper histories and values driving the conflict.
+  why_it_matters: Useful for reducing caricature and helping users interpret their partner more accurately.
+  usable_for:
+  - knowledge/money-meaning
+  - guides/read-both
+  - repair/financial-stress
+  confidence: high
+  evidence_type: direct
+  notes: Good anti-stereotype content.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-015
+    source_id: SRC-ED-001
+    theme: mental-load
+- extract_id: EXT-MGW-017
+  source_id: SRC-MGW-001
+  page_refs: null
+  theme: father-involvement
+  role: mechanism
+  claim: Father involvement and playful caregiving strongly support child development and the relationship itself.
+  why_it_matters: Very strong family-stability contribution.
+  usable_for:
+  - knowledge/children-and-family-stability
+  confidence: medium-high
+  evidence_type: null
+  notes: Keep with evidence caution, but highly usable.
+  provenance:
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-017
+    source_id: SRC-MGW-001
+    theme: father-involvement
+- extract_id: EXT-MGW-018
+  source_id: SRC-MGW-001
+  page_refs: null
+  theme: after-baby-shift
+  role: pattern
+  claim: After a baby arrives, some men feel displaced, but the repair move is not competition; it is deeper partnership and bonding with the baby too.
+  why_it_matters: Strongly relevant to post-baby drift and resentment prevention.
+  usable_for:
+  - knowledge/children-and-family-stability
+  - repair/mental-load
+  confidence: high
+  evidence_type: null
+  notes: One of the best V1-aligned passages in the source.
+  provenance:
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-018
+    source_id: SRC-MGW-001
+    theme: after-baby-shift
+- extract_id: EXT-BYS-015
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 111-127
+  theme: child-impact
+  role: repair
+  claim: Children are affected not only by whether parents stay together but by the conflict climate, disrespect, triangulation, and emotional insecurity created around them.
+  why_it_matters: This supports a vital family-protection lane in MarriageOS.
+  usable_for:
+  - repair/our-conflict-is-hitting-the-kids
+  - knowledge/children-and-family-stability
+  confidence: high
+  evidence_type: direct
+  notes: Very strong fit.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-015
+    source_id: SRC-BYS-001
+    theme: child-impact
+- extract_id: EXT-BYS-016
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 111-127
+  theme: child-impact
+  role: repair
+  claim: Splitting does not automatically solve the problem of parental conflict, because unresolved contempt and communication failures often continue into co-parenting.
+  why_it_matters: Important corrective to the simplistic 'divorce fixes the atmosphere' assumption.
+  usable_for:
+  - repair/our-conflict-is-hitting-the-kids
+  - repair/im-done
+  confidence: high
+  evidence_type: direct
+  notes: Keep realistic; do not pressure people to stay unsafe.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-016
+    source_id: SRC-BYS-001
+    theme: child-impact
+- extract_id: EXT-BYS-017
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 116-121
+  theme: child-impact
+  role: repair
+  claim: Parents should not lean on children emotionally, recruit them into the conflict, or speak disrespectfully about the other parent in front of them.
+  why_it_matters: Highly operational. Good direct repair content.
+  usable_for:
+  - repair/our-conflict-is-hitting-the-kids
+  - knowledge/children-and-family-stability
+  confidence: high
+  evidence_type: direct
+  notes: One of the best source-to-module translations.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-017
+    source_id: SRC-BYS-001
+    theme: child-impact
+- extract_id: EXT-BYS-018
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 119-121
+  theme: child-impact
+  role: repair
+  claim: If children have been exposed to parental disrespect, a direct apology and reset from the parent can be stabilising rather than weakening authority.
+  why_it_matters: This is excellent practical guidance for immediate household repair.
+  usable_for:
+  - repair/our-conflict-is-hitting-the-kids
+  - repair/post-fight-reset
+  confidence: high
+  evidence_type: direct
+  notes: Operationally strong.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-018
+    source_id: SRC-BYS-001
+    theme: child-impact
+- extract_id: EXT-ED-013
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 82-83
+  - pp. 88-89
+  theme: life-phase-pressure
+  role: repair
+  claim: Sexual connection is heavily affected by exhaustion, nursing, body change, stress, and other life-phase realities; demand amplifies strain.
+  why_it_matters: Direct feeder for touched-out, postpartum, and overload repair surfaces.
+  usable_for:
+  - repair/touched-out
+  - repair/life-pressure
+  - guides/her-perspective
+  confidence: high
+  evidence_type: direct
+  notes: Excellent life-phase pressure material.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-013
+    source_id: SRC-ED-001
+    theme: life-phase-pressure
+- extract_id: EXT-ED-017
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 99-106
+  - pp. 113-116
+  theme: life-phase-pressure
+  role: repair
+  claim: Work can function like a third party in the relationship when time, focus, and identity are pulled so far toward work that the bond goes underfed.
+  why_it_matters: This is a clear mechanism for overload-related loneliness and disconnection.
+  usable_for:
+  - repair/mental-load
+  - repair/life-pressure
+  - knowledge/how-drift-starts
+  confidence: high
+  evidence_type: direct
+  notes: Excellent overload interpretation.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-017
+    source_id: SRC-ED-001
+    theme: life-phase-pressure
+- extract_id: EXT-ED-016
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 102-104
+  - pp. 113-116
+  theme: manager-mode
+  role: repair
+  claim: Unequal unpaid labour and household responsibility are major conflict drivers because they directly affect respect, energy, and partnership feel.
+  why_it_matters: This maps tightly to manager-mode / mental-load repair and is materially useful in V1.
+  usable_for:
+  - repair/mental-load
+  - repair/manager-mode
+  - knowledge/money-meaning
+  confidence: high
+  evidence_type: direct
+  notes: Very strong fit with MarriageOS overload surfaces.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-016
+    source_id: SRC-ED-001
+    theme: manager-mode

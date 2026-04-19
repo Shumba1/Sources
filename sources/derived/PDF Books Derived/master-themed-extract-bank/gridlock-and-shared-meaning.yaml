@@ -1,0 +1,190 @@
+theme: gridlock-and-shared-meaning
+description: Covers perpetual conflict, deeper dreams and values, shared meaning, influence, and dilemmas that will not yield to surface compromise.
+retained_extract_count: 9
+extracts:
+- extract_id: EXT-WPD-007
+  source_id: SRC-WPD-001
+  page_refs: null
+  theme: oral-history
+  role: knowledge
+  claim: 'How partners tell the story of the relationship matters: fondness, we-ness, expansiveness, and shared meaning point in a different direction from disappointment, separateness, and chaos.'
+  why_it_matters: Useful for article-level explanation of how drift rewrites the relationship story.
+  usable_for:
+  - repair/quiet-drift
+  - knowledge/conflict-styles-and-stability
+  confidence: high
+  evidence_type: null
+  notes: Good for subtle drift content.
+  provenance:
+  - book_id: wpd-e81fdb
+    book_pack: what-predicts-divorce-the-relationship-between-marital--e81fdb
+    extract_id: EXT-WPD-007
+    source_id: SRC-WPD-001
+    theme: oral-history
+- extract_id: EXT-SP-014
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 268-269
+  theme: shared-meaning
+  role: knowledge
+  claim: Shared meaning grows through rituals of connection, shared values, and an ongoing sense that the relationship stands for something larger than logistics.
+  why_it_matters: Strong anti-roommate and anti-emptiness logic.
+  usable_for:
+  - repair/gridlock
+  - knowledge/shared-meaning
+  - repair/quiet-drift
+  confidence: high
+  evidence_type: direct
+  notes: Useful as a later-stage stabiliser after basic safety.
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-014
+    source_id: SRC-SP-001
+    theme: shared-meaning
+- extract_id: e06
+  source_id: psychology-of-sociability-p4--96834b
+  page_refs:
+  - pp. 224-226
+  theme: goals-under-stress
+  role: mechanism
+  claim: Avoidant people organise around self-reliance and distance; anxious people organise around closeness, reassurance, and fear of abandonment.
+  why_it_matters: Strong basis for a “what each person is protecting” section.
+  usable_for:
+  - knowledge/attachment-patterns
+  confidence: high
+  evidence_type: direct
+  notes: Especially useful in de-shaming conflict.
+  provenance:
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e06
+    source_id: psychology-of-sociability-p4--96834b
+    theme: goals-under-stress
+- extract_id: EXT-SP-010
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 136-137
+  - pp. 173-174
+  theme: accept-influence
+  role: repair
+  claim: Accepting influence means searching a partner's request for something you can agree to and moving toward compromise rather than total resistance.
+  why_it_matters: Strong conflict-repair posture for stubborn stalemates.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/gridlock
+  confidence: medium-high
+  evidence_type: direct
+  notes: Some gendered framing in source should be stripped.
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-010
+    source_id: SRC-SP-001
+    theme: accept-influence
+- extract_id: EXT-SP-013
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 244-246
+  theme: dreams-within-conflict
+  role: repair
+  claim: Many stuck conflicts are attached to deeper dreams, values, fears, and identity themes that need to be understood rather than defeated.
+  why_it_matters: Excellent bridge from endless argument to meaning-level curiosity.
+  usable_for:
+  - repair/gridlock
+  - knowledge/shared-meaning
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Use carefully; not every conflict hides a beautiful dream.
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-013
+    source_id: SRC-SP-001
+    theme: dreams-within-conflict
+- extract_id: EXT-SP-012
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 244-245
+  theme: gridlock
+  role: repair
+  claim: Gridlock forms when a recurring issue becomes polarized, compromise feels like self-betrayal, and the same fight loops without progress.
+  why_it_matters: Clean symptom language for couples who feel permanently stuck.
+  usable_for:
+  - repair/gridlock
+  - repair/we-keep-fighting
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: Good V1 repair target.
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-012
+    source_id: SRC-SP-001
+    theme: gridlock
+- extract_id: EXT-BYS-024
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 59-73
+  - pp. 84-92
+  theme: hope-with-effort
+  role: repair
+  claim: Couples can regain closeness even after deep distress, but usually through slow, awkward, repeated steps rather than one breakthrough moment.
+  why_it_matters: Strong anti-magic-fix framing for MarriageOS repair modules.
+  usable_for:
+  - repair/im-done
+  - repair/we-keep-fighting
+  - repair/quiet-drift
+  confidence: high
+  evidence_type: derived
+  notes: Good repair cadence framing.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-024
+    source_id: SRC-BYS-001
+    theme: hope-with-effort
+- extract_id: EXT-PM-017
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 347-348
+  - pp. 461
+  theme: mutuality
+  role: repair
+  claim: When either the high-desire or low-desire partner self-soothes more effectively, control struggles soften and the relationship becomes more patient, flexible, and mutual.
+  why_it_matters: Strong bridge between desire mismatch and general relationship regulation; useful for pressure loops that are really anxiety loops.
+  usable_for:
+  - repair/pressure-loop
+  - guides/read-both
+  confidence: medium-high
+  evidence_type: direct
+  notes: 'Good nuance: both partners have regulation work, not just the distancer.'
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-017
+    source_id: SRC-PM-001
+    theme: mutuality
+- extract_id: EXT-PM-015
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 313-314
+  - pp. 460-462
+  theme: two-choice-dilemmas
+  role: repair
+  claim: Gridlock often persists because people want two choices for themselves while denying their partner’s choice; dodging the real dilemma prolongs pain and erodes integrity.
+  why_it_matters: This is one of the source’s strongest conflict mechanisms and can help MarriageOS explain why some fights never resolve.
+  usable_for:
+  - repair/we-keep-fighting
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Strong fit for recurring gridlock modules.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-015
+    source_id: SRC-PM-001
+    theme: two-choice-dilemmas

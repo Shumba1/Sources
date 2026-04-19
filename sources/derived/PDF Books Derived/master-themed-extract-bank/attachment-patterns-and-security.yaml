@@ -1,0 +1,259 @@
+theme: attachment-patterns-and-security
+description: 'Provides the attachment lens: safe haven, secure base, protest/withdraw patterns, ruptures, and the protective strategies couples use under threat.'
+retained_extract_count: 11
+extracts:
+- extract_id: EXT-MGW-005
+  source_id: SRC-MGW-001
+  page_refs: null
+  theme: safety
+  role: boundary
+  claim: Physical intimidation, raised volume, and dominance-based posturing destroy trust and safety.
+  why_it_matters: Useful escalation boundary and safety doctrine.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  confidence: high
+  evidence_type: null
+  notes: Keep intact.
+  provenance:
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-005
+    source_id: SRC-MGW-001
+    theme: safety
+- extract_id: EXT-SL-010
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 62-67
+  theme: disorganized-pattern
+  role: caution
+  claim: Disorganized attachment can intensify volatility, distrust, dissociation, or contradictory closeness / distance behaviour and is often linked to trauma.
+  why_it_matters: Important caution logic for severe dysregulation cases.
+  usable_for:
+  - repair/we-keep-fighting
+  - knowledge/attachment-styles
+  - escalation/seek-support
+  confidence: medium-high
+  evidence_type: direct
+  notes: Do not casually label users or imply certainty.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-010
+    source_id: SRC-SL-001
+    theme: disorganized-pattern
+- extract_id: EXT-SL-005
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 21-23
+  theme: attachment-rupture
+  role: knowledge
+  claim: Attachment ruptures are moments of felt misunderstanding, invalidation, disrespect, or unsupportedness that accumulate into insecurity when left unrepaired.
+  why_it_matters: Explains why “small” misses can have outsized relational effects.
+  usable_for:
+  - repair/quiet-drift
+  - repair/we-keep-fighting
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: Important anti-minimisation concept.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-005
+    source_id: SRC-SL-001
+    theme: attachment-rupture
+- extract_id: EXT-SL-006
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 27-45
+  - pp. 221-222
+  theme: attachment-styles
+  role: knowledge
+  claim: Anxious, avoidant, disorganized, and secure patterns are adaptations that shape how adults reach for closeness, protect against pain, and react under stress.
+  why_it_matters: Helps users interpret recurring patterns without reducing them to personality flaws.
+  usable_for:
+  - knowledge/attachment-styles
+  - guides/read-both
+  - repair/we-keep-fighting
+  - knowledge/attachment-patterns
+  confidence: high
+  evidence_type: direct
+  notes: 'Use carefully to avoid identity cages. Merged corroborating extracts: pos-96834b::e02 (attachment-dimensions).'
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-006
+    source_id: SRC-SL-001
+    theme: attachment-styles
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e02
+    source_id: psychology-of-sociability-p4--96834b
+    theme: attachment-dimensions
+- extract_id: EXT-SL-001
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 7-14
+  - pp. 219-221
+  theme: secure-attachment
+  role: knowledge
+  claim: A healthy relationship is best understood as a securely attached relationship felt in the nervous system as safety, closeness, and responsiveness.
+  why_it_matters: Reorients MarriageOS away from vague ideals and toward felt relational security.
+  usable_for:
+  - repair/quiet-drift
+  - repair/we-keep-fighting
+  - knowledge/how-secure-love-feels
+  - knowledge/attachment-patterns
+  confidence: high
+  evidence_type: direct
+  notes: 'Keep felt-sense framing; reduce therapy density. Merged corroborating extracts: pos-96834b::e01 (attachment-security).'
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-001
+    source_id: SRC-SL-001
+    theme: secure-attachment
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e01
+    source_id: psychology-of-sociability-p4--96834b
+    theme: attachment-security
+- extract_id: EXT-MGW-007
+  source_id: SRC-MGW-001
+  page_refs: null
+  theme: fear-and-comfort
+  role: mechanism
+  claim: A sense of protection, comfort, and safety can materially soften fear responses and make closeness easier.
+  why_it_matters: Supports emotional and bodily safety as intimacy prerequisites.
+  usable_for:
+  - repair/pressure-loop
+  - guides/his-perspective
+  confidence: medium
+  evidence_type: null
+  notes: Translate without paternalism or rescue framing.
+  provenance:
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-007
+    source_id: SRC-MGW-001
+    theme: fear-and-comfort
+- extract_id: e05
+  source_id: psychology-of-sociability-p4--96834b
+  page_refs:
+  - pp. 223-225
+  theme: insecure-relational-costs
+  role: pattern
+  claim: Attachment insecurities are associated with more negative interpretations, less constructive conflict behaviour, more exit or neglect responses, and lower felt gratitude or empathy.
+  why_it_matters: Supports repair content focused on pattern recognition rather than moral judgement.
+  usable_for:
+  - knowledge/attachment-patterns
+  - repair/responsiveness-repair
+  confidence: medium-high
+  evidence_type: direct
+  notes: Present as risk tendencies, not fixed destiny.
+  provenance:
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e05
+    source_id: psychology-of-sociability-p4--96834b
+    theme: insecure-relational-costs
+- extract_id: EXT-SL-008
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 49-60
+  - pp. 222-223
+  theme: anxious-pattern
+  role: repair
+  claim: Anxious partners often protest, press, criticise, or seek repeated reassurance because they fear abandonment and struggle to trust closeness will last.
+  why_it_matters: Useful for naming the protest side of pursue / withdraw dynamics.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - guides/read-both
+  - knowledge/attachment-patterns
+  confidence: high
+  evidence_type: direct
+  notes: 'Avoid gendering. Merged corroborating extracts: pos-96834b::e03 (hyperactivating).'
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-008
+    source_id: SRC-SL-001
+    theme: anxious-pattern
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e03
+    source_id: psychology-of-sociability-p4--96834b
+    theme: hyperactivating
+- extract_id: EXT-SL-016
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 122-149
+  - pp. 164-181
+  theme: attachment-friendly-environment
+  role: repair
+  claim: Repair works best inside an attachment-friendly environment defined by validation, reduced shame, regulation, empathy, and respectful language.
+  why_it_matters: High-value operational logic for every downstream repair object.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - repair/quiet-drift
+  confidence: high
+  evidence_type: direct
+  notes: Summarise; do not port all framework jargon.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-016
+    source_id: SRC-SL-001
+    theme: attachment-friendly-environment
+- extract_id: EXT-SL-009
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 56-63
+  - pp. 222-223
+  theme: avoidant-pattern
+  role: repair
+  claim: Avoidant partners often defend, minimise, detach, over-rationalise, or shut down because closeness and criticism both trigger fears of failure, engulfment, or shame.
+  why_it_matters: Useful for naming the withdraw / defend side of common cycles.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - guides/read-both
+  - knowledge/attachment-patterns
+  confidence: high
+  evidence_type: direct
+  notes: 'Avoid simplistic “emotionally unavailable man” framing. Merged corroborating extracts: pos-96834b::e04 (deactivating).'
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-009
+    source_id: SRC-SL-001
+    theme: avoidant-pattern
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e04
+    source_id: psychology-of-sociability-p4--96834b
+    theme: deactivating
+- extract_id: EXT-SL-004
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 17-22
+  theme: protective-stances
+  role: repair
+  claim: Couples use protest, defensiveness, shutdown, and withdrawal as protective stances against painful unmet needs, but those protections block the very connection they are trying to recover.
+  why_it_matters: Excellent mechanism layer for conflict and distance modules.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/quiet-drift
+  - repair/pressure-loop
+  confidence: high
+  evidence_type: direct
+  notes: Strong direct port to MarriageOS.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-004
+    source_id: SRC-SL-001
+    theme: protective-stances

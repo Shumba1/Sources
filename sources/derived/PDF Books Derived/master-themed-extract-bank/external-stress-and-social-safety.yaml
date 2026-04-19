@@ -1,0 +1,222 @@
+theme: external-stress-and-social-safety
+description: Explains how wider-world unpredictability, alternatives, belonging, and social threat affect pair-bond security.
+retained_extract_count: 11
+extracts:
+- extract_id: EXT-POI-002
+  source_id: SRC-POI-001
+  page_refs:
+  - pp. 207
+  theme: belonging-and-safety
+  role: concept
+  claim: People are fundamentally motivated to belong in social bonds that feel safe rather than harmful.
+  why_it_matters: Supports repair-first framing around felt safety.
+  usable_for:
+  - knowledge/social-safety
+  confidence: medium
+  evidence_type: direct
+  notes: Do not turn into dependency language.
+  provenance:
+  - book_id: poi-aba496
+    book_pack: the-psychology-of-insecurity--aba496
+    extract_id: EXT-POI-002
+    source_id: SRC-POI-001
+    theme: belonging-and-safety
+- extract_id: EXT-POI-003
+  source_id: SRC-POI-001
+  page_refs:
+  - pp. 208-209
+  theme: multiple-relational-worlds
+  role: concept
+  claim: People live in both personal relational worlds and wider collective relational worlds, and outcomes in both depend on other people.
+  why_it_matters: Useful for explaining why public stress enters private relationships.
+  usable_for:
+  - knowledge/social-safety
+  confidence: high
+  evidence_type: direct
+  notes: Core bridge from theory to MarriageOS relevance.
+  provenance:
+  - book_id: poi-aba496
+    book_pack: the-psychology-of-insecurity--aba496
+    extract_id: EXT-POI-003
+    source_id: SRC-POI-001
+    theme: multiple-relational-worlds
+- extract_id: EXT-POI-001
+  source_id: SRC-POI-001
+  page_refs:
+  - pp. 206-207
+  theme: social-connection-duality
+  role: concept
+  claim: Social ties can protect and stabilise people, but those same ties also create vulnerability when others disappoint, exploit, or behave carelessly.
+  why_it_matters: Strong basis for adult relationship language that holds both comfort and vulnerability together.
+  usable_for:
+  - knowledge/social-safety
+  confidence: medium-high
+  evidence_type: direct
+  notes: Useful for calm, non-idealised framing.
+  provenance:
+  - book_id: poi-aba496
+    book_pack: the-psychology-of-insecurity--aba496
+    extract_id: EXT-POI-001
+    source_id: SRC-POI-001
+    theme: social-connection-duality
+- extract_id: EXT-POI-010
+  source_id: SRC-POI-001
+  page_refs:
+  - pp. 218
+  theme: protective-marriage-buffer
+  role: finding
+  claim: For less secure newlyweds, being more able to find safety in the marriage during wider-world unpredictability was linked to strengthening trust and security over time.
+  why_it_matters: Strongest basis for a repair candidate on making home feel steadier under external stress.
+  usable_for:
+  - repair/safer-home
+  - knowledge/social-safety
+  confidence: high
+  evidence_type: direct
+  notes: Keep language modest; this is an early-evidence claim.
+  provenance:
+  - book_id: poi-aba496
+    book_pack: the-psychology-of-insecurity--aba496
+    extract_id: EXT-POI-010
+    source_id: SRC-POI-001
+    theme: protective-marriage-buffer
+- extract_id: EXT-POI-009
+  source_id: SRC-POI-001
+  page_refs:
+  - pp. 213-217
+  theme: real-world-evidence
+  role: finding
+  claim: Diary and longitudinal studies found that when people felt vulnerable and one world behaved unpredictably, they often reported greater trust in the alternate relational world.
+  why_it_matters: Supports using this as a practical but modest relationship insight rather than pure theory.
+  usable_for:
+  - knowledge/social-safety
+  - repair/safer-home
+  confidence: medium
+  evidence_type: direct
+  notes: Findings are contextual and should not be universalised.
+  provenance:
+  - book_id: poi-aba496
+    book_pack: the-psychology-of-insecurity--aba496
+    extract_id: EXT-POI-009
+    source_id: SRC-POI-001
+    theme: real-world-evidence
+- extract_id: EXT-ED-003
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 39-42
+  theme: external-pull
+  role: knowledge
+  claim: Negative comparison of a partner against real or imagined alternatives is an early cascade step toward betrayal.
+  why_it_matters: This supports MarriageOS doctrine that temptation must be modelled as a maintenance and comparison problem before it becomes an affair problem.
+  usable_for:
+  - knowledge/affair-dynamics
+  - knowledge/desire-and-familiarity
+  - repair/im-comparing-my-spouse-to-strangers
+  confidence: high
+  evidence_type: direct
+  notes: Strong fit with external comparison loops.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-003
+    source_id: SRC-ED-001
+    theme: external-pull
+- extract_id: EXT-POI-007
+  source_id: SRC-POI-001
+  page_refs:
+  - pp. 211-212
+  theme: defensive-search-for-safety
+  role: mechanism
+  claim: When one relational world feels riskier, people often look for steadiness in another relational world.
+  why_it_matters: Strong basis for guidance on deliberately strengthening dependable connection.
+  usable_for:
+  - repair/safer-home
+  - knowledge/social-safety
+  confidence: medium-high
+  evidence_type: direct
+  notes: Must avoid sounding like denial of problems.
+  provenance:
+  - book_id: poi-aba496
+    book_pack: the-psychology-of-insecurity--aba496
+    extract_id: EXT-POI-007
+    source_id: SRC-POI-001
+    theme: defensive-search-for-safety
+- extract_id: EXT-POI-006
+  source_id: SRC-POI-001
+  page_refs:
+  - pp. 211-212
+  theme: generalized-threat
+  role: mechanism
+  claim: Unexpected behaviour in one relationship domain can threaten felt safety more broadly because relational worlds are cognitively interconnected.
+  why_it_matters: Explains stress spillover across marriage, family, and wider life.
+  usable_for:
+  - knowledge/social-safety
+  - repair/surprise-reset
+  confidence: high
+  evidence_type: direct
+  notes: Strong knowledge fit.
+  provenance:
+  - book_id: poi-aba496
+    book_pack: the-psychology-of-insecurity--aba496
+    extract_id: EXT-POI-006
+    source_id: SRC-POI-001
+    theme: generalized-threat
+- extract_id: EXT-POI-004
+  source_id: SRC-POI-001
+  page_refs:
+  - pp. 210-211
+  theme: outcome-dependence
+  role: mechanism
+  claim: Threat rises when people are highly dependent on others in a situation and therefore more vulnerable to what those others do.
+  why_it_matters: Helps explain why some moments feel much bigger than they "should".
+  usable_for:
+  - knowledge/social-safety
+  - repair/surprise-reset
+  confidence: high
+  evidence_type: direct
+  notes: Good for practical triage language.
+  provenance:
+  - book_id: poi-aba496
+    book_pack: the-psychology-of-insecurity--aba496
+    extract_id: EXT-POI-004
+    source_id: SRC-POI-001
+    theme: outcome-dependence
+- extract_id: EXT-POI-005
+  source_id: SRC-POI-001
+  page_refs:
+  - pp. 211
+  theme: unexpected-behaviour
+  role: mechanism
+  claim: Unexpected behaviour can make people question whether they understand the other person or the reality they are dealing with.
+  why_it_matters: Strong basis for a repair piece about surprise before story-making.
+  usable_for:
+  - repair/surprise-reset
+  - knowledge/social-safety
+  confidence: high
+  evidence_type: direct
+  notes: Especially useful for conflict after out-of-character behaviour.
+  provenance:
+  - book_id: poi-aba496
+    book_pack: the-psychology-of-insecurity--aba496
+    extract_id: EXT-POI-005
+    source_id: SRC-POI-001
+    theme: unexpected-behaviour
+- extract_id: EXT-POI-008
+  source_id: SRC-POI-001
+  page_refs:
+  - pp. 212
+  theme: dual-threat-defense
+  role: summary
+  claim: 'Threat can move in two directions: partner uncertainty can increase reliance on the wider world, and wider-world uncertainty can increase reliance on close relationships.'
+  why_it_matters: Gives a clean explanatory model for user education.
+  usable_for:
+  - knowledge/social-safety
+  - repair/safer-home
+  confidence: high
+  evidence_type: direct
+  notes: Central chapter contribution.
+  provenance:
+  - book_id: poi-aba496
+    book_pack: the-psychology-of-insecurity--aba496
+    extract_id: EXT-POI-008
+    source_id: SRC-POI-001
+    theme: dual-threat-defense

@@ -1,0 +1,80 @@
+theme: mood-and-perception
+description: Shows how mood and state change fairness, trust, perception, and the timing quality of hard conversations.
+retained_extract_count: 4
+extracts:
+- extract_id: e13
+  source_id: psychology-of-sociability-p4--96834b
+  page_refs:
+  - pp. 259-263
+  theme: mood-as-regulator
+  role: concept
+  claim: Mild mood states can function as regulatory inputs that shift how people process information and behave socially.
+  why_it_matters: Useful for conversation-timing guidance.
+  usable_for:
+  - repair/mood-aware-repair
+  confidence: medium-high
+  evidence_type: direct
+  notes: Emphasise “mild” and “state”, not personality.
+  provenance:
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e13
+    source_id: psychology-of-sociability-p4--96834b
+    theme: mood-as-regulator
+- extract_id: e15
+  source_id: psychology-of-sociability-p4--96834b
+  page_refs:
+  - pp. 267-269
+  theme: fairness
+  role: finding
+  claim: In strategic allocation tasks, sad participants behaved more fairly and were more likely to reject unfair offers than happy participants.
+  why_it_matters: Supports the idea that emotional state can shape fairness and self-interest in negotiation.
+  usable_for:
+  - repair/mood-aware-repair
+  confidence: medium
+  evidence_type: direct
+  notes: Laboratory finding only; translate modestly.
+  provenance:
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e15
+    source_id: psychology-of-sociability-p4--96834b
+    theme: fairness
+- extract_id: e16
+  source_id: psychology-of-sociability-p4--96834b
+  page_refs:
+  - pp. 269
+  theme: trust-and-gullibility
+  role: finding
+  claim: Negative mood reduced trust and improved deception detection; positive mood increased trust and in some cases gullibility.
+  why_it_matters: Supports mood-aware guidance around difficult conversations and premature reassurance.
+  usable_for:
+  - repair/mood-aware-repair
+  confidence: medium
+  evidence_type: direct
+  notes: Avoid making distrust sound virtuous.
+  provenance:
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e16
+    source_id: psychology-of-sociability-p4--96834b
+    theme: trust-and-gullibility
+- extract_id: e14
+  source_id: psychology-of-sociability-p4--96834b
+  page_refs:
+  - pp. 263-267
+  theme: processing-style
+  role: mechanism
+  claim: Negative mood tends to recruit more attentive, concrete, accommodative processing; positive mood tends to recruit more top-down, assimilative processing.
+  why_it_matters: Supports advice to slow down certainty and check details when conflict is emotionally loaded.
+  usable_for:
+  - repair/mood-aware-repair
+  confidence: medium-high
+  evidence_type: direct
+  notes: Must not be oversold.
+  provenance:
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e14
+    source_id: psychology-of-sociability-p4--96834b
+    theme: processing-style

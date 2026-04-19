@@ -1,0 +1,160 @@
+theme: resentment-and-admiration
+description: Tracks how expectation, negative storylines, and under-noticed effort corrode goodwill, and how admiration, gratitude, and appreciation counter that drift.
+retained_extract_count: 7
+extracts:
+- extract_id: EXT-SP-009
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 56-59
+  - pp. 80-81
+  theme: negative-story
+  role: knowledge
+  claim: When negativity hardens, couples begin rewriting both present and past through a negative story about the partner and the relationship.
+  why_it_matters: Useful explanatory material for resentment and hopelessness.
+  usable_for:
+  - repair/resentment-building
+  - knowledge/how-drift-starts
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: High-value anti-hopelessness frame.
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-009
+    source_id: SRC-SP-001
+    theme: negative-story
+- extract_id: EXT-ED-024
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 15-18
+  - pp. 178-180
+  theme: appreciation
+  role: repair
+  claim: Relationships strengthen when positive interpretation, fondness, appreciation, and everyday turning-toward outweigh the negative.
+  why_it_matters: This is direct bond-engine material and supports anti-resentment, anti-drift, and desire-maintenance pathways.
+  usable_for:
+  - repair/quiet-drift
+  - repair/resentment-building
+  - knowledge/how-drift-starts
+  confidence: medium-high
+  evidence_type: direct
+  notes: Use as direction, not strict ratio scorekeeping.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-024
+    source_id: SRC-ED-001
+    theme: appreciation
+- extract_id: EXT-LP-009
+  source_id: SRC-LP-001
+  page_refs:
+  - pp. 51-56
+  theme: appreciation
+  role: repair
+  claim: Expressed appreciation changes the emotional climate quickly because it makes effort visible and interrupts the assumption that one is carrying everything alone.
+  why_it_matters: Useful for immediate emotional de-escalation and bond repair.
+  usable_for:
+  - repair/resentment-building
+  - repair/quiet-drift
+  - products/gratitude-script-pack
+  confidence: high
+  evidence_type: direct
+  notes: Good practical lift.
+  provenance:
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-009
+    source_id: SRC-LP-001
+    theme: appreciation
+- extract_id: EXT-BYS-006
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 44-58
+  theme: expectations
+  role: repair
+  claim: Many couple conflicts are driven less by visible incidents than by clashing and often unspoken expectations that each person treats as normal.
+  why_it_matters: This is a practical mechanism for reducing circular fights and turning conflict into expectation-mapping instead of accusation.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/mental-load
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Excellent for conflict reframing.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-006
+    source_id: SRC-BYS-001
+    theme: expectations
+- extract_id: EXT-SP-003
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 75-96
+  - pp. 61-73
+  theme: fondness-and-admiration
+  role: repair
+  claim: Fondness and admiration are not passive feelings; they are active anti-contempt practices that keep a partner's good qualities visible.
+  why_it_matters: High-value anti-resentment and anti-contempt mechanism.
+  usable_for:
+  - repair/quiet-drift
+  - repair/we-keep-fighting
+  - repair/resentment-building
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: 'Translate into adult, unsentimental language. Merged corroborating extracts: lp-9a037a::EXT-LP-010 (admiration).'
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-003
+    source_id: SRC-SP-001
+    theme: fondness-and-admiration
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-010
+    source_id: SRC-LP-001
+    theme: admiration
+- extract_id: EXT-LP-007
+  source_id: SRC-LP-001
+  page_refs:
+  - pp. 46-59
+  theme: gratitude
+  role: repair
+  claim: Distressed couples often miss much of what their partner is doing right, so gratitude starts with noticing before it becomes thanking.
+  why_it_matters: This gives a practical way to interrupt the negative filter without false cheerfulness.
+  usable_for:
+  - repair/resentment-building
+  - repair/quiet-drift
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: Strong anti-resentment mechanism.
+  provenance:
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-007
+    source_id: SRC-LP-001
+    theme: gratitude
+- extract_id: EXT-BYS-013
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 93-109
+  theme: victim-story
+  role: repair
+  claim: Couples often tell themselves one-dimensional victim stories that contain some truth but hide their own contribution, clouding judgment and making repair harder.
+  why_it_matters: Excellent reframing device for conflict modules where each partner feels uniquely aggrieved.
+  usable_for:
+  - repair/we-keep-fighting
+  - guides/read-both
+  - products/trigger-mapping-tool
+  confidence: high
+  evidence_type: direct
+  notes: One of the most distinct contributions of this source.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-013
+    source_id: SRC-BYS-001
+    theme: victim-story

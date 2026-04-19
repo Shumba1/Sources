@@ -1,0 +1,203 @@
+theme: validation-and-responsiveness
+description: Focuses on feeling understood, naming needs cleanly, and creating enough responsiveness for honesty, openness, and lower defensiveness.
+retained_extract_count: 10
+extracts:
+- extract_id: e08
+  source_id: psychology-of-sociability-p4--96834b
+  page_refs:
+  - pp. 240-241
+  theme: partner-responsiveness-definition
+  role: concept
+  claim: Perceived partner responsiveness means believing that a partner understands, values, and is willing to care for and support you.
+  why_it_matters: This is the clearest repair anchor in the entire source set.
+  usable_for:
+  - repair/responsiveness-repair
+  confidence: high
+  evidence_type: direct
+  notes: Core source sentence for final repair candidate.
+  provenance:
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e08
+    source_id: psychology-of-sociability-p4--96834b
+    theme: partner-responsiveness-definition
+- extract_id: EXT-MGW-003
+  source_id: SRC-MGW-001
+  page_refs: null
+  theme: attunement
+  role: mechanism
+  claim: 'Attunement is broken into five moves: Attend, Turn Toward, Understand, Nondefensively Listen, Empathize.'
+  why_it_matters: Gives a practical behavioural sequence that can be repurposed without the source's rhetoric.
+  usable_for:
+  - repair/we-keep-fighting
+  - guides/his-perspective
+  confidence: high
+  evidence_type: null
+  notes: MarriageOS can keep the sequence while dropping the branded acronym if it feels forced.
+  provenance:
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-003
+    source_id: SRC-MGW-001
+    theme: attunement
+- extract_id: e10
+  source_id: psychology-of-sociability-p4--96834b
+  page_refs:
+  - pp. 241-245
+  theme: defensiveness
+  role: mechanism
+  claim: When people feel understood, appreciated, and supported, they become less defensive and less driven by self-protective self-enhancement.
+  why_it_matters: Explains why repair conversations go better when validation comes first.
+  usable_for:
+  - repair/responsiveness-repair
+  confidence: high
+  evidence_type: direct
+  notes: Very strong source-to-guidance bridge.
+  provenance:
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e10
+    source_id: psychology-of-sociability-p4--96834b
+    theme: defensiveness
+- extract_id: e12
+  source_id: psychology-of-sociability-p4--96834b
+  page_refs:
+  - pp. 250-251
+  theme: emotional-openness
+  role: mechanism
+  claim: People are more willing to express emotion, including stress and vulnerability, when they expect a responsive partner.
+  why_it_matters: Strong support for emotional disclosure guidance.
+  usable_for:
+  - repair/responsiveness-repair
+  confidence: high
+  evidence_type: direct
+  notes: Good fit for scripts and conversation prompts.
+  provenance:
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e12
+    source_id: psychology-of-sociability-p4--96834b
+    theme: emotional-openness
+- extract_id: e11
+  source_id: psychology-of-sociability-p4--96834b
+  page_refs:
+  - pp. 246-249
+  theme: open-mindedness
+  role: mechanism
+  claim: Responsiveness predicts greater open-mindedness, greater tolerance of mixed evidence, and lower felt threat around complexity.
+  why_it_matters: Supports guidance about creating enough safety for nuance.
+  usable_for:
+  - repair/responsiveness-repair
+  confidence: medium-high
+  evidence_type: direct
+  notes: Useful for polarised couples.
+  provenance:
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e11
+    source_id: psychology-of-sociability-p4--96834b
+    theme: open-mindedness
+- extract_id: EXT-LP-011
+  source_id: SRC-LP-001
+  page_refs:
+  - pp. 76-85
+  theme: direct-need-expression
+  role: repair
+  claim: Unspoken needs and indirect hints easily become resentment because partners are not mind readers and often miss the real request.
+  why_it_matters: A direct MarriageOS fit for resentment loops and invisible disappointment.
+  usable_for:
+  - repair/resentment-building
+  - repair/we-keep-fighting
+  - products/hard-conversation-scripts-pack
+  confidence: high
+  evidence_type: direct
+  notes: Excellent source for scripts.
+  provenance:
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-011
+    source_id: SRC-LP-001
+    theme: direct-need-expression
+- extract_id: EXT-BYS-014
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 104-109
+  theme: teaming
+  role: repair
+  claim: Couples improve conflict when they shift from defending 'me' to defending 'we' and treat disagreements as partnership problems rather than turf battles.
+  why_it_matters: Direct fit for MarriageOS repair posture.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/post-fight-reset
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Very strong fit.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-014
+    source_id: SRC-BYS-001
+    theme: teaming
+- extract_id: EXT-SL-015
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 101-104
+  theme: vulnerability
+  role: repair
+  claim: Vulnerability is not just sharing feelings; it is risking a new response instead of taking the familiar protective path.
+  why_it_matters: Useful for reframing behavioural change as courageous rather than sentimental.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Translate into plainer language.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-015
+    source_id: SRC-SL-001
+    theme: vulnerability
+- extract_id: EXT-SL-002
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 9-10
+  - pp. 34-36
+  theme: attachment-needs
+  role: script
+  claim: Attachment needs can be named with direct language such as “to feel close to you, I need…” followed by validation, appreciation, respect, responsiveness, and trust.
+  why_it_matters: Turns vague distress into concrete repair language.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/quiet-drift
+  - products/hard-conversation-scripts-pack
+  confidence: high
+  evidence_type: direct
+  notes: High-value script feeder.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-002
+    source_id: SRC-SL-001
+    theme: attachment-needs
+- extract_id: EXT-MGW-015
+  source_id: SRC-MGW-001
+  page_refs: null
+  theme: under-the-protest
+  role: script
+  claim: 'Three questions surface the need beneath protest: What do you need? What are you concerned about? What are you feeling?'
+  why_it_matters: Excellent intervention language.
+  usable_for:
+  - repair/we-keep-fighting
+  - guides/his-perspective
+  confidence: high
+  evidence_type: null
+  notes: One of the source's best direct scripts.
+  provenance:
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-015
+    source_id: SRC-MGW-001
+    theme: under-the-protest

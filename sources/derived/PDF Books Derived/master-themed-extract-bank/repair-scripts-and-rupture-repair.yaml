@@ -1,0 +1,262 @@
+theme: repair-scripts-and-rupture-repair
+description: Holds structured conversations, trust-repair logic, explicit re-contracting, and rupture-repair sequences.
+retained_extract_count: 12
+extracts:
+- extract_id: EXT-MGW-001
+  source_id: SRC-MGW-001
+  page_refs: null
+  theme: trust
+  role: core-claim
+  claim: Trustworthiness is framed as reliability, accountability, emotional safety, and showing up consistently.
+  why_it_matters: This is the source's main transferable premise and a usable MarriageOS bridge into trust, repair, and responsiveness.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - guides/his-perspective
+  confidence: medium-high
+  evidence_type: null
+  notes: Keep the mechanism. Remove the implication that women all want the same thing in the same way.
+  provenance:
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-001
+    source_id: SRC-MGW-001
+    theme: trust
+- extract_id: EXT-ED-002
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 38-39
+  theme: affair-risk
+  role: knowledge
+  claim: When a partner opens emotional windows to an outsider while building secrecy toward the primary partner, trust erosion and affair risk rise.
+  why_it_matters: This maps cleanly to external validation risk and affair-dynamics education without needing scandal framing.
+  usable_for:
+  - knowledge/affair-dynamics
+  - repair/outside-attention-feels-dangerous
+  - repair/comparison-drift
+  confidence: high
+  evidence_type: direct
+  notes: Translate into calm boundary language, not suspicion theatre.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-002
+    source_id: SRC-ED-001
+    theme: affair-risk
+- extract_id: EXT-ED-004
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 44-45
+  theme: repair-scripts
+  role: product
+  claim: 'A trust breach is best repaired through a structured conversation: feelings, each perspective, old triggers, ownership, apology, and a prevention plan.'
+  why_it_matters: This is highly reusable as a scripts pack, worksheet, or guided repair flow.
+  usable_for:
+  - products/hard-conversation-scripts-pack
+  - repair/we-need-a-trust-repair-talk
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: Too long for first-line repair UI; better as guided support asset.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-004
+    source_id: SRC-ED-001
+    theme: repair-scripts
+- extract_id: EXT-ED-009
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 31-33
+  - pp. 84-91
+  theme: repair-scripts
+  role: product
+  claim: Listening is more stabilising when the listener witnesses and reflects back feelings instead of judging, fixing, or debating them.
+  why_it_matters: This is clean script-pack material and good support logic for conflict modules.
+  usable_for:
+  - products/hard-conversation-scripts-pack
+  - repair/we-keep-snapping
+  - guides/read-both
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - guides/his-perspective
+  confidence: high
+  evidence_type: direct
+  notes: 'Best used as scripts, not as a lecture. Merged corroborating extracts: bys-fc45d0::EXT-BYS-012 (emotion-validation); mgw-ba4979::EXT-MGW-004 (emotional-dismissal).'
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-009
+    source_id: SRC-ED-001
+    theme: repair-scripts
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-012
+    source_id: SRC-BYS-001
+    theme: emotion-validation
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-004
+    source_id: SRC-MGW-001
+    theme: emotional-dismissal
+- extract_id: EXT-ED-025
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 7-9
+  - pp. 23-33
+  - pp. 181-183
+  theme: repair-scripts
+  role: product
+  claim: Open-ended curiosity and question-led conversation can deepen understanding, but in MarriageOS this belongs in tools and guided supports rather than core crisis UX.
+  why_it_matters: Useful to retain, but only after translation into short prompts and guided packs.
+  usable_for:
+  - products/hard-conversation-scripts-pack
+  - products/weekly-guided-check-in
+  - guides/read-both
+  confidence: high
+  evidence_type: derived
+  notes: Editorial translation from source to product fit.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-025
+    source_id: SRC-ED-001
+    theme: repair-scripts
+- extract_id: EXT-BYS-019
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 128-145
+  theme: forgiveness
+  role: repair
+  claim: Forgiveness is presented as a process that releases bitterness and prevents the heart from hardening, but it is not identical to denial, instant trust, or the removal of all boundaries.
+  why_it_matters: Useful for resentment repair if translated carefully.
+  usable_for:
+  - repair/resentment-and-forgiveness
+  - guides/read-both
+  confidence: medium-high
+  evidence_type: direct
+  notes: Must preserve boundary logic.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-019
+    source_id: SRC-BYS-001
+    theme: forgiveness
+- extract_id: EXT-E534E1-10
+  source_id: SRC-E534E1
+  page_refs: pp. 33-35
+  theme: repair-scripts
+  role: repair
+  claim: When the couple feels trapped in a changed-deal experience, the adult move is explicit re-contracting rather than silent scorekeeping, pressure, or accusation.
+  why_it_matters: This gives the repair module a clean operational centre and keeps the output symptom-led.
+  usable_for:
+  - repair/desire-drift-reset
+  confidence: medium
+  evidence_type: derived
+  notes: Direct MarriageOS translation rather than source wording.
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: EXT-E534E1-10
+    source_id: SRC-E534E1
+    theme: repair-scripts
+- extract_id: EXT-E534E1-11
+  source_id: SRC-E534E1
+  page_refs: pp. 35-36
+  theme: repair-scripts
+  role: repair
+  claim: Desire drift should not be framed as deliberate fraud by default; the safer working assumption is often unrecognised mismatch unless there is evidence of conscious deceit.
+  why_it_matters: This protects the product from grievance coding while still allowing hurt to be named honestly.
+  usable_for:
+  - repair/desire-drift-reset
+  - knowledge/desire-and-familiarity
+  confidence: medium
+  evidence_type: derived
+  notes: Supported by the chapter’s repeated insistence that the misrepresentation is often not deliberate.
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: EXT-E534E1-11
+    source_id: SRC-E534E1
+    theme: repair-scripts
+- extract_id: EXT-ED-007
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 67-69
+  theme: repair-scripts
+  role: repair
+  claim: After a regrettable incident, couples repair better when they unpack feelings, alternate realities, old triggers, responsibility, and next-time changes.
+  why_it_matters: This is directly convertible into post-fight debrief scaffolding.
+  usable_for:
+  - repair/one-fight-became-three
+  - products/hard-conversation-scripts-pack
+  - repair/post-fight-reset
+  confidence: high
+  evidence_type: direct
+  notes: Needs compression before UI use.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-007
+    source_id: SRC-ED-001
+    theme: repair-scripts
+- extract_id: EXT-SL-017
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 164-185
+  theme: rupture-repair
+  role: repair
+  claim: Successful repair is a process of acknowledging the rupture, sharing vulnerability, validating each other, and re-establishing safety before problem-solving.
+  why_it_matters: Excellent direct material for repair modules and scripts.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/quiet-drift
+  - products/repair-conversation-pack
+  confidence: high
+  evidence_type: direct
+  notes: Strongest downstream use is structured conversation design.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-017
+    source_id: SRC-SL-001
+    theme: rupture-repair
+- extract_id: the-social-psychology-of-gullibility--23f265-ex03
+  source_id: src-the-social-psychology-of-gullibility--23f265
+  page_refs: null
+  theme: marriage-as-system
+  role: script
+  claim: A short de-escalation script reduces ambiguity and creates a practical first step toward repair.
+  why_it_matters: Supports repair-first, low-friction interventions aligned to MarriageOS doctrine.
+  usable_for:
+  - knowledge/gullibility-patterns-in-conflict
+  - repair/pressure-loop
+  confidence: low
+  evidence_type: null
+  notes: 'evidence: indirect (PDF text extraction unavailable in current environment); Chapter 2 only processed per addendum.'
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: the-social-psychology-of-gullibility--23f265-ex03
+    source_id: src-the-social-psychology-of-gullibility--23f265
+    theme: marriage-as-system
+- extract_id: EXT-MGW-020
+  source_id: SRC-MGW-001
+  page_refs: null
+  theme: trust-erosion
+  role: warning
+  claim: Betrayal grows through loneliness, conflict avoidance, missed bids, and gradual turning away, not only through affairs.
+  why_it_matters: Highly useful for both repair and maintenance.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/quiet-drift
+  - guides/his-perspective
+  confidence: high
+  evidence_type: null
+  notes: Strong and transferable.
+  provenance:
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-020
+    source_id: SRC-MGW-001
+    theme: trust-erosion

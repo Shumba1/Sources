@@ -1,0 +1,223 @@
+theme: decision-distress-and-safety
+description: Distinguishes unsafe from unbearable, supports reality-based decision-making, and marks escalation boundaries where relationship repair is not enough on its own.
+retained_extract_count: 10
+extracts:
+- extract_id: EXT-SL-018
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 186-199
+  theme: workable-intruders
+  role: caution
+  claim: Trauma, depression, and addiction complicate repair and may require parallel treatment; relationships improve when these intruders are addressed rather than denied.
+  why_it_matters: Important branch and escalation boundary material.
+  usable_for:
+  - escalation/seek-support
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  confidence: high
+  evidence_type: direct
+  notes: Important not to overpromise relationship tools alone.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-018
+    source_id: SRC-SL-001
+    theme: workable-intruders
+- extract_id: EXT-BYS-009
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 64-73
+  theme: decision-distress
+  role: knowledge
+  claim: A marriage can be emotionally disconnected and still technically intact; surviving under one roof is not the same as rebuilding the bond.
+  why_it_matters: Useful for helping users distinguish survival mode from genuine repair.
+  usable_for:
+  - repair/im-done
+  - knowledge/how-drift-starts
+  confidence: high
+  evidence_type: direct
+  notes: Good for naming roommate-mode without glamorising martyrdom.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-009
+    source_id: SRC-BYS-001
+    theme: decision-distress
+- extract_id: EXT-BYS-004
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 29-43
+  theme: prior-wounds
+  role: knowledge
+  claim: Hidden wounds, internalised lies, and old emotional patterns can intensify marital reactions well beyond what the immediate moment explains.
+  why_it_matters: This gives MarriageOS a solid frame for trigger literacy without reducing everything to the partner’s current behaviour.
+  usable_for:
+  - repair/we-keep-fighting
+  - products/trigger-mapping-tool
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Translate 'mud story' into cleaner operational language.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-004
+    source_id: SRC-BYS-001
+    theme: prior-wounds
+- extract_id: EXT-BYS-022
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 161-176
+  theme: support-network
+  role: knowledge
+  claim: The company you keep matters because wise, honest friends can puncture distorted marital narratives and support better decisions.
+  why_it_matters: Directly useful for isolation and negative-story loops.
+  usable_for:
+  - guides/read-both
+  - repair/im-done
+  - products/support-circle-planner
+  - knowledge/children-and-family-stability
+  confidence: high
+  evidence_type: direct
+  notes: 'Strong social architecture point. Merged corroborating extracts: mgw-ba4979::EXT-MGW-016 (outside-support).'
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-022
+    source_id: SRC-BYS-001
+    theme: support-network
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-016
+    source_id: SRC-MGW-001
+    theme: outside-support
+- extract_id: e07
+  source_id: psychology-of-sociability-p4--96834b
+  page_refs:
+  - pp. 225-226
+  theme: ambivalence
+  role: mechanism
+  claim: Anxious attachment can involve relational ambivalence, creating confusion and indecision about closeness.
+  why_it_matters: Explains why someone can ask for connection and fear it at the same time.
+  usable_for:
+  - knowledge/attachment-patterns
+  confidence: medium
+  evidence_type: direct
+  notes: Good knowledge module material.
+  provenance:
+  - book_id: pos-96834b
+    book_pack: the-psychology-of-sociability-understanding-human--96834b
+    extract_id: e07
+    source_id: psychology-of-sociability-p4--96834b
+    theme: ambivalence
+- extract_id: EXT-BYS-002
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 62-73
+  theme: decision-distress
+  role: repair
+  claim: When people feel done, the real choice is not always just stay or leave; many are moving among split, survive, or save without naming it clearly.
+  why_it_matters: This gives MarriageOS a usable decision-state frame for people in panic, ambivalence, or collapse.
+  usable_for:
+  - repair/im-done
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Useful if translated without pressure.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-002
+    source_id: SRC-BYS-001
+    theme: decision-distress
+- extract_id: EXT-BYS-003
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 27-28
+  - pp. 69-73
+  theme: decision-distress
+  role: repair
+  claim: Strong negative feelings are real and important, but they are poor solo leaders for long-term marital decisions because pain can obscure deeper causes and future consequences.
+  why_it_matters: 'This fits directly into ''I''m done'' repair logic: slow the decision, examine the pain, do not let emotional overload dictate irreversible moves by default.'
+  usable_for:
+  - repair/im-done
+  - knowledge/how-to-tell-unhappy-from-harmful
+  confidence: high
+  evidence_type: direct
+  notes: Keep anti-panic logic; avoid invalidating emotion.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-003
+    source_id: SRC-BYS-001
+    theme: decision-distress
+- extract_id: EXT-BYS-010
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 64-73
+  theme: decision-distress
+  role: repair
+  claim: Choosing to survive temporarily can be valid if it is intentional and directed toward repair, not a permanent numb truce.
+  why_it_matters: 'Important nuance for MarriageOS: not every distressed couple must decide the whole future immediately.'
+  usable_for:
+  - repair/im-done
+  - guides/read-both
+  confidence: medium-high
+  evidence_type: direct
+  notes: Useful but must not validate indefinite deadness.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-010
+    source_id: SRC-BYS-001
+    theme: decision-distress
+- extract_id: EXT-BYS-011
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 64-73
+  theme: decision-distress
+  role: repair
+  claim: People often underestimate the relational, parental, and psychological complexity of splitting; leaving one pain can create others that were not forecast.
+  why_it_matters: This helps counter simplistic fantasy exits without using fear as manipulation.
+  usable_for:
+  - repair/im-done
+  - knowledge/how-to-tell-unhappy-from-harmful
+  confidence: medium-high
+  evidence_type: direct
+  notes: Translate carefully to avoid coercive tone.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-011
+    source_id: SRC-BYS-001
+    theme: decision-distress
+- extract_id: EXT-BYS-001
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 16-17
+  - pp. 7
+  - pp. 186-199
+  theme: unhappy-vs-harmful
+  role: repair
+  claim: An unhappy marriage is not the same thing as a harmful one, and when words or actions are consistently violent, toxic, or dangerous, safety and professional help must come first.
+  why_it_matters: This is crucial boundary-setting material for MarriageOS. It supports safety-aware branching before any repair-first content is applied.
+  usable_for:
+  - repair/im-done
+  - knowledge/how-to-tell-unhappy-from-harmful
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - repair/quiet-drift
+  confidence: high
+  evidence_type: direct
+  notes: 'High-value safety distinction. Must not be softened into mutualisation when there is real harm. Merged corroborating extracts: sl-ef2040::EXT-SL-023 (abuse-boundary).'
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-001
+    source_id: SRC-BYS-001
+    theme: unhappy-vs-harmful
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-023
+    source_id: SRC-SL-001
+    theme: abuse-boundary

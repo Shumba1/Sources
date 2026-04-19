@@ -1,0 +1,605 @@
+theme: fighting-escalation
+description: Captures fight-entry, negative cycles, flooding, reciprocity failure, and the moves that turn disagreement into damage.
+retained_extract_count: 28
+extracts:
+- extract_id: EXT-MGW-006
+  source_id: SRC-MGW-001
+  page_refs: null
+  theme: state-and-cycle
+  role: context
+  claim: Biological state, cycle, and life phase can change mood, bandwidth, and desire.
+  why_it_matters: Useful if translated carefully into phase-aware relationship guidance.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - knowledge/children-and-family-stability
+  confidence: medium
+  evidence_type: null
+  notes: Do not import the heavy determinism or simplistic male/female binaries.
+  provenance:
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-006
+    source_id: SRC-MGW-001
+    theme: state-and-cycle
+- extract_id: EXT-E534E1-03
+  source_id: SRC-E534E1
+  page_refs: pp. 24-26
+  theme: bridge-content
+  role: knowledge
+  claim: Strong bonds are partly maintained by partner-protective interpretations; distressed bonds lose that interpretive buffer.
+  why_it_matters: This gives MarriageOS a non-moralising way to explain why the exact same event can feel generous in one season and offensive in another.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/desire-drift-reset
+  confidence: medium
+  evidence_type: direct
+  notes: Pulled from the section on partner-serving attributions.
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: EXT-E534E1-03
+    source_id: SRC-E534E1
+    theme: bridge-content
+- extract_id: EXT-WPD-008
+  source_id: SRC-WPD-001
+  page_refs: null
+  theme: conflict-avoidance
+  role: knowledge
+  claim: Conflict avoidance is not automatically dysfunctional; the relevant question is whether the relationship remains regulated, connected, and non-lonely.
+  why_it_matters: Keeps MarriageOS from pathologising every lower-conflict pair.
+  usable_for:
+  - knowledge/conflict-styles-and-stability
+  confidence: high
+  evidence_type: null
+  notes: Important nuance.
+  provenance:
+  - book_id: wpd-e81fdb
+    book_pack: what-predicts-divorce-the-relationship-between-marital--e81fdb
+    extract_id: EXT-WPD-008
+    source_id: SRC-WPD-001
+    theme: conflict-avoidance
+- extract_id: EXT-WPD-006
+  source_id: SRC-WPD-001
+  page_refs: null
+  theme: conflict-styles
+  role: knowledge
+  claim: Stable marriages are not all identical; some are validating, some volatile, and some conflict-avoiding, while instability is more tied to dysregulation than to one style alone.
+  why_it_matters: Prevents MarriageOS from confusing all conflict avoidance with dysfunction or all emotion with instability.
+  usable_for:
+  - knowledge/conflict-styles-and-stability
+  confidence: high
+  evidence_type: null
+  notes: Important anti-oversimplification extract.
+  provenance:
+  - book_id: wpd-e81fdb
+    book_pack: what-predicts-divorce-the-relationship-between-marital--e81fdb
+    extract_id: EXT-WPD-006
+    source_id: SRC-WPD-001
+    theme: conflict-styles
+- extract_id: EXT-SP-006
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 43-55
+  theme: four-horsemen
+  role: knowledge
+  claim: Criticism, contempt, defensiveness, and stonewalling form a destructive conflict loop that corrodes trust and closeness over time.
+  why_it_matters: Provides a clean diagnostic pattern language without needing therapy jargon.
+  usable_for:
+  - repair/we-keep-fighting
+  - knowledge/system-decay-system-repair
+  - repair/resentment-building
+  - knowledge/conflict-styles-and-stability
+  confidence: high
+  evidence_type: direct
+  notes: 'Very strong mechanism layer. Merged corroborating extracts: mgw-ba4979::EXT-MGW-013 (four-horsemen); wpd-e81fdb::EXT-WPD-003 (four-horsemen).'
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-006
+    source_id: SRC-SP-001
+    theme: four-horsemen
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-013
+    source_id: SRC-MGW-001
+    theme: four-horsemen
+  - book_id: wpd-e81fdb
+    book_pack: what-predicts-divorce-the-relationship-between-marital--e81fdb
+    extract_id: EXT-WPD-003
+    source_id: SRC-WPD-001
+    theme: four-horsemen
+- extract_id: EXT-BYS-023
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 176-187
+  theme: legacy-filter
+  role: knowledge
+  claim: Looking through a legacy filter can interrupt pain-driven short-term reactivity and reconnect choices to the longer family story being written.
+  why_it_matters: Useful as a reflective lens, though better as optional support than first-line repair.
+  usable_for:
+  - guides/read-both
+  - products/reflection-prompts
+  confidence: medium
+  evidence_type: direct
+  notes: Good reflective layer, not primary UX.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-023
+    source_id: SRC-BYS-001
+    theme: legacy-filter
+- extract_id: EXT-LP-008
+  source_id: SRC-LP-001
+  page_refs:
+  - pp. 48-55
+  theme: negative-sentiment-override
+  role: knowledge
+  claim: Once a negative filter hardens, people selectively notice failures, miss positives, and interpret neutral events in hostile ways.
+  why_it_matters: Excellent explanatory material for resentment and contempt formation.
+  usable_for:
+  - repair/resentment-building
+  - knowledge/how-drift-starts
+  - knowledge/system-decay-system-repair
+  confidence: high
+  evidence_type: direct
+  notes: High-value mechanism layer.
+  provenance:
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-008
+    source_id: SRC-LP-001
+    theme: negative-sentiment-override
+- extract_id: EXT-SL-012
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 82-87
+  theme: trigger-anatomy
+  role: knowledge
+  claim: Triggers are not singular events but fast chains of bodily sensation, meaning-making, vulnerable emotion, protective feeling, and reactive behaviour.
+  why_it_matters: Helps users slow down and name what is happening before reaction takes over.
+  usable_for:
+  - repair/we-keep-fighting
+  - guides/read-both
+  - products/trigger-mapper
+  confidence: high
+  evidence_type: direct
+  notes: Very strong for worksheets and coaching prompts.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-012
+    source_id: SRC-SL-001
+    theme: trigger-anatomy
+- extract_id: the-social-psychology-of-gullibility--23f265-ex02
+  source_id: src-the-social-psychology-of-gullibility--23f265
+  page_refs: null
+  theme: marriage-as-system
+  role: mechanism
+  claim: 'Escalation often follows a repeating sequence: trigger, misread, defensive response, withdrawal.'
+  why_it_matters: Supports repair-first, low-friction interventions aligned to MarriageOS doctrine.
+  usable_for:
+  - knowledge/gullibility-patterns-in-conflict
+  - repair/pressure-loop
+  confidence: medium
+  evidence_type: null
+  notes: 'evidence: indirect (PDF text extraction unavailable in current environment); Chapter 2 only processed per addendum.'
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: the-social-psychology-of-gullibility--23f265-ex02
+    source_id: src-the-social-psychology-of-gullibility--23f265
+    theme: marriage-as-system
+- extract_id: the-social-psychology-of-gullibility--23f265-ex01
+  source_id: src-the-social-psychology-of-gullibility--23f265
+  page_refs: null
+  theme: marriage-as-system
+  role: pattern
+  claim: Early micro-signals of marriage-as-system are easier to interrupt than entrenched cycles.
+  why_it_matters: Supports repair-first, low-friction interventions aligned to MarriageOS doctrine.
+  usable_for:
+  - knowledge/gullibility-patterns-in-conflict
+  - repair/pressure-loop
+  confidence: medium
+  evidence_type: null
+  notes: 'evidence: indirect (PDF text extraction unavailable in current environment); Chapter 2 only processed per addendum.'
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: the-social-psychology-of-gullibility--23f265-ex01
+    source_id: src-the-social-psychology-of-gullibility--23f265
+    theme: marriage-as-system
+- extract_id: EXT-BYS-007
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 76-84
+  theme: blame-loop
+  role: repair
+  claim: Blame-and-shame language destroys emotional safety and pushes couples into defensive escalation instead of workable repair.
+  why_it_matters: This is one of the source’s strongest direct contributions to conflict repair modules.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/post-fight-reset
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Very strong fit.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-007
+    source_id: SRC-BYS-001
+    theme: blame-loop
+- extract_id: EXT-E534E1-08
+  source_id: SRC-E534E1
+  page_refs: pp. 33-35
+  theme: bridge-content
+  role: repair
+  claim: Couples can drift into resentment when they never explicitly align what commitment, fidelity, affection, attention, and sex each person thinks the bond includes.
+  why_it_matters: This is highly usable for a practical module built around expectation audit and re-contracting.
+  usable_for:
+  - repair/desire-drift-reset
+  confidence: high
+  evidence_type: derived
+  notes: Strong product logic extracted from the “different understandings” section.
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: EXT-E534E1-08
+    source_id: SRC-E534E1
+    theme: bridge-content
+- extract_id: EXT-SL-013
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 92-95
+  theme: enemy-reframe
+  role: repair
+  claim: The partner is not the enemy; the negative cycle is the enemy.
+  why_it_matters: High-value corrective posture for distressed couples.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/quiet-drift
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Preserve nearly verbatim in spirit.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-013
+    source_id: SRC-SL-001
+    theme: enemy-reframe
+- extract_id: EXT-BYS-008
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 76-84
+  theme: escalation
+  role: repair
+  claim: Green, yellow, and red emotional zones are useful because couples need to stop or slow the conversation before physiological escalation makes wise speech impossible.
+  why_it_matters: Operational and highly translatable. Good for fast intervention UX.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/post-fight-reset
+  confidence: high
+  evidence_type: direct
+  notes: Excellent fast-acting mechanism.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-008
+    source_id: SRC-BYS-001
+    theme: escalation
+- extract_id: EXT-ED-005
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 64-65
+  - pp. 74-78
+  theme: escalation
+  role: repair
+  claim: The healthiest goal of conflict is mutual understanding, not victory or forced sameness.
+  why_it_matters: This aligns with MarriageOS anti-moralising, non-adversarial repair posture and can shape conflict module framing.
+  usable_for:
+  - repair/we-keep-snapping
+  - repair/one-fight-became-three
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Excellent bridge logic.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-005
+    source_id: SRC-ED-001
+    theme: escalation
+- extract_id: EXT-SP-007
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 49-53
+  theme: flooding-and-stonewalling
+  role: repair
+  claim: Stonewalling often reflects flooding and overwhelm, not indifference; once overwhelmed, productive conversation becomes very hard.
+  why_it_matters: Important for reframing shutdown without excusing it.
+  usable_for:
+  - repair/we-keep-fighting
+  - guides/his-perspective
+  - guides/read-both
+  - repair/quiet-drift
+  confidence: high
+  evidence_type: direct
+  notes: 'Good bridge from blame to regulation. Merged corroborating extracts: mgw-ba4979::EXT-MGW-012 (flooding); wpd-e81fdb::EXT-WPD-004 (flooding).'
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-007
+    source_id: SRC-SP-001
+    theme: flooding-and-stonewalling
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-012
+    source_id: SRC-MGW-001
+    theme: flooding
+  - book_id: wpd-e81fdb
+    book_pack: what-predicts-divorce-the-relationship-between-marital--e81fdb
+    extract_id: EXT-WPD-004
+    source_id: SRC-WPD-001
+    theme: flooding
+- extract_id: EXT-SP-005
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 42-44
+  - pp. 173-174
+  - pp. 85-89
+  theme: harsh-startup
+  role: repair
+  claim: How a hard conversation starts strongly shapes how it ends; criticism and contempt at entry greatly increase the odds of failure.
+  why_it_matters: Core fight-entry mechanism for recurring escalations.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/resentment-building
+  - products/hard-conversation-scripts-pack
+  confidence: high
+  evidence_type: direct
+  notes: 'Use directionally; do not overstate predictive precision. Merged corroborating extracts: lp-9a037a::EXT-LP-013 (conflict-entry).'
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-005
+    source_id: SRC-SP-001
+    theme: harsh-startup
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-013
+    source_id: SRC-LP-001
+    theme: conflict-entry
+- extract_id: EXT-SL-014
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 95-104
+  theme: interruption
+  role: repair
+  claim: Even once a negative cycle is in motion, one partner can interrupt it by noticing the trigger, pausing, and doing something less destructive.
+  why_it_matters: Directly actionable sequence logic for repair modules.
+  usable_for:
+  - repair/we-keep-fighting
+  - products/interruption-card
+  confidence: high
+  evidence_type: direct
+  notes: Great for “do this first” sections.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-014
+    source_id: SRC-SL-001
+    theme: interruption
+- extract_id: EXT-WPD-009
+  source_id: SRC-WPD-001
+  page_refs: null
+  theme: listener-withdrawal
+  role: repair
+  claim: Listener withdrawal and stonewalling become especially destructive when they lock in repeated negative exchanges and reduce the couple's ability to edit, validate, and recover.
+  why_it_matters: Useful for fight and shutdown modules.
+  usable_for:
+  - repair/we-keep-fighting
+  confidence: medium-high
+  evidence_type: null
+  notes: Do not over-gender in final copy.
+  provenance:
+  - book_id: wpd-e81fdb
+    book_pack: what-predicts-divorce-the-relationship-between-marital--e81fdb
+    extract_id: EXT-WPD-009
+    source_id: SRC-WPD-001
+    theme: listener-withdrawal
+- extract_id: EXT-SL-011
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 78-94
+  theme: negative-cycle
+  role: repair
+  claim: A negative communication cycle forms when each partner’s trigger and protective response reliably trigger the other, producing repeated unresolved loops.
+  why_it_matters: This is the central MarriageOS-compatible mechanism in the source.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/quiet-drift
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Keep explicit enemy reframe.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-011
+    source_id: SRC-SL-001
+    theme: negative-cycle
+- extract_id: EXT-WPD-001
+  source_id: SRC-WPD-001
+  page_refs: null
+  theme: negative-reciprocity
+  role: repair
+  claim: 'Unhappy couples are distinguished not just by negativity but by negative reciprocity: once negativity starts, it is harder for them to exit it.'
+  why_it_matters: This gives MarriageOS a cleaner process definition for 'we keep fighting' than generic 'communicate better' advice.
+  usable_for:
+  - repair/we-keep-fighting
+  - knowledge/conflict-styles-and-stability
+  confidence: high
+  evidence_type: null
+  notes: Core doctrine source. Translate into accessible pattern language.
+  provenance:
+  - book_id: wpd-e81fdb
+    book_pack: what-predicts-divorce-the-relationship-between-marital--e81fdb
+    extract_id: EXT-WPD-001
+    source_id: SRC-WPD-001
+    theme: negative-reciprocity
+- extract_id: EXT-PM-016
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 461
+  theme: normal-marital-sadism
+  role: repair
+  claim: Partners often do casually cruel, passive-aggressive, or punishing things while insisting they are not; calling that pattern normal does not make it acceptable.
+  why_it_matters: This helps MarriageOS name the everyday cruelty couples minimise, especially in contempt-heavy or gridlocked relationships.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/post-fight-reset
+  confidence: high
+  evidence_type: direct
+  notes: Potent language. Translate carefully so it diagnoses the pattern without gratuitous harshness.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-016
+    source_id: SRC-PM-001
+    theme: normal-marital-sadism
+- extract_id: EXT-SL-003
+  source_id: SRC-SL-001
+  page_refs:
+  - pp. 16-25
+  theme: problem-beneath-problem
+  role: repair
+  claim: The issue being argued about is usually not the deepest problem; the deeper problem is blocked communication and insecure attachment.
+  why_it_matters: Core reframe for repeated fights and surface-topic gridlock.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/quiet-drift
+  confidence: high
+  evidence_type: direct
+  notes: Preserve but avoid saying every issue is only attachment.
+  provenance:
+  - book_id: sl-ef2040
+    book_pack: secure-love-create-a-relationship-that-lasts-a-lifetime--ef2040
+    extract_id: EXT-SL-003
+    source_id: SRC-SL-001
+    theme: problem-beneath-problem
+- extract_id: EXT-SP-008
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 38-40
+  - pp. 54-56
+  theme: repair-attempts
+  role: repair
+  claim: Repair attempts are small actions or phrases that interrupt escalation; their success depends heavily on the underlying friendship climate.
+  why_it_matters: Strong fit for practical in-the-moment de-escalation guidance.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/quiet-drift
+  - products/hard-conversation-scripts-pack
+  confidence: high
+  evidence_type: direct
+  notes: Preserve the friendship-before-technique insight.
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-008
+    source_id: SRC-SP-001
+    theme: repair-attempts
+- extract_id: EXT-WPD-002
+  source_id: SRC-WPD-001
+  page_refs: null
+  theme: repair-failure
+  role: repair
+  claim: When negative affect becomes an absorbing state, ordinary repair moves stop working because partners respond to the negativity rather than the repair attempt.
+  why_it_matters: Explains why some couples keep missing each other's de-escalation bids.
+  usable_for:
+  - repair/we-keep-fighting
+  confidence: high
+  evidence_type: null
+  notes: High-value mechanism.
+  provenance:
+  - book_id: wpd-e81fdb
+    book_pack: what-predicts-divorce-the-relationship-between-marital--e81fdb
+    extract_id: EXT-WPD-002
+    source_id: SRC-WPD-001
+    theme: repair-failure
+- extract_id: EXT-PM-010
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 173-175
+  - pp. 460
+  theme: self-soothing
+  role: repair
+  claim: Self-soothing means calming yourself enough to see clearly and remain present, rather than demanding that your partner regulate your anxiety for you.
+  why_it_matters: This is high-value repair material because dysregulated couples keep trying to solve conflict, sex, and closeness without first becoming steadier.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - guides/read-both
+  - guides/his-perspective
+  confidence: high
+  evidence_type: direct
+  notes: 'Excellent for MarriageOS because it is practical and non-mystical once translated. Merged corroborating extracts: mgw-ba4979::EXT-MGW-014 (self-soothing).'
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-010
+    source_id: SRC-PM-001
+    theme: self-soothing
+  - book_id: mgw-ba4979
+    book_pack: the-man-s-guide-to-women--ba4979
+    extract_id: EXT-MGW-014
+    source_id: SRC-MGW-001
+    theme: self-soothing
+- extract_id: EXT-SP-011
+  source_id: SRC-SP-001
+  page_refs:
+  - pp. 173-175
+  - pp. 81-85
+  - pp. 88-89
+  theme: softened-startup
+  role: repair
+  claim: A softened start-up works better when people own some share of the problem, name their feeling about a specific situation, and make a positive request.
+  why_it_matters: Directly usable script structure for difficult conversations.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/resentment-building
+  - products/hard-conversation-scripts-pack
+  confidence: high
+  evidence_type: direct
+  notes: 'Excellent script-level extract. Merged corroborating extracts: lp-9a037a::EXT-LP-012 (softened-startup).'
+  provenance:
+  - book_id: sp-1a37c0
+    book_pack: the-seven-principles-for-making-marriage-work--1a37c0
+    extract_id: EXT-SP-011
+    source_id: SRC-SP-001
+    theme: softened-startup
+  - book_id: lp-9a037a
+    book_pack: the-love-prescription--9a037a
+    extract_id: EXT-LP-012
+    source_id: SRC-LP-001
+    theme: softened-startup
+- extract_id: the-social-psychology-of-gullibility--23f265-ex04
+  source_id: src-the-social-psychology-of-gullibility--23f265
+  page_refs: null
+  theme: marriage-as-system
+  role: warning
+  claim: High-certainty narratives about a partner's intent tend to harden conflict and reduce goodwill.
+  why_it_matters: Supports repair-first, low-friction interventions aligned to MarriageOS doctrine.
+  usable_for:
+  - knowledge/gullibility-patterns-in-conflict
+  - repair/pressure-loop
+  confidence: low
+  evidence_type: null
+  notes: 'evidence: indirect (PDF text extraction unavailable in current environment); Chapter 2 only processed per addendum.'
+  provenance:
+  - book_id: spg-23f265
+    book_pack: the-social-psychology-of-gullibility--23f265
+    extract_id: the-social-psychology-of-gullibility--23f265-ex04
+    source_id: src-the-social-psychology-of-gullibility--23f265
+    theme: marriage-as-system

@@ -1,0 +1,153 @@
+theme: differentiation-and-selfhood
+description: Covers selfhood, fusion, growth, and the ability to stay connected without collapsing into control, appeasement, or distance.
+retained_extract_count: 7
+extracts:
+- extract_id: EXT-ED-023
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 169-174
+  theme: differentiation
+  role: guide
+  claim: Hidden dreams often sit underneath gridlocked conflict, so curiosity about what a position means is more useful than arguing over surface content.
+  why_it_matters: This is ideal bridge material for Read Both or for deeper knowledge support beneath repeated conflict.
+  usable_for:
+  - guides/read-both
+  - knowledge/system-decay-system-repair
+  - repair/we-keep-having-the-same-fight
+  confidence: high
+  evidence_type: direct
+  notes: Good anti-gridlock logic.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-023
+    source_id: SRC-ED-001
+    theme: differentiation
+- extract_id: EXT-ED-006
+  source_id: SRC-ED-001
+  page_refs:
+  - pp. 65-67
+  - pp. 74-78
+  theme: differentiation
+  role: knowledge
+  claim: Many recurring couple conflicts are perpetual rather than solvable, so the real work is managing difference without contempt or gridlock.
+  why_it_matters: Useful for Read Both / difference-acceptance material and for reducing the false expectation that every mismatch can be solved cleanly.
+  usable_for:
+  - knowledge/system-decay-system-repair
+  - guides/read-both
+  - repair/we-keep-having-the-same-fight
+  confidence: high
+  evidence_type: direct
+  notes: Helps prevent overpromising.
+  provenance:
+  - book_id: ed-e28511
+    book_pack: eight-dates--e28511
+    extract_id: EXT-ED-006
+    source_id: SRC-ED-001
+    theme: differentiation
+- extract_id: EXT-PM-002
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 54-77
+  theme: differentiation
+  role: knowledge
+  claim: Differentiation is the ability to stay connected while maintaining a solid sense of self, balancing individuality and togetherness rather than collapsing into either distance or fusion.
+  why_it_matters: This is the backbone concept of the source and explains why closeness, conflict, desire, and panic behave the way they do in committed relationships.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  confidence: high
+  evidence_type: direct
+  notes: Core concept. Must be translated into simpler language for user-facing output.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-002
+    source_id: SRC-PM-001
+    theme: differentiation
+- extract_id: EXT-PM-018
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 461-462
+  theme: growth-cycle
+  role: knowledge
+  claim: Healthy relationships move through comfort and growth cycles; too much comfort can make the bond rigid, stale, and confining.
+  why_it_matters: Useful for explaining why stability alone does not keep intimacy alive and why novelty, stretch, and honest tension matter.
+  usable_for:
+  - knowledge/desire-and-familiarity
+  - repair/we-keep-fighting
+  - repair/quiet-drift
+  confidence: high
+  evidence_type: direct
+  notes: Good anti-stagnation concept that translates well.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-018
+    source_id: SRC-PM-001
+    theme: growth-cycle
+- extract_id: EXT-PM-001
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 24-27
+  theme: marriage-growth
+  role: knowledge
+  claim: No one arrives fully ready for marriage; marriage itself exposes the growth tasks partners still need to undertake.
+  why_it_matters: 'Useful as a MarriageOS reframing device: struggle does not automatically mean mismatch or doom. Some strain is developmental rather than disqualifying.'
+  usable_for:
+  - repair/we-keep-fighting
+  - knowledge/desire-and-familiarity
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Good anti-fatalism material. Must not be used to minimise harm or excuse chronic mistreatment.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-001
+    source_id: SRC-PM-001
+    theme: marriage-growth
+- extract_id: EXT-BYS-005
+  source_id: SRC-BYS-001
+  page_refs:
+  - pp. 35-42
+  theme: self-awareness
+  role: product
+  claim: Overreaction, chronic detachment, and repeated emotional patterns are clues worth investigating; asking what it is like to be on the other side of you can expose blind spots quickly.
+  why_it_matters: Strong prompt or worksheet material for self-awareness and pattern interruption.
+  usable_for:
+  - products/trigger-mapping-tool
+  - repair/we-keep-fighting
+  - guides/read-both
+  confidence: high
+  evidence_type: direct
+  notes: Best as tool or prompt layer, not core doctrine.
+  provenance:
+  - book_id: bys-fc45d0
+    book_pack: bys-fc45d0
+    extract_id: EXT-BYS-005
+    source_id: SRC-BYS-001
+    theme: self-awareness
+- extract_id: EXT-PM-003
+  source_id: SRC-PM-001
+  page_refs:
+  - pp. 57-76
+  - pp. 113-115
+  theme: emotional-fusion
+  role: repair
+  claim: Emotional fusion can feel like closeness but actually undermines intimacy because partners become overly dependent on validation, consensus, and reflected self-worth.
+  why_it_matters: Helps explain why couples can feel intensely entangled yet emotionally unseen, and why pressure, control, and defensiveness show up in both conflict and sex.
+  usable_for:
+  - repair/we-keep-fighting
+  - repair/pressure-loop
+  - knowledge/desire-and-familiarity
+  confidence: high
+  evidence_type: direct
+  notes: Strong mechanism. Avoid jargon overload in final copy.
+  provenance:
+  - book_id: pm-680278
+    book_pack: passionate-marriage-keeping-love-and-intimacy-alive--680278
+    extract_id: EXT-PM-003
+    source_id: SRC-PM-001
+    theme: emotional-fusion
