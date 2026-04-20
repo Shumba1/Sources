@@ -9,9 +9,17 @@ export function ShellMain({ children, withBottomNav = false }: { children: React
   return <main className={className}>{children}</main>;
 }
 
-export function ScaffoldPanel({ title, children }: { title: string; children: ReactNode }) {
+export function ScaffoldPanel({
+  title,
+  children,
+  className,
+}: {
+  title: string;
+  children: ReactNode;
+  className?: string;
+}) {
   return (
-    <section className="scaffold-panel">
+    <section className={className ? `scaffold-panel ${className}` : 'scaffold-panel'}>
       <h1>{title}</h1>
       <div className="scaffold-panel__body">{children}</div>
     </section>

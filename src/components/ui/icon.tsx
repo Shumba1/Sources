@@ -8,6 +8,8 @@ export type IconName =
   | 'refresh-cw'
   | 'chevron-right'
   | 'arrow-right'
+  | 'book-open'
+  | 'chart-column'
   | 'dot';
 
 const iconPaths: Record<IconName, string[]> = {
@@ -18,6 +20,8 @@ const iconPaths: Record<IconName, string[]> = {
   'refresh-cw': ['M21 12a9 9 0 1 1-2.6-6.4', 'M21 3v6h-6'],
   'chevron-right': ['m9 18 6-6-6-6'],
   'arrow-right': ['M5 12h14', 'm12 5 7 7-7 7'],
+  'book-open': ['M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z', 'M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z'],
+  'chart-column': ['M6 20V10', 'M12 20V4', 'M18 20v-7'],
   dot: ['M12 12h.01'],
 };
 

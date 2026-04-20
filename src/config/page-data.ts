@@ -341,8 +341,8 @@ export const pageData: Record<RouteId, PageConfig> = {
     hero: {
       eyebrow: 'Tonight focus',
       title: 'Today’s next best move',
-      subtitle: 'If things feel tense, do one constructive step now before the next message or argument.',
-      primaryCta: cta('Open Repair and Start', '/repair'),
+      subtitle: 'Slow the temperature. Take one constructive step before the next message or argument.',
+      primaryCta: cta('Start the 10-minute reset', '/repair'),
       secondaryCta: cta('Run a 60-second Check-In', '/today/check-in', 'secondary'),
     },
     sections: [
@@ -353,7 +353,7 @@ export const pageData: Record<RouteId, PageConfig> = {
         title: 'What this moment most likely is',
         props: {
           label: 'Heated but reachable',
-          summary: 'The bond looks strained right now, but not collapsed. Protect what is still working and avoid one more damaging move.',
+          summary: 'Things are strained, but still reachable. Protect what is still working and avoid one more damaging move tonight.',
         },
       },
       {
@@ -361,11 +361,11 @@ export const pageData: Record<RouteId, PageConfig> = {
         component: 'NextBestMoveCard',
         title: 'Do this next',
         props: {
-          action: 'Open Repair and run one 10-minute reset step.',
+          action: 'Start the 10-minute damage stop.',
           href: '/repair?entry=today-primary',
           time: '10 minutes tonight',
-          success: 'You leave this step calmer, clearer, and less likely to escalate.',
-          caution: 'Do not send one more reactive message before you run the step.',
+          success: 'You leave this step calmer and less likely to escalate.',
+          caution: 'Do not send one more reactive message first.',
         },
       },
       {
@@ -386,7 +386,7 @@ export const pageData: Record<RouteId, PageConfig> = {
         component: 'QuickScriptRow',
         props: {
           scripts: [
-            'I want this to go better than the last conversation. I need 20 minutes to reset first.',
+            'I want this to go better than the last conversation. I need 20 minutes first.',
             'I care about us. I do not want to keep making tonight worse.',
           ],
         },
@@ -469,8 +469,8 @@ export const pageData: Record<RouteId, PageConfig> = {
     hero: {
       eyebrow: 'Continue from Today',
       title: 'Start one repair step now',
-      subtitle: 'Pick the closest fit for this moment and run only the first step tonight.',
-      primaryCta: cta('Start with Stop Damage', '/repair'),
+      subtitle: 'Choose the closest fit for tonight and run only the first step now.',
+      primaryCta: cta('Start with damage stop', '/repair'),
       secondaryCta: cta('Back to Today', '/today', 'ghost'),
     },
     sections: [
@@ -488,25 +488,25 @@ export const pageData: Record<RouteId, PageConfig> = {
         props: {
           modules: [
             {
-              title: 'After the fight: 10-minute damage stop',
-              fit: 'Use when both of you are activated and one more exchange could make it worse.',
+              title: '10-minute damage stop',
+              fit: 'Use when both of you are activated and one more exchange could make tonight worse.',
               duration: '10 min',
               href: '/repair?module=after-the-fight',
-              result: 'Opens the first stop-damage sequence for tonight.',
+              result: 'First step lowers temperature before you say more.',
             },
             {
-              title: 'Distance reset for tonight',
+              title: 'Distance reset',
               fit: 'Use when things feel cold but not explosive.',
               duration: '12 min',
               href: '/repair?module=distance-reset',
-              result: 'Opens a short reconnection first step you can start solo.',
+              result: 'First step gives you a calmer reconnection move to start solo.',
             },
             {
               title: 'Overwhelm decompression',
               fit: 'Use when stress is swallowing connection.',
               duration: '8 min',
               href: '/repair?module=overwhelm-decompression',
-              result: 'Opens the first decompression step before harder talks.',
+              result: 'First step reduces pressure before a harder conversation.',
             },
           ],
         },
