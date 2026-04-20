@@ -4,8 +4,9 @@ export function ShellViewport({ children, tone }: { children: ReactNode; tone: '
   return <div className={`shell-viewport shell-viewport--${tone}`}>{children}</div>;
 }
 
-export function ShellMain({ children }: { children: ReactNode }) {
-  return <main className="shell-main">{children}</main>;
+export function ShellMain({ children, withBottomNav = false }: { children: ReactNode; withBottomNav?: boolean }) {
+  const className = withBottomNav ? 'shell-main shell-main--with-bottom-nav' : 'shell-main';
+  return <main className={className}>{children}</main>;
 }
 
 export function ScaffoldPanel({ title, children }: { title: string; children: ReactNode }) {

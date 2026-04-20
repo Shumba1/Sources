@@ -3,7 +3,7 @@
 ## Packet metadata
 - **Packet ID:** BP-104
 - **Phase:** Phase 1
-- **Status:** Open
+- **Status:** Review
 - **Type:** UI refinement / shell rhythm / delivery-sensitive packet
 - **Primary role:** Builder
 - **Secondary roles:** Reviewer, Content / Structure Operator, Human Governor
