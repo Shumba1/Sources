@@ -139,6 +139,84 @@ a {
   padding: 0.45rem 0.8rem;
 }
 
+.pathway-card {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0.9rem;
+  padding: 0.8rem 0.9rem;
+  background: rgba(16, 26, 41, 0.55);
+  display: grid;
+  gap: 0.5rem;
+}
+
+.pathway-card h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-family: var(--font-ui-sans), system-ui, sans-serif;
+}
+
+.pathway-card p,
+.pathway-card li {
+  margin: 0;
+  color: rgba(247, 244, 238, 0.88);
+  line-height: 1.4;
+}
+
+.pathway-card ul {
+  margin: 0;
+  padding-left: 1rem;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.pathway-card__eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(247, 244, 238, 0.72);
+}
+
+.pathway-card--emphasis {
+  border-color: rgba(111, 164, 255, 0.65);
+  background: rgba(25, 41, 68, 0.75);
+}
+
+.pathway-card--compact {
+  padding-block: 0.65rem;
+}
+
+.pathway-module-list {
+  list-style: none;
+  padding: 0;
+  gap: 0.65rem;
+}
+
+.pathway-module-list li {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.75rem;
+  padding: 0.65rem 0.7rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.pathway-meta {
+  font-size: 0.8rem;
+  color: rgba(247, 244, 238, 0.7);
+}
+
+.pathway-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.pathway-chip {
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 9999px;
+  padding: 0.3rem 0.55rem;
+  font-size: 0.78rem;
+  color: rgba(247, 244, 238, 0.88);
+}
+
 .shell-bottom-nav {
   position: sticky;
   bottom: 0;
