@@ -272,6 +272,89 @@ a {
   overflow: hidden;
 }
 
+.pathway-index-grid {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.pathway-index-grid--editorial {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.pathway-index-card {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 1rem;
+  padding: 0.95rem 1rem;
+  background: rgba(18, 29, 46, 0.58);
+  display: grid;
+  gap: 0.55rem;
+  min-height: 13.5rem;
+  align-content: start;
+  transition: border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
+}
+
+.pathway-index-card:hover,
+.pathway-index-card:focus-visible {
+  border-color: rgba(159, 201, 255, 0.82);
+  background: rgba(29, 45, 70, 0.82);
+  transform: translateY(-1px);
+}
+
+.pathway-index-card:focus-visible {
+  outline: 2px solid rgba(159, 201, 255, 0.78);
+  outline-offset: 2px;
+}
+
+.pathway-index-card__meta {
+  margin: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(185, 203, 230, 0.78);
+}
+
+.pathway-index-card__cta {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: rgba(226, 238, 255, 0.94);
+}
+
+.pathway-index-card--editorial,
+.pathway-index-card--knowledge {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+}
+
+.pathway-link-list {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.pathway-list-link {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.9rem;
+  padding: 0.9rem 0.95rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 0.7rem;
+  background: rgba(12, 21, 34, 0.34);
+}
+
+.pathway-list-link:hover,
+.pathway-list-link:focus-visible {
+  border-color: rgba(159, 201, 255, 0.86);
+  background: rgba(37, 59, 93, 0.52);
+}
+
+.pathway-list-link:focus-visible {
+  outline: 2px solid rgba(159, 201, 255, 0.84);
+  outline-offset: 2px;
+}
+
 .pathway-module-link {
   padding: 0.8rem 0.85rem;
   display: grid;
@@ -336,7 +419,11 @@ a {
 .pathway-chip-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.45rem;
+  gap: 0.5rem;
+}
+
+.pathway-chip-row--spacious {
+  gap: 0.55rem;
 }
 
 .pathway-chip {
@@ -578,6 +665,88 @@ a {
   gap: 0.75rem;
 }
 
+
+.pathway-surface--editorial {
+  gap: 1.2rem;
+}
+
+.pathway-surface__intro--editorial {
+  gap: 0.45rem;
+}
+
+.pathway-deck--editorial {
+  max-width: 52ch;
+}
+
+.pathway-primary-cta--editorial,
+.pathway-primary-cta--knowledge {
+  align-items: center;
+  padding: 1rem 1.1rem;
+}
+
+.pathway-primary-cta--editorial {
+  background: linear-gradient(180deg, rgba(24, 44, 74, 0.98), rgba(18, 33, 57, 0.98));
+}
+
+.pathway-primary-cta--knowledge {
+  background: linear-gradient(180deg, rgba(19, 39, 63, 0.98), rgba(15, 29, 49, 0.98));
+  border-color: rgba(124, 174, 240, 0.46);
+}
+
+.pathway-card--section {
+  gap: 0.8rem;
+}
+
+.pathway-section-head--stacked {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.pathway-section-intro {
+  margin: 0;
+  max-width: 48ch;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: rgba(205, 220, 244, 0.82);
+}
+
+.pathway-grid--editorial {
+  align-items: start;
+}
+
+.pathway-choice-stack {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.pathway-choice-link {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.9rem;
+  padding: 0.8rem 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  background: rgba(13, 22, 36, 0.44);
+}
+
+.pathway-choice-link:hover,
+.pathway-choice-link:focus-visible,
+.pathway-list-link--editorial:hover,
+.pathway-list-link--editorial:focus-visible {
+  border-color: rgba(159, 201, 255, 0.78);
+  background: rgba(31, 48, 74, 0.56);
+}
+
+.pathway-choice-link:focus-visible {
+  outline: 2px solid rgba(159, 201, 255, 0.8);
+  outline-offset: 2px;
+}
+
+.pathway-chip--knowledge {
+  padding-inline: 0.72rem;
+}
+
 .pathway-badge {
   display: inline-flex;
   align-items: center;
@@ -606,8 +775,13 @@ a {
 }
 
 @media (max-width: 720px) {
-  .pathway-grid--duo {
+  .pathway-grid--duo,
+  .pathway-index-grid--editorial {
     grid-template-columns: 1fr;
+  }
+
+  .pathway-index-card {
+    min-height: 0;
   }
 
   .pathway-primary-cta {
