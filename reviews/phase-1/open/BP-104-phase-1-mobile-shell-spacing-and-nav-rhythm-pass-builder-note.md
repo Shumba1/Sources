@@ -24,7 +24,3 @@
 - **Review notes:**
   - Focused on CSS + shell primitive refinement only, preserving BP-101 shell split and route ownership.
 - **Recommended next state:** `review`.
-
-## Follow-up refinement (mobile nav label collision)
-- Added a narrow-viewport media query (`max-width: 420px`) to switch the bottom nav from fixed 5-column grid to horizontal flex with per-tab minimum width.
-- This prevents `Perspectives` and `Knowledge` labels from colliding on narrow phones while preserving existing desktop rhythm.
