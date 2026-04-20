@@ -561,15 +561,74 @@ export const pageData: Record<RouteId, PageConfig> = {
     shell: 'app',
     intent: 'Offer parallel interpretation tracks without factionalising the experience.',
     canonical: true,
-    hero: { title: 'Different immediate experiences. Shared repair goal.' },
+    hero: {
+      eyebrow: 'Practical framing',
+      title: 'Different immediate experiences. Shared repair goal.',
+      subtitle: 'Use Perspectives when you need a structured way to read what is happening and choose one useful next move.',
+      primaryCta: cta('Open Read Both Perspectives', '/guides?view=both#perspective-paths'),
+      secondaryCta: cta('Go to Repair', '/repair', 'secondary'),
+    },
     sections: [
       { key: 'perspectives-hero', component: 'HeroBlock', variant: 'compact' },
       {
-        key: 'perspectives-grid',
+        key: 'perspective-paths',
         component: 'GuideIndexGrid',
-        props: { cards: ['His Perspective', 'Her Perspective', 'Read Both Perspectives'] },
+        title: 'Choose a perspective path',
+        props: {
+          cards: [
+            {
+              title: 'His Perspective',
+              summary: 'When he feels shut out, unwanted, or misread and needs a calmer way to respond.',
+              href: '/guides?view=his#perspective-paths',
+            },
+            {
+              title: 'Her Perspective',
+              summary: 'When she feels overloaded, unseen, or emotionally disconnected and needs structured language.',
+              href: '/guides?view=her#perspective-paths',
+            },
+            {
+              title: 'Read Both Perspectives',
+              summary: 'Use this when the loop feels complex and you need both sides before choosing the next step.',
+              href: '/guides?view=both#perspective-paths',
+            },
+          ],
+        },
       },
-      { key: 'bridge-cards', component: 'CardGroup', title: 'Where each side misreads the other' },
+      {
+        key: 'perspective-bridge',
+        component: 'CardGroup',
+        title: 'Where each side often misreads the other',
+        props: {
+          cards: [
+            {
+              title: 'Pursuit vs withdrawal',
+              summary: 'One partner pushes for closeness while the other pulls away. Naming the loop lowers blame quickly.',
+              href: '/guides?lens=pursuit-withdraw#misread-patterns',
+            },
+            {
+              title: 'Pressure vs rejection',
+              summary: 'Both partners can feel hurt at once. This frame helps prevent defensive escalation.',
+              href: '/guides?lens=pressure-rejection#misread-patterns',
+            },
+            {
+              title: 'Repair pacing',
+              summary: 'People calm at different speeds. Match pace before solving details.',
+              href: '/guides?lens=repair-pacing#misread-patterns',
+            },
+          ],
+        },
+      },
+      {
+        key: 'perspective-next-steps',
+        component: 'CardGroup',
+        title: 'After framing, choose a practical move',
+        props: {
+          cards: [
+            { title: 'Open tonight’s first repair step', href: '/repair', kind: 'action' },
+            { title: 'Read system context in Knowledge', href: '/knowledge', kind: 'context' },
+          ],
+        },
+      },
     ],
     pageRules: ['Do not present the guides as a conflict pair.', 'Bridge content should stay near the top.'],
   },
@@ -604,18 +663,110 @@ export const pageData: Record<RouteId, PageConfig> = {
     shell: 'app',
     intent: 'Provide system understanding without behaving like a generic blog.',
     canonical: true,
-    hero: { title: 'Understand the system without getting lost in theory.' },
+    hero: {
+      eyebrow: 'Explanatory context',
+      title: 'Understand the system without getting lost in theory.',
+      subtitle: 'Use Knowledge when you need to understand patterns, mechanisms, and why a repair step is likely to work.',
+      primaryCta: cta('Browse key topics', '/knowledge#knowledge-topics'),
+      secondaryCta: cta('Open Perspectives', '/guides', 'secondary'),
+    },
     sections: [
       { key: 'knowledge-hero', component: 'HeroBlock', variant: 'compact' },
-      { key: 'knowledge-search', component: 'SearchField', props: { placeholder: 'Search topics or articles' } },
       {
         key: 'knowledge-topics',
         component: 'KnowledgeTopicGrid',
+        title: 'Core mechanisms',
         props: {
-          topics: ['How Drift Starts', 'System Decay & System Repair', 'Desire & Familiarity', 'Children & Family Stability', 'Life-Phase Pressure', 'Affair Dynamics'],
+          topics: [
+            {
+              title: 'How drift starts',
+              summary: 'Small disconnections accumulate before obvious conflict appears.',
+              href: '/knowledge?topic=drift#knowledge-topics',
+            },
+            {
+              title: 'System decay and repair',
+              summary: 'Learn the signals of decay and what changes recovery speed.',
+              href: '/knowledge?topic=decay-repair#knowledge-topics',
+            },
+            {
+              title: 'Desire and familiarity',
+              summary: 'Understand why attraction fades in stable routines and what interrupts that slide.',
+              href: '/knowledge?topic=desire-familiarity#knowledge-topics',
+            },
+            {
+              title: 'Life-phase pressure',
+              summary: 'Stress, parenting load, and logistics can hide as personality conflict.',
+              href: '/knowledge?topic=life-pressure#knowledge-topics',
+            },
+            {
+              title: 'Affair vulnerability',
+              summary: 'See the pattern risks without moral theatre or minimising harm.',
+              href: '/knowledge?topic=affair-risk#knowledge-topics',
+            },
+            {
+              title: 'Recovery timing',
+              summary: 'Repair is not instant. This helps set realistic expectations for change.',
+              href: '/knowledge?topic=recovery-timing#knowledge-topics',
+            },
+          ],
         },
       },
-      { key: 'featured-articles', component: 'KnowledgeArticleCard', title: 'Featured articles' },
+      {
+        key: 'knowledge-reading-paths',
+        component: 'CardGroup',
+        title: 'Read by moment',
+        props: {
+          cards: [
+            {
+              title: 'After a fight',
+              summary: 'Understand what escalates conflict and what interrupts the loop.',
+              href: '/knowledge?moment=after-fight#reading-paths',
+            },
+            {
+              title: 'Slow drift',
+              summary: 'Understand why connection can cool without one dramatic event.',
+              href: '/knowledge?moment=slow-drift#reading-paths',
+            },
+            {
+              title: 'Desire strain',
+              summary: 'Understand pressure, pursuit, and distance without side-taking.',
+              href: '/knowledge?moment=desire-strain#reading-paths',
+            },
+          ],
+        },
+      },
+      {
+        key: 'featured-articles',
+        component: 'KnowledgeArticleCard',
+        title: 'Featured explanations',
+        props: {
+          cards: [
+            {
+              title: 'How escalation loops lock in',
+              summary: 'Why repeated arguments become patterned, and the first interruption points.',
+              href: '/knowledge?article=escalation-loops#featured-knowledge',
+            },
+            {
+              title: 'Why goodwill can feel invisible',
+              summary: 'How both partners can care while feeling unseen at the same time.',
+              href: '/knowledge?article=goodwill-visibility#featured-knowledge',
+            },
+            {
+              title: 'How fast repair actually works',
+              summary: 'What to expect across the first 24 hours, 7 days, and 14 days.',
+              href: '/knowledge?article=repair-timing#featured-knowledge',
+            },
+          ],
+        },
+      },
+      {
+        key: 'knowledge-next-move',
+        component: 'CardGroup',
+        title: 'Turn understanding into action',
+        props: {
+          cards: [{ title: 'Go to Repair and run one step', href: '/repair', kind: 'action' }],
+        },
+      },
     ],
     pageRules: ['Treat Knowledge as a repository, not the home screen.', 'Every article must point toward action.'],
   },

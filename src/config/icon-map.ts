@@ -8,7 +8,10 @@ export type SemanticIcon =
   | 'recheck'
   | 'drillIn'
   | 'forward'
-  | 'category';
+  | 'category'
+  | 'perspective'
+  | 'knowledge'
+  | 'bridge';
 
 export const semanticIconMap: Record<SemanticIcon, IconName> = {
   state: 'compass',
@@ -19,4 +22,7 @@ export const semanticIconMap: Record<SemanticIcon, IconName> = {
   drillIn: 'chevron-right',
   forward: 'arrow-right',
   category: 'dot',
+  perspective: 'book-open',
+  knowledge: 'chart-column',
+  bridge: 'arrow-right',
 };

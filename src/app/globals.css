@@ -272,6 +272,57 @@ a {
   overflow: hidden;
 }
 
+.pathway-index-grid {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.pathway-index-card {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 0.8rem;
+  padding: 0.8rem 0.85rem;
+  background: rgba(20, 31, 49, 0.5);
+  display: grid;
+  gap: 0.42rem;
+}
+
+.pathway-index-card:hover,
+.pathway-index-card:focus-visible {
+  border-color: rgba(159, 201, 255, 0.88);
+  background: rgba(36, 57, 89, 0.68);
+}
+
+.pathway-index-card:focus-visible {
+  outline: 2px solid rgba(159, 201, 255, 0.84);
+  outline-offset: 2px;
+}
+
+.pathway-link-list {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.pathway-list-link {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.75rem;
+  padding: 0.75rem 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 0.7rem;
+}
+
+.pathway-list-link:hover,
+.pathway-list-link:focus-visible {
+  border-color: rgba(159, 201, 255, 0.86);
+  background: rgba(37, 59, 93, 0.52);
+}
+
+.pathway-list-link:focus-visible {
+  outline: 2px solid rgba(159, 201, 255, 0.84);
+  outline-offset: 2px;
+}
+
 .pathway-module-link {
   padding: 0.8rem 0.85rem;
   display: grid;
