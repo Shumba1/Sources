@@ -22,6 +22,13 @@
 - `pnpm lint` — pass
 - `pnpm build` — blocked in this environment due outbound Google Fonts fetch failures from `next/font` during build
 
+## Rework pass (interaction + hierarchy refinement)
+- Added semantic icon mapping (`src/config/icon-map.ts`) and a central icon wrapper (`src/components/ui/icon.tsx`) so pathway cues are deliberate and consistent.
+- Elevated one dominant CTA on both `/today` and `/repair`; secondary action now remains visually subordinate.
+- Converted next-step cards and repair options to full-card links with directional affordances.
+- Made repair category chips explicitly clickable with route-safe query/anchor targets.
+- Strengthened hierarchy with clearer state/action/helper/action-label layers and reduced equal-weight card treatment.
+
 ## Pathway continuity approach
 - `/today` now frames immediate orientation + one primary next move (open repair and run one short reset).
 - `/repair` opens with “continue from today” framing and bounded “best first options” that are practical and solo-first.

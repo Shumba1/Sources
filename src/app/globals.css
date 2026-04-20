@@ -139,6 +139,40 @@ a {
   padding: 0.45rem 0.8rem;
 }
 
+.scaffold-actions--secondary a {
+  border-color: rgba(126, 154, 217, 0.42);
+  color: rgba(223, 233, 255, 0.92);
+}
+
+.pathway-primary-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  border-radius: 0.95rem;
+  border: 1px solid rgba(98, 156, 255, 0.85);
+  background: linear-gradient(180deg, rgba(49, 85, 146, 0.82), rgba(35, 58, 98, 0.9));
+  padding: 0.78rem 0.9rem;
+  font-weight: 600;
+  color: #eff5ff;
+  box-shadow: 0 8px 18px rgba(6, 10, 17, 0.3);
+}
+
+.pathway-primary-cta:hover,
+.pathway-primary-cta:focus-visible {
+  border-color: rgba(144, 190, 255, 0.95);
+  transform: translateY(-1px);
+}
+
+.pathway-primary-cta:focus-visible {
+  outline: 2px solid rgba(185, 214, 255, 0.92);
+  outline-offset: 2px;
+}
+
+.pathway-primary-cta__label {
+  font-size: 1rem;
+}
+
 .pathway-card {
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 0.9rem;
@@ -161,6 +195,10 @@ a {
   line-height: 1.4;
 }
 
+.pathway-card--state h2 {
+  font-size: 1.2rem;
+}
+
 .pathway-card ul {
   margin: 0;
   padding-left: 1rem;
@@ -173,6 +211,12 @@ a {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: rgba(247, 244, 238, 0.72);
+}
+
+.pathway-eyebrow-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
 }
 
 .pathway-card--emphasis {
@@ -193,14 +237,64 @@ a {
 .pathway-module-list li {
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.pathway-module-link {
   padding: 0.65rem 0.7rem;
   display: grid;
   gap: 0.35rem;
 }
 
+.pathway-module-link:hover,
+.pathway-module-link:focus-visible {
+  background: rgba(37, 59, 93, 0.66);
+}
+
+.pathway-module-link:focus-visible {
+  outline: 2px solid rgba(159, 201, 255, 0.88);
+  outline-offset: -2px;
+}
+
+.pathway-module-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
 .pathway-meta {
   font-size: 0.8rem;
   color: rgba(247, 244, 238, 0.7);
+}
+
+.pathway-helper-note {
+  font-size: 0.82rem;
+  color: rgba(209, 225, 252, 0.86);
+}
+
+.pathway-action-card {
+  text-decoration: none;
+}
+
+.pathway-action-card:hover,
+.pathway-action-card:focus-visible {
+  border-color: rgba(159, 201, 255, 0.9);
+  background: rgba(35, 58, 96, 0.87);
+}
+
+.pathway-action-card:focus-visible {
+  outline: 2px solid rgba(159, 201, 255, 0.88);
+  outline-offset: 2px;
+}
+
+.pathway-action-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: rgba(214, 231, 255, 0.94);
 }
 
 .pathway-chip-row {
@@ -215,6 +309,38 @@ a {
   padding: 0.3rem 0.55rem;
   font-size: 0.78rem;
   color: rgba(247, 244, 238, 0.88);
+}
+
+.pathway-chip--interactive {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.pathway-chip--interactive:hover,
+.pathway-chip--interactive:focus-visible {
+  border-color: rgba(159, 201, 255, 0.9);
+  background: rgba(39, 58, 88, 0.68);
+}
+
+.pathway-chip--interactive:focus-visible {
+  outline: none;
+}
+
+.pathway-icon {
+  width: 0.95rem;
+  height: 0.95rem;
+  flex-shrink: 0;
+}
+
+.pathway-icon--small {
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+.pathway-icon--medium {
+  width: 1.05rem;
+  height: 1.05rem;
 }
 
 .shell-bottom-nav {
