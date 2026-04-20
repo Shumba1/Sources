@@ -1,10 +1,5 @@
-import { pageData } from '@/config/page-data';
-import { ScaffoldPanel } from '@/components/shell/shell-primitives';
+import { TopLevelRouteScaffold } from '@/components/shell/top-level-route-scaffold';
 
 export default function HowItWorksPage() {
-  return (
-    <ScaffoldPanel title={pageData.howItWorks.hero?.title ?? 'How it works'}>
-      <p>{pageData.howItWorks.hero?.subtitle}</p>
-    </ScaffoldPanel>
-  );
+  return <TopLevelRouteScaffold routeId="howItWorks" />;
 }

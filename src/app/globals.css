@@ -132,6 +132,21 @@ a {
   gap: 0.625rem;
 }
 
+.scaffold-section-count {
+  margin: 0;
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+.scaffold-section-preview {
+  margin: 0;
+  padding-left: 1rem;
+  display: grid;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
 .scaffold-actions a {
   border-radius: 9999px;
   border: 1px solid rgba(78, 123, 255, 0.5);

@@ -1,15 +1,5 @@
-import Link from 'next/link';
-import { getRouteTitle } from '@/config/routes';
-import { ScaffoldPanel } from '@/components/shell/shell-primitives';
+import { TopLevelRouteScaffold } from '@/components/shell/top-level-route-scaffold';
 
 export default function TodayPage() {
-  return (
-    <ScaffoldPanel title={getRouteTitle('today')}>
-      <p className="scaffold-meta">Phase 1 scaffold surface</p>
-      <p>This route is shell-complete and ready for local-first state bindings in a later packet.</p>
-      <div className="scaffold-actions">
-        <Link href="/repair">Open Repair</Link>
-      </div>
-    </ScaffoldPanel>
-  );
+  return <TopLevelRouteScaffold routeId="today" />;
 }
