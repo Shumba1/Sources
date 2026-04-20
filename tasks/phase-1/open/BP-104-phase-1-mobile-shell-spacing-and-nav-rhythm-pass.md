@@ -62,6 +62,8 @@ Read in this order before changing anything:
    - `src/components/shell/app-shell.tsx`
    - `src/components/shell/member-bottom-nav.tsx`
    - top-level scaffold route pages under `src/app/(marketing)/**` and `src/app/(app)/**`
+   
+Also consult `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` if any proposed fix touches icons, illustrations, media containers, visual asset treatment, or motion behaviour.   
 
 If authority conflicts appear, stop and report them.
 
