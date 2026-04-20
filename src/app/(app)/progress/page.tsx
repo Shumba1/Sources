@@ -1,14 +1,25 @@
 import Link from 'next/link';
+
+import { getPageData } from '@/config/page-data';
 import { getRouteTitle } from '@/config/routes';
 import { ScaffoldPanel } from '@/components/shell/shell-primitives';
 
 export default function ProgressPage() {
+  const page = getPageData('progress');
+  const sectionPreview = page.sections.slice(0, 3);
+
   return (
     <ScaffoldPanel title={getRouteTitle('progress')}>
-      <p className="scaffold-meta">Phase 1 scaffold surface</p>
-      <p>This route anchors progress-shell navigation while measurement logic remains out of scope for this phase.</p>
+      <p className="scaffold-meta">Member surface · /progress</p>
+      <p>{page.hero?.subtitle ?? page.intent}</p>
+      <p>Config sections mapped: {page.sections.length}</p>
+      <ul>
+        {sectionPreview.map((section) => (
+          <li key={section.key}>{section.component}</li>
+        ))}
+      </ul>
       <div className="scaffold-actions">
-        <Link href="/today">Back to Today</Link>
+        <Link href={page.hero?.primaryCta?.href ?? '/today'}>{page.hero?.primaryCta?.label ?? 'Open Today'}</Link>
       </div>
     </ScaffoldPanel>
   );

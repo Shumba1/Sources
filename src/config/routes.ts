@@ -139,6 +139,7 @@ export function getRouteTitle(routeId: RouteId): string {
   return routeIndex.find((route) => route.id === routeId)?.title ?? routeId;
 }
 
+
 export const storeCategories = [
   { slug: 'templates', label: 'Templates' },
   { slug: 'guides', label: 'Guides' },

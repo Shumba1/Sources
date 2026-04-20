@@ -1,14 +1,25 @@
 import Link from 'next/link';
+
+import { getPageData } from '@/config/page-data';
 import { getRouteTitle } from '@/config/routes';
 import { ScaffoldPanel } from '@/components/shell/shell-primitives';
 
 export default function GuidesPage() {
+  const page = getPageData('guides');
+  const sectionPreview = page.sections.slice(0, 3);
+
   return (
     <ScaffoldPanel title={getRouteTitle('guides')}>
-      <p className="scaffold-meta">Phase 1 scaffold surface</p>
-      <p>This route holds the Perspectives shell while parallel-track content rendering is introduced later.</p>
+      <p className="scaffold-meta">Member surface · /guides</p>
+      <p>{page.hero?.subtitle ?? page.intent}</p>
+      <p>Config sections mapped: {page.sections.length}</p>
+      <ul>
+        {sectionPreview.map((section) => (
+          <li key={section.key}>{section.component}</li>
+        ))}
+      </ul>
       <div className="scaffold-actions">
-        <Link href="/knowledge">Open Knowledge</Link>
+        <Link href={page.hero?.primaryCta?.href ?? '/today'}>{page.hero?.primaryCta?.label ?? 'Open Today'}</Link>
       </div>
     </ScaffoldPanel>
   );
