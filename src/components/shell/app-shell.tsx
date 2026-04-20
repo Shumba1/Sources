@@ -12,7 +12,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           Check state
         </Link>
       </header>
-      <ShellMain>{children}</ShellMain>
+      <ShellMain withBottomNav>{children}</ShellMain>
       <MemberBottomNav />
     </ShellViewport>
   );
