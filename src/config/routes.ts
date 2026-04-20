@@ -99,6 +99,46 @@ export const primaryMemberNav = [
   { id: 'progress' as const, label: 'Progress', href: '/progress' },
 ];
 
+function flattenRoutes(nodes: RouteNode[]): RouteNode[] {
+  return nodes.flatMap((node) => [node, ...(node.children ? flattenRoutes(node.children) : [])]);
+}
+
+const routeIndex = flattenRoutes(routeTree);
+const memberNavRoutes = routeIndex.filter((route): route is RouteNode & { nav: NavItem } => route.shell === 'app' && Boolean(route.nav));
+
+function normalizePath(pathname: string): string {
+  if (!pathname || pathname === '/') return '/';
+  return pathname.endsWith('/') ? pathname.slice(0, -1) : pathname;
+}
+
+function pathMatchesPattern(pathname: string, routePath: string): boolean {
+  const normalizedPathname = normalizePath(pathname);
+  const normalizedRoutePath = normalizePath(routePath);
+  const routePattern = normalizedRoutePath.replace(/\[[^\]/]+\]/g, '[^/]+');
+  const matcher = new RegExp(`^${routePattern}$`);
+  return matcher.test(normalizedPathname);
+}
+
+function pathMatchesPrefix(pathname: string, basePath: string): boolean {
+  const normalizedPathname = normalizePath(pathname);
+  const normalizedBasePath = normalizePath(basePath);
+
+  return normalizedPathname === normalizedBasePath || normalizedPathname.startsWith(`${normalizedBasePath}/`);
+}
+
+export function getPrimaryNavForPath(pathname: string): NavItem | null {
+  const normalizedPathname = normalizePath(pathname);
+  const bestMatch = memberNavRoutes
+    .filter((route) => pathMatchesPattern(normalizedPathname, route.path) || pathMatchesPrefix(normalizedPathname, route.path))
+    .sort((a, b) => b.path.length - a.path.length)[0];
+
+  return bestMatch?.nav ?? null;
+}
+
+export function getRouteTitle(routeId: RouteId): string {
+  return routeIndex.find((route) => route.id === routeId)?.title ?? routeId;
+}
+
 export const storeCategories = [
   { slug: 'templates', label: 'Templates' },
   { slug: 'guides', label: 'Guides' },

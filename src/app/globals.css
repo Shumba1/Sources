@@ -118,6 +118,14 @@ a {
   gap: 0.75rem;
 }
 
+.scaffold-meta {
+  margin: 0;
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.72;
+}
+
 .scaffold-actions {
   display: flex;
   flex-wrap: wrap;
@@ -153,10 +161,24 @@ a {
   border-radius: 0.6rem;
   padding: 0.4rem 0.2rem;
   color: rgba(247, 244, 238, 0.75);
+  border: 1px solid transparent;
+  transition: background-color 140ms ease, border-color 140ms ease, color 140ms ease;
+}
+
+.shell-bottom-nav a:hover,
+.shell-bottom-nav a:focus-visible {
+  border-color: rgba(255, 255, 255, 0.18);
+  background: rgba(36, 50, 71, 0.35);
+  color: #f7f4ee;
+}
+
+.shell-bottom-nav a:focus-visible {
+  outline: none;
 }
 
 .shell-bottom-nav a.is-active {
   background: #243247;
+  border-color: rgba(255, 255, 255, 0.22);
   color: #f7f4ee;
 }
 
