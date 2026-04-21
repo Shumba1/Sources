@@ -4,86 +4,20 @@ import { semanticIconMap } from '@/config/icon-map';
 import { getPageData } from '@/config/page-data';
 import { getRouteTitle } from '@/config/routes';
 import { ScaffoldPanel } from '@/components/shell/shell-primitives';
+import {
+  fixtureByState,
+  readValue,
+  resolveStateFromCheckIn,
+  valueLabels,
+  type CapacityValue,
+  type ConnectionValue,
+  type TensionValue,
+} from '@/lib/check-in-state';
 import { Icon } from '@/components/ui/icon';
 
-type CheckInValue = 'close' | 'neutral' | 'distant' | 'calm' | 'uneasy' | 'heated' | 'regulated' | 'strained' | 'overwhelmed';
-
-type StateFixtureKey = 'steady' | 'heatedButReachable' | 'activatedAndFragile';
-
-interface StateFixture {
-  label: string;
-  summary: string;
-  nextMove: string;
-  nextHref: string;
-  prevention: string;
-  caution: string;
-}
-
-const fixtureByState: Record<StateFixtureKey, StateFixture> = {
-  steady: {
-    label: 'Connected with mild strain',
-    summary: 'There is pressure, but goodwill is still active. Keep tonight short and practical so the tone stays stable.',
-    nextMove: 'Open Today and run the low-friction reset.',
-    nextHref: '/today',
-    prevention: 'Keep the next move simple; do not turn a manageable evening into a long debrief.',
-    caution: 'Do not over-process when the temperature is already manageable.',
-  },
-  heatedButReachable: {
-    label: 'Heated but reachable',
-    summary: 'The system is strained, not broken. A calm first move can still lower pressure before more damage happens.',
-    nextMove: 'Open Today and start the first repair step now.',
-    nextHref: '/today',
-    prevention: 'Use one short script before the next message if either of you is reactive.',
-    caution: 'Do not send a blame wall in the next 30 minutes.',
-  },
-  activatedAndFragile: {
-    label: 'Activated and fragile',
-    summary: 'Escalation risk is high. Treat this as containment first, then repair once intensity drops.',
-    nextMove: 'Open Today and run the damage-stop entry point first.',
-    nextHref: '/today',
-    prevention: 'Pause contact briefly, regulate, then return with one bounded sentence.',
-    caution: 'No ultimatums, no scorekeeping, no late-night post-mortem tonight.',
-  },
-};
-
-const valueLabels: Record<CheckInValue, string> = {
-  close: 'Close',
-  neutral: 'Neutral',
-  distant: 'Distant',
-  calm: 'Calm',
-  uneasy: 'Uneasy',
-  heated: 'Heated',
-  regulated: 'Regulated',
-  strained: 'Strained',
-  overwhelmed: 'Overwhelmed',
-};
-
-function readValue(
-  value: string | string[] | undefined,
-  fallback: CheckInValue,
-): CheckInValue {
-  if (typeof value !== 'string') {
-    return fallback;
-  }
-
-  return value as CheckInValue;
-}
-
-function classifyState(connection: CheckInValue, tension: CheckInValue, capacity: CheckInValue): StateFixtureKey {
-  const highHeat = tension === 'heated';
-  const lowConnection = connection === 'distant';
-  const lowCapacity = capacity === 'overwhelmed';
-
-  if ((highHeat && lowConnection) || (highHeat && lowCapacity)) {
-    return 'activatedAndFragile';
-  }
-
-  if (highHeat || tension === 'uneasy' || connection === 'neutral' || capacity === 'strained') {
-    return 'heatedButReachable';
-  }
-
-  return 'steady';
-}
+const connectionValues = ['close', 'neutral', 'distant'] as const;
+const tensionValues = ['calm', 'uneasy', 'heated'] as const;
+const capacityValues = ['regulated', 'strained', 'overwhelmed'] as const;
 
 interface TodayStatePageProps {
   searchParams?: Promise<Record<string, string | string[] | undefined>>;
@@ -93,11 +27,12 @@ export default async function TodayStatePage({ searchParams }: TodayStatePagePro
   const page = getPageData('todayState');
   const params = searchParams ? await searchParams : {};
 
-  const connection = readValue(params.connection, 'neutral');
-  const tension = readValue(params.tension, 'uneasy');
-  const capacity = readValue(params.capacity, 'strained');
+  const connection = readValue(params.connection, connectionValues, 'neutral') as ConnectionValue;
+  const tension = readValue(params.tension, tensionValues, 'uneasy') as TensionValue;
+  const capacity = readValue(params.capacity, capacityValues, 'strained') as CapacityValue;
 
-  const fixture = fixtureByState[classifyState(connection, tension, capacity)];
+  const stateKey = resolveStateFromCheckIn(connection, tension, capacity);
+  const fixture = fixtureByState[stateKey];
   const recap = [
     { label: 'Connection', value: valueLabels[connection] },
     { label: 'Temperature', value: valueLabels[tension] },
@@ -111,7 +46,7 @@ export default async function TodayStatePage({ searchParams }: TodayStatePagePro
         <p className="pathway-deck">{page.hero?.subtitle ?? page.intent}</p>
       </div>
 
-      <Link className="pathway-primary-cta pathway-primary-cta--state" href={fixture.nextHref}>
+      <Link className="pathway-primary-cta pathway-primary-cta--state" href={`${fixture.nextHref}?state=${stateKey}`}>
         <div className="pathway-primary-cta__content">
           <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
             <Icon className="pathway-icon" name={semanticIconMap.nextAction} />
@@ -147,6 +82,19 @@ export default async function TodayStatePage({ searchParams }: TodayStatePagePro
           <p className="pathway-helper-note">Watch-out: {fixture.caution}</p>
         </section>
       </div>
+
+      <section className="pathway-card pathway-card--quiet pathway-card--section">
+        <div className="pathway-section-head pathway-section-head--stacked">
+          <div>
+            <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
+              <Icon className="pathway-icon" name={semanticIconMap.script} />
+              Quick script
+            </p>
+            <p className="pathway-section-intro">Use this if you need one sentence before the next exchange.</p>
+          </div>
+        </div>
+        <p>{fixture.quickScript}</p>
+      </section>
 
       <section className="pathway-card pathway-card--quiet pathway-card--section">
         <div className="pathway-section-head pathway-section-head--stacked">
