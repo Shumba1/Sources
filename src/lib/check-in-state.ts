@@ -9,7 +9,8 @@ export type StateFixtureKey = 'steady' | 'heatedButReachable' | 'activatedAndFra
 export interface StateFixture {
   label: string;
   summary: string;
-  nextMove: string;
+  statePageNextMove: string;
+  todayPageNextMove: string;
   nextHref: string;
   prevention: string;
   caution: string;
@@ -21,7 +22,8 @@ export const fixtureByState: Record<StateFixtureKey, StateFixture> = {
   steady: {
     label: 'Connected with mild strain',
     summary: 'There is pressure, but goodwill is still active. Keep tonight short and practical so the tone stays stable.',
-    nextMove: 'Open Today and run the low-friction reset.',
+    statePageNextMove: 'Open Today and run the low-friction reset.',
+    todayPageNextMove: 'Run the low-friction reset.',
     nextHref: '/today',
     prevention: 'Keep the next move simple; do not turn a manageable evening into a long debrief.',
     caution: 'Do not over-process when the temperature is already manageable.',
@@ -31,7 +33,8 @@ export const fixtureByState: Record<StateFixtureKey, StateFixture> = {
   heatedButReachable: {
     label: 'Heated but reachable',
     summary: 'The system is strained, not broken. A calm first move can still lower pressure before more damage happens.',
-    nextMove: 'Open Today and start the first repair step now.',
+    statePageNextMove: 'Open Today and start the first repair step now.',
+    todayPageNextMove: 'Start the first repair step now.',
     nextHref: '/today',
     prevention: 'Use one short script before the next message if either of you is reactive.',
     caution: 'Do not send a blame wall in the next 30 minutes.',
@@ -41,7 +44,8 @@ export const fixtureByState: Record<StateFixtureKey, StateFixture> = {
   activatedAndFragile: {
     label: 'Activated and fragile',
     summary: 'Escalation risk is high. Treat this as containment first, then repair once intensity drops.',
-    nextMove: 'Open Today and run the damage-stop entry point first.',
+    statePageNextMove: 'Open Today and run the damage-stop entry point first.',
+    todayPageNextMove: 'Run the damage-stop entry point first.',
     nextHref: '/today',
     prevention: 'Pause contact briefly, regulate, then return with one bounded sentence.',
     caution: 'No ultimatums, no scorekeeping, no late-night post-mortem tonight.',
@@ -62,7 +66,7 @@ export const valueLabels: Record<CheckInValue, string> = {
   overwhelmed: 'Overwhelmed',
 };
 
-export function readValue<T extends CheckInValue>(
+export function readValue<T extends string>(
   value: string | string[] | undefined,
   allowedValues: readonly T[],
   fallback: T,

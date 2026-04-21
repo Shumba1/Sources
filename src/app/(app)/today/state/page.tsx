@@ -52,7 +52,7 @@ export default async function TodayStatePage({ searchParams }: TodayStatePagePro
             <Icon className="pathway-icon" name={semanticIconMap.nextAction} />
             Next move
           </p>
-          <h2>{fixture.nextMove}</h2>
+          <h2>{fixture.todayPageNextMove}</h2>
           <p className="pathway-helper-note pathway-helper-note--contrast">
             One clear step is enough for tonight. You do not need to solve everything before bed.
           </p>

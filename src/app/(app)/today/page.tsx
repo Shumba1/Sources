@@ -32,7 +32,7 @@ export default async function TodayPage({ searchParams }: TodayPageProps) {
             <Icon className="pathway-icon" name={semanticIconMap.nextAction} />
             Do this next
           </p>
-          <h2>{fixture.nextMove}</h2>
+          <h2>{fixture.todayPageNextMove}</h2>
           <p className="pathway-helper-note pathway-helper-note--contrast">
             One practical step now is worth more than another full conversation tonight.
           </p>

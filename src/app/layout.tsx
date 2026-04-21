@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
-import { displaySerif, mono, uiSans } from '@/design/fonts';
+import '@fontsource-variable/inter';
+import '@fontsource-variable/fraunces';
+import '@fontsource-variable/jetbrains-mono';
 import './globals.css';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://example.com';
@@ -28,7 +30,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
-    <html lang="en" className={`${uiSans.variable} ${displaySerif.variable} ${mono.variable}`}>
+    <html lang="en">
       <body>{children}</body>
     </html>
   );

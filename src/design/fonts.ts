@@ -1,25 +1,16 @@
 // src/design/fonts.ts
-// Font loader and fallback definitions aligned to canonical theme rules.
+// Canonical font-token names for the local/self-hosted font stack.
+// Runtime loading now happens in src/app/layout.tsx via Fontsource packages
+// so production builds do not depend on next/font/google fetches.
 
-import { Fraunces, Inter, JetBrains_Mono } from 'next/font/google';
+export const fontVariableNames = {
+  uiSans: '--font-ui-sans',
+  displaySerif: '--font-display-serif',
+  mono: '--font-mono',
+} as const;
 
-export const uiSans = Inter({
-  subsets: ['latin'],
-  variable: '--font-ui-sans',
-  display: 'swap',
-  fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Noto Sans', 'Arial', 'sans-serif'],
-});
-
-export const displaySerif = Fraunces({
-  subsets: ['latin'],
-  variable: '--font-display-serif',
-  display: 'swap',
-  fallback: ['Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', 'Georgia', 'Noto Serif', 'serif'],
-});
-
-export const mono = JetBrains_Mono({
-  subsets: ['latin'],
-  variable: '--font-mono',
-  display: 'swap',
-  fallback: ['SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', 'monospace'],
-});
+export const fontFamilyNames = {
+  uiSans: 'Inter Variable',
+  displaySerif: 'Fraunces Variable',
+  mono: 'JetBrains Mono Variable',
+} as const;

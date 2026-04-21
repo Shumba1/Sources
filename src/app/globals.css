@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 :root {
+  --font-ui-sans: "Inter Variable";
+  --font-display-serif: "Fraunces Variable";
+  --font-mono: "JetBrains Mono Variable";
   --safe-top: max(0.75rem, env(safe-area-inset-top));
   --safe-right: max(0.75rem, env(safe-area-inset-right));
   --safe-bottom: max(0.75rem, env(safe-area-inset-bottom));
