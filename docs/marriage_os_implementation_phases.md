@@ -84,7 +84,7 @@ Make the app feel real in-browser with zero backend dependency.
 - route scaffolds for all main pages
 - local fixture layer for rendering states
 
-### Minimum routes that should render
+### Phase 1 required route baseline (closure blockers)
 - `/`
 - `/how-it-works`
 - `/start`
@@ -92,15 +92,30 @@ Make the app feel real in-browser with zero backend dependency.
 - `/today/state`
 - `/today`
 - `/repair`
-- `/repair/[slug]`
 - `/guides`
-- `/guides/[slug]`
 - `/knowledge`
-- `/knowledge/[slug]`
 - `/progress`
+
+### Accepted Phase 1 defer map (non-blockers for Phase 1 closure)
+
+The configured route tree remains valid as the forward implementation map, but the following route families are **explicitly not Phase 1 closure blockers**.
+
+#### Deferred to Phase 3 — detail routes
+- `/repair/[slug]`
+- `/guides/[slug]`
+- `/knowledge/[slug]`
+
+#### Deferred to Phase 4 — commercial and public-readiness surfaces
 - `/store`
 - `/pricing`
 - `/library`
+- `/safety`
+
+#### Deferred to Phase 4 or 5 — auth/account/member settings
+- `/login`
+- `/sign-up`
+- `/account`
+- `/settings`
 
 ### Output
 - installable PWA-style shell
@@ -111,7 +126,7 @@ Make the app feel real in-browser with zero backend dependency.
 ### Pass gate
 Move forward only if:
 - the app installs or behaves like an installable PWA
-- all primary routes render
+- all **Phase 1 required route baseline** routes render
 - navigation works cleanly
 - the shell feels app-like, not like a broken website
 

@@ -165,3 +165,28 @@ This file answers the practical question:
 > “What files should a builder or writer actually trust right now?”
 
 If that answer cannot be given in under 30 seconds, the repo is still too easy to misread.
+
+---
+
+## 7. Phase 1 gate interpretation (BP-110 ratified)
+
+For Phase 1 closure review, do **not** treat every configured route in `src/config/routes.ts` as an immediate blocker.
+
+Phase 1 closure blockers are limited to:
+- `/`
+- `/how-it-works`
+- `/start`
+- `/today`
+- `/today/check-in`
+- `/today/state`
+- `/repair`
+- `/guides`
+- `/knowledge`
+- `/progress`
+
+Accepted non-blocker defer map for Phase 1 closure:
+- **Phase 3:** `/repair/[slug]`, `/guides/[slug]`, `/knowledge/[slug]`
+- **Phase 4:** `/store`, `/pricing`, `/library`, `/safety`
+- **Phase 4/5:** `/login`, `/sign-up`, `/account`, `/settings`
+
+Use `docs/marriage_os_implementation_phases.md` as the pass-gate authority and `docs/DRIFT_REGISTER.md` D-036 as the ratified variance record.
