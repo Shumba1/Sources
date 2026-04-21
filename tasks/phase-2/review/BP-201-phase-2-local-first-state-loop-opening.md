@@ -3,7 +3,7 @@
 ## Packet metadata
 - **Packet ID:** BP-201
 - **Phase:** Phase 2
-- **Status:** Open
+- **Status:** Review
 - **Type:** Implementation / local-first state loop / deterministic utility packet
 - **Primary role:** Builder
 - **Secondary roles:** Reviewer, Content / Structure Operator, Human Governor

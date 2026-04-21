@@ -4,46 +4,20 @@ import { semanticIconMap } from '@/config/icon-map';
 import { getPageData } from '@/config/page-data';
 import { getRouteTitle } from '@/config/routes';
 import { ScaffoldPanel } from '@/components/shell/shell-primitives';
+import { fixtureByState, readValue, type StateFixtureKey } from '@/lib/check-in-state';
 import { Icon } from '@/components/ui/icon';
 
-interface TodayStateProps {
-  label: string;
-  summary: string;
+interface TodayPageProps {
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-interface NextMoveProps {
-  action: string;
-  href: string;
-  time: string;
-  success: string;
-  caution: string;
-}
+const stateValues = ['steady', 'heatedButReachable', 'activatedAndFragile'] as const;
 
-interface BulletsProps {
-  bullets: string[];
-}
-
-interface ScriptsProps {
-  scripts: string[];
-}
-
-interface RecheckProps {
-  prompt: string;
-}
-
-export default function TodayPage() {
+export default async function TodayPage({ searchParams }: TodayPageProps) {
   const page = getPageData('today');
-  const stateSection = page.sections.find((section) => section.key === 'today-current-state');
-  const nextMoveSection = page.sections.find((section) => section.key === 'today-next-best-move');
-  const makeItWorseSection = page.sections.find((section) => section.key === 'today-make-it-worse');
-  const scriptsSection = page.sections.find((section) => section.key === 'today-quick-scripts');
-  const recheckSection = page.sections.find((section) => section.key === 'today-recheck');
-
-  const state = (stateSection?.props ?? {}) as Partial<TodayStateProps>;
-  const nextMove = (nextMoveSection?.props ?? {}) as Partial<NextMoveProps>;
-  const makeItWorse = (makeItWorseSection?.props ?? {}) as Partial<BulletsProps>;
-  const scripts = (scriptsSection?.props ?? {}) as Partial<ScriptsProps>;
-  const recheck = (recheckSection?.props ?? {}) as Partial<RecheckProps>;
+  const params = searchParams ? await searchParams : {};
+  const stateKey = readValue(params.state, stateValues, 'heatedButReachable') as StateFixtureKey;
+  const fixture = fixtureByState[stateKey];
 
   return (
     <ScaffoldPanel className="pathway-surface pathway-surface--today" title={getRouteTitle('today')}>
@@ -52,19 +26,19 @@ export default function TodayPage() {
         <p className="pathway-deck">{page.hero?.subtitle ?? page.intent}</p>
       </div>
 
-      <Link className="pathway-primary-cta pathway-primary-cta--today" href={nextMove.href ?? page.hero?.primaryCta?.href ?? '/repair'}>
+      <Link className="pathway-primary-cta pathway-primary-cta--today" href={page.hero?.primaryCta?.href ?? '/repair'}>
         <div className="pathway-primary-cta__content">
           <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
             <Icon className="pathway-icon" name={semanticIconMap.nextAction} />
             Do this next
           </p>
-          <h2>{nextMove.action ?? 'Start the 10-minute damage stop.'}</h2>
+          <h2>{fixture.nextMove}</h2>
           <p className="pathway-helper-note pathway-helper-note--contrast">
             One practical step now is worth more than another full conversation tonight.
           </p>
           <div className="pathway-inline-meta">
-            <span className="pathway-meta-pill">{nextMove.time ?? '10 minutes tonight'}</span>
-            <span className="pathway-meta-pill pathway-meta-pill--muted">{nextMove.success ?? 'Lower temperature first'}</span>
+            <span className="pathway-meta-pill">10 minutes tonight</span>
+            <span className="pathway-meta-pill pathway-meta-pill--muted">Lower temperature first</span>
           </div>
         </div>
         <span className="pathway-primary-cta__aside">
@@ -77,10 +51,10 @@ export default function TodayPage() {
         <section className="pathway-card pathway-card--state">
           <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
             <Icon className="pathway-icon" name={semanticIconMap.state} />
-            {stateSection?.title ?? 'What this moment most likely is'}
+            Current state snapshot
           </p>
-          <h2>{state.label ?? 'Heated but reachable'}</h2>
-          <p>{state.summary ?? 'Things are strained, but still reachable. Protect what is still working and avoid one more damaging move tonight.'}</p>
+          <h2>{fixture.label}</h2>
+          <p>{fixture.summary}</p>
         </section>
 
         <section className="pathway-card pathway-card--quiet pathway-card--caution">
@@ -89,11 +63,11 @@ export default function TodayPage() {
             What makes tonight worse
           </p>
           <ul className="pathway-plain-list pathway-plain-list--tight">
-            {(makeItWorse.bullets ?? []).map((item) => (
+            {fixture.makeItWorse.map((item) => (
               <li key={item}>{item}</li>
             ))}
           </ul>
-          <p className="pathway-helper-note">Watch-out: {nextMove.caution ?? 'Do not send one more reactive message first.'}</p>
+          <p className="pathway-helper-note">Watch-out: {fixture.caution}</p>
         </section>
       </div>
 
@@ -101,13 +75,9 @@ export default function TodayPage() {
         <section className="pathway-card pathway-card--quiet pathway-card--support">
           <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
             <Icon className="pathway-icon" name={semanticIconMap.script} />
-            Use if needed
+            Quick script
           </p>
-          <ul className="pathway-script-list">
-            {(scripts.scripts ?? []).map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
+          <p>{fixture.quickScript}</p>
         </section>
 
         <section className="pathway-card pathway-card--quiet pathway-card--support">
@@ -115,13 +85,11 @@ export default function TodayPage() {
             <Icon className="pathway-icon" name={semanticIconMap.recheck} />
             Quick recheck
           </p>
-          <p>{recheck.prompt ?? 'After one step, ask whether the temperature dropped or rose.'}</p>
-          {page.hero?.secondaryCta ? (
-            <Link className="pathway-secondary-link" href={page.hero.secondaryCta.href}>
-              {page.hero.secondaryCta.label}
-              <Icon className="pathway-icon" name={semanticIconMap.drillIn} />
-            </Link>
-          ) : null}
+          <p>After one step, ask whether the temperature dropped or rose.</p>
+          <Link className="pathway-secondary-link" href="/today/check-in">
+            Run check-in again
+            <Icon className="pathway-icon" name={semanticIconMap.drillIn} />
+          </Link>
         </section>
       </div>
     </ScaffoldPanel>
