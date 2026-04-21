@@ -46,13 +46,13 @@ export default function TodayPage() {
   const recheck = (recheckSection?.props ?? {}) as Partial<RecheckProps>;
 
   return (
-    <ScaffoldPanel className="pathway-surface" title={getRouteTitle('today')}>
+    <ScaffoldPanel className="pathway-surface pathway-surface--today" title={getRouteTitle('today')}>
       <div className="pathway-surface__intro">
         <p className="scaffold-meta">{page.hero?.eyebrow ?? 'Tonight focus'}</p>
         <p className="pathway-deck">{page.hero?.subtitle ?? page.intent}</p>
       </div>
 
-      <Link className="pathway-primary-cta" href={nextMove.href ?? page.hero?.primaryCta?.href ?? '/repair'}>
+      <Link className="pathway-primary-cta pathway-primary-cta--today" href={nextMove.href ?? page.hero?.primaryCta?.href ?? '/repair'}>
         <div className="pathway-primary-cta__content">
           <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
             <Icon className="pathway-icon" name={semanticIconMap.nextAction} />
@@ -60,7 +60,7 @@ export default function TodayPage() {
           </p>
           <h2>{nextMove.action ?? 'Start the 10-minute damage stop.'}</h2>
           <p className="pathway-helper-note pathway-helper-note--contrast">
-            Take one structured step before the next message or argument.
+            One practical step now is worth more than another full conversation tonight.
           </p>
           <div className="pathway-inline-meta">
             <span className="pathway-meta-pill">{nextMove.time ?? '10 minutes tonight'}</span>
@@ -68,7 +68,7 @@ export default function TodayPage() {
           </div>
         </div>
         <span className="pathway-primary-cta__aside">
-          <span className="pathway-action-label">Open repair</span>
+          <span className="pathway-action-label">Run the step</span>
           <Icon className="pathway-icon pathway-icon--medium" name={semanticIconMap.forward} />
         </span>
       </Link>
@@ -83,12 +83,12 @@ export default function TodayPage() {
           <p>{state.summary ?? 'Things are strained, but still reachable. Protect what is still working and avoid one more damaging move tonight.'}</p>
         </section>
 
-        <section className="pathway-card pathway-card--quiet">
+        <section className="pathway-card pathway-card--quiet pathway-card--caution">
           <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
             <Icon className="pathway-icon" name={semanticIconMap.caution} />
             What makes tonight worse
           </p>
-          <ul className="pathway-plain-list">
+          <ul className="pathway-plain-list pathway-plain-list--tight">
             {(makeItWorse.bullets ?? []).map((item) => (
               <li key={item}>{item}</li>
             ))}
@@ -98,19 +98,19 @@ export default function TodayPage() {
       </div>
 
       <div className="pathway-grid pathway-grid--duo">
-        <section className="pathway-card pathway-card--quiet">
+        <section className="pathway-card pathway-card--quiet pathway-card--support">
           <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
             <Icon className="pathway-icon" name={semanticIconMap.script} />
             Use if needed
           </p>
           <ul className="pathway-script-list">
             {(scripts.scripts ?? []).map((item) => (
-              <li key={item}>“{item}”</li>
+              <li key={item}>{item}</li>
             ))}
           </ul>
         </section>
 
-        <section className="pathway-card pathway-card--compact pathway-card--quiet">
+        <section className="pathway-card pathway-card--quiet pathway-card--support">
           <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
             <Icon className="pathway-icon" name={semanticIconMap.recheck} />
             Quick recheck

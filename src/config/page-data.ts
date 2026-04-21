@@ -341,7 +341,7 @@ export const pageData: Record<RouteId, PageConfig> = {
     hero: {
       eyebrow: 'Tonight focus',
       title: 'Today’s next best move',
-      subtitle: 'Slow the temperature. Take one constructive step before the next message or argument.',
+      subtitle: 'Slow the temperature. Take one constructive step before the next message or argument, then decide what earns more attention.',
       primaryCta: cta('Start the 10-minute reset', '/repair'),
       secondaryCta: cta('Run a 60-second Check-In', '/today/check-in', 'secondary'),
     },
@@ -410,6 +410,7 @@ export const pageData: Record<RouteId, PageConfig> = {
     canonical: true,
     hero: {
       title: 'How does the relationship feel today?',
+      subtitle: 'Answer one fast solo-first check-in so the next move is clearer and calmer.',
       primaryCta: cta('See the Current State', '/today/state'),
       secondaryCta: cta('Go Straight to Repair', '/repair', 'ghost'),
     },
@@ -435,7 +436,7 @@ export const pageData: Record<RouteId, PageConfig> = {
     canonical: true,
     hero: {
       title: 'Current relationship state',
-      subtitle: 'This is a pattern snapshot, not a verdict.',
+      subtitle: 'This is a pattern snapshot, not a verdict. Use it to choose the next move, not to catastrophise the relationship.',
       primaryCta: cta('Open the First Repair Step', '/today'),
       secondaryCta: cta('See Why This State Appears', '/knowledge/how-drift-starts', 'secondary'),
     },
@@ -469,7 +470,7 @@ export const pageData: Record<RouteId, PageConfig> = {
     hero: {
       eyebrow: 'Continue from Today',
       title: 'Start one repair step now',
-      subtitle: 'Choose the closest fit for tonight and run only the first step now.',
+      subtitle: 'Choose the closest fit for tonight. Run only the first step now and let the next move earn its place.',
       primaryCta: cta('Start with damage stop', '/repair'),
       secondaryCta: cta('Back to Today', '/today', 'ghost'),
     },
@@ -793,11 +794,36 @@ export const pageData: Record<RouteId, PageConfig> = {
     shell: 'app',
     intent: 'Make improvement visible so the product becomes sticky.',
     canonical: true,
-    hero: { title: 'Is the system improving?' },
+    hero: {
+      eyebrow: 'Operational view',
+      title: 'See whether the system is actually settling.',
+      subtitle: 'Use Progress to spot the direction of travel, not to score yourself.',
+      primaryCta: cta('Run a fresh check-in', '/today/check-in'),
+      secondaryCta: cta('Open Today', '/today', 'secondary'),
+    },
     sections: [
       { key: 'progress-hero', component: 'HeroBlock', variant: 'compact' },
-      { key: 'progress-overview', component: 'ProgressOverview', props: { cards: ['State trend', 'Repair completion', 'Bond metrics', 'Attraction & Desire', 'Recovery speed'] } },
-      { key: 'progress-recommendation', component: 'CardGroup', props: { cards: ['Suggested next reset'] } },
+      {
+        key: 'progress-overview',
+        component: 'ProgressOverview',
+        props: {
+          cards: [
+            { title: 'State trend', value: 'Cooling slowly', summary: 'The last three snapshots are moving away from high heat, but not enough to stop paying attention.' },
+            { title: 'Repair completion', value: '1 of 3', summary: 'One good step landed. The system still needs another short repair action this week.' },
+            { title: 'Bond signal', value: 'Holding', summary: 'Goodwill is still present even if tone and access have been inconsistent.' },
+            { title: 'Recovery speed', value: '12–24 hrs', summary: 'The current loop needs a calmer day, not another same-night overreaction.' },
+          ],
+        },
+      },
+      {
+        key: 'progress-recommendation',
+        component: 'CardGroup',
+        props: {
+          title: 'Suggested next reset',
+          summary: 'Run one bounded repair step before the next big conversation so the next check-in tells you something real.',
+          href: '/repair',
+        },
+      },
     ],
     pageRules: ['Progress should feel operational, not self-help-ish.', 'Use charts sparingly.'],
   },

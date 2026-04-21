@@ -49,7 +49,7 @@ export default function GuidesPage() {
           </p>
           <h2>{primaryPath?.title ?? page.hero?.primaryCta?.label ?? 'Start with both perspectives'}</h2>
           <p className="pathway-helper-note pathway-helper-note--contrast">
-            Use one shared frame before you decide what to do next.
+            Use one clean frame before you choose a move.
           </p>
         </div>
         <span className="pathway-primary-cta__aside">
@@ -65,7 +65,7 @@ export default function GuidesPage() {
               <Icon className="pathway-icon" name={semanticIconMap.perspective} />
               {pathsSection?.title ?? 'Choose a perspective path'}
             </p>
-            <p className="pathway-section-intro">Choose the lens that best matches the tension you are trying to name.</p>
+            <p className="pathway-section-intro">Choose the lens that best helps you read the loop before you react to it.</p>
           </div>
         </div>
         <div className="pathway-index-grid pathway-index-grid--editorial">
@@ -75,7 +75,7 @@ export default function GuidesPage() {
               <h2>{card.title}</h2>
               <p>{card.summary}</p>
               <span className="pathway-index-card__cta">
-                Open frame
+                Use this frame
                 <Icon className="pathway-icon" name={semanticIconMap.drillIn} />
               </span>
             </Link>
@@ -90,7 +90,7 @@ export default function GuidesPage() {
               <Icon className="pathway-icon" name={semanticIconMap.bridge} />
               {bridgeSection?.title ?? 'Where each side often misreads the other'}
             </p>
-            <p className="pathway-section-intro">Use these when the loop matters more than who is right.</p>
+            <p className="pathway-section-intro">Use these when the pattern matters more than who is right.</p>
           </div>
           <div className="pathway-link-list">
             {bridges.map((card) => (
@@ -114,15 +114,27 @@ export default function GuidesPage() {
             <p className="pathway-section-intro">Once the loop is clearer, take one bounded next step.</p>
           </div>
           <div className="pathway-choice-stack">
-            {nextMoves.map((card) => (
-              <Link key={card.title} className="pathway-choice-link" href={card.href}>
-                <div>
-                  <p className="pathway-index-card__meta">{card.kind === 'context' ? 'Context next' : 'Action next'}</p>
-                  <h2>{card.title}</h2>
-                </div>
-                <Icon className="pathway-icon pathway-icon--medium" name={semanticIconMap.drillIn} />
-              </Link>
-            ))}
+            {nextMoves.map((card) => {
+              const summary =
+                card.summary ??
+                (card.kind === 'context'
+                  ? 'Use system context when you need a cleaner read before you act.'
+                  : 'Use one bounded repair step while the pattern is still clear.');
+
+              return (
+                <Link key={card.title} className="pathway-choice-link" href={card.href}>
+                  <div className="pathway-choice-link__content">
+                    <p className="pathway-index-card__meta">{card.kind === 'context' ? 'Context next' : 'Action next'}</p>
+                    <h2>{card.title}</h2>
+                    <p className="pathway-choice-link__summary">{summary}</p>
+                  </div>
+                  <span className="pathway-choice-link__cta">
+                    Open
+                    <Icon className="pathway-icon pathway-icon--medium" name={semanticIconMap.drillIn} />
+                  </span>
+                </Link>
+              );
+            })}
           </div>
           {page.hero?.secondaryCta ? (
             <Link className="pathway-secondary-link" href={page.hero.secondaryCta.href}>

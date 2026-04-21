@@ -50,7 +50,7 @@ export default function KnowledgePage() {
           </p>
           <h2>{primaryTopic?.title ?? page.hero?.primaryCta?.label ?? 'Start with drift'}</h2>
           <p className="pathway-helper-note pathway-helper-note--contrast">
-            Build context first, then move back into repair with more precision.
+            Build context first. Then move back into repair with more precision.
           </p>
         </div>
         <span className="pathway-primary-cta__aside">
@@ -101,7 +101,7 @@ export default function KnowledgePage() {
               <Icon className="pathway-icon" name={semanticIconMap.state} />
               {readingPathsSection?.title ?? 'Read by moment'}
             </p>
-            <p className="pathway-section-intro">Choose the reading path that matches the moment you are in.</p>
+            <p className="pathway-section-intro">Choose the reading path that matches the moment you are trying to decode.</p>
           </div>
           <div className="pathway-link-list">
             {readingPaths.map((path) => (
@@ -122,7 +122,7 @@ export default function KnowledgePage() {
               <Icon className="pathway-icon" name={semanticIconMap.perspective} />
               {featuredSection?.title ?? 'Featured explanations'}
             </p>
-            <p className="pathway-section-intro">Shorter explanations for the idea you need to name before you react.</p>
+            <p className="pathway-section-intro">Short explanations for the idea you need to name before you react.</p>
           </div>
           <div className="pathway-link-list">
             {featured.map((article) => (
@@ -144,16 +144,22 @@ export default function KnowledgePage() {
             <Icon className="pathway-icon" name={semanticIconMap.nextAction} />
             {nextMoveSection?.title ?? 'Turn understanding into action'}
           </p>
-          <p className="pathway-section-intro">When one idea is clear enough, move back into the next constructive step.</p>
+          <p className="pathway-section-intro">Once one idea is clear enough, move back into the next constructive step.</p>
         </div>
         <div className="pathway-choice-stack">
           {nextMoves.map((card) => (
             <Link key={card.title} className="pathway-choice-link" href={card.href}>
-              <div>
+              <div className="pathway-choice-link__content">
                 <p className="pathway-index-card__meta">Action next</p>
                 <h2>{card.title}</h2>
+                <p className="pathway-choice-link__summary">
+                  {card.summary ?? 'Move back into repair while the mechanism is still clear in your head.'}
+                </p>
               </div>
-              <Icon className="pathway-icon pathway-icon--medium" name={semanticIconMap.drillIn} />
+              <span className="pathway-choice-link__cta">
+                Open
+                <Icon className="pathway-icon pathway-icon--medium" name={semanticIconMap.drillIn} />
+              </span>
             </Link>
           ))}
         </div>

@@ -22,11 +22,11 @@ interface StateFixture {
 const fixtureByState: Record<StateFixtureKey, StateFixture> = {
   steady: {
     label: 'Connected with mild strain',
-    summary: 'There is tension, but goodwill is active. Keep tonight short and practical so the tone stays stable.',
+    summary: 'There is pressure, but goodwill is still active. Keep tonight short and practical so the tone stays stable.',
     nextMove: 'Open Today and run the low-friction reset.',
     nextHref: '/today',
-    prevention: 'Keep the check-in short; avoid reopening old fights tonight.',
-    caution: 'Don’t over-process when the temperature is already manageable.',
+    prevention: 'Keep the next move simple; do not turn a manageable evening into a long debrief.',
+    caution: 'Do not over-process when the temperature is already manageable.',
   },
   heatedButReachable: {
     label: 'Heated but reachable',
@@ -44,6 +44,18 @@ const fixtureByState: Record<StateFixtureKey, StateFixture> = {
     prevention: 'Pause contact briefly, regulate, then return with one bounded sentence.',
     caution: 'No ultimatums, no scorekeeping, no late-night post-mortem tonight.',
   },
+};
+
+const valueLabels: Record<CheckInValue, string> = {
+  close: 'Close',
+  neutral: 'Neutral',
+  distant: 'Distant',
+  calm: 'Calm',
+  uneasy: 'Uneasy',
+  heated: 'Heated',
+  regulated: 'Regulated',
+  strained: 'Strained',
+  overwhelmed: 'Overwhelmed',
 };
 
 function readValue(
@@ -86,22 +98,29 @@ export default async function TodayStatePage({ searchParams }: TodayStatePagePro
   const capacity = readValue(params.capacity, 'strained');
 
   const fixture = fixtureByState[classifyState(connection, tension, capacity)];
+  const recap = [
+    { label: 'Connection', value: valueLabels[connection] },
+    { label: 'Temperature', value: valueLabels[tension] },
+    { label: 'Capacity', value: valueLabels[capacity] },
+  ];
 
   return (
-    <ScaffoldPanel className="pathway-surface" title={getRouteTitle('todayState')}>
+    <ScaffoldPanel className="pathway-surface pathway-surface--state" title={getRouteTitle('todayState')}>
       <div className="pathway-surface__intro">
-        <p className="scaffold-meta">Local fixture result</p>
+        <p className="scaffold-meta">Current snapshot</p>
         <p className="pathway-deck">{page.hero?.subtitle ?? page.intent}</p>
       </div>
 
-      <Link className="pathway-primary-cta" href={fixture.nextHref}>
+      <Link className="pathway-primary-cta pathway-primary-cta--state" href={fixture.nextHref}>
         <div className="pathway-primary-cta__content">
           <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
             <Icon className="pathway-icon" name={semanticIconMap.nextAction} />
             Next move
           </p>
           <h2>{fixture.nextMove}</h2>
-          <p className="pathway-helper-note pathway-helper-note--contrast">One clear step keeps this from turning into another loop.</p>
+          <p className="pathway-helper-note pathway-helper-note--contrast">
+            One clear step is enough for tonight. You do not need to solve everything before bed.
+          </p>
         </div>
         <span className="pathway-primary-cta__aside">
           <span className="pathway-action-label">Open Today</span>
@@ -119,7 +138,7 @@ export default async function TodayStatePage({ searchParams }: TodayStatePagePro
           <p>{fixture.summary}</p>
         </section>
 
-        <section className="pathway-card pathway-card--quiet">
+        <section className="pathway-card pathway-card--quiet pathway-card--support">
           <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
             <Icon className="pathway-icon" name={semanticIconMap.caution} />
             Anti-escalation cue
@@ -128,6 +147,26 @@ export default async function TodayStatePage({ searchParams }: TodayStatePagePro
           <p className="pathway-helper-note">Watch-out: {fixture.caution}</p>
         </section>
       </div>
+
+      <section className="pathway-card pathway-card--quiet pathway-card--section">
+        <div className="pathway-section-head pathway-section-head--stacked">
+          <div>
+            <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
+              <Icon className="pathway-icon" name={semanticIconMap.recheck} />
+              What you told us
+            </p>
+            <p className="pathway-section-intro">This is a local fixture read, not a verdict. It is enough to point you toward the next move tonight.</p>
+          </div>
+        </div>
+        <div className="pathway-recap-grid">
+          {recap.map((item) => (
+            <div key={item.label} className="pathway-kpi-card pathway-kpi-card--compact">
+              <p className="pathway-index-card__meta">{item.label}</p>
+              <h2 className="pathway-kpi-card__value">{item.value}</h2>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <div className="scaffold-actions scaffold-actions--secondary">
         <Link className="pathway-secondary-link" href="/today/check-in">

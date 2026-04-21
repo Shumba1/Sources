@@ -13,13 +13,17 @@ export function ScaffoldPanel({
   title,
   children,
   className,
+  tone = 'app',
 }: {
   title: string;
   children: ReactNode;
   className?: string;
+  tone?: 'app' | 'marketing';
 }) {
+  const classNames = ['scaffold-panel', `scaffold-panel--${tone}`, className].filter(Boolean).join(' ');
+
   return (
-    <section className={className ? `scaffold-panel ${className}` : 'scaffold-panel'}>
+    <section className={classNames}>
       <h1>{title}</h1>
       <div className="scaffold-panel__body">{children}</div>
     </section>
