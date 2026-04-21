@@ -821,3 +821,52 @@ a {
     scroll-snap-align: start;
   }
 }
+
+.pathway-plain-list--tight {
+  gap: 0.25rem;
+}
+
+.pathway-form-stack {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.pathway-fieldset {
+  margin: 0;
+  min-width: 0;
+}
+
+.pathway-fieldset legend {
+  margin-bottom: 0.55rem;
+}
+
+.pathway-chip--choice {
+  gap: 0.4rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pathway-chip--choice input {
+  margin: 0;
+  accent-color: #8ab5ff;
+}
+
+.pathway-button {
+  border: 1px solid transparent;
+  border-radius: 9999px;
+  padding: 0.55rem 0.9rem;
+  font: inherit;
+  font-weight: 600;
+  color: inherit;
+  background: transparent;
+}
+
+.pathway-button--primary {
+  border-color: rgba(102, 154, 238, 0.62);
+  background: linear-gradient(180deg, rgba(31, 54, 90, 0.98), rgba(24, 40, 67, 0.98));
+}
+
+.pathway-button--primary:hover,
+.pathway-button--primary:focus-visible {
+  border-color: rgba(159, 201, 255, 0.95);
+}
