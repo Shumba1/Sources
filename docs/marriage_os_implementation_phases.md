@@ -100,18 +100,18 @@ Make the app feel real in-browser with zero backend dependency.
 
 The configured route tree remains valid as the forward implementation map, but the following route families are **explicitly not Phase 1 closure blockers**.
 
-#### Deferred to Phase 3 — detail routes
-- `/repair/[slug]`
-- `/guides/[slug]`
-- `/knowledge/[slug]`
+#### Deferred detail-route families
+- `/repair/[slug]` — opens in Phase 3 as the Repair Centre proof path.
+- `/guides/[slug]` — remains deferred until Phase 4 Perspectives work.
+- `/knowledge/[slug]` — remains deferred until Phase 4 Knowledge work.
 
-#### Deferred to Phase 4 — commercial and public-readiness surfaces
+#### Deferred to Phase 5 — commercial and public-readiness surfaces
 - `/store`
 - `/pricing`
 - `/library`
 - `/safety`
 
-#### Deferred to Phase 4 or 5 — auth/account/member settings
+#### Deferred to Phase 6 — auth/account/member settings
 - `/login`
 - `/sign-up`
 - `/account`

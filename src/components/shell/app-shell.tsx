@@ -13,7 +13,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <p className="shell-brand">Marriage OS</p>
           <p className="shell-context">Member space</p>
         </div>
-        <Link href="/today/check-in" className="shell-pill shell-pill--app">
+        <Link href="/today/check-in" className="shell-pill shell-pill--app" aria-label="Run check-in">
           <span>Run check-in</span>
           <Icon className="pathway-icon pathway-icon--small" name="arrow-right" />
         </Link>

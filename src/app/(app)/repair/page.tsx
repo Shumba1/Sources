@@ -1,153 +1,115 @@
 import Link from 'next/link';
 
+import { ScaffoldPanel } from '@/components/shell/shell-primitives';
+import { Icon } from '@/components/ui/icon';
 import { semanticIconMap } from '@/config/icon-map';
 import { getPageData } from '@/config/page-data';
 import { getRouteTitle, repairCategories } from '@/config/routes';
-import { ScaffoldPanel } from '@/components/shell/shell-primitives';
-import { Icon } from '@/components/ui/icon';
+import { getDefaultRepairModuleForState, repairModules } from '@/lib/repair-modules';
+import { readValue, type StateFixtureKey } from '@/lib/check-in-state';
 
-interface SuggestedModule {
-  title: string;
-  fit: string;
-  duration: string;
-  href: string;
-  result: string;
+const stateValues = ['steady', 'heatedButReachable', 'activatedAndFragile'] as const;
+
+interface RepairPageProps {
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
 }
 
-interface SuggestedModulesProps {
-  modules: SuggestedModule[];
-}
-
-export default function RepairPage() {
+export default async function RepairPage({ searchParams }: RepairPageProps) {
   const page = getPageData('repair');
-  const suggestedSection = page.sections.find((section) => section.key === 'suggested-for-state');
-  const suggested = (suggestedSection?.props ?? {}) as Partial<SuggestedModulesProps>;
-  const modules = suggested.modules ?? [];
-  const leadModule = modules[0];
-  const supportingModules = modules.slice(1);
+  const params = searchParams ? await searchParams : {};
+  const stateKey = readValue(params.state, stateValues, 'heatedButReachable') as StateFixtureKey;
+  const leadModule = getDefaultRepairModuleForState(stateKey);
+  const supportingModules = repairModules.filter((module) => module.slug !== leadModule.slug);
 
   return (
-    <ScaffoldPanel className="pathway-surface pathway-surface--repair" title={getRouteTitle('repair')}>
-      <div className="pathway-surface__intro">
-        <p className="scaffold-meta">{page.hero?.eyebrow ?? 'Continue from Today'}</p>
-        <p className="pathway-deck">{page.hero?.subtitle ?? page.intent}</p>
+    <ScaffoldPanel className="pathway-surface pathway-surface--repair pathway-surface--directed" title={getRouteTitle('repair')}>
+      <div className="pathway-surface__intro pathway-surface__intro--compressed">
+        <p className="scaffold-meta">Continue from Today</p>
+        <p className="pathway-deck">Choose one first move. Do not turn tonight into a full relationship trial.</p>
       </div>
 
-      <Link className="pathway-primary-cta pathway-primary-cta--repair" href={leadModule?.href ?? page.hero?.primaryCta?.href ?? '/repair'}>
+      <Link className="pathway-primary-cta pathway-primary-cta--repair pathway-primary-cta--dominant" href={`/repair/${leadModule.slug}?entry=repair-index&state=${stateKey}`}>
         <div className="pathway-primary-cta__content">
           <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
             <Icon className="pathway-icon" name={semanticIconMap.nextAction} />
-            Best first move tonight
+            Recommended first
           </p>
-          <h2>{leadModule?.title ?? page.hero?.primaryCta?.label ?? 'Start with damage stop'}</h2>
-          <p className="pathway-helper-note pathway-helper-note--contrast">
-            {leadModule?.result ?? 'Start with the step most likely to lower temperature before you do anything else.'}
-          </p>
-          {leadModule?.duration ? (
-            <div className="pathway-inline-meta">
-              <span className="pathway-meta-pill">{leadModule.duration}</span>
-            </div>
-          ) : null}
+          <h2>Start {leadModule.title.toLowerCase()}</h2>
+          <p className="pathway-helper-note pathway-helper-note--contrast">{leadModule.summary}</p>
+          <div className="pathway-inline-meta" aria-label="Repair module details">
+            <span className="pathway-meta-pill">{leadModule.resetLength}</span>
+            <span className="pathway-meta-pill pathway-meta-pill--muted">Solo-first</span>
+          </div>
         </div>
-        <span className="pathway-primary-cta__aside">
-          <span className="pathway-action-label">Open first step</span>
+        <span className="pathway-primary-cta__aside pathway-primary-cta__aside--button">
+          Start repair step
           <Icon className="pathway-icon pathway-icon--medium" name={semanticIconMap.forward} />
         </span>
       </Link>
 
-      <div className="pathway-grid pathway-grid--duo pathway-grid--repair">
-        <section className="pathway-card pathway-card--emphasis">
-          <div className="pathway-section-head pathway-section-head--stacked">
-            <div>
-              <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
-                <Icon className="pathway-icon" name={semanticIconMap.nextAction} />
-                Start here
-              </p>
-              <p className="pathway-section-intro">{leadModule?.fit ?? 'Pick the option most likely to calm the system before you say more.'}</p>
-            </div>
-          </div>
+      <section className="pathway-support-panel pathway-support-panel--with-accent" aria-label="Why this repair step">
+        <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
+          <Icon className="pathway-icon" name={semanticIconMap.state} />
+          Why this one
+        </p>
+        <h2 className="pathway-section-title">{leadModule.bestUsedWhen}</h2>
+        <p className="pathway-helper-note">Success looks like this: {leadModule.successCondition}</p>
+      </section>
 
-          {leadModule ? (
-            <Link className="pathway-action-card pathway-card pathway-card--action pathway-card--subtle" href={leadModule.href}>
-              <div className="pathway-section-head">
-                <div>
-                  <span className="pathway-badge">Recommended first</span>
-                  <h2>{leadModule.title}</h2>
-                </div>
-                <span className="pathway-meta-pill">{leadModule.duration}</span>
-              </div>
-              <p>{leadModule.fit}</p>
-              <div className="pathway-module-meta-row">
-                <p className="pathway-helper-note">{leadModule.result}</p>
-                <span className="pathway-action-label">
-                  Open step
-                  <Icon className="pathway-icon" name={semanticIconMap.drillIn} />
-                </span>
-              </div>
+      <details className="pathway-disclosure pathway-disclosure--separated">
+        <summary>
+          <span>
+            <span className="pathway-card__eyebrow pathway-eyebrow-with-icon">
+              <Icon className="pathway-icon" name={semanticIconMap.recheck} />
+              Other options
+            </span>
+            <strong>Use these only if the recommended first move is not the right fit.</strong>
+          </span>
+          <Icon className="pathway-icon pathway-icon--medium" name={semanticIconMap.drillIn} />
+        </summary>
+        <div className="pathway-option-stack">
+          {supportingModules.map((module) => (
+            <Link key={module.slug} className="pathway-option-row" href={`/repair/${module.slug}?entry=repair-index&state=${stateKey}`}>
+              <span className="pathway-option-row__body">
+                <span className="pathway-option-row__meta">{module.resetLength}</span>
+                <strong className="pathway-option-row__title">{module.title}</strong>
+                <span className="pathway-option-row__summary">{module.summary}</span>
+              </span>
+              <span className="pathway-option-row__action">
+                Start
+                <Icon className="pathway-icon" name={semanticIconMap.forward} />
+              </span>
             </Link>
-          ) : null}
-        </section>
+          ))}
+        </div>
+      </details>
 
-        <section className="pathway-card pathway-card--quiet pathway-card--support">
-          <div className="pathway-section-head pathway-section-head--stacked">
-            <div>
-              <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
-                <Icon className="pathway-icon" name={semanticIconMap.state} />
-                Other good fits tonight
-              </p>
-              <p className="pathway-section-intro">Use one of these when the recommended first move is close, but not quite right.</p>
-            </div>
+      <section className="pathway-quiet-section" id="category-browse" aria-label="Repair categories">
+        <div className="pathway-section-head pathway-section-head--stacked">
+          <div>
+            <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
+              <Icon className="pathway-icon" name={semanticIconMap.category} />
+              Browse later
+            </p>
+            <p className="pathway-section-intro">Categories are for orientation. Tonight still needs one practical step.</p>
           </div>
-
-          <div className="pathway-choice-stack">
-            {supportingModules.map((module) => (
-              <Link key={module.title} className="pathway-choice-link" href={module.href}>
-                <div className="pathway-choice-link__content">
-                  <p className="pathway-index-card__meta">Backup fit · {module.duration}</p>
-                  <h2>{module.title}</h2>
-                  <p className="pathway-choice-link__summary">{module.fit}</p>
-                  <p className="pathway-helper-note">{module.result}</p>
-                </div>
-                <span className="pathway-choice-link__cta">
-                  Open step
-                  <Icon className="pathway-icon pathway-icon--medium" name={semanticIconMap.drillIn} />
-                </span>
-              </Link>
-            ))}
-          </div>
-        </section>
-      </div>
-
-      <div className="pathway-grid pathway-grid--duo pathway-grid--repair">
-        <section className="pathway-card pathway-card--quiet pathway-card--support">
-          <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
-            <Icon className="pathway-icon" name={semanticIconMap.category} />
-            Browse repair categories
-          </p>
-          <div className="pathway-chip-row">
-            {repairCategories.map((category) => (
-              <Link key={category.slug} className="pathway-chip pathway-chip--interactive" href={`/repair?category=${category.slug}#category-browse`}>
-                {category.label}
-                <Icon className="pathway-icon pathway-icon--small" name={semanticIconMap.drillIn} />
-              </Link>
-            ))}
-          </div>
-        </section>
-
-        <section className="pathway-card pathway-card--quiet pathway-card--support" id="category-browse">
-          <p className="pathway-card__eyebrow pathway-eyebrow-with-icon">
-            <Icon className="pathway-icon" name={semanticIconMap.caution} />
-            Solo-first note
-          </p>
-          <p>Start with one step you can do without waiting for your partner to cooperate tonight.</p>
-          {page.hero?.secondaryCta ? (
-            <Link className="pathway-secondary-link" href={page.hero.secondaryCta.href}>
-              {page.hero.secondaryCta.label}
-              <Icon className="pathway-icon" name={semanticIconMap.drillIn} />
+        </div>
+        <div className="pathway-chip-row pathway-chip-row--quiet">
+          {repairCategories.map((category) => (
+            <Link key={category.slug} className="pathway-chip pathway-chip--quiet-link" href={`/repair?category=${category.slug}#category-browse`}>
+              {category.label}
             </Link>
-          ) : null}
-        </section>
-      </div>
+          ))}
+        </div>
+      </section>
+
+      <p className="pathway-inline-cue pathway-inline-cue--compact">
+        <Icon className="pathway-icon" name={semanticIconMap.caution} />
+        Start with the step you can do without waiting for your partner to cooperate tonight.
+        {page.hero?.secondaryCta ? (
+          <Link href={page.hero.secondaryCta.href}>Back to Today</Link>
+        ) : null}
+      </p>
     </ScaffoldPanel>
   );
 }

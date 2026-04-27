@@ -55,13 +55,13 @@ For Phase 3 opening work, that route is:
 - `/repair/[slug]`
 
 ### What does **not** open in the first Phase 3 packet
-The Phase 1 defer map listed these detail routes under Phase 3:
+The cleaned defer map separates the detail-route families:
 
-- `/repair/[slug]`
-- `/guides/[slug]`
-- `/knowledge/[slug]`
+- `/repair/[slug]` opens in Phase 3 as the Repair proof path.
+- `/guides/[slug]` remains Phase 4 Perspectives work.
+- `/knowledge/[slug]` remains Phase 4 Knowledge work.
 
-That forward map remains valid, but **BP-301 must not open all three families at once**.
+So **BP-301 must not open Guides or Knowledge detail routes**.
 
 ### Packet-level decision
 For Phase 3 opening discipline:
@@ -77,7 +77,7 @@ It is an execution-boundary decision based on the canonical phase model:
 - **Phase 3** centres on **Repair**
 - **Phase 4** centres on **Perspectives and Knowledge with local content**
 
-So while `guides` and `knowledge` detail routes are phase-legal in the abstract, they should be treated as **operationally deferred to Phase 4 packets** unless a later accepted packet explicitly widens scope.
+So `guides` and `knowledge` detail routes are **deferred to Phase 4 packets** unless a later accepted packet explicitly widens scope.
 
 That protects:
 - build focus

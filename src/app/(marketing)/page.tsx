@@ -45,7 +45,7 @@ export default function HomePage() {
         </div>
         <div className="marketing-grid marketing-grid--three">
           {valuePillars.map((item, index) => (
-            <article key={item.title} className="marketing-card marketing-card--accent">
+            <article key={item.title} className={index === 0 ? 'marketing-card marketing-card--accent' : 'marketing-card marketing-card--support'}>
               <Icon className="marketing-card__icon" name={pillarIcons[index] ?? 'trophy'} />
               <h3 className="marketing-card__title">{item.title}</h3>
               <p className="marketing-card__body">{item.body}</p>
@@ -55,9 +55,9 @@ export default function HomePage() {
       </section>
 
       <section className="marketing-section marketing-section--split">
-        <div className="marketing-panel marketing-panel--quiet">
+        <div className="marketing-panel marketing-panel--quiet marketing-panel--flow">
           <p className="marketing-section__eyebrow">How it works</p>
-          <div className="marketing-step-grid">
+          <div className="marketing-step-grid marketing-step-grid--flow">
             {steps.map((step, index) => (
               <div key={step} className="marketing-step-card">
                 <span className="marketing-step-badge">0{index + 1}</span>

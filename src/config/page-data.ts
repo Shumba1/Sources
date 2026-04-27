@@ -342,7 +342,7 @@ export const pageData: Record<RouteId, PageConfig> = {
       eyebrow: 'Tonight focus',
       title: 'Today’s next best move',
       subtitle: 'Slow the temperature. Take one constructive step before the next message or argument, then decide what earns more attention.',
-      primaryCta: cta('Start the 10-minute reset', '/repair'),
+      primaryCta: cta('Start the 10-minute reset', '/repair/after-the-fight'),
       secondaryCta: cta('Run a 60-second Check-In', '/today/check-in', 'secondary'),
     },
     sections: [
@@ -362,7 +362,7 @@ export const pageData: Record<RouteId, PageConfig> = {
         title: 'Do this next',
         props: {
           action: 'Start the 10-minute damage stop.',
-          href: '/repair?entry=today-primary',
+          href: '/repair/after-the-fight?entry=today-primary',
           time: '10 minutes tonight',
           success: 'You leave this step calmer and less likely to escalate.',
           caution: 'Do not send one more reactive message first.',
@@ -437,7 +437,7 @@ export const pageData: Record<RouteId, PageConfig> = {
     hero: {
       title: 'Current relationship state',
       subtitle: 'This is a pattern snapshot, not a verdict. Use it to choose the next move, not to catastrophise the relationship.',
-      primaryCta: cta('Open the First Repair Step', '/today'),
+      primaryCta: cta('Start the First Repair Step', '/repair'),
       secondaryCta: cta('See Why This State Appears', '/knowledge/how-drift-starts', 'secondary'),
     },
     sections: [
@@ -471,7 +471,7 @@ export const pageData: Record<RouteId, PageConfig> = {
       eyebrow: 'Continue from Today',
       title: 'Start one repair step now',
       subtitle: 'Choose the closest fit for tonight. Run only the first step now and let the next move earn its place.',
-      primaryCta: cta('Start with damage stop', '/repair'),
+      primaryCta: cta('Start with damage stop', '/repair/after-the-fight'),
       secondaryCta: cta('Back to Today', '/today', 'ghost'),
     },
     sections: [
@@ -492,21 +492,21 @@ export const pageData: Record<RouteId, PageConfig> = {
               title: '10-minute damage stop',
               fit: 'Use when both of you are activated and one more exchange could make tonight worse.',
               duration: '10 min',
-              href: '/repair?module=after-the-fight',
+              href: '/repair/after-the-fight',
               result: 'First step lowers temperature before you say more.',
             },
             {
               title: 'Distance reset',
               fit: 'Use when things feel cold but not explosive.',
               duration: '12 min',
-              href: '/repair?module=distance-reset',
+              href: '/repair/distance-reset',
               result: 'First step gives you a calmer reconnection move to start solo.',
             },
             {
               title: 'Overwhelm decompression',
               fit: 'Use when stress is swallowing connection.',
               duration: '8 min',
-              href: '/repair?module=overwhelm-decompression',
+              href: '/repair/overwhelm-decompression',
               result: 'First step reduces pressure before a harder conversation.',
             },
           ],

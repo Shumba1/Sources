@@ -106,7 +106,7 @@ a {
 
 .shell-topbar--marketing {
   background: color-mix(in srgb, #ffffff 88%, transparent);
-  border: 1px solid rgba(19, 32, 50, 0.08);
+  border: 1px solid var(--color-line-light);
 }
 
 .shell-topbar--app {
@@ -126,7 +126,7 @@ a {
 }
 
 .shell-pill {
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid var(--app-border-hover);
   border-radius: 9999px;
   padding: 0.38rem 0.8rem;
   font-size: 0.84rem;
@@ -156,7 +156,7 @@ a {
 
 .shell-pill--app:hover,
 .shell-pill--app:focus-visible {
-  border-color: rgba(159, 201, 255, 0.52);
+  border-color: var(--app-focus-soft);
   background: rgba(31, 49, 76, 0.66);
 }
 
@@ -178,7 +178,7 @@ a {
 }
 
 .scaffold-panel--app {
-  border: 1px solid rgba(166, 191, 226, 0.12);
+  border: 1px solid var(--app-border-muted);
   background:
     radial-gradient(circle at top right, rgba(66, 97, 151, 0.12), transparent 30%),
     linear-gradient(180deg, rgba(17, 27, 42, 0.96), rgba(11, 18, 29, 0.94));
@@ -186,7 +186,7 @@ a {
 }
 
 .scaffold-panel--marketing {
-  border: 1px solid rgba(19, 32, 50, 0.08);
+  border: 1px solid var(--color-line-light);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(248, 243, 232, 0.96));
   box-shadow: 0 28px 56px rgba(28, 18, 6, 0.08);
   color: var(--color-text-on-light);
@@ -222,7 +222,7 @@ a {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 24%);
+  background: linear-gradient(180deg, var(--app-white-wash), transparent 24%);
   pointer-events: none;
 }
 
@@ -259,7 +259,7 @@ a {
   max-width: 43rem;
   font-size: clamp(1rem, 1vw + 0.85rem, 1.16rem);
   line-height: 1.55;
-  color: rgba(248, 239, 227, 0.88);
+  color: var(--color-warm-card-body);
 }
 
 .marketing-cta-row {
@@ -294,7 +294,7 @@ a {
 
 .marketing-button--secondary {
   border-color: rgba(252, 222, 184, 0.18);
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--app-white-wash);
   color: var(--color-warm-button-secondary-text);
 }
 
@@ -350,7 +350,7 @@ a {
 .marketing-panel,
 .marketing-step-card,
 .marketing-choice {
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--app-border-subtle);
   border-radius: 1.15rem;
   background: rgba(18, 28, 43, 0.72);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
@@ -411,7 +411,7 @@ a {
 
 .marketing-panel__divider {
   height: 1px;
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--app-border-subtle);
 }
 
 .marketing-step-grid {
@@ -463,8 +463,8 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 0.4rem 0.72rem;
   font-size: 0.83rem;
-  color: rgba(248, 239, 227, 0.88);
-  background: rgba(255, 255, 255, 0.04);
+  color: var(--color-warm-card-body);
+  background: var(--app-white-wash);
 }
 
 .marketing-list {
@@ -513,7 +513,7 @@ a {
   padding: 0.1rem 0.55rem;
   font-size: 0.72rem;
   color: rgba(248, 239, 227, 0.8);
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--app-white-wash);
 }
 
 .scaffold-meta {
@@ -554,13 +554,13 @@ a {
     radial-gradient(circle at top right, rgba(148, 193, 255, 0.14), transparent 36%);
   padding: 1.08rem 1.12rem;
   font-weight: 600;
-  color: #f4f7ff;
+  color: var(--app-text-strong);
   box-shadow: 0 18px 34px rgba(4, 10, 20, 0.28);
 }
 
 .pathway-primary-cta:hover,
 .pathway-primary-cta:focus-visible {
-  border-color: rgba(159, 201, 255, 0.95);
+  border-color: var(--app-focus-strong);
   transform: translateY(-1px);
 }
 
@@ -595,11 +595,11 @@ a {
 }
 
 .pathway-card {
-  border: 1px solid rgba(166, 191, 226, 0.12);
+  border: 1px solid var(--app-border-muted);
   border-radius: 1.18rem;
   padding: 1.02rem 1.06rem;
   background: linear-gradient(180deg, rgba(14, 23, 36, 0.78), rgba(10, 17, 28, 0.74));
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02), 0 10px 24px rgba(3, 8, 18, 0.14);
+  box-shadow: inset 0 1px 0 var(--app-white-hairline), 0 10px 24px rgba(3, 8, 18, 0.14);
   display: grid;
   gap: 0.66rem;
 }
@@ -615,7 +615,7 @@ a {
 .pathway-card p,
 .pathway-card li {
   margin: 0;
-  color: rgba(247, 244, 238, 0.88);
+  color: var(--app-text-warm);
   line-height: 1.4;
 }
 
@@ -651,7 +651,7 @@ a {
 .pathway-card--emphasis {
   border-color: rgba(120, 167, 239, 0.32);
   background: linear-gradient(180deg, rgba(21, 35, 58, 0.96), rgba(15, 25, 41, 0.96));
-  box-shadow: 0 18px 34px rgba(3, 8, 18, 0.22);
+  box-shadow: var(--app-shadow-soft);
 }
 
 .pathway-card--quiet {
@@ -684,11 +684,11 @@ a {
 }
 
 .pathway-index-card {
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--app-border-subtle);
   border-radius: 1.1rem;
   padding: 1rem 1.02rem;
   background: linear-gradient(180deg, rgba(14, 22, 35, 0.7), rgba(10, 17, 27, 0.68));
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+  box-shadow: inset 0 1px 0 var(--app-white-hairline);
   display: grid;
   gap: 0.62rem;
   min-height: 12.25rem;
@@ -704,7 +704,7 @@ a {
 }
 
 .pathway-index-card:focus-visible {
-  outline: 2px solid rgba(159, 201, 255, 0.78);
+  outline: 2px solid var(--app-focus-muted);
   outline-offset: 2px;
 }
 
@@ -728,7 +728,7 @@ a {
 
 .pathway-index-card--editorial,
 .pathway-index-card--knowledge {
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+  box-shadow: inset 0 1px 0 var(--app-white-hairline);
 }
 
 .pathway-link-list {
@@ -737,14 +737,14 @@ a {
 }
 
 .pathway-list-link {
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--app-border-subtle);
   border-radius: 1rem;
   padding: 0.94rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: start;
   gap: 0.75rem;
-  background: linear-gradient(180deg, rgba(11, 18, 30, 0.46), rgba(8, 14, 24, 0.42));
+  background: linear-gradient(180deg, var(--app-surface-muted), rgba(8, 14, 24, 0.42));
 }
 
 .pathway-list-link:hover,
@@ -770,7 +770,7 @@ a {
 }
 
 .pathway-module-link:focus-visible {
-  outline: 2px solid rgba(159, 201, 255, 0.88);
+  outline: 2px solid var(--app-focus);
   outline-offset: -2px;
 }
 
@@ -783,16 +783,16 @@ a {
 
 .pathway-meta {
   font-size: 0.8rem;
-  color: rgba(247, 244, 238, 0.7);
+  color: var(--app-text-muted);
 }
 
 .pathway-helper-note {
   font-size: 0.84rem;
-  color: rgba(199, 216, 244, 0.78);
+  color: var(--app-helper);
 }
 
 .pathway-helper-note--contrast {
-  color: rgba(232, 240, 255, 0.88);
+  color: var(--app-helper-contrast);
 }
 
 .pathway-action-card {
@@ -801,12 +801,12 @@ a {
 
 .pathway-action-card:hover,
 .pathway-action-card:focus-visible {
-  border-color: rgba(159, 201, 255, 0.9);
+  border-color: var(--app-focus);
   background: rgba(35, 58, 96, 0.87);
 }
 
 .pathway-action-card:focus-visible {
-  outline: 2px solid rgba(159, 201, 255, 0.88);
+  outline: 2px solid var(--app-focus);
   outline-offset: 2px;
 }
 
@@ -830,11 +830,11 @@ a {
 }
 
 .pathway-chip {
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid var(--app-border-mid);
   border-radius: 9999px;
   padding: 0.42rem 0.74rem;
   font-size: 0.79rem;
-  color: rgba(247, 244, 238, 0.9);
+  color: var(--app-text);
   background: rgba(18, 28, 44, 0.62);
 }
 
@@ -846,7 +846,7 @@ a {
 
 .pathway-chip--interactive:hover,
 .pathway-chip--interactive:focus-visible {
-  border-color: rgba(159, 201, 255, 0.9);
+  border-color: var(--app-focus);
   background: rgba(39, 58, 88, 0.68);
 }
 
@@ -878,7 +878,7 @@ a {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 0.28rem;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--app-border-subtle);
   border-radius: 1.15rem;
   background: rgba(20, 31, 49, 0.88);
   backdrop-filter: blur(14px);
@@ -922,7 +922,7 @@ a {
 
 .shell-bottom-nav a:hover,
 .shell-bottom-nav a:focus-visible {
-  border-color: rgba(255, 255, 255, 0.18);
+  border-color: var(--app-border-hover);
   background: rgba(36, 50, 71, 0.35);
   color: var(--color-warm-ivory);
   transform: translateY(-1px);
@@ -967,7 +967,7 @@ a {
   max-width: 58ch;
   font-size: clamp(1rem, 0.88rem + 0.45vw, 1.1rem);
   line-height: 1.5;
-  color: rgba(232, 240, 255, 0.9);
+  color: var(--app-text-soft);
 }
 
 .pathway-grid {
@@ -1000,7 +1000,7 @@ a {
   gap: 0.3rem;
   min-height: 1.8rem;
   border-radius: 9999px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid var(--app-border-mid);
   padding: 0.28rem 0.62rem;
   font-size: 0.76rem;
   color: rgba(242, 246, 255, 0.9);
@@ -1125,14 +1125,14 @@ a {
 }
 
 .pathway-choice-link {
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--app-border-subtle);
   border-radius: 1rem;
   padding: 0.9rem 1rem;
   display: flex;
   align-items: start;
   justify-content: space-between;
   gap: 0.9rem;
-  background: linear-gradient(180deg, rgba(11, 18, 30, 0.46), rgba(9, 15, 25, 0.42));
+  background: linear-gradient(180deg, var(--app-surface-muted), rgba(9, 15, 25, 0.42));
 }
 
 .pathway-choice-link__content {
@@ -1162,7 +1162,7 @@ a {
 .pathway-choice-link:focus-visible,
 .pathway-list-link--editorial:hover,
 .pathway-list-link--editorial:focus-visible {
-  border-color: rgba(159, 201, 255, 0.78);
+  border-color: var(--app-focus-muted);
   background: rgba(31, 48, 74, 0.56);
 }
 
@@ -1233,7 +1233,7 @@ a {
 
 .pathway-kpi-card {
   grid-column: span 3;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--app-border-subtle);
   border-radius: 1rem;
   padding: 0.92rem 0.96rem;
   background: rgba(13, 21, 34, 0.56);
@@ -1294,7 +1294,7 @@ a {
   column-gap: 0.72rem;
   row-gap: 0.38rem;
   min-height: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--app-border-subtle);
   border-radius: 1rem;
   padding: 0.92rem 0.96rem;
   background: linear-gradient(180deg, rgba(12, 19, 31, 0.52), rgba(9, 15, 24, 0.48));
@@ -1308,7 +1308,7 @@ a {
   border: 1px solid rgba(214, 228, 247, 0.34);
   border-radius: 9999px;
   background: rgba(9, 15, 24, 0.58);
-  box-shadow: inset 0 0 0 0 rgba(159, 201, 255, 0.95);
+  box-shadow: inset 0 0 0 0 var(--app-focus-strong);
   transition: border-color 140ms ease, box-shadow 140ms ease, background-color 140ms ease;
 }
 
@@ -1326,7 +1326,7 @@ a {
 }
 
 .pathway-choice-card__input:focus-visible + .pathway-choice-card__body {
-  outline: 2px solid rgba(159, 201, 255, 0.52);
+  outline: 2px solid var(--app-focus-soft);
   outline-offset: 2px;
 }
 
@@ -1477,7 +1477,7 @@ a {
 
 .pathway-chip--choice input {
   margin: 0;
-  accent-color: #8ab5ff;
+  accent-color: var(--color-muted-blue);
 }
 
 .pathway-button {
@@ -1496,11 +1496,827 @@ a {
 }
 
 .pathway-button--primary {
-  border-color: rgba(102, 154, 238, 0.62);
-  background: linear-gradient(180deg, rgba(31, 54, 90, 0.98), rgba(24, 40, 67, 0.98));
+  border-color: var(--app-border-strong);
+  background: var(--app-button-gradient);
 }
 
 .pathway-button--primary:hover,
 .pathway-button--primary:focus-visible {
-  border-color: rgba(159, 201, 255, 0.95);
+  border-color: var(--app-focus-strong);
 }
+
+.pathway-surface--repair-module {
+  padding-bottom: calc(1rem + var(--shell-bottom-nav-height));
+}
+
+.pathway-primary-cta--module {
+  text-decoration: none;
+}
+
+.pathway-checklist {
+  display: grid;
+  gap: 0.68rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pathway-checklist li {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.68rem;
+  align-items: start;
+  border: 1px solid var(--app-border-subtle);
+  border-radius: 0.95rem;
+  padding: 0.78rem 0.85rem;
+  background: var(--app-card-subtle-gradient);
+}
+
+.pathway-checklist__index {
+  display: inline-grid;
+  place-items: center;
+  width: 1.65rem;
+  height: 1.65rem;
+  border-radius: 9999px;
+  border: 1px solid var(--app-focus-soft);
+  background: var(--app-white-wash);
+  color: var(--app-link);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.pathway-timeline {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.pathway-timeline__item {
+  border-left: 2px solid var(--app-focus-soft);
+  padding-left: 0.75rem;
+}
+
+.repair-sticky-action {
+  position: sticky;
+  bottom: calc(0.5rem + env(safe-area-inset-bottom));
+  z-index: 5;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.7rem;
+  border: 1px solid var(--app-border);
+  border-radius: 1.1rem;
+  background: var(--app-surface-strong);
+  box-shadow: var(--app-shadow);
+  backdrop-filter: blur(14px);
+  padding: 0.58rem;
+}
+
+.repair-sticky-action .pathway-secondary-link {
+  margin: 0;
+  white-space: nowrap;
+}
+
+@media (max-width: 520px) {
+  .repair-sticky-action {
+    grid-template-columns: 1fr;
+  }
+
+  .repair-sticky-action .pathway-secondary-link {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+/* BP-302 — visual fluency and cognitive direction overrides.
+   Recurring values below are governed by theme.ts via theme-css.ts variables. */
+.shell-main {
+  width: var(--vf-shell-content-width);
+}
+
+.shell-main--with-bottom-nav {
+  padding-bottom: calc(1.5rem + var(--shell-bottom-nav-height));
+}
+
+.pathway-surface--directed {
+  gap: var(--vf-section-gap);
+}
+
+.pathway-surface__intro--compressed {
+  max-width: var(--measure-read);
+  gap: 0.28rem;
+}
+
+.pathway-primary-cta--dominant {
+  border-color: var(--vf-primary-action-border);
+  border-radius: var(--vf-primary-radius);
+  background: var(--vf-primary-action-bg);
+  color: var(--vf-primary-action-text);
+  box-shadow: var(--vf-primary-action-shadow);
+  padding: clamp(1rem, 2vw, 1.25rem);
+}
+
+.pathway-primary-cta--dominant:hover,
+.pathway-primary-cta--dominant:focus-visible {
+  background: var(--vf-primary-action-bg-hover);
+  border-color: var(--app-focus-strong);
+}
+
+.pathway-primary-cta--dominant .pathway-primary-cta__content h2 {
+  font-size: clamp(1.16rem, 0.9rem + 1vw, 1.55rem);
+}
+
+.pathway-primary-cta__aside--button {
+  min-height: var(--vf-button-min-height);
+  align-self: center;
+  border: 1px solid var(--app-focus-soft);
+  border-radius: 9999px;
+  padding: 0.68rem 0.95rem;
+  background: color-mix(in srgb, var(--color-pale-blue-glow) 8%, transparent);
+  color: var(--app-text-strong);
+  font-weight: 700;
+}
+
+.pathway-support-panel,
+.pathway-quiet-section,
+.pathway-disclosure,
+.pathway-inline-cue--panel {
+  border-radius: var(--vf-secondary-radius);
+}
+
+.pathway-support-panel {
+  display: grid;
+  gap: 0.48rem;
+  border: 1px solid var(--vf-support-border);
+  background: var(--vf-support-bg);
+  padding: 0.95rem 1rem;
+  color: var(--vf-support-text);
+}
+
+.pathway-support-panel h2,
+.pathway-quiet-section h2 {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.22;
+  letter-spacing: -0.02em;
+}
+
+.pathway-support-panel p,
+.pathway-quiet-section p,
+.pathway-disclosure p,
+.pathway-inline-cue {
+  margin: 0;
+}
+
+.pathway-quiet-section {
+  display: grid;
+  gap: 0.7rem;
+  border: 1px solid var(--vf-quiet-border);
+  background: var(--vf-quiet-bg);
+  padding: 0.9rem 0.95rem;
+  color: var(--vf-quiet-text);
+}
+
+.pathway-disclosure {
+  border: 1px solid var(--vf-disclosure-border);
+  background: var(--vf-disclosure-bg);
+  padding: 0.82rem 0.9rem;
+}
+
+.pathway-disclosure summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.85rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.pathway-disclosure summary::-webkit-details-marker {
+  display: none;
+}
+
+.pathway-disclosure summary > span {
+  display: grid;
+  gap: 0.22rem;
+}
+
+.pathway-disclosure summary strong {
+  font-size: 0.95rem;
+  line-height: 1.35;
+  color: var(--app-text-soft);
+}
+
+.pathway-disclosure[open] {
+  display: grid;
+  gap: 0.78rem;
+}
+
+.pathway-soft-list {
+  display: grid;
+  gap: 0.52rem;
+  margin: 0;
+}
+
+.pathway-soft-list--bullets {
+  padding-left: 1.05rem;
+}
+
+.pathway-soft-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  border-radius: var(--vf-tertiary-radius);
+  border: 1px solid var(--vf-quiet-border);
+  background: var(--vf-quiet-bg);
+  padding: 0.72rem 0.78rem;
+}
+
+.pathway-soft-row > span:first-child {
+  display: grid;
+  gap: 0.22rem;
+}
+
+.pathway-soft-row strong {
+  color: var(--app-text-strong);
+}
+
+.pathway-soft-row > span:last-child,
+.pathway-text-link {
+  color: var(--app-link);
+  font-size: 0.84rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.pathway-soft-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.pathway-soft-grid > div {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.pathway-script-quote {
+  max-width: var(--measure-read);
+  color: var(--app-text-soft);
+  font-size: clamp(1rem, 0.92rem + 0.25vw, 1.08rem);
+  line-height: 1.5;
+}
+
+.pathway-inline-cue {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--app-helper);
+  font-size: 0.92rem;
+}
+
+.pathway-inline-cue a {
+  color: var(--app-link);
+  font-weight: 700;
+}
+
+.pathway-chip--quiet-link {
+  border-color: var(--vf-quiet-border);
+  background: transparent;
+  color: var(--vf-quiet-text);
+}
+
+.pathway-secondary-link--quiet {
+  border-color: var(--vf-quiet-border);
+  background: transparent;
+  color: var(--vf-quiet-text);
+}
+
+.scaffold-actions--quiet {
+  margin-top: -0.35rem;
+}
+
+.pathway-recap-grid--quiet .pathway-kpi-card--quiet {
+  grid-column: auto;
+  border-color: var(--vf-quiet-border);
+  background: var(--vf-quiet-bg);
+}
+
+.pathway-card--primary-sequence {
+  border-color: var(--vf-primary-action-border);
+  background: var(--vf-support-bg);
+  box-shadow: none;
+}
+
+.pathway-checklist--focused li {
+  border-color: var(--vf-support-border);
+  background: var(--vf-quiet-bg);
+}
+
+.repair-sticky-action--quiet {
+  bottom: calc(0.75rem + var(--shell-bottom-nav-height) + env(safe-area-inset-bottom));
+  border-color: var(--vf-support-border);
+  background: var(--vf-bottom-nav-bg);
+  box-shadow: var(--vf-bottom-nav-shadow);
+}
+
+.shell-bottom-nav {
+  width: min(31rem, 100%);
+  border-color: var(--vf-quiet-border);
+  background: var(--vf-bottom-nav-bg);
+  box-shadow: var(--vf-bottom-nav-shadow);
+  min-height: calc(var(--shell-bottom-nav-height) - 0.25rem);
+}
+
+.shell-bottom-nav a {
+  color: var(--app-text-muted);
+}
+
+.shell-bottom-nav a:hover,
+.shell-bottom-nav a:focus-visible {
+  background: var(--vf-quiet-bg);
+  border-color: var(--vf-bottom-nav-active-border);
+}
+
+.shell-bottom-nav a.is-active {
+  background: var(--vf-bottom-nav-active-bg);
+  border-color: var(--vf-bottom-nav-active-border);
+}
+
+.marketing-grid--three .marketing-card--accent {
+  background: var(--vf-marketing-accent-card-bg);
+}
+
+.marketing-card--support {
+  background: var(--vf-marketing-quiet-card-bg);
+  border-color: var(--vf-quiet-border);
+}
+
+.marketing-panel--flow,
+.marketing-step-grid--flow .marketing-step-card {
+  background: var(--vf-marketing-quiet-card-bg);
+  border-color: var(--vf-quiet-border);
+}
+
+.marketing-step-grid--flow .marketing-step-card {
+  min-height: 0;
+  box-shadow: none;
+}
+
+.marketing-step-grid--flow {
+  gap: 0.62rem;
+}
+
+@media (max-width: 720px) {
+  .pathway-soft-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pathway-primary-cta__aside--button {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+
+/* BP-302B — peer correction: scan grammar, list legibility, and restrained contrast.
+   All recurring colour decisions below route through theme.ts -> theme-css.ts. */
+.shell-main--with-bottom-nav {
+  padding-bottom: calc(3rem + var(--shell-bottom-nav-height) + env(safe-area-inset-bottom));
+}
+
+.pathway-surface--repair-module {
+  padding-bottom: calc(2.25rem + var(--shell-bottom-nav-height));
+}
+
+.pathway-card__eyebrow {
+  color: var(--vf-app-accent-heading-soft);
+}
+
+.pathway-eyebrow-with-icon .pathway-icon {
+  color: var(--vf-app-accent-icon);
+}
+
+.pathway-section-title {
+  margin: 0;
+  color: var(--vf-app-accent-heading);
+  font-size: clamp(1.03rem, 0.92rem + 0.35vw, 1.18rem);
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.pathway-support-panel--with-accent {
+  border-left: 3px solid var(--vf-app-accent-rule);
+  box-shadow: inset 0 1px 0 var(--app-white-hairline);
+}
+
+.pathway-primary-cta--dominant .pathway-primary-cta__content {
+  gap: 0.68rem;
+}
+
+.pathway-primary-cta--dominant .pathway-helper-note {
+  max-width: var(--measure-read);
+}
+
+.pathway-primary-cta__aside--button {
+  border-radius: 9999px;
+  border: 1px solid var(--app-focus-soft);
+  background: var(--app-white-wash);
+  padding: 0.48rem 0.68rem;
+}
+
+.pathway-primary-cta__aside--button:hover,
+.pathway-primary-cta__aside--button:focus-visible {
+  border-color: var(--app-focus-strong);
+  background: var(--app-white-wash);
+}
+
+.pathway-inline-meta {
+  gap: 0.5rem;
+}
+
+.pathway-definition-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.pathway-definition-card {
+  display: grid;
+  gap: 0.34rem;
+  border: 1px solid var(--vf-step-row-border);
+  border-radius: var(--vf-tertiary-radius);
+  background: var(--vf-step-row-bg);
+  padding: 0.82rem 0.88rem;
+}
+
+.pathway-definition-card__label {
+  color: var(--vf-app-accent-heading-soft);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pathway-definition-card p {
+  margin: 0;
+}
+
+.pathway-definition-card--caution {
+  border-color: var(--vf-app-accent-rule);
+}
+
+.pathway-numbered-steps {
+  display: grid;
+  gap: 0.72rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: repair-step;
+}
+
+.pathway-numbered-steps li {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  gap: 0.78rem;
+  align-items: start;
+  border: 1px solid var(--vf-step-row-border);
+  border-radius: var(--vf-tertiary-radius);
+  background: var(--vf-step-row-bg);
+  padding: 0.82rem 0.88rem;
+  color: var(--app-text-soft);
+  line-height: 1.45;
+}
+
+.pathway-numbered-steps__index {
+  display: inline-grid;
+  place-items: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 1px solid var(--vf-step-index-border);
+  border-radius: 9999px;
+  background: var(--vf-step-index-bg);
+  color: var(--vf-app-accent-heading);
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.pathway-numbered-steps__text {
+  min-width: 0;
+}
+
+.pathway-option-stack {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.pathway-option-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.85rem;
+  border: 1px solid var(--vf-option-row-border);
+  border-radius: var(--vf-tertiary-radius);
+  background: var(--vf-option-row-bg);
+  padding: 0.82rem 0.88rem;
+}
+
+.pathway-option-row:hover,
+.pathway-option-row:focus-visible {
+  border-color: var(--vf-app-accent-rule);
+}
+
+.pathway-option-row:focus-visible {
+  outline: 2px solid var(--app-focus-muted);
+  outline-offset: 2px;
+}
+
+.pathway-option-row__body {
+  display: grid;
+  gap: 0.26rem;
+  min-width: 0;
+}
+
+.pathway-option-row__meta {
+  color: var(--vf-app-accent-heading-soft);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pathway-option-row__title {
+  color: var(--app-text-strong);
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+.pathway-option-row__summary {
+  color: var(--app-helper);
+  line-height: 1.42;
+}
+
+.pathway-option-row__action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--app-link);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.pathway-bullet-list {
+  display: grid;
+  gap: 0.58rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pathway-bullet-list li {
+  display: grid;
+  grid-template-columns: 1.35rem minmax(0, 1fr);
+  gap: 0.55rem;
+  align-items: start;
+  color: var(--app-text-soft);
+  line-height: 1.42;
+}
+
+.pathway-bullet-list li::before {
+  content: '';
+  width: 0.55rem;
+  height: 0.55rem;
+  margin-top: 0.42rem;
+  border: 1px solid var(--vf-app-accent-chip-border);
+  border-radius: 9999px;
+  background: var(--vf-app-accent-chip-bg);
+}
+
+.pathway-disclosure--separated[open] summary {
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid var(--vf-app-accent-rule);
+}
+
+.pathway-disclosure--separated[open] > .pathway-option-stack,
+.pathway-disclosure--separated[open] > .pathway-timeline {
+  margin-top: 0.78rem;
+}
+
+.pathway-quiet-section--script {
+  border-left: 3px solid var(--vf-app-accent-rule);
+}
+
+.pathway-script-quote {
+  margin: 0;
+  border-left: 2px solid var(--vf-app-accent-rule);
+  padding-left: 0.86rem;
+  max-width: var(--measure-read);
+}
+
+.pathway-timeline--structured {
+  gap: 0.72rem;
+}
+
+.pathway-timeline--structured .pathway-timeline__item {
+  border-left-color: var(--vf-app-accent-rule);
+}
+
+.pathway-chip-row--quiet .pathway-chip--quiet-link {
+  background: transparent;
+}
+
+.pathway-chip-row--quiet .pathway-chip--quiet-link:hover,
+.pathway-chip-row--quiet .pathway-chip--quiet-link:focus-visible {
+  border-color: var(--vf-app-accent-chip-border);
+  background: var(--vf-app-accent-chip-bg);
+  color: var(--app-text-strong);
+}
+
+.pathway-inline-cue--compact {
+  max-width: var(--measure-read);
+}
+
+.repair-sticky-action {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .pathway-definition-list,
+  .pathway-option-row {
+    grid-template-columns: 1fr;
+  }
+
+  .pathway-option-row__action {
+    justify-self: start;
+  }
+
+  .pathway-numbered-steps li {
+    grid-template-columns: 1.85rem minmax(0, 1fr);
+  }
+}
+
+/* BP-302C — mobile app-shell viewport containment.
+   App-shell narrow-screen rhythm is governed by theme.ts mobileViewport tokens. */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.shell-viewport {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: clip;
+}
+
+.shell-topbar,
+.shell-main,
+.scaffold-panel,
+.scaffold-panel__body,
+.pathway-surface,
+.pathway-card,
+.pathway-primary-cta,
+.pathway-index-card,
+.pathway-list-link,
+.pathway-choice-link,
+.pathway-soft-row,
+.pathway-definition-card,
+.pathway-option-row,
+.pathway-numbered-steps li {
+  min-width: 0;
+}
+
+.shell-topbar--app {
+  gap: var(--vf-mobile-app-header-gap);
+}
+
+.shell-brand-block {
+  min-width: 0;
+}
+
+.shell-brand,
+.shell-context {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.shell-main {
+  max-width: 100%;
+}
+
+.pathway-primary-cta,
+.pathway-choice-link,
+.pathway-list-link,
+.pathway-soft-row,
+.pathway-option-row {
+  max-width: 100%;
+}
+
+@media (max-width: 520px) {
+  .shell-viewport--app {
+    padding-right: max(var(--vf-mobile-app-inline-padding), env(safe-area-inset-right));
+    padding-left: max(var(--vf-mobile-app-inline-padding), env(safe-area-inset-left));
+  }
+
+  .shell-topbar--app {
+    border-radius: var(--vf-mobile-app-panel-radius);
+    padding: var(--vf-mobile-app-header-padding);
+  }
+
+  .shell-pill--app {
+    flex: 0 0 var(--vf-mobile-app-icon-button-size);
+    justify-content: center;
+    width: var(--vf-mobile-app-icon-button-size);
+    height: var(--vf-mobile-app-icon-button-size);
+    padding: 0;
+  }
+
+  .shell-pill--app span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    border: 0;
+    white-space: nowrap;
+  }
+
+  .scaffold-panel {
+    border-radius: var(--vf-mobile-app-panel-radius);
+    padding: var(--vf-mobile-app-panel-padding);
+  }
+
+  .pathway-surface h1,
+  .scaffold-panel h1 {
+    font-size: clamp(1.85rem, 11vw, 2.35rem);
+    letter-spacing: -0.055em;
+  }
+
+  .pathway-deck {
+    font-size: clamp(0.98rem, 4.2vw, 1.05rem);
+  }
+
+  .pathway-primary-cta,
+  .pathway-card,
+  .pathway-index-card,
+  .pathway-choice-link,
+  .pathway-list-link,
+  .pathway-definition-card,
+  .pathway-option-row {
+    border-radius: var(--vf-mobile-app-panel-radius);
+  }
+
+  .pathway-choice-link,
+  .pathway-list-link,
+  .pathway-soft-row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .pathway-choice-link__cta,
+  .pathway-list-link > .pathway-icon,
+  .pathway-soft-row > span:last-child {
+    justify-self: start;
+  }
+
+  .shell-bottom-nav {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .shell-viewport--app {
+    padding-right: max(0.38rem, env(safe-area-inset-right));
+    padding-left: max(0.38rem, env(safe-area-inset-left));
+  }
+
+  .shell-topbar--app,
+  .scaffold-panel,
+  .pathway-primary-cta,
+  .pathway-card,
+  .pathway-index-card,
+  .pathway-choice-link,
+  .pathway-list-link,
+  .pathway-definition-card,
+  .pathway-option-row {
+    border-radius: var(--vf-mobile-app-narrow-panel-radius);
+  }
+
+  .shell-bottom-nav a {
+    flex-basis: var(--vf-mobile-bottom-nav-item-basis);
+  }
+
+  .pathway-primary-cta__aside {
+    justify-content: center;
+    width: 100%;
+  }
+}
+

@@ -116,6 +116,62 @@ Every design decision supports one of four functions:
 
 If a visual element does not support one of these functions, it is decorative until proven otherwise.
 
+## BP-302 visual fluency rule
+
+MarriageOS screens are not allowed to become visually democratic dashboards.
+
+Every active member/app screen must resolve to:
+
+1. **one primary user decision**;
+2. **one dominant next action**;
+3. **one supporting explanation layer**;
+4. **optional secondary choices that visibly recede**;
+5. **tertiary exploration that is quiet, delayed, or disclosed**.
+
+This rule is especially strict for `/today`, `/today/state`, `/repair`, and `/repair/[slug]` because users may be emotionally loaded and low on patience when they arrive.
+
+### Visual hierarchy requirements
+
+- The primary CTA must be visually stronger than secondary links, chips, notes, and navigation.
+- CTA language must describe the next behaviour, not merely the route. Use language such as `Start repair step`, `Run the first step`, or `Start 10-minute damage stop`.
+- Secondary content should use quiet panels, soft rows, disclosures, or inline cues rather than equal-weight cards.
+- Card-inside-card patterns are discouraged unless the nested element performs a distinct function and visually recedes.
+- Bottom navigation remains available, but it must not compete with the primary action area.
+- Marketing may use one stronger warm accent group per screenful; supporting marketing cards should recede rather than repeating the same visual volume.
+
+### Review test
+
+### BP-302B scan grammar correction
+
+BP-302B adds a stricter execution rule: visual fluency is not achieved by hierarchy weighting alone. Active member screens must also use scannable structure.
+
+Required scan grammar:
+
+- Numbered repair steps must render as separated step rows with visible spacing between the index and instruction text.
+- Backup or alternative repair options must separate duration, title, summary, and action. They must not collapse into paragraph-like text.
+- Use-condition content must use definition-style grouping where comparison matters, especially `Best used when` and `Not for`.
+- The member shell may use a restrained warm accent from the canonical palette for section headings, step numbers, rules, and affordance cues.
+- That accent is never the default member-shell primary CTA colour. Primary repair action remains blue-led, calm, and tool-first.
+- Sticky controls are avoided where they crowd the fixed bottom navigation or compete with the primary action.
+
+Reviewers should reject any active Repair screen where list content, option rows, or action language requires close reading before the next move becomes obvious.
+
+### BP-302C mobile viewport containment correction
+
+BP-302C adds a narrow-screen containment rule for member/app pages. The marketing shell already behaves acceptably on narrow mobile widths; the member shell must meet the same standard.
+
+Member/app pages must not horizontally overflow at mobile widths. Header actions, panels, primary CTAs, option rows, and bottom navigation must compress, wrap, disclose, or iconise before they push the viewport sideways.
+
+Reviewers must reject implementation if:
+
+- the app shell creates horizontal scrolling on narrow mobile viewports;
+- the top-right check-in control pushes the member header outside the viewport;
+- member panels render wider than the visible device width;
+- bottom navigation or action rows mask the primary content; or
+- mobile containment is achieved through one-off CSS instead of governed `theme.ts` tokens.
+
+A reviewer should be able to glance at a member/app screen and identify the intended next action within three seconds. If the reviewer has to inspect multiple equally weighted panels to decide where to go, the screen fails visual fluency review.
+
 ## One brand, two expression modes
 
 MarriageOS has one brand system with two controlled expression modes.

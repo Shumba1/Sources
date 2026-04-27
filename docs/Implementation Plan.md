@@ -206,9 +206,10 @@ The full configured route tree in `src/config/routes.ts` remains the forward roa
 
 For Phase 1 closure specifically, the following families are deferred and are not closure blockers:
 
-- **Phase 3 detail routes:** `/repair/[slug]`, `/guides/[slug]`, `/knowledge/[slug]`
-- **Phase 4 commercial/public-readiness surfaces:** `/store`, `/pricing`, `/library`, `/safety`
-- **Phase 4 or 5 auth/account/member settings:** `/login`, `/sign-up`, `/account`, `/settings`
+- **Phase 3 detail route:** `/repair/[slug]` only, as the Repair Centre proof path.
+- **Phase 4 detail surfaces:** `/guides/[slug]`, `/knowledge/[slug]`
+- **Phase 5 commercial/public-readiness surfaces:** `/store`, `/pricing`, `/library`, `/safety`
+- **Phase 6 auth/account/member settings:** `/login`, `/sign-up`, `/account`, `/settings`
 
 ### Peer-review question
 

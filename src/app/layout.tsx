@@ -4,6 +4,7 @@ import '@fontsource-variable/inter';
 import '@fontsource-variable/fraunces';
 import '@fontsource-variable/jetbrains-mono';
 import './globals.css';
+import { rootThemeCss } from '@/config/theme-css';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://example.com';
 
@@ -37,7 +38,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <style id="marriage-os-theme-vars" dangerouslySetInnerHTML={{ __html: rootThemeCss }} />
+        {children}
+      </body>
     </html>
   );
 }

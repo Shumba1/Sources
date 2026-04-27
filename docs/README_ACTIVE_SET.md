@@ -46,7 +46,7 @@ If a newer-looking narrative document conflicts with the files above, it **does 
 
 ### Writing, visual, and delivery control
 - `docs/Voice and Tone Bible.md` *(system-wide writing standard; active and binding for all shipped writing)*
-- `docs/BRAND_AND_VISUAL_SYSTEM.md` *(system-wide brand, palette, shell-expression, and surface-hierarchy authority; active and binding for shipped visuals)*
+- `docs/BRAND_AND_VISUAL_SYSTEM.md` *(system-wide brand, palette, shell-expression, surface hierarchy, and BP-302 visual-fluency authority; active and binding for shipped visuals)*
 - `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` *(system-wide graphics, iconography, media, and motion control file; active and binding for shipped visuals as the media companion to the brand system)*
 - `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md` *(system-wide technical SEO, indexability, metadata, sitemap, robots, and page-schema control file; active and binding within its allowed scope)*
 - `docs/DELIVERY_ARCHITECTURE.md` *(planning layer; non-canonical, but active and binding for drafting/promotion control)*
@@ -187,8 +187,32 @@ Phase 1 closure blockers are limited to:
 - `/progress`
 
 Accepted non-blocker defer map for Phase 1 closure:
-- **Phase 3:** `/repair/[slug]`, `/guides/[slug]`, `/knowledge/[slug]`
-- **Phase 4:** `/store`, `/pricing`, `/library`, `/safety`
-- **Phase 4/5:** `/login`, `/sign-up`, `/account`, `/settings`
+- **Phase 3:** `/repair/[slug]` only, as the Repair Centre proof path.
+- **Phase 4:** `/guides/[slug]`, `/knowledge/[slug]`.
+- **Phase 5:** `/store`, `/pricing`, `/library`, `/safety`.
+- **Phase 6:** `/login`, `/sign-up`, `/account`, `/settings`.
 
 Use `docs/marriage_os_implementation_phases.md` as the pass-gate authority and `docs/DRIFT_REGISTER.md` D-036 as the ratified variance record.
+
+## 8. BP-302 visual fluency interpretation
+
+BP-302 does not widen the route surface. It hardens the live proof path so affected screens use one dominant next action, one support layer, quiet secondary choices, and disclosed tertiary exploration.
+
+Accepted visual-fluency authority is recorded in `docs/DRIFT_REGISTER.md` D-040 and implemented through `docs/BRAND_AND_VISUAL_SYSTEM.md`, `src/config/theme.ts`, `src/config/theme-css.ts`, and `src/app/globals.css`.
+
+## 9. BP-302B peer-correction interpretation
+
+BP-302B is a corrective visual-fluency pass responding to peer review of the first BP-302 implementation. It does not widen route scope. It tightens scan grammar across the live Repair proof path by requiring structured numbered steps, separated alternative-option rows, definition-style use conditions, and restrained member-shell accent cues from `theme.ts`.
+
+Accepted corrective authority is recorded in `docs/DRIFT_REGISTER.md` D-041 and implemented through `docs/BRAND_AND_VISUAL_SYSTEM.md`, `src/config/theme.ts`, `src/config/theme-css.ts`, `src/app/globals.css`, `/today`, `/today/state`, `/repair`, and `/repair/[slug]`.
+
+## 10. BP-302C mobile viewport and build-type correction
+
+BP-302C is a narrow corrective pass on the approved BP-302B baseline. It does not change content hierarchy, route scope, or Phase 3 boundaries.
+
+It fixes two implementation defects:
+
+- member/app mobile viewport overflow where the app shell behaved worse than the marketing shell on narrow screens;
+- production type-check contamination from `.next/dev/types` being included in `tsconfig.json`.
+
+Accepted corrective authority is recorded in `docs/DRIFT_REGISTER.md` D-042 and implemented through `src/config/theme.ts`, `src/app/globals.css`, `src/components/shell/app-shell.tsx`, and `tsconfig.json`.
