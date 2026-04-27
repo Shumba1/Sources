@@ -40,6 +40,7 @@ Those remain governed by:
 - `docs/DRIFT_REGISTER.md`
 - `src/config/routes.ts`
 - `src/config/page-data.ts`
+- `docs/BRAND_AND_VISUAL_SYSTEM.md`
 - `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
 - `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`
 - `docs/Voice and Tone Bible.md`
@@ -60,6 +61,7 @@ Those remain governed by:
 - `src/config/routes.ts`
 - `src/config/page-data.ts`
 - `src/config/theme.ts`
+- `docs/BRAND_AND_VISUAL_SYSTEM.md`
 
 ### Optional supporting implementation files
 - `src/lib/seo/` *(if the repo later splits helpers for metadata or JSON-LD generation)*

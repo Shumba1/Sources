@@ -7,11 +7,11 @@
   "description": "Cross-source synthesis pack consolidating online chatter mapping into downstream feeder corpora for MarriageOS canonical content formation.",
   "files": [
     {
-      "path": "marriageos-webapp-master-corpus-v3.md",
+      "path": "marriageos-webapp-master-corpus.md",
       "role": "webapp_master_corpus"
     },
     {
-      "path": "marriageos-attention-master-corpus-v3.md",
+      "path": "marriageos-attention-master-corpus.md",
       "role": "attention_master_corpus"
     },
     {

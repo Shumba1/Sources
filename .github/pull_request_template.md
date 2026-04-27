@@ -18,6 +18,7 @@
 - [ ] Knowledge
 - [ ] Product pages
 - [ ] Theme / page-data / config
+- [ ] Brand / visual system
 - [ ] Runtime registry / renderers / resolvers
 - [ ] Schemas / contracts
 - [ ] Database / Supabase
@@ -35,6 +36,7 @@
 - [ ] If relevant, I checked ADR-001 and ADR-002
 - [ ] If relevant, I checked `src/config/routes.ts`, `src/config/theme.ts`, and `src/config/page-data.ts`
 - [ ] If writing is touched, I checked `docs/Voice and Tone Bible.md`
+- [ ] If brand posture, palette, shell expression, Repair/Guides/Knowledge presentation, or visual hierarchy is touched, I checked `docs/BRAND_AND_VISUAL_SYSTEM.md`
 - [ ] If visuals, icons, or media are touched, I checked `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
 - [ ] If search visibility, metadata, canonical URLs, robots, sitemap, or schema are touched, I checked `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`
 - [ ] If source-reservoir choices matter, I checked `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`

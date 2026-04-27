@@ -25,6 +25,7 @@ Implementation must use only:
 
 * `docs/MASTER_SPEC.md`
 * `docs/DRIFT_REGISTER.md`
+* `docs/BRAND_AND_VISUAL_SYSTEM.md` for brand posture, palette, shell expression, and Repair/Guides/Knowledge visual hierarchy
 * `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` for graphics, iconography, directional affordances, motion, and media constraints
 * `src/config/theme.ts`
 * `src/config/page-data.ts`

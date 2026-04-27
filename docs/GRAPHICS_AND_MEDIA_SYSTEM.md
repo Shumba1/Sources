@@ -2,20 +2,21 @@
 
 ## Status
 
-**Proposed canonical graphics, media, and iconography system for Marriage OS**  
-This document defines the visual asset rules that sit between the design system, page composition, and shipped UI.
+**Canonical graphics, media, and iconography system for MarriageOS**  
+This document defines the visual asset rules that sit between the brand/visual system, page composition, and shipped UI.
 
 It should be read alongside:
 
 - `docs/MASTER_SPEC.md`
 - `docs/DRIFT_REGISTER.md`
 - `docs/Voice and Tone Bible.md`
+- `docs/BRAND_AND_VISUAL_SYSTEM.md`
 - `src/config/theme.ts`
 - `src/config/page-data.ts`
 - `src/config/routes.ts`
 
 This document does **not** override canon.  
-It turns the project’s visual direction into a usable graphics and media system.
+It is the media, icon, diagram, and asset companion to `docs/BRAND_AND_VISUAL_SYSTEM.md`.
 
 ---
 
@@ -30,7 +31,7 @@ The project already defines:
 - content voice and tone
 - PWA layout and accessibility constraints
 
-What it has not yet defined in one place is:
+This document governs:
 
 - icon family choice
 - icon usage rules
@@ -39,9 +40,7 @@ What it has not yet defined in one place is:
 - product imagery rules
 - photography/media boundaries
 - asset formats and file placement
-- how all of the above come together without drifting into a generic lifestyle brand or a dashboard kit
-
-This document fixes that.
+- how all of the above stay inside the canonical MarriageOS brand and visual system
 
 ---
 

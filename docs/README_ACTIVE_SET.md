@@ -21,8 +21,9 @@ When sources disagree, use this order:
    - `src/schemas/domain.ts`
 3. `docs/MASTER_SPEC.md`
 4. Accepted ADRs
-5. Active writing-control and planning layers within their allowed scope:
+5. Active writing-control, brand/visual, and planning layers within their allowed scope:
    - `docs/Voice and Tone Bible.md`
+   - `docs/BRAND_AND_VISUAL_SYSTEM.md`
    - `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`
    - `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`
    - `docs/DELIVERY_ARCHITECTURE.md`
@@ -45,7 +46,8 @@ If a newer-looking narrative document conflicts with the files above, it **does 
 
 ### Writing, visual, and delivery control
 - `docs/Voice and Tone Bible.md` *(system-wide writing standard; active and binding for all shipped writing)*
-- `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` *(system-wide graphics, iconography, media, and motion control file; active and binding for shipped visuals)*
+- `docs/BRAND_AND_VISUAL_SYSTEM.md` *(system-wide brand, palette, shell-expression, and surface-hierarchy authority; active and binding for shipped visuals)*
+- `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` *(system-wide graphics, iconography, media, and motion control file; active and binding for shipped visuals as the media companion to the brand system)*
 - `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md` *(system-wide technical SEO, indexability, metadata, sitemap, robots, and page-schema control file; active and binding within its allowed scope)*
 - `docs/DELIVERY_ARCHITECTURE.md` *(planning layer; non-canonical, but active and binding for drafting/promotion control)*
 - `docs/SOURCE_RESERVOIR_OBJECT_MAP.md` *(source-to-object translation layer; active drafting control file)*

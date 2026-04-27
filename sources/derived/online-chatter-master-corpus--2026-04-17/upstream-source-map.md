@@ -6,8 +6,8 @@ This map records what this pack is, where it came from, and how it should be use
 
 ## Pack contents
 
-- `marriageos-webapp-master-corpus-v3.md`
-- `marriageos-attention-master-corpus-v3.md`
+- `marriageos-webapp-master-corpus.md`
+- `marriageos-attention-master-corpus.md`
 
 ## Provenance
 

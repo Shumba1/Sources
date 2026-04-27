@@ -9,7 +9,7 @@ If any answer is “No”, the PR is not ready.
 
 - [ ] Did the builder work from `docs/README_ACTIVE_SET.md` first?
 - [ ] Did the builder check `docs/MASTER_SPEC.md` and `docs/DRIFT_REGISTER.md` before implementation?
-- [ ] If this PR touches routes, labels, or UX, was it checked against `src/config/routes.ts`, `src/config/theme.ts`, and `src/config/page-data.ts`?
+- [ ] If this PR touches routes, labels, UX, visual hierarchy, or shell expression, was it checked against `src/config/routes.ts`, `src/config/theme.ts`, `src/config/page-data.ts`, and `docs/BRAND_AND_VISUAL_SYSTEM.md`?
 - [ ] If this PR touches contracts or render paths, was it checked against `src/schemas/*` and runtime/component registry files?
 - [ ] If this PR depends on a planning-layer document, is that use consistent with its non-canonical scope?
 
@@ -23,8 +23,9 @@ If any answer is “No”, the PR is not ready.
 - [ ] Does it avoid side-taking, ideology bait, therapy-speak drift, and manipulative/coercive framing?
 - [ ] Does it say what is happening, why it matters, and what to do next where relevant?
 
-## 0.75. Graphics and media enforcement
+## 0.75. Brand, graphics, and media enforcement
 
+- [ ] If this PR touches palette, shell expression, page hierarchy, Repair/Guides/Knowledge presentation, CTA visual treatment, or marketing/member surface alignment, was it checked against `docs/BRAND_AND_VISUAL_SYSTEM.md`?
 - [ ] If this PR touches icons, arrows/chevrons, diagrams, screenshots, mockups, product previews, illustrations, motion, or photography, was it checked against `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`?
 - [ ] If this PR touches search visibility, metadata, canonical URLs, robots, sitemap output, or structured data, was it checked against `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`?
 - [ ] Does this PR use **Lucide** as the primary shipped icon system unless a documented exception exists?

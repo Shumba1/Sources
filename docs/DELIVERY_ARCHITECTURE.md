@@ -58,11 +58,15 @@ Per `MASTER_SPEC.md §6`:
 2. Executable config (`src/config/routes.ts`, `src/config/page-data.ts`,
    `src/config/theme.ts`, `src/schemas/*`)
 3. `docs/MASTER_SPEC.md`
-4. Revised premium UX narrative docs
-5. Older PWA and architecture prose
-6. This file and all other non-canonical planning layers
+4. Active writing, brand, visual, SEO, and delivery-control docs:
+   `docs/Voice and Tone Bible.md`, `docs/BRAND_AND_VISUAL_SYSTEM.md`,
+   `docs/GRAPHICS_AND_MEDIA_SYSTEM.md`, `docs/TECHNICAL_SEO_AND_PAGE_SCHEMA_SYSTEM.md`,
+   and `docs/SOURCE_RESERVOIR_OBJECT_MAP.md`
+5. Revised premium UX narrative docs
+6. Older PWA and architecture prose
+7. This file and all other non-canonical planning layers
 
-**If anything here conflicts with items 1–5, items 1–5 win immediately.**
+**If anything here conflicts with items 1–6, items 1–6 win immediately.**
 
 ### Drift rule
 

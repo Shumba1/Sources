@@ -42,6 +42,7 @@ It exists to stop people asking, “Was this omitted?” without a traceable ans
 | Font loading / fallback chain | `src/design/fonts.ts` | Added | Required to make theme font variables real |
 | Page-by-page hierarchy, hero copy, CTA copy, section order, page rules | `src/config/page-data.ts` | Rehoused | Canonical executable page layer |
 | Public/internal label split | `src/config/theme.ts` + UI rendering | Rehoused | `guides` → `Perspectives`; softened repair labels |
+| Brand posture, palette architecture, marketing/member shell expression, and Repair/Guides/Knowledge visual hierarchy | `docs/BRAND_AND_VISUAL_SYSTEM.md` | Added / active | Binding brand and visual system control file |
 | Graphics, iconography, directional affordances, imagery boundaries, and motion/media rules | `docs/GRAPHICS_AND_MEDIA_SYSTEM.md` | Added / active | Binding graphics/media/iconography control file |
 
 ---

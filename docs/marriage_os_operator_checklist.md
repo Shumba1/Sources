@@ -42,6 +42,7 @@ This sits beside the pipeline playbook and translates it into execution discipli
 Before running stages 2–5, the operator must have access to:
 - `docs/MASTER_SPEC.md`
 - `docs/DRIFT_REGISTER.md`
+- `docs/BRAND_AND_VISUAL_SYSTEM.md`
 - `src/config/theme.ts`
 - `src/config/page-data.ts`
 - `marriage_os_implementation_phases.md`
